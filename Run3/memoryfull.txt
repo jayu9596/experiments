@@ -1,0 +1,130 @@
+$ cat /proc/meminfo
+MemTotal:       16302248 kB
+MemFree:          137496 kB
+MemAvailable:      10272 kB
+Buffers:            9220 kB
+Cached:            48828 kB
+SwapCached:        25220 kB
+Active:         14139200 kB
+Inactive:        1751680 kB
+Active(anon):   14106996 kB
+Inactive(anon):  1736216 kB
+Active(file):      32204 kB
+Inactive(file):    15464 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:      31249404 kB
+SwapFree:        9948068 kB
+Dirty:                 0 kB
+Writeback:          2380 kB
+AnonPages:      15809008 kB
+Mapped:            35936 kB
+Shmem:              9848 kB
+Slab:              82544 kB
+SReclaimable:      32528 kB
+SUnreclaim:        50016 kB
+KernelStack:        7440 kB
+PageTables:       107244 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    39400528 kB
+Committed_AS:   39628184 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      138696 kB
+DirectMap2M:     9168896 kB
+DirectMap1G:     8388608 kB
+$ pgrep -a mono
+13441 mono ./LocalServerInCsharp.exe /home/jaydeep/configVanillaRemaining.txt
+19477 mono LocalServerInCsharp.exe ../../config4.txt
+25984 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25985 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25986 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25988 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25990 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25992 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+$ kill 13441
+$ pgrep -a mono
+19477 mono LocalServerInCsharp.exe ../../config4.txt
+25984 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25985 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25986 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25988 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25990 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25992 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+$ kill 25984
+$ pgrep -a mono
+19477 mono LocalServerInCsharp.exe ../../config4.txt
+25985 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25986 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25988 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25990 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+25992 /usr/bin/mono /home/jaydeep/hydra/corral/AddOns/DistributedService/LocalServerInCsharp/LocalServerInCsharp/bin/Debug/corral.exe /home/jaydeep/Thesis/boogieDump/linux-4.0-rc1---drivers--block--skd.ko.cil.i.bpl.bpl /newStratifiedInlining:ucsplitparallel /maxSplitPerIteration:1 /oldCorralFlags /si /tryCTrace /noTraceOnDisk /printDataValues:1 /useProverEvaluate /cex:1 /bopt:proverOpt:O:smt.qi.eager_threshold=100 /k:1 /di /timeLimit:880 /v:1 /maxStaticLoopBound:64 /recursionBound:10000 /irreducibleLoopUnroll:12 /trackAllVars /enableUnSatCoreExtraction:1 /hydraServerURI:http://localhost:5002/
+$ kill 25985
+$ kill 25986
+$ kill 25988
+$ kill 25990
+$ kill 25992
+-sh: 17: kill: No such process
+
+$ pgrep -a mono
+19477 mono LocalServerInCsharp.exe ../../config4.txt
+$ cat /proc/meminfo
+MemTotal:       16302248 kB
+MemFree:        11454812 kB
+MemAvailable:   11328560 kB
+Buffers:            5140 kB
+Cached:            56636 kB
+SwapCached:        51052 kB
+Active:          3920192 kB
+Inactive:         721252 kB
+Active(anon):    3895788 kB
+Inactive(anon):   696316 kB
+Active(file):      24404 kB
+Inactive(file):    24936 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:      31249404 kB
+SwapFree:       27095228 kB
+Dirty:                12 kB
+Writeback:             0 kB
+AnonPages:       4567372 kB
+Mapped:            27984 kB
+Shmem:             12396 kB
+Slab:              78244 kB
+SReclaimable:      32796 kB
+SUnreclaim:        45448 kB
+KernelStack:        6416 kB
+PageTables:        39348 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    39400528 kB
+Committed_AS:   10781528 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      138696 kB
+DirectMap2M:     9168896 kB
+DirectMap1G:     8388608 kB
+
