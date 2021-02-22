@@ -147,6 +147,7 @@ for file in allfiles:
     else:
         uwExecutionTimes.append(uwExecTime)
         vanillaExecutionTimes.append(vanillaExecTime)
+    
     if 'TIMEDOUT' in uwData[1] and 'TIMEDOUT' in vanillaData[1]:
         col.append('b')
     else:
@@ -154,6 +155,7 @@ for file in allfiles:
             col.append('g')
         else:
             col.append('r')
+    
     if 'TIMEDOUT' in uwData[1] and 'TIMEDOUT' in vanillaData[1]:
         tempList.append('TIMED-OUT')
         tempList.append('TIMED-OUT')

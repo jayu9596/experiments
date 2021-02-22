@@ -15,7 +15,7 @@ from collections import defaultdict
 
 myDir = '/home/jaydeep/Thesis/experiments/PrantikVM/'
 folderList = ['lambda0.005','lambda0.01','lambda0.025','lambda0.055','lambda0.3']
-runList = ['Run1','Run2','Run3', 'Run4']
+runList = ['Run1','Run2','Run3', 'Run4','Run5']
 # folderList = ['lambda0.005','lambda0.01','lambda0.025','lambda0.3','lambda0.055','OR_stats']
 makeCompiledCSV = True
 maxValue = 3600
@@ -526,10 +526,12 @@ if makeCompiledCSV:
     my_df = pd.DataFrame(compiledOutcome)
     my_df.to_csv(myDir + '_Compiled_ComparisonResult.csv', index=False, header=False)
 
+folderList = ['lambda0.025']
+runList = ['Run1']
 
 # Plot combined grpah after merging all clients for every file
 for run in runList:
-    plotCombinedInlining(runStatsInlining[run], folderList, allfiles)
-    plotCombinedQuery(runStatsQuery[run], folderList, allfiles)
+#    plotCombinedInlining(runStatsInlining[run], folderList, allfiles)
+#    plotCombinedQuery(runStatsQuery[run], folderList, allfiles)
     plotCombinedIterations(runStatsIteration[run], folderList, allfiles)
     plotJustIterations(runStatsIteration[run], folderList, allfiles)
