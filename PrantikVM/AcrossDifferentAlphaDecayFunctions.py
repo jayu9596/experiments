@@ -528,10 +528,16 @@ if makeCompiledCSV:
 
 folderList = ['lambda0.025']
 runList = ['Run1']
-
+#allfiles = ['Imapi_removelockrelease2_0.bpl.bpl.txt',
+# 'hw_irqliopassive2_0.bpl.bpl.txt',
+# 'mp_iobuildfsdirpsignaleventincompletiontimeout_0.bpl.bpl.txt',
+# 'parzip_nsremovelockmnremove_0.bpl.bpl.txt',
+# 'serial_markingqueuedirps_1.bpl.bpl.txt',
+# 'sys_zwregistrycreate_0.bpl.bpl.txt']
+allfiles = ['mp_iobuildfsdirpsignaleventincompletiontimeout_0.bpl.bpl.txt']
 # Plot combined grpah after merging all clients for every file
 for run in runList:
 #    plotCombinedInlining(runStatsInlining[run], folderList, allfiles)
 #    plotCombinedQuery(runStatsQuery[run], folderList, allfiles)
     plotCombinedIterations(runStatsIteration[run], folderList, allfiles)
-    plotJustIterations(runStatsIteration[run], folderList, allfiles)
+#    plotJustIterations(runStatsIteration[run], folderList, allfiles)
