@@ -8,12 +8,11 @@ Created on Sun Feb 28 11:11:03 2021
 import os
 import csv
 import matplotlib.pyplot as plt
-import pandas as pd
-from collections import defaultdict
+from datetime import datetime
 
 myDir = '/home/jaydeep/Thesis/experiments/fraction/'
-folderList = ['fraction30']
-runList = ['Run1']
+folderList = ['fraction30','OR']
+runList = ['Run1','Run2']
 makeCompiledCSV = True
 maxValue = 3600
 limitToMaxValue = True
@@ -23,6 +22,8 @@ plotFigures = False
 def getClientsCount():
     for folder in folderList:
         for run in runList:
+            if folder == 'OR' and 'Run1' != run:
+                continue
             mxClients = 0
             for root, dirs, files in os.walk(myDir + folder + '/' + run + '/'):
                 currFile = ""
@@ -122,10 +123,71 @@ def getQueryData(folder, run, file):
         plt.savefig(file + "_" + folder + "_" + run + "_z3QueryTime.png",dpi=200)                                   
     return [yQueryTimeOR, yQueryTimeUW, xOR, xUW]
 
+def getStartTime(folder, run, file):
+    mem_file = myDir + folder + '/' + run + '/' + file.replace('.txt','_stats_1.txt')
+    data = open(mem_file,'r')
+    for line in data:
+        if 'time,' in  line:
+            startTime = datetime.strptime(line.split(',')[1].replace('\n',''), '%d/%m %H:%M:%S.%f')
+            return startTime
+
+def getOriginalName(file):
+    filename = file
+    filename.replace('','')
+    for i in range(1, totalClients + 1):
+        filename = filename.replace('_stats_' + str(i),'')
+    return filename
+
+def getTimeData(folder, run, file, runStartTime):
+    startTime = runStartTime[run][folder][getOriginalName(file)]
+    mem_file = myDir + folder + '/' + run + '/' + file
+    data = open(mem_file,'r')
+    currTime = None
+    timeData = []
+    for line in data:
+        if 'time,' in line:
+            currTime = datetime.strptime(line.split(',')[1].replace('\n',''), '%d/%m %H:%M:%S.%f')
+        elif 'UWQ' in line or 'ORQ' in line:
+            continue
+        else:
+            try:
+                sites = int(line.split(',')[0].replace('\n',''))
+                if sites == 0:
+                    continue
+                timeData.append([(currTime - startTime).total_seconds(), sites])
+            except:
+                continue
+    return timeData
+
+def mergeClientTimeData(runStatsTime, run, folder, file):
+    mergedData = []
+    for i in range(1, totalClients + 1):
+        clientFile = file.replace('.txt','_stats_' + str(i) + '.txt')
+        mergedData = mergedData + runStatsTime[run][folder][clientFile]
+    mergedData.sort()
+    return mergedData
+
+def plotCumaltiveInlining(runStatsTime, run, folder, files):
+    for file in files:
+        runTimeData = mergeClientTimeData(runStatsTime, run, folder, file)
+        for i in range(1, len(runTimeData)):
+            runTimeData[i][1] += runTimeData[i-1][1]
+        _ = plt.figure()
+        plt.plot([i[0] for i in runTimeData], [i[1] for i in runTimeData])
+        plt.xlabel('Time Elapsed')
+        plt.ylabel('Cumalative Inlined callsites')
+        plt.legend()
+        plt.title(file)
+    
+def plotCombinedCumalativeInlining():
+    pass
 
 # Generate intermediate CSV file for easy pre-processing
 for folder in folderList:
     for run in runList:
+        # Add exception for OR
+        if 'OR' == folder and 'Run1' != run:
+            continue
         f = open(myDir + folder + '/' + run + '_Result.csv','w+')
         f.write("Name,OutCome,RunTime,TotalSplits,BoogieDumpTime\n")
         i = 0
@@ -167,6 +229,9 @@ for run in runList:
 
 for folder in folderList:
     for run in runList:
+        # Add exception for OR
+        if 'OR' == folder and 'Run1' != run:
+            continue
         with open(myDir + folder + '/' + run + '_Result.csv') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
             line_count = 0
@@ -187,28 +252,37 @@ totalClients = getClientsCount()
 
 runStatsInlining = {}
 runStatsQuery = {}
-runStatsIteration = {}
+runStatsTime = {}
+runStartTime = {}
 for run in runList:
     folderStatsInlining = {}
     folderStatsQuery = {}
-    folderStatsIterations = {}
+    folderStatsTime = {}
+    folderStartTime = {}
     for folder in folderList:
         folderStatsInlining[folder] = {}
         folderStatsQuery[folder] = {}
-        folderStatsIterations[folder] = {}
+        folderStatsTime[folder] = {}
+        folderStartTime[folder] = {}
     runStatsInlining[run] = folderStatsInlining
     runStatsQuery[run] = folderStatsQuery
-    runStatsIteration[run] = folderStatsIterations
+    runStatsTime[run] = folderStatsTime
+    runStartTime[run] = folderStartTime
 
 # Get inlining and query time data from stats file
 for folder in folderList:
     for run in runList:
+        # Add exception for OR
+        if 'OR' == folder and 'Run1' != run:
+            continue
         for root, dirs, files in os.walk(myDir + folder + '/'+ run +'/'):
             currFile = ""
             i = 0
             for file in sorted(files):
                 if file.endswith(".bpl.txt"):
                     currFile = file
+                    # Get start time for every file
+                    runStartTime[run][folder][file] = getStartTime(folder, run, file)
                     i = 0
                 elif '_stats' in  file:
                     i += 1
@@ -218,5 +292,14 @@ for folder in folderList:
                     # Get QueryTime Data for current file
                     runStatsQuery[run][folder][file] = getQueryData(folder, run, file)
                     
-                    # Get Iteration data for computing ratio
-                    runStatsIteration[run][folder][file] = getIterationData(folder, run, file)
+                    # Get Inlined calsites data according to time elapsed
+                    runStatsTime[run][folder][file] = getTimeData(folder, run, file, runStartTime)
+
+plotCombinedCumalativeInlining(runStatsTime, 'Run1', allfiles)
+
+for run in runList:
+    for folder in folderList:
+        # Add exception for OR
+        if 'OR' == folder and 'Run1' != run:
+            continue
+        plotCumaltiveInlining(runStatsTime, run, folder, allfiles)
