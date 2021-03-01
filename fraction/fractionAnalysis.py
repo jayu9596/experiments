@@ -13,6 +13,7 @@ from datetime import datetime
 myDir = '/home/jaydeep/Thesis/experiments/fraction/'
 folderList = ['fraction30','OR']
 runList = ['Run1','Run2']
+vanillaORFolder = 'OR'
 makeCompiledCSV = True
 maxValue = 3600
 limitToMaxValue = True
@@ -141,7 +142,7 @@ def getOriginalName(file):
 def getTimeData(folder, run, file, runStartTime):
     startTime = runStartTime[run][folder][getOriginalName(file)]
     mem_file = myDir + folder + '/' + run + '/' + file
-    data = open(mem_file,'r')
+    data = open(mem_file, 'r')
     currTime = None
     timeData = []
     for line in data:
@@ -152,11 +153,39 @@ def getTimeData(folder, run, file, runStartTime):
         else:
             try:
                 sites = int(line.split(',')[0].replace('\n',''))
+                if (currTime - startTime).total_seconds() < 0:
+                    continue
                 if sites == 0:
                     continue
                 timeData.append([(currTime - startTime).total_seconds(), sites])
             except:
                 continue
+    # timeData = list of [time-elapsed, inlined-callsites]
+    return timeData
+
+def getZ3TimeData(folder, run, file, runStartTime):
+    startTime = runStartTime[run][folder][getOriginalName(file)]
+    mem_file = myDir + folder + '/' + run + '/' + file
+    data = open(mem_file, 'r')
+    currTime = None
+    timeData = []
+    for line in data:
+        if 'time,' in line:
+            currTime = datetime.strptime(line.split(',')[1].replace('\n',''), '%d/%m %H:%M:%S.%f')
+        elif 'UWQ' not in line and 'ORQ' not in line:
+            continue
+        else:
+            try:
+                time = float(line.split(',')[1].replace('\n',''))
+                if (currTime - startTime).total_seconds() < 0:
+                    continue
+                if 'UWQ' in line:
+                    timeData.append([(currTime - startTime).total_seconds(), time, 'UW'])
+                else:
+                    timeData.append([(currTime - startTime).total_seconds(), time, 'OR'])
+            except:
+                continue
+    # timeData = list of [time-elapsed, z3-query-time, query-type]
     return timeData
 
 def mergeClientTimeData(runStatsTime, run, folder, file):
@@ -164,6 +193,14 @@ def mergeClientTimeData(runStatsTime, run, folder, file):
     for i in range(1, totalClients + 1):
         clientFile = file.replace('.txt','_stats_' + str(i) + '.txt')
         mergedData = mergedData + runStatsTime[run][folder][clientFile]
+    mergedData.sort()
+    return mergedData
+
+def mergeClientTimeZ3Data(runStatsTimeZ3, run, folder, file):
+    mergedData = []
+    for i in range(1, totalClients + 1):
+        clientFile = file.replace('.txt','_stats_' + str(i) + '.txt')
+        mergedData = mergedData + runStatsTimeZ3[run][folder][clientFile]
     mergedData.sort()
     return mergedData
 
@@ -179,8 +216,68 @@ def plotCumaltiveInlining(runStatsTime, run, folder, files):
         plt.legend()
         plt.title(file)
     
-def plotCombinedCumalativeInlining():
-    pass
+def plotCombinedCumalativeInlining(run, folder1, folder2, runStatsTime, files):
+    if folder1 != 'OR' and run not in runStartTime:
+        print(run + ' not present for ' + folder1)
+        return
+    if folder2 != 'OR' and run not in runStartTime:
+        print(run + ' not present for ' + folder2)
+        return
+    
+    for file in files:
+        runTimeData1 = {}
+        runTimeData2 = {}
+        if folder1 == 'OR':
+            runTimeData1 = mergeClientTimeData(runStatsTime, 'Run1', folder1, file)
+        else:
+            runTimeData1 = mergeClientTimeData(runStatsTime, run, folder1, file)
+        if folder2 == 'OR':
+            runTimeData2 = mergeClientTimeData(runStatsTime, 'Run1', folder2, file)
+        else:
+            runTimeData2 = mergeClientTimeData(runStatsTime, run, folder2, file)
+        
+        for i in range(1, len(runTimeData1)):
+            runTimeData1[i][1] += runTimeData1[i-1][1]
+        for i in range(1, len(runTimeData2)):
+            runTimeData2[i][1] += runTimeData2[i-1][1]
+            
+        _ = plt.figure()
+        plt.plot([i[0] for i in runTimeData1], [i[1] for i in runTimeData1], label = folder1)
+        plt.plot([i[0] for i in runTimeData2], [i[1] for i in runTimeData2], label = folder2)
+        plt.xlabel('Time Elapsed')
+        plt.ylabel('Cumalative Inlined callsites')
+        plt.legend()
+        plt.title(file)
+
+def plotCombinedZ3QueryTiming(run, folder1, folder2, runStatsTimeZ3, files):
+    if folder1 != 'OR' and run not in runStartTime:
+        print(run + ' not present for ' + folder1)
+        return
+    if folder2 != 'OR' and run not in runStartTime:
+        print(run + ' not present for ' + folder2)
+        return
+    run = 'Run1'
+    folder1 = 'OR'
+    folder2 = 'fraction30'
+    files = allfiles
+    for file in files:
+        runTimeData1 = {}
+        runTimeData2 = {}
+        if folder1 == 'OR':
+            runTimeData1 = mergeClientTimeZ3Data(runStatsTimeZ3, 'Run1', folder1, file)
+        else:
+            runTimeData1 = mergeClientTimeZ3Data(runStatsTimeZ3, run, folder1, file)
+        if folder2 == 'OR':
+            runTimeData2 = mergeClientTimeZ3Data(runStatsTimeZ3, 'Run1', folder2, file)
+        else:
+            runTimeData2 = mergeClientTimeZ3Data(runStatsTimeZ3, run, folder2, file)
+        _ = plt.figure()
+        plt.plot([i[0] for i in runTimeData1], [i[1] for i in runTimeData1], label = folder1)
+        plt.plot([i[0] for i in runTimeData2], [i[1] for i in runTimeData2], label = folder2)
+        plt.xlabel('Time Elapsed')
+        plt.ylabel('z3 query time')
+        plt.legend()
+        plt.title(file)
 
 # Generate intermediate CSV file for easy pre-processing
 for folder in folderList:
@@ -254,20 +351,24 @@ runStatsInlining = {}
 runStatsQuery = {}
 runStatsTime = {}
 runStartTime = {}
+runStatsTimeZ3 = {}
 for run in runList:
     folderStatsInlining = {}
     folderStatsQuery = {}
     folderStatsTime = {}
     folderStartTime = {}
+    folderStatsTimeZ3 = {}
     for folder in folderList:
         folderStatsInlining[folder] = {}
         folderStatsQuery[folder] = {}
         folderStatsTime[folder] = {}
         folderStartTime[folder] = {}
+        folderStatsTimeZ3[folder] = {}
     runStatsInlining[run] = folderStatsInlining
     runStatsQuery[run] = folderStatsQuery
     runStatsTime[run] = folderStatsTime
     runStartTime[run] = folderStartTime
+    runStatsTimeZ3[run] = folderStatsTimeZ3
 
 # Get inlining and query time data from stats file
 for folder in folderList:
@@ -294,12 +395,16 @@ for folder in folderList:
                     
                     # Get Inlined calsites data according to time elapsed
                     runStatsTime[run][folder][file] = getTimeData(folder, run, file, runStartTime)
+                    
+                    # Get Z3 query time data according to time elapsed
+                    runStatsTimeZ3[run][folder][file] = getZ3TimeData(folder, run, file, runStartTime)
 
-plotCombinedCumalativeInlining(runStatsTime, 'Run1', allfiles)
+plotCombinedCumalativeInlining('Run1', 'OR', 'fraction30', runStatsTime, allfiles)
+plotCombinedZ3QueryTiming('Run1', 'OR', 'fraction30', runStatsTimeZ3, allfiles)
 
 for run in runList:
     for folder in folderList:
         # Add exception for OR
         if 'OR' == folder and 'Run1' != run:
             continue
-        plotCumaltiveInlining(runStatsTime, run, folder, allfiles)
+        # plotCumaltiveInlining(runStatsTime, run, folder, allfiles)
