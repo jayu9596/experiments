@@ -256,10 +256,7 @@ def plotCombinedZ3QueryTiming(run, folder1, folder2, runStatsTimeZ3, files):
     if folder2 != 'OR' and run not in runStartTime:
         print(run + ' not present for ' + folder2)
         return
-    run = 'Run1'
-    folder1 = 'OR'
-    folder2 = 'fraction30'
-    files = allfiles
+    
     for file in files:
         runTimeData1 = {}
         runTimeData2 = {}
