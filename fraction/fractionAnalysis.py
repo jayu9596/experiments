@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 myDir = '/home/jaydeep/Thesis/experiments/fraction/'
-folderList = ['fraction30','OR', 'UW']
+folderList = ['fraction30','UW','OR']
 runList = ['Run1','Run2']
 exceptionFolderList = ['OR','UW']
 makeCompiledCSV = True
@@ -216,92 +216,69 @@ def plotCumaltiveInlining(runStatsTime, run, folder, files):
         plt.legend()
         plt.title(file)
     
-def plotCombinedCumalativeInlining(run, folder1, folder2, runStatsTime, files):
-    if folder1 not in exceptionFolderList and run not in runStartTime:
-        print(run + ' not present for ' + folder1)
-        return
-    if folder2 not in exceptionFolderList and run not in runStartTime:
-        print(run + ' not present for ' + folder2)
-        return
-    
+def plotCombinedCumalativeInlining(run, folders, runStatsTime, files):
     for file in files:
-        runTimeData1 = {}
-        runTimeData2 = {}
-        if folder1 in exceptionFolderList:
-            runTimeData1 = mergeClientTimeData(runStatsTime, 'Run1', folder1, file)
-        else:
-            runTimeData1 = mergeClientTimeData(runStatsTime, run, folder1, file)
-        if folder2 in exceptionFolderList:
-            runTimeData2 = mergeClientTimeData(runStatsTime, 'Run1', folder2, file)
-        else:
-            runTimeData2 = mergeClientTimeData(runStatsTime, run, folder2, file)
-        
-        for i in range(1, len(runTimeData1)):
-            runTimeData1[i][1] += runTimeData1[i-1][1]
-        for i in range(1, len(runTimeData2)):
-            runTimeData2[i][1] += runTimeData2[i-1][1]
-            
         _ = plt.figure()
-        plt.plot([i[0] for i in runTimeData1], [i[1] for i in runTimeData1], label = folder1)
-        plt.plot([i[0] for i in runTimeData2], [i[1] for i in runTimeData2], label = folder2)
+        
+        for folder in folders:
+            
+            runTimeDataFolder = {}
+            
+            if folder in exceptionFolderList:
+                runTimeDataFolder = mergeClientTimeData(runStatsTime, 'Run1', folder, file)
+            else:
+                runTimeDataFolder = mergeClientTimeData(runStatsTime, run, folder, file)
+            
+            for i in range(1, len(runTimeDataFolder)):
+                runTimeDataFolder[i][1] += runTimeDataFolder[i-1][1]
+                    
+            plt.plot([i[0] for i in runTimeDataFolder], [i[1] for i in runTimeDataFolder], label = folder)
+
         plt.xlabel('Time Elapsed')
         plt.ylabel('Cumalative Inlined callsites')
         plt.legend()
         plt.title(file)
 
-def plotCombinedZ3QueryTiming(run, folder1, folder2, runStatsTimeZ3, files):
-    if folder1 not in exceptionFolderList and run not in runStartTime:
-        print(run + ' not present for ' + folder1)
-        return
-    if folder2 not in exceptionFolderList and run not in runStartTime:
-        print(run + ' not present for ' + folder2)
-        return
-    
+def plotCombinedZ3QueryTiming(run, folders, runStatsTimeZ3, files):
     for file in files:
-        runTimeData1 = {}
-        runTimeData2 = {}
-        if folder1 in exceptionFolderList:
-            runTimeData1 = mergeClientTimeZ3Data(runStatsTimeZ3, 'Run1', folder1, file)
-        else:
-            runTimeData1 = mergeClientTimeZ3Data(runStatsTimeZ3, run, folder1, file)
-        if folder2 in exceptionFolderList:
-            runTimeData2 = mergeClientTimeZ3Data(runStatsTimeZ3, 'Run1', folder2, file)
-        else:
-            runTimeData2 = mergeClientTimeZ3Data(runStatsTimeZ3, run, folder2, file)
         _ = plt.figure()
-        plt.plot([i[0] for i in runTimeData1], [i[1] for i in runTimeData1], label = folder1)
-        plt.plot([i[0] for i in runTimeData2], [i[1] for i in runTimeData2], label = folder2)
+        
+        for folder in folders:
+            
+            runTimeDataFolder = {}
+            
+            if folder in exceptionFolderList:
+                runTimeDataFolder = mergeClientTimeZ3Data(runStatsTimeZ3, 'Run1', folder, file)
+            else:
+                runTimeDataFolder = mergeClientTimeZ3Data(runStatsTimeZ3, run, folder, file)
+
+            plt.plot([i[0] for i in runTimeDataFolder], [i[1] for i in runTimeDataFolder], label = folder)
+
         plt.xlabel('Time Elapsed')
         plt.ylabel('z3 query time')
         plt.legend()
         plt.title(file)
 
-def plotZ3QueryIterations(run, folder1, folder2, runStatsTimeZ3, files):
-    if folder1 not in exceptionFolderList and run not in runStartTime:
-        print(run + ' not present for ' + folder1)
-        return
-    if folder2 not in exceptionFolderList and run not in runStartTime:
-        print(run + ' not present for ' + folder2)
-        return
-    
+def plotZ3QueryIterations(run, folders, runStatsTimeZ3, files):
     for file in files:
-        runTimeData1 = {}
-        runTimeData2 = {}
-        if folder1 in exceptionFolderList:
-            runTimeData1 = mergeClientTimeZ3Data(runStatsTimeZ3, 'Run1', folder1, file)
-        else:
-            runTimeData1 = mergeClientTimeZ3Data(runStatsTimeZ3, run, folder1, file)
-        if folder2 in exceptionFolderList:
-            runTimeData2 = mergeClientTimeZ3Data(runStatsTimeZ3, 'Run1', folder2, file)
-        else:
-            runTimeData2 = mergeClientTimeZ3Data(runStatsTimeZ3, run, folder2, file)
         _ = plt.figure()
-        plt.plot([index for index,i in enumerate(runTimeData1)], [i[1] for i in runTimeData1], label = folder1)
-        plt.plot([index for index,i in enumerate(runTimeData2)], [i[1] for i in runTimeData2], label = folder2)
+        
+        for folder in folders:
+            
+            runTimeDataFolder = {}
+            
+            if folder in exceptionFolderList:
+                runTimeDataFolder = mergeClientTimeZ3Data(runStatsTimeZ3, 'Run1', folder, file)
+            else:
+                runTimeDataFolder = mergeClientTimeZ3Data(runStatsTimeZ3, run, folder, file)
+
+            plt.plot([index for index,i in enumerate(runTimeDataFolder)], [i[1] for i in runTimeDataFolder], label = folder)
+
         plt.xlabel('Iterations')
         plt.ylabel('z3 query time')
         plt.legend()
         plt.title(file)
+
 
 # Generate intermediate CSV file for easy pre-processing
 for folder in folderList:
@@ -424,10 +401,10 @@ for folder in folderList:
                     runStatsTimeZ3[run][folder][file] = getZ3TimeData(folder, run, file, runStartTime)
 
 
-allfilesDELETEME = ['hw_irqliopassive2_0.bpl.bpl.txt']
-plotCombinedCumalativeInlining('Run1', 'OR', 'fraction30', runStatsTime, allfilesDELETEME)
-plotCombinedZ3QueryTiming('Run1', 'OR', 'fraction30', runStatsTimeZ3, allfilesDELETEME)
-plotZ3QueryIterations('Run1', 'OR', 'fraction30', runStatsTimeZ3, allfilesDELETEME)
+allfilesDELETEME = allfiles #['Imapi_removelockrelease2_0.bpl.bpl.txt']
+plotCombinedCumalativeInlining('Run1', folderList, runStatsTime, allfilesDELETEME)
+plotCombinedZ3QueryTiming('Run1', folderList, runStatsTimeZ3, allfilesDELETEME)
+plotZ3QueryIterations('Run1', folderList, runStatsTimeZ3, allfilesDELETEME)
 
 for run in runList:
     for folder in folderList:
