@@ -8,11 +8,12 @@ Created on Sun Feb 28 11:11:03 2021
 import os
 import csv
 import matplotlib.pyplot as plt
+import copy
 from datetime import datetime
 
 myDir = '/home/jaydeep/Thesis/experiments/fraction/'
-folderList = ['fraction30','UW','OR']
-runList = ['Run1','Run2']
+folderList = ['fraction30','fraction50','fraction80','UW','OR']
+runList = ['Run1','Run2','Run3']
 exceptionFolderList = ['OR','UW']
 makeCompiledCSV = True
 maxValue = 3600
@@ -225,9 +226,9 @@ def plotCombinedCumalativeInlining(run, folders, runStatsTime, files):
             runTimeDataFolder = {}
             
             if folder in exceptionFolderList:
-                runTimeDataFolder = mergeClientTimeData(runStatsTime, 'Run1', folder, file)
+                runTimeDataFolder = copy.deepcopy(mergeClientTimeData(runStatsTime, 'Run1', folder, file))
             else:
-                runTimeDataFolder = mergeClientTimeData(runStatsTime, run, folder, file)
+                runTimeDataFolder = copy.deepcopy(mergeClientTimeData(runStatsTime, run, folder, file))
             
             for i in range(1, len(runTimeDataFolder)):
                 runTimeDataFolder[i][1] += runTimeDataFolder[i-1][1]
@@ -400,11 +401,14 @@ for folder in folderList:
                     # Get Z3 query time data according to time elapsed
                     runStatsTimeZ3[run][folder][file] = getZ3TimeData(folder, run, file, runStartTime)
 
+runStatsTimeCopy = copy.deepcopy(runStatsTime)
+runStatsTimeZ3Copy = copy.deepcopy(runStatsTimeZ3)
 
-allfilesDELETEME = allfiles #['Imapi_removelockrelease2_0.bpl.bpl.txt']
-plotCombinedCumalativeInlining('Run1', folderList, runStatsTime, allfilesDELETEME)
-plotCombinedZ3QueryTiming('Run1', folderList, runStatsTimeZ3, allfilesDELETEME)
-plotZ3QueryIterations('Run1', folderList, runStatsTimeZ3, allfilesDELETEME)
+allfilesDELETEME = ['sys_zwregistrycreate_0.bpl.bpl.txt']
+rr = 'Run1'
+plotCombinedCumalativeInlining(rr, folderList, runStatsTimeCopy, allfilesDELETEME)
+plotCombinedZ3QueryTiming(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
+plotZ3QueryIterations(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
 
 for run in runList:
     for folder in folderList:
