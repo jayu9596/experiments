@@ -6,8 +6,8 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/PrantikVM/'
-uwFolder = 'lambda0.055/Run5'
-vanillaFolder = 'lambda0.055/Run5'
+uwFolder = 'UW'
+vanillaFolder = 'OR'
 maxValue = 3600
 limitToMaxValue = False
 
