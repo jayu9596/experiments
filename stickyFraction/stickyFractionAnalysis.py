@@ -9,11 +9,12 @@ import os
 import csv
 import matplotlib.pyplot as plt
 import copy
+import pandas as pd
 from datetime import datetime
 
 myDir = '/home/jaydeep/Thesis/experiments/stickyFraction/'
 folderList = ['fraction30','OR','UW']
-runList = ['Run1']
+runList = ['Run1','Run2','Run3']
 exceptionFolderList = ['OR','UW']
 makeCompiledCSV = True
 maxValue = 3600
@@ -308,6 +309,45 @@ def plotZ3QueryIterations(run, folders, runStatsTimeZ3, files):
         plt.legend()
         plt.title(file)
 
+# Get the best Runtime Algo for a file
+def getBestPerformer(runData, run, folders, currFile):
+    bestPerformer = "NONE"
+    bestTime = 9999999.99
+    for folder in folders:
+        
+        fileData = []
+        if folder in exceptionFolderList:
+            fileData = runData['Run1'][folder][currFile]
+        else:
+            fileData = runData[run][folder][currFile]
+        
+        if 'TIMEDOUT' in fileData[1]:
+            continue
+        time = float(fileData[2])
+        if time < bestTime:
+            bestTime = time
+            bestPerformer = folder
+    return bestPerformer
+
+# Get single Inlining Rate across all clients
+def getInliningRate(folderData, folder, file, totClients):
+    totalInlinings = 0
+    totalIteration = 0
+    for i in range(1, totalClients + 1):
+        clientFile = file.replace('.txt','_stats_' + str(i) + '.txt')
+        inliningData = []
+        try:
+            inliningData = folderData[folder][clientFile]
+        except:
+            continue
+        # OR Inlining
+        totalInlinings += sum(inliningData[0])
+        # UW Inlining
+        totalInlinings += sum(inliningData[1])
+        # Add Iterations count
+        totalIteration += len(inliningData[0])
+        totalIteration += len(inliningData[1])
+    return totalInlinings/totalIteration
 
 # Generate intermediate CSV file for easy pre-processing
 for folder in folderList:
@@ -429,12 +469,111 @@ for folder in folderList:
                     # Get Z3 query time data according to time elapsed
                     runStatsTimeZ3[run][folder][file] = getZ3TimeData(folder, run, file, runStartTime)
 
+compiledOutcome = []
+
+for run in runList:
+    comparisonOutcome = []
+    
+    headers = ['Name']
+    for folder in folderList:
+        headers.append(folder + '_Outcome')
+    for folder in folderList:
+        headers.append(folder + '_TotalSplits')
+    for folder in folderList:
+        headers.append(folder + '_Runtime')
+    for folder in folderList:
+        headers.append(folder + '_Inlining_Rate')
+    headers.append('Who_Performed_Better')
+    headers.append('Inlining_Rate_For_Best_Runtime')
+    
+    comparisonOutcome.append(headers)
+    
+    for file in allfiles:
+        isFilePresent = True
+        for folder in folderList:
+            if folder not in exceptionFolderList and file not in runOutcome[run][folder]:
+                isFilePresent = False
+                break
+        if isFilePresent == False:
+            print(file + ' is not present in all folders')
+            continue
+        
+        tempList = []
+        # Filename
+        tempList.append(file)
+        # Outcome
+        for folder in folderList:
+            if folder in exceptionFolderList:
+                tempList.append(runOutcome['Run1'][folder][file][1])
+            else:
+                tempList.append(runOutcome[run][folder][file][1])
+        # Total Splits
+        for folder in folderList:
+            if folder in exceptionFolderList:
+                tempList.append(runOutcome['Run1'][folder][file][3])
+            else:
+                tempList.append(runOutcome[run][folder][file][3])
+        # Runtime
+        for folder in folderList:
+            if folder in exceptionFolderList:
+                tempList.append(runOutcome['Run1'][folder][file][2])
+            else:
+                tempList.append(runOutcome[run][folder][file][2])
+        
+        bestPerformer = getBestPerformer(runOutcome, run, folderList, file)
+        
+        # Inlining Rate
+        bestInliningRate = -1
+        for folder in folderList:
+            
+            rate = -0.99
+            if folder in exceptionFolderList:
+                rate = getInliningRate(runStatsInlining['Run1'], folder, file, totalClients)
+            else:
+                rate = getInliningRate(runStatsInlining[run], folder, file, totalClients)
+            
+            tempList.append(rate)
+            if folder == bestPerformer:
+                bestInliningRate = rate
+                
+        # Best Performer and Inlining Rate
+        tempList.append(bestPerformer)
+        tempList.append(bestInliningRate)
+        
+        comparisonOutcome.append(tempList)
+
+    # Dump to csv File
+    my_df = pd.DataFrame(comparisonOutcome)
+    my_df.to_csv(myDir + run + '_ComparisonResult.csv', index=False, header=False)
+    
+    if makeCompiledCSV:
+        if len(compiledOutcome) == 0:
+            for i in range(len(comparisonOutcome)):
+                if i == 0:
+                    comparisonOutcome[i].append('Run number')
+                else:
+                    comparisonOutcome[i].append(run)
+            compiledOutcome = comparisonOutcome
+        else:
+            for i in range(len(comparisonOutcome)):
+                if i == 0:
+                    continue
+                else:
+                    comparisonOutcome[i].append(run)
+            compiledOutcome = compiledOutcome + comparisonOutcome[1:]
+
+if makeCompiledCSV:
+    my_df = pd.DataFrame(compiledOutcome)
+    my_df.to_csv(myDir + '_Compiled_ComparisonResult.csv', index=False, header=False)
+
+
+
 runStatsTimeCopy = copy.deepcopy(runStatsTime)
 runStatsTimeZ3Copy = copy.deepcopy(runStatsTimeZ3)
 
 allfilesDELETEME = ['mp_iobuildfsdirpsignaleventincompletiontimeout_0.bpl.bpl.txt']
-rr = 'Run1'
-folderList = ['UW','fraction30']
+rr = 'Run3'
+folderList = ['UW','fraction30','OR']
 plotCombinedCumalativeInlining(rr, folderList, runStatsTimeCopy, allfilesDELETEME)
 plotCombinedZ3QueryTiming(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
 plotZ3QueryIterations(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
