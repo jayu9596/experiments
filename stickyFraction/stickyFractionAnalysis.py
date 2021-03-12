@@ -14,7 +14,7 @@ from datetime import datetime
 
 myDir = '/home/jaydeep/Thesis/experiments/stickyFraction/'
 folderList = ['fraction30','OR','UW']
-runList = ['Run1','Run2','Run3']
+runList = ['Run1','Run2','Run3','Run4']
 exceptionFolderList = ['OR','UW']
 makeCompiledCSV = True
 maxValue = 3600
@@ -566,12 +566,10 @@ if makeCompiledCSV:
     my_df = pd.DataFrame(compiledOutcome)
     my_df.to_csv(myDir + '_Compiled_ComparisonResult.csv', index=False, header=False)
 
-
-
 runStatsTimeCopy = copy.deepcopy(runStatsTime)
 runStatsTimeZ3Copy = copy.deepcopy(runStatsTimeZ3)
 
-allfilesDELETEME = ['mp_iobuildfsdirpsignaleventincompletiontimeout_0.bpl.bpl.txt']
+allfilesDELETEME = ['sys_zwregistryopen_0.bpl.bpl.txt']#,'sys_zwregistrycreate_0.bpl.bpl.txt','serial_markingqueuedirps_1.bpl.bpl.txt','hw_irqlkeraiselower_0.bpl.bpl.txt']
 rr = 'Run3'
 folderList = ['UW','fraction30','OR']
 plotCombinedCumalativeInlining(rr, folderList, runStatsTimeCopy, allfilesDELETEME)
