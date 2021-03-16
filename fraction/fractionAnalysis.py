@@ -299,11 +299,10 @@ def plotZ3QueryIterations(run, folders, runStatsTimeZ3, files):
 		plt.title(file)
 
 def plotPartitionVerificationInlining(run, folders, runStatsTime, files):
-	
 	for folder in folders:
 		runTimeDataFolder = {}
 		if folder in exceptionFolderList:
-			runTimeDataFolder = getClientWiseInliningData(runStatsTime, 'Run1', folder)			
+			runTimeDataFolder = getClientWiseInliningData(runStatsTime, 'Run1', folder)
 		else:
 			runTimeDataFolder = getClientWiseInliningData(runStatsTime, run, folder)
 		
@@ -311,12 +310,39 @@ def plotPartitionVerificationInlining(run, folders, runStatsTime, files):
 			for i in range(1, totalClients + 1):
 				clientFile = file.replace('.txt','_stats_' + str(i) + '.txt')
 				
-				_ = plt.figure()				
+				_ = plt.figure()
 				plt.plot([i for i in range(len(runTimeDataFolder[clientFile]))], [i[1] for i in runTimeDataFolder[clientFile]])
-				plt.xlabel('Time Elapsed')
+				plt.xlabel('Iterations')
 				plt.ylabel('Cumalative Inlined callsites Till Partition is verified')
 				plt.title(clientFile)
-	
+
+def plotPartitionVerificationIterations(run, folders, runStatsTime, files):
+	for folder in folders:
+		runTimeDataFolder = {}
+		if folder in exceptionFolderList:
+			runTimeDataFolder = getClientWiseInliningData(runStatsTime, 'Run1', folder)
+		else:
+			runTimeDataFolder = getClientWiseInliningData(runStatsTime, run, folder)
+		
+		for file in files:
+			for i in range(1, totalClients + 1):
+				clientFile = file.replace('.txt','_stats_' + str(i) + '.txt')
+				yData = []
+				cnt = 1
+				for arr in runTimeDataFolder[clientFile]:
+					if arr[1] == 0:
+						yData.append(cnt)
+						cnt = 1
+					else:
+						cnt = cnt + 1
+				yData.append(cnt)
+				
+				_ = plt.figure()
+				plt.plot([i for i in range(len(yData))], [i for i in yData])
+				plt.xlabel('Iterations')
+				plt.ylabel('Iterations Till Partition is verified')
+				plt.title(clientFile)
+
 # Generate intermediate CSV file for easy pre-processing
 for folder in folderList:
 	for run in runList:
@@ -440,14 +466,17 @@ for folder in folderList:
 runStatsTimeCopy = copy.deepcopy(runStatsTime)
 runStatsTimeZ3Copy = copy.deepcopy(runStatsTimeZ3)
 
-allfilesDELETEME = allfiles
+allfilesDELETEME = ['Imapi_removelockrelease2_0.bpl.bpl.txt']
 rr = 'Run1'
 folderList = ['UW']
-plotPartitionVerificationInlining(rr, folderList, runStatsTime, allfilesDELETEME)
-# Currently trying out 300 inlings required for split approach
+plotPartitionVerificationIterations(rr, folderList, runStatsTime, allfilesDELETEME)
 
+
+plotPartitionVerificationInlining(rr, folderList, runStatsTime, allfilesDELETEME)
+# Currently trying out 100 inlings required for split approach
+plotZ3QueryIterations(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
 plotCombinedCumalativeInlining(rr, folderList, runStatsTimeCopy, allfilesDELETEME)
 plotCombinedZ3QueryTiming(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
-plotZ3QueryIterations(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
+
 
 
