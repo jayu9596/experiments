@@ -14,8 +14,8 @@ import pandas as pd
 from collections import defaultdict
 
 myDir = '/home/jaydeep/Thesis/experiments/fraction/'
-folderList = ['fraction30','fraction50','fraction80']
-runList = ['Run1','Run2','Run3']
+folderList = ['fraction30','fraction50','fraction80','OR','UW']
+runList = ['Run1','Run2','Run3','Run4','Run5']
 exceptionFolderList = ['OR','UW']
 # folderList = ['lambda0.005','lambda0.01','lambda0.025','lambda0.3','lambda0.055','OR_stats']
 makeCompiledCSV = True

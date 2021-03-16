@@ -9,12 +9,13 @@ import os
 import csv
 import matplotlib.pyplot as plt
 import copy
+import pandas as pd
 from datetime import datetime
 
-myDir = '/home/jaydeep/Thesis/experiments/fraction/'
-folderList = ['fraction30','fraction50','fraction80','UW','OR']
-runList = ['Run1','Run2','Run3']
-exceptionFolderList = ['OR','UW']
+myDir = '/home/jaydeep/Thesis/experiments/split_new/'
+folderList = ['OR','UW','UW_new']
+runList = ['Run1']
+exceptionFolderList = ['OR','UW','UW_new']
 makeCompiledCSV = True
 maxValue = 3600
 limitToMaxValue = True
@@ -37,7 +38,6 @@ def getClientsCount():
 								mxClients = i
 							elif mxClients != i:
 								print('SAME clients not present here for ' + currFile + ' in ' + run)
-								exit(0)
 						currFile = file
 						i = 0
 					elif '_stats' in  file:
@@ -66,10 +66,8 @@ def getIniningData(folder, run, file):
 		else:
 			try:
 				sites = int(arr[0])
-				'''
 				if sites == 0:
 					continue
-				'''
 				index = index + 1
 				if mode == 1:
 					yInlinedCallsitesOR.append(sites)
@@ -132,13 +130,13 @@ def getStartTime(folder, run, file):
 	data = open(mem_file,'r')
 	for line in data:
 		if 'time,' in  line:
-			startTime = datetime.strptime(line.split(',')[1].replace('\n',''), '%d/%m %H:%M:%S.%f')
+			startTime = datetime.strptime(line.split(',')[1].replace('\n',''), '%d-%m %H:%M:%S.%f')
 			return startTime
 
 def getOriginalName(file):
 	filename = file
-	filename.replace('','')
-	for i in range(1, totalClients + 1):
+	filename.replace('\n','')
+	for i in range(totalClients, 0, -1):
 		filename = filename.replace('_stats_' + str(i),'')
 	return filename
 
@@ -150,7 +148,7 @@ def getTimeData(folder, run, file, runStartTime):
 	timeData = []
 	for line in data:
 		if 'time,' in line:
-			currTime = datetime.strptime(line.split(',')[1].replace('\n',''), '%d/%m %H:%M:%S.%f')
+			currTime = datetime.strptime(line.split(',')[1].replace('\n',''), '%d-%m %H:%M:%S.%f')
 		elif 'UWQ' in line or 'ORQ' in line:
 			continue
 		else:
@@ -158,10 +156,8 @@ def getTimeData(folder, run, file, runStartTime):
 				sites = int(line.split(',')[0].replace('\n',''))
 				if (currTime - startTime).total_seconds() < 0:
 					continue
-				'''
 				if sites == 0:
 					continue
-				'''
 				timeData.append([(currTime - startTime).total_seconds(), sites])
 			except:
 				continue
@@ -176,7 +172,7 @@ def getZ3TimeData(folder, run, file, runStartTime):
 	timeData = []
 	for line in data:
 		if 'time,' in line:
-			currTime = datetime.strptime(line.split(',')[1].replace('\n',''), '%d/%m %H:%M:%S.%f')
+			currTime = datetime.strptime(line.split(',')[1].replace('\n',''), '%d-%m %H:%M:%S.%f')
 		elif 'UWQ' not in line and 'ORQ' not in line:
 			continue
 		else:
@@ -197,7 +193,10 @@ def mergeClientTimeData(runStatsTime, run, folder, file):
 	mergedData = []
 	for i in range(1, totalClients + 1):
 		clientFile = file.replace('.txt','_stats_' + str(i) + '.txt')
-		mergedData = mergedData + runStatsTime[run][folder][clientFile]
+		try:
+			mergedData = mergedData + runStatsTime[run][folder][clientFile]
+		except:
+			continue
 	mergedData.sort()
 	return mergedData
 
@@ -205,23 +204,12 @@ def mergeClientTimeZ3Data(runStatsTimeZ3, run, folder, file):
 	mergedData = []
 	for i in range(1, totalClients + 1):
 		clientFile = file.replace('.txt','_stats_' + str(i) + '.txt')
-		mergedData = mergedData + runStatsTimeZ3[run][folder][clientFile]
+		try:
+			mergedData = mergedData + runStatsTimeZ3[run][folder][clientFile]
+		except:
+			continue
 	mergedData.sort()
 	return mergedData
-
-def getClientWiseInliningData(runStatsTime, run, folder):
-	run = 'Run1'
-	folder = 'UW'
-	plotData = copy.deepcopy(runStatsTime[run][folder])
-	for key, value in plotData.items():
-		prevValue = 0
-		for val in value:
-			if val[1] == 0:
-				prevValue = 0
-			else:
-				val[1] = prevValue + val[1]
-				prevValue = val[1]
-	return plotData
 
 def plotCumaltiveInlining(runStatsTime, run, folder, files):
 	for file in files:
@@ -254,6 +242,29 @@ def plotCombinedCumalativeInlining(run, folders, runStatsTime, files):
 			plt.plot([i[0] for i in runTimeDataFolder], [i[1] for i in runTimeDataFolder], label = folder)
 
 		plt.xlabel('Time Elapsed')
+		plt.ylabel('Cumalative Inlined callsites')
+		plt.legend()
+		plt.title(file)
+
+def plotCombinedCumalativeInliningIterations(run, folders, runStatsTime, files):
+	for file in files:
+		_ = plt.figure()
+		
+		for folder in folders:
+			
+			runTimeDataFolder = {}
+			
+			if folder in exceptionFolderList:
+				runTimeDataFolder = copy.deepcopy(mergeClientTimeData(runStatsTime, 'Run1', folder, file))
+			else:
+				runTimeDataFolder = copy.deepcopy(mergeClientTimeData(runStatsTime, run, folder, file))
+			
+			for i in range(1, len(runTimeDataFolder)):
+				runTimeDataFolder[i][1] += runTimeDataFolder[i-1][1]
+					
+			plt.plot([index for index,i in enumerate(runTimeDataFolder)], [i[1] for i in runTimeDataFolder], label = folder)
+
+		plt.xlabel('Iterations')
 		plt.ylabel('Cumalative Inlined callsites')
 		plt.legend()
 		plt.title(file)
@@ -298,25 +309,46 @@ def plotZ3QueryIterations(run, folders, runStatsTimeZ3, files):
 		plt.legend()
 		plt.title(file)
 
-def plotPartitionVerificationInlining(run, folders, runStatsTime, files):
-	
+# Get the best Runtime Algo for a file
+def getBestPerformer(runData, run, folders, currFile):
+	bestPerformer = "NONE"
+	bestTime = 9999999.99
 	for folder in folders:
-		runTimeDataFolder = {}
-		if folder in exceptionFolderList:
-			runTimeDataFolder = getClientWiseInliningData(runStatsTime, 'Run1', folder)			
-		else:
-			runTimeDataFolder = getClientWiseInliningData(runStatsTime, run, folder)
 		
-		for file in files:
-			for i in range(1, totalClients + 1):
-				clientFile = file.replace('.txt','_stats_' + str(i) + '.txt')
-				
-				_ = plt.figure()				
-				plt.plot([i for i in range(len(runTimeDataFolder[clientFile]))], [i[1] for i in runTimeDataFolder[clientFile]])
-				plt.xlabel('Time Elapsed')
-				plt.ylabel('Cumalative Inlined callsites Till Partition is verified')
-				plt.title(clientFile)
-	
+		fileData = []
+		if folder in exceptionFolderList:
+			fileData = runData['Run1'][folder][currFile]
+		else:
+			fileData = runData[run][folder][currFile]
+		
+		if 'TIMEDOUT' in fileData[1]:
+			continue
+		time = float(fileData[2])
+		if time < bestTime:
+			bestTime = time
+			bestPerformer = folder
+	return bestPerformer
+
+# Get single Inlining Rate across all clients
+def getInliningRate(folderData, folder, file, totClients):
+	totalInlinings = 0
+	totalIteration = 0
+	for i in range(1, totalClients + 1):
+		clientFile = file.replace('.txt','_stats_' + str(i) + '.txt')
+		inliningData = []
+		try:
+			inliningData = folderData[folder][clientFile]
+		except:
+			continue
+		# OR Inlining
+		totalInlinings += sum(inliningData[0])
+		# UW Inlining
+		totalInlinings += sum(inliningData[1])
+		# Add Iterations count
+		totalIteration += len(inliningData[0])
+		totalIteration += len(inliningData[1])
+	return totalInlinings/totalIteration
+
 # Generate intermediate CSV file for easy pre-processing
 for folder in folderList:
 	for run in runList:
@@ -418,9 +450,11 @@ for folder in folderList:
 			currFile = ""
 			i = 0
 			for file in sorted(files):
+				print('file')
 				if file.endswith(".bpl.txt"):
 					currFile = file
 					# Get start time for every file
+					print(getStartTime(folder, run, file))
 					runStartTime[run][folder][file] = getStartTime(folder, run, file)
 					i = 0
 				elif '_stats' in  file:
@@ -437,17 +471,119 @@ for folder in folderList:
 					# Get Z3 query time data according to time elapsed
 					runStatsTimeZ3[run][folder][file] = getZ3TimeData(folder, run, file, runStartTime)
 
+
+compiledOutcome = []
+
+for run in runList:
+	comparisonOutcome = []
+	
+	headers = ['Name']
+	for folder in folderList:
+		headers.append(folder + '_Outcome')
+	for folder in folderList:
+		headers.append(folder + '_TotalSplits')
+	for folder in folderList:
+		headers.append(folder + '_Runtime')
+		
+#	for folder in folderList:
+#		headers.append(folder + '_Inlining_Rate')
+#	headers.append('Who_Performed_Better')
+#	headers.append('Inlining_Rate_For_Best_Runtime') 
+	
+	comparisonOutcome.append(headers)
+	
+	for file in allfiles:
+		isFilePresent = True
+		for folder in folderList:
+			if folder not in exceptionFolderList and file not in runOutcome[run][folder]:
+				isFilePresent = False
+				break
+		if isFilePresent == False:
+			print(file + ' is not present in all folders')
+			continue
+		
+		tempList = []
+		# Filename
+		tempList.append(file)
+		# Outcome
+		for folder in folderList:
+			if folder in exceptionFolderList:
+				tempList.append(runOutcome['Run1'][folder][file][1])
+			else:
+				tempList.append(runOutcome[run][folder][file][1])
+		# Total Splits
+		for folder in folderList:
+			if folder in exceptionFolderList:
+				tempList.append(runOutcome['Run1'][folder][file][3])
+			else:
+				tempList.append(runOutcome[run][folder][file][3])
+		# Runtime
+		for folder in folderList:
+			if folder in exceptionFolderList:
+				tempList.append(runOutcome['Run1'][folder][file][2])
+			else:
+				tempList.append(runOutcome[run][folder][file][2])
+		'''
+		bestPerformer = getBestPerformer(runOutcome, run, folderList, file)
+		
+		# Inlining Rate
+		bestInliningRate = -1
+		for folder in folderList:
+			
+			rate = -0.99
+			if folder in exceptionFolderList:
+				rate = getInliningRate(runStatsInlining['Run1'], folder, file, totalClients)
+			else:
+				rate = getInliningRate(runStatsInlining[run], folder, file, totalClients)
+			
+			tempList.append(rate)
+			if folder == bestPerformer:
+				bestInliningRate = rate
+				
+		# Best Performer and Inlining Rate
+		tempList.append(bestPerformer)
+		tempList.append(bestInliningRate)
+		'''
+		comparisonOutcome.append(tempList)
+
+	# Dump to csv File
+	my_df = pd.DataFrame(comparisonOutcome)
+	my_df.to_csv(myDir + run + '_ComparisonResult.csv', index=False, header=False)
+	
+	if makeCompiledCSV:
+		if len(compiledOutcome) == 0:
+			for i in range(len(comparisonOutcome)):
+				if i == 0:
+					comparisonOutcome[i].append('Run number')
+				else:
+					comparisonOutcome[i].append(run)
+			compiledOutcome = comparisonOutcome
+		else:
+			for i in range(len(comparisonOutcome)):
+				if i == 0:
+					continue
+				else:
+					comparisonOutcome[i].append(run)
+			compiledOutcome = compiledOutcome + comparisonOutcome[1:]
+
+if makeCompiledCSV:
+	my_df = pd.DataFrame(compiledOutcome)
+	my_df.to_csv(myDir + '_Compiled_ComparisonResult.csv', index=False, header=False)
+
 runStatsTimeCopy = copy.deepcopy(runStatsTime)
 runStatsTimeZ3Copy = copy.deepcopy(runStatsTimeZ3)
 
-allfilesDELETEME = allfiles
+allfilesDELETEME = ['mp_iobuildfsdirpsignaleventincompletiontimeout_0.bpl.bpl.txt']#,'sys_zwregistrycreate_0.bpl.bpl.txt','serial_markingqueuedirps_1.bpl.bpl.txt','hw_irqlkeraiselower_0.bpl.bpl.txt']
 rr = 'Run1'
-folderList = ['UW']
-plotPartitionVerificationInlining(rr, folderList, runStatsTime, allfilesDELETEME)
-# Currently trying out 300 inlings required for split approach
-
 plotCombinedCumalativeInlining(rr, folderList, runStatsTimeCopy, allfilesDELETEME)
 plotCombinedZ3QueryTiming(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
 plotZ3QueryIterations(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
 
+plotCombinedCumalativeInliningIterations(rr, folderList, runStatsTimeCopy, allfilesDELETEME)
 
+for run in runList:
+	for folder in folderList:
+		# Add exception for OR
+		if 'OR' == folder and 'Run1' != run:
+			continue
+		# plotCumaltiveInlining(runStatsTime, run, folder, allfiles)
