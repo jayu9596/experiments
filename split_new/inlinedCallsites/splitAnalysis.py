@@ -344,6 +344,7 @@ def plotPartitionVerificationIterations(run, folders, runStatsTime, files):
 				plt.ylabel('Iterations Till Partition is verified')
 				plt.title(clientFile)
 
+
 def getBestPerformer(runData, folderList, file):
 	bestPerformer = 'NONE'
 	bestTime = 999999.99
@@ -551,16 +552,17 @@ if makeCompiledCSV:
 runStatsTimeCopy = copy.deepcopy(runStatsTime)
 runStatsTimeZ3Copy = copy.deepcopy(runStatsTimeZ3)
 
-allfilesDELETEME = ['hw_irqliopassive2_0.bpl.bpl.txt']
+allfilesDELETEME = ['mp_iobuildfsdirpsignaleventincompletiontimeout_0.bpl.bpl.txt']
 rr = 'Run1'
-folderList = ['UW','alpha50','alpha100']
-
+folderList = ['alpha100']
+plotPartitionVerificationInlining(rr, folderList, runStatsTime, allfilesDELETEME)
+plotPartitionVerificationIterations(rr, folderList, runStatsTime, allfilesDELETEME)
 # Currently trying out 100 inlings required for split approach
 plotZ3QueryIterations(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
 plotCombinedCumalativeInlining(rr, folderList, runStatsTimeCopy, allfilesDELETEME)
 plotCombinedZ3QueryTiming(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
 
-plotPartitionVerificationIterations(rr, folderList, runStatsTime, allfilesDELETEME)
-plotPartitionVerificationInlining(rr, folderList, runStatsTime, allfilesDELETEME)
+
+
 
 

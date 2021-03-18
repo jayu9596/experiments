@@ -5,8 +5,8 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/PrantikVM/'
-uwFolder = 'splitOnDemand'
-vanillaFolder = 'UW'
+uwFolder = 'UW'
+vanillaFolder = 'OR'
 maxValue = 3600
 limitTomaxValue = True
 # VanillaW
@@ -251,7 +251,7 @@ for x in speedUp:
         speedUpValues[1] += 1
     elif x <= float(-1.5):
         speedUpValues[2] += 1
-    elif x <= float(0):
+    elif x <= float(0.00001):
         speedUpValues[3] += 1
     elif x <= float(1.5):
         speedUpValues[4] += 1
