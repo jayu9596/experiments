@@ -5,7 +5,7 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/PrantikVM/'
-uwFolder = 'UW'
+uwFolder = 'splitOnDemand'
 vanillaFolder = 'OR'
 maxValue = 3600
 limitTomaxValue = True
@@ -265,7 +265,7 @@ for x in speedUp:
         speedUpValues[8] += 1
     else:
         speedUpValues[9] += 1
-        
+
 fig1 = plt.figure(figsize=(10, 5))
 ax1 = fig1.add_axes([0,0,1,1])
 ax1.bar(speedUpX,speedUpValues)
