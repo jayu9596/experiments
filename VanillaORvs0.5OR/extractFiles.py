@@ -11,8 +11,8 @@ import pandas as pd
 
 zipFolder = '/home/jaydeep/Downloads/sdvBenchBpl.zip'
 unzipFolder = 'sdv'
-destFolder = 'safe'
-nameFile = 'toBeExtracted.txt'
+destFolder = '/home/jaydeep/Thesis/experiments/split_new/safe'
+nameFile = '/home/jaydeep/Thesis/experiments/split_new/toBeExtracted.txt'
 
 with open(nameFile) as csvFile1:
     result = pd.read_csv(csvFile1,header=None)
@@ -30,8 +30,8 @@ if os.path.isdir(destFolder) == False:
     cmd = "mkdir " + destFolder
     os.system(cmd)
 
-cmd = "unzip " + zipFolder +" -d " + unzipFolder
-os.system(cmd)
+#cmd = "unzip " + zipFolder +" -d " + unzipFolder
+#os.system(cmd)
 
 for file in files:
     cmd = 'cp ' + unzipFolder + '/' + file + ' ' + destFolder + '/' + file
