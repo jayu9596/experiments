@@ -12,8 +12,8 @@ import copy
 import pandas as pd
 from datetime import datetime
 
-myDir = '/home/jaydeep/Thesis/experiments/split_new/inlinedCallsites/'
-folderList = ['alpha50','alpha100','UW']
+myDir = '/home/jaydeep/Thesis/experiments/split_new/inlinedCallsites2/'
+folderList = ['alpha150','alpha100','splitOnDemand']
 runList = ['Run1']
 exceptionFolderList = ['OR','UW']
 makeCompiledCSV = True
@@ -211,8 +211,6 @@ def mergeClientTimeZ3Data(runStatsTimeZ3, run, folder, file):
 	return mergedData
 
 def getClientWiseInliningData(runStatsTime, run, folder):
-	run = 'Run1'
-	folder = 'UW'
 	plotData = copy.deepcopy(runStatsTime[run][folder])
 	for key, value in plotData.items():
 		prevValue = 0
@@ -552,17 +550,12 @@ if makeCompiledCSV:
 runStatsTimeCopy = copy.deepcopy(runStatsTime)
 runStatsTimeZ3Copy = copy.deepcopy(runStatsTimeZ3)
 
-allfilesDELETEME = ['mp_iobuildfsdirpsignaleventincompletiontimeout_0.bpl.bpl.txt']
+allfilesDELETEME = ['sbp2port_irqlreturn_1.bpl.bpl.txt']
 rr = 'Run1'
-folderList = ['alpha100']
-plotPartitionVerificationInlining(rr, folderList, runStatsTime, allfilesDELETEME)
-plotPartitionVerificationIterations(rr, folderList, runStatsTime, allfilesDELETEME)
-# Currently trying out 100 inlings required for split approach
+folderList = ['alpha150','alpha100']
 plotZ3QueryIterations(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
 plotCombinedCumalativeInlining(rr, folderList, runStatsTimeCopy, allfilesDELETEME)
 plotCombinedZ3QueryTiming(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
 
-
-
-
-
+plotPartitionVerificationInlining(rr, folderList, runStatsTime, allfilesDELETEME)
+plotPartitionVerificationIterations(rr, folderList, runStatsTime, allfilesDELETEME)
