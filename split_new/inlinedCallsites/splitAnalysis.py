@@ -13,7 +13,7 @@ import pandas as pd
 from datetime import datetime
 
 myDir = '/home/jaydeep/Thesis/experiments/split_new/inlinedCallsites2/'
-folderList = ['alpha150','alpha100','splitOnDemand']
+folderList = ['alpha150','alpha100','splitOnDemand','alpha150_Every']
 runList = ['Run1']
 exceptionFolderList = ['OR','UW']
 makeCompiledCSV = True
@@ -557,5 +557,5 @@ plotZ3QueryIterations(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
 plotCombinedCumalativeInlining(rr, folderList, runStatsTimeCopy, allfilesDELETEME)
 plotCombinedZ3QueryTiming(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
 
-plotPartitionVerificationInlining(rr, folderList, runStatsTime, allfilesDELETEME)
-plotPartitionVerificationIterations(rr, folderList, runStatsTime, allfilesDELETEME)
+#plotPartitionVerificationInlining(rr, folderList, runStatsTime, allfilesDELETEME)
+#plotPartitionVerificationIterations(rr, folderList, runStatsTime, allfilesDELETEME)
