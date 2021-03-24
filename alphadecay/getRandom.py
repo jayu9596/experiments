@@ -11,10 +11,10 @@ import pandas as pd
 import random
 
 zipFolder = '/home/jaydeep/ORvs0.5OR/sdvBenchBpl.zip'
-unzipFolder = '/home/jaydeep/experiments/alphadecay/sdv'
-destFolder = '/home/jaydeep/experiments/alphadecay/safe'
-nokFile = '/home/jaydeep/experiments/alphadecay/SDV_NOK.txt'
-okFile = '/home/jaydeep/experiments/alphadecay/SDV_OK.txt'
+unzipFolder = '/home/jaydeep/Thesis/experiments/alphadecay/sdv'
+destFolder = '/home/jaydeep/Thesis/experiments/alphadecay/safe'
+nokFile = '/home/jaydeep/Thesis/experiments/alphadecay/SDV_NOK.txt'
+okFile = '/home/jaydeep/Thesis/experiments/alphadecay/SDV_OK.txt'
 
 with open(nokFile) as csvFile1:
     nokResult = pd.read_csv(csvFile1,header=None)
@@ -32,8 +32,8 @@ okFiles = []
 for index, row in okResult.iterrows():
     okFiles.append(row[0].replace('.txt',''))
 
-files = random.sample(nokFiles, 50)
-files = files + random.sample(okFiles, 50)
+files = random.sample(nokFiles, 25)
+files = files + random.sample(okFiles, 25)
 
 if os.path.isdir(unzipFolder) == False:
     cmd = "mkdir " + unzipFolder

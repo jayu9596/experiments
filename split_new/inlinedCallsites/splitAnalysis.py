@@ -13,7 +13,7 @@ import pandas as pd
 from datetime import datetime
 
 myDir = '/home/jaydeep/Thesis/experiments/split_new/inlinedCallsites2/'
-folderList = ['alpha150','alpha100','splitOnDemand','alpha150_Every']
+folderList = ['alpha150','alpha100','splitOnDemand','alpha150_Every','alpha100_Every']
 runList = ['Run1']
 exceptionFolderList = ['OR','UW']
 makeCompiledCSV = True
