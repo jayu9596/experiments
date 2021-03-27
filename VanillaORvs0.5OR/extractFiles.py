@@ -10,7 +10,7 @@ import csv
 import pandas as pd
 
 zipFolder = '/home/jaydeep/Downloads/sdvBenchBpl.zip'
-unzipFolder = 'sdv'
+unzipFolder = '/home/jaydeep/Thesis/experiments/alphadecay/sdv'
 destFolder = '/home/jaydeep/Thesis/experiments/split_new/safe'
 nameFile = '/home/jaydeep/Thesis/experiments/split_new/toBeExtracted.txt'
 
