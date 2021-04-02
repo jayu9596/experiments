@@ -6,7 +6,7 @@ import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/check/'
 uwFolder = 'portfolio_OR'
-vanillaFolder = 'OR'
+vanillaFolder = 'NOK'
 maxValue = 3600
 limitToMaxValue = True
 
