@@ -146,7 +146,7 @@ for file in allfiles:
     else:
         uwExecutionTimes.append(uwExecTime)
         vanillaExecutionTimes.append(vanillaExecTime)
-    
+
     if 'TIMEDOUT' in uwData[1] and 'TIMEDOUT' in vanillaData[1]:
         col.append('b')
     else:
@@ -154,7 +154,7 @@ for file in allfiles:
             col.append('g')
         else:
             col.append('r')
-    
+
     if 'TIMEDOUT' in uwData[1] and 'TIMEDOUT' in vanillaData[1]:
         tempList.append('TIMED-OUT')
         tempList.append('TIMED-OUT')
@@ -245,7 +245,7 @@ for x in speedUp:
         speedUpValues[8] += 1
     else:
         speedUpValues[9] += 1
-        
+
 fig1 = plt.figure(figsize=(10, 5))
 ax1 = fig1.add_axes([0,0,1,1])
 ax1.bar(speedUpX,speedUpValues)
