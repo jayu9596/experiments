@@ -12,8 +12,8 @@ import copy
 import pandas as pd
 from datetime import datetime
 
-myDir = '/home/jaydeep/Thesis/experiments/split_new/inlinedCallsites2/'
-folderList = ['alpha150','alpha100','splitOnDemand','alpha150_Every','alpha100_Every']
+myDir = '/home/jaydeep/Thesis/experiments/split_new/OR_inlinedCallsites/'
+folderList = ['alpha150','alpha100','alpha50']
 runList = ['Run1']
 exceptionFolderList = ['OR','UW']
 makeCompiledCSV = True
@@ -547,15 +547,15 @@ if makeCompiledCSV:
     my_df = pd.DataFrame(compiledOutcome)
     my_df.to_csv(myDir + '_Compiled_ComparisonResult.csv', index=False, header=False)
 
-runStatsTimeCopy = copy.deepcopy(runStatsTime)
-runStatsTimeZ3Copy = copy.deepcopy(runStatsTimeZ3)
-
-allfilesDELETEME = ['sbp2port_irqlreturn_1.bpl.bpl.txt']
-rr = 'Run1'
-folderList = ['alpha150','alpha100']
-plotZ3QueryIterations(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
-plotCombinedCumalativeInlining(rr, folderList, runStatsTimeCopy, allfilesDELETEME)
-plotCombinedZ3QueryTiming(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
+#runStatsTimeCopy = copy.deepcopy(runStatsTime)
+#runStatsTimeZ3Copy = copy.deepcopy(runStatsTimeZ3)
+#
+#allfilesDELETEME = ['sbp2port_irqlreturn_1.bpl.bpl.txt']
+#rr = 'Run1'
+#folderList = ['alpha150','alpha100']
+#plotZ3QueryIterations(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
+#plotCombinedCumalativeInlining(rr, folderList, runStatsTimeCopy, allfilesDELETEME)
+#plotCombinedZ3QueryTiming(rr, folderList, runStatsTimeZ3Copy, allfilesDELETEME)
 
 #plotPartitionVerificationInlining(rr, folderList, runStatsTime, allfilesDELETEME)
 #plotPartitionVerificationIterations(rr, folderList, runStatsTime, allfilesDELETEME)
