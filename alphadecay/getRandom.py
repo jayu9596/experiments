@@ -32,8 +32,8 @@ okFiles = []
 for index, row in okResult.iterrows():
     okFiles.append(row[0].replace('.txt',''))
 
-files = random.sample(nokFiles, 25)
-files = files + random.sample(okFiles, 25)
+files = random.sample(nokFiles, 10)
+files = files + random.sample(okFiles, 20)
 
 if os.path.isdir(unzipFolder) == False:
     cmd = "mkdir " + unzipFolder
@@ -43,8 +43,8 @@ if os.path.isdir(destFolder) == False:
     cmd = "mkdir " + destFolder
     os.system(cmd)
 
-cmd = "unzip " + zipFolder +" -d " + unzipFolder
-os.system(cmd)
+#cmd = "unzip " + zipFolder +" -d " + unzipFolder
+#os.system(cmd)
 
 for file in files:
     cmd = 'cp ' + unzipFolder + '/' + file + ' ' + destFolder + '/' + file
