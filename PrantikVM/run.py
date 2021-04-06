@@ -6,7 +6,7 @@ import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/PrantikVM/'
 uwFolder = 'alpha100_Every'
-vanillaFolder = 'UW'
+vanillaFolder = 'alpha150_Every'
 maxValue = 3600
 limitToMaxValue = False
 
