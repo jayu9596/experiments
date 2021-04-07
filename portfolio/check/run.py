@@ -5,8 +5,8 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/check/'
-uwFolder = 'akash1/UW_alpha150'
-vanillaFolder = 'akash1/vanillaOR'
+uwFolder = 'akash1/stats/portfolio_UW_alpha150_OR_same'
+vanillaFolder = 'akash1/stats/vanillaHydra'
 maxValue = 3600
 limitToMaxValue = True
 
