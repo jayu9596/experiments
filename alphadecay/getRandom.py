@@ -34,7 +34,6 @@ for index, row in okResult.iterrows():
 
 #files = random.sample(nokFiles, 10)
 #files = files + random.sample(okFiles, 20)
-
 files = nokFiles
 
 if os.path.isdir(unzipFolder) == False:
