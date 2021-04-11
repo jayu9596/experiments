@@ -5,7 +5,7 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/ORQueue/'
-uwFolder = 'portfolio_UW_alpha150_OR_50'
+uwFolder = 'reverseSplitMode'
 vanillaFolder = 'vanillaHydra'
 maxValue = 3600
 limitToMaxValue = True
