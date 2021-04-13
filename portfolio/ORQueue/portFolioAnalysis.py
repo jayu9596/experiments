@@ -13,7 +13,7 @@ import pandas as pd
 from datetime import datetime
 
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/ORQueue/'
-folderList = ['portfolio','portfolio_reverseSplitMode','vanillaHydra','vanillaUW']
+folderList = ['portfolio','mixedSplit30','mixedSplit10','vanillaHydra']
 runList = ['Run1']
 exceptionFolderList = ['OR','UW']
 makeCompiledCSV = True
