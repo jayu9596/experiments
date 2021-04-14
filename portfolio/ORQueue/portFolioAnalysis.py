@@ -13,8 +13,8 @@ import pandas as pd
 from datetime import datetime
 
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/ORQueue/'
-folderList = ['portfolio','mixedSplit30','mixedSplit10','vanillaHydra']
-runList = ['Run1']
+folderList = ['mixedSplit30','mixedSplit10','vanillaHydra']
+runList = ['Run2']
 exceptionFolderList = ['OR','UW']
 makeCompiledCSV = True
 maxValue = 3600
