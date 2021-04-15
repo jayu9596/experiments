@@ -22,7 +22,7 @@ limitToMaxValue = True
 plotFigures = False
 
 # Get total clients used, Raise error if inconsistency found
-def getClientsCount():
+def getClientsCount():	
 	for folder in folderList:
 		for run in runList:
 			if folder in exceptionFolderList and 'Run1' != run:
