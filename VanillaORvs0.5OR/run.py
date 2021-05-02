@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
-myDir = '/home/jaydeep/Thesis/Vanilla OR vs 0.5OR/'
-uwFolder = 'alpha90'
+myDir = '/home/jaydeep/Thesis/VanillaORvs0.5OR/'
+uwFolder = 'alpha50'
 vanillaFolder = 'OR'
 
 # Vanilla
@@ -215,7 +215,7 @@ for x in speedUp:
         speedUpValues[8] += 1
     else:
         speedUpValues[9] += 1
-        
+
 fig1 = plt.figure(figsize=(10, 5))
 ax1 = fig1.add_axes([0,0,1,1])
 ax1.bar(speedUpX,speedUpValues)

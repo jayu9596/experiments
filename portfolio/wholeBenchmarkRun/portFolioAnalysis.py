@@ -479,73 +479,76 @@ for folder in folderList:
 compiledOutcome = []
 
 for run in runList:
-    comparisonOutcome = []
-    
-    headers = ['Name']
-    for folder in folderList:
-        headers.append(folder + '_Outcome')
-    for folder in folderList:
-        headers.append(folder + '_TotalSplits')
-    for folder in folderList:
-        headers.append(folder + '_Runtime')
-    headers.append('Who_Performed_Better')
-    
-    comparisonOutcome.append(headers)
-    
-    for file in allfiles:
-        isFilePresent = True
-        for folder in folderList:
-            if file not in runOutcome[run][folder]:
-                isFilePresent = False
-                break
-        if isFilePresent == False:
-            print(file + ' is not present in all folders')
-            continue
-        
-        tempList = []
-        # Filename
-        tempList.append(file)
-        # Outcome
-        for folder in folderList:
-            tempList.append(runOutcome[run][folder][file][1])
-        # Total Splits
-        for folder in folderList:
-            tempList.append(runOutcome[run][folder][file][3])
-        # Runtime
-        for folder in folderList:
-            tempList.append(runOutcome[run][folder][file][2])
-        
-        bestPerformer = getBestPerformer(runOutcome[run], folderList, file)
-        
-               
-        # Best Performer
-        tempList.append(bestPerformer)
+	comparisonOutcome = []
+	
+	headers = ['Name']
+	for folder in folderList:
+		headers.append(folder + '_Outcome')
+	for folder in folderList:
+		headers.append(folder + '_TotalSplits')
+	for folder in folderList:
+		headers.append(folder + '_Runtime')
+	headers.append('Who_Performed_Better')
+	
+	comparisonOutcome.append(headers)
+	
+	for file in allfiles:
+		isFilePresent = True
+		for folder in folderList:
+			if file not in runOutcome[run][folder]:
+				isFilePresent = False
+				break
+		if isFilePresent == False:
+			print(file + ' is not present in all folders')
+			continue
 		
-        comparisonOutcome.append(tempList)
+		tempList = []
+		# Filename
+		tempList.append(file)
+		# Outcome
+		for folder in folderList:
+			if runOutcome[run][folder][file][1] == "0":
+				tempList.append('TIMED-OUT')
+			else:
+				tempList.append(runOutcome[run][folder][file][1])
+		# Total Splits
+		for folder in folderList:
+			tempList.append(runOutcome[run][folder][file][3])
+		# Runtime
+		for folder in folderList:
+			tempList.append(runOutcome[run][folder][file][2])
+		
+		bestPerformer = getBestPerformer(runOutcome[run], folderList, file)
+		
+			   
+		# Best Performer
+		tempList.append(bestPerformer)
+		
+		comparisonOutcome.append(tempList)
 
-    # Dump to csv File
-    my_df = pd.DataFrame(comparisonOutcome)
-    my_df.to_csv(myDir + run + '_ComparisonResult.csv', index=False, header=False)
-    
-    if makeCompiledCSV:
-        if len(compiledOutcome) == 0:
-            for i in range(len(comparisonOutcome)):
-                if i == 0:
-                    comparisonOutcome[i].append('Run number')
-                else:
-                    comparisonOutcome[i].append(run)
-            compiledOutcome = comparisonOutcome
-        else:
-            for i in range(len(comparisonOutcome)):
-                if i == 0:
-                    continue
-                else:
-                    comparisonOutcome[i].append(run)
-            compiledOutcome = compiledOutcome + comparisonOutcome[1:]
+	# Dump to csv File
+	my_df = pd.DataFrame(comparisonOutcome)
+	my_df.to_csv(myDir + run + '_ComparisonResult.csv', index=False, header=False)
+	
+	if makeCompiledCSV:
+		if len(compiledOutcome) == 0:
+			for i in range(len(comparisonOutcome)):
+				if i == 0:
+					comparisonOutcome[i].append('Run number')
+				else:
+					comparisonOutcome[i].append(run)
+			compiledOutcome = comparisonOutcome
+		else:
+			for i in range(len(comparisonOutcome)):
+				if i == 0:
+					continue
+				else:
+					comparisonOutcome[i].append(run)
+			compiledOutcome = compiledOutcome + comparisonOutcome[1:]
 
 if makeCompiledCSV:
-    my_df = pd.DataFrame(compiledOutcome)
-    my_df.to_csv(myDir + '_Compiled_ComparisonResult.csv', index=False, header=False)
+	my_df = pd.DataFrame(compiledOutcome)
+	my_df.to_csv(myDir + '_Compiled_ComparisonResult.csv', index=False, header=False)
 
 #runStatsTimeCopy = copy.deepcopy(runStatsTime)
 #runStatsTimeZ3Copy = copy.deepcopy(runStatsTimeZ3)
