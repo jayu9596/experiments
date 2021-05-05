@@ -11,15 +11,19 @@ import matplotlib.pyplot as plt
 import copy
 import pandas as pd
 from datetime import datetime
+import matplotlib.lines as mlines
 
-myDir = '/home/jaydeep/Thesis/experiments/portfolio/simulate8Clients/'
-folderList = ['old_alpha10']
+myDir = '/home/jaydeep/Thesis/experiments/portfolio/'
+folderList = ['simulate8Clients/alpha50','simulate8Clients/alpha50_2','simulate8Clients/alpha50_3','simulate8Clients/OR_8','wholeBenchmarkRun/OR']
 runList = ['Run1']
 exceptionFolderList = ['OR','UW']
 makeCompiledCSV = True
 maxValue = 3600
 limitToMaxValue = True
 plotFigures = False
+plotScatter = True
+type1Name = "wholeBenchmarkRun/OR"
+type2Name = ['simulate8Clients/alpha50','simulate8Clients/alpha50_2','simulate8Clients/alpha50_3','simulate8Clients/OR_8']
 
 # Get total clients used, Raise error if inconsistency found
 def getClientsCount():
@@ -341,12 +345,63 @@ def plotPartitionVerificationIterations(run, folders, runStatsTime, files):
 				plt.ylabel('Iterations Till Partition is verified')
 				plt.title(clientFile)
 
+def makeScatterPlot(comparisonOutcome):
+	type1ExecTimes = []
+	type2ExecTimes = []
+	colOutcome = []
+	for arr in comparisonOutcome[1:]:
+		if arr[5] == "TIMEDOUT":
+			type1ExecTimes.append(maxValue)
+		else:
+			type1ExecTimes.append(arr[15])
+		minTime = 9999999.99
+		minType = 'NONE'
+		for i in range(11,15):
+			if arr[i-10] == "TIMEDOUT":
+				continue
+			else:
+				if minTime > arr[i]:
+					minTime = arr[i]
+					minType = comparisonOutcome[0][i-10].split('/')[-1]
+		if minTime == 9999999.99:
+			type2ExecTimes.append(maxValue)
+		else:
+			type2ExecTimes.append(minTime)
+		colNow = 'b'
+		for i in range(1,6):
+			if 'NOK' in arr[i]:
+				colNow = 'g'
+				break
+			elif 'OK' in arr[i]:
+				colNow = 'r'
+				break
+		colOutcome.append(colNow)
+
+	# PLOT
+	fig=plt.figure()
+	ax=fig.add_axes([0,0,1,1])
+	if limitToMaxValue:
+	    plt.ylim(0, maxValue+100)
+	    plt.xlim(0, maxValue+100)
+
+	#plt.axis('scaled')
+	ax.scatter(type1ExecTimes, type2ExecTimes, color=colOutcome)
+	ax.set_xlabel('Time Taken by '+type1Name.split('/')[-1]+'(seconds)')
+	ax.set_ylabel('Time Taken by min(alpha50,OR_8)(seconds)')
+	line = mlines.Line2D([0, 1], [0, 1], color='red')
+	transform = ax.transAxes
+	line.set_transform(transform)
+	ax.add_line(line)
+	ax.set_title('scatter plot')
+	plt.savefig('plot-scatter.png', dpi=300, bbox_inches='tight')
+	plt.show()
+
 
 def getBestPerformer(runData, folderList, file):
 	bestPerformer = 'NONE'
 	bestTime = 999999.99
 	for folder in folderList:
-		if 'TIMEDOUT' in runData[folder][file][1]:
+		if 'TIMEDOUT' in runData[folder][file][1] or runData[folder][file][1] == "0":
 			continue
 		time = float(runData[folder][file][2])
 		if time < bestTime:
@@ -507,7 +562,7 @@ for run in runList:
 		# Outcome
 		for folder in folderList:
 			if runOutcome[run][folder][file][1] == "0":
-				tempList.append('TIMED-OUT')
+				tempList.append('TIMEDOUT')
 			else:
 				tempList.append(runOutcome[run][folder][file][1])
 		# Total Splits
@@ -544,6 +599,9 @@ for run in runList:
 				else:
 					comparisonOutcome[i].append(run)
 			compiledOutcome = compiledOutcome + comparisonOutcome[1:]
+
+	if plotScatter:
+		makeScatterPlot(comparisonOutcome)
 
 if makeCompiledCSV:
 	my_df = pd.DataFrame(compiledOutcome)

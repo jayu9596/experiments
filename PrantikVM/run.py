@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
-myDir = '/home/jaydeep/Thesis/experiments/PrantikVM/'
-uwFolder = 'alpha150_Every'
-vanillaFolder = 'alpha100_Every'
+myDir = '/home/jaydeep/Thesis/experiments/portfolio/'
+uwFolder = 'simulate8Clients/alpha50'
+vanillaFolder = 'simulate8Clients/OR_8'
 maxValue = 3600
 limitToMaxValue = False
 
