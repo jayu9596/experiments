@@ -14,7 +14,7 @@ zipFolder = '/home/jaydeep/ORvs0.5OR/sdvBenchBpl.zip'
 unzipFolder = '/home/jaydeep/Thesis/experiments/alphadecay/sdv'
 destFolder = '/home/jaydeep/Thesis/experiments/alphadecay/safe'
 nokFile = '/home/jaydeep/Thesis/experiments/alphadecay/All.txt'
-okFile = '/home/jaydeep/Thesis/experiments/alphadecay/SDV_OK.txt'
+okFile = '/home/jaydeep/Thesis/experiments/alphadecay/completed.txt'
 
 with open(nokFile) as csvFile1:
     nokResult = pd.read_csv(csvFile1,header=None)
@@ -34,7 +34,8 @@ for index, row in okResult.iterrows():
 
 #files = random.sample(nokFiles, 10)
 #files = files + random.sample(okFiles, 20)
-files = random.sample(nokFiles, 50)
+files = [x for x in nokFiles if x not in okFiles]
+filesRequired = random.sample(nokFiles, 50)
 
 if os.path.isdir(unzipFolder) == False:
     cmd = "mkdir " + unzipFolder
@@ -47,7 +48,7 @@ if os.path.isdir(destFolder) == False:
 #cmd = "unzip " + zipFolder +" -d " + unzipFolder
 #os.system(cmd)
 
-for file in files:
+for file in filesRequired:
     cmd = 'cp ' + unzipFolder + '/' + file + ' ' + destFolder + '/' + file
     print(cmd)
     os.system(cmd)
