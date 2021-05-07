@@ -24,6 +24,8 @@ plotFigures = False
 plotScatter = True
 type1Name = "wholeBenchmarkRun/OR"
 type2Name = ['simulate8Clients/alpha50','simulate8Clients/alpha50_2','simulate8Clients/alpha50_3','simulate8Clients/OR_8']
+type2DisplayName = "ORx8_alpha50x8"
+makePercentMore = True
 
 # Get total clients used, Raise error if inconsistency found
 def getClientsCount():
@@ -534,6 +536,7 @@ compiledOutcome = []
 
 for run in runList:
 	comparisonOutcome = []
+	speedUp = []
 
 	headers = ['Name']
 	for folder in folderList:
@@ -542,7 +545,12 @@ for run in runList:
 		headers.append(folder + '_TotalSplits')
 	for folder in folderList:
 		headers.append(folder + '_Runtime')
+
 	headers.append('Who_Performed_Better')
+
+	if makePercentMore:
+		headers.append('How_Much_Percentage')
+		headers.append('min(' + type2DisplayName + ')_RunTime')
 
 	comparisonOutcome.append(headers)
 
@@ -570,13 +578,49 @@ for run in runList:
 			tempList.append(runOutcome[run][folder][file][3])
 		# Runtime
 		for folder in folderList:
-			tempList.append(runOutcome[run][folder][file][2])
+			if runOutcome[run][folder][file][1] == "0":
+				tempList.append(maxValue)
+			else:
+				tempList.append(runOutcome[run][folder][file][2])
 
 		bestPerformer = getBestPerformer(runOutcome[run], folderList, file)
 
-
 		# Best Performer
 		tempList.append(bestPerformer)
+
+		if makePercentMore:
+			type1ExecTime = maxValue
+			type2ExecTime = maxValue
+			if runOutcome[run][type1Name][file][1] == "0":
+				type1ExecTime = maxValue
+			else:
+				type1ExecTime = runOutcome[run][type1Name][file][2]
+			minTime = maxValue
+			minType = 'NONE'
+			for folder in folderList:
+				if runOutcome[run][folder][file][1] == "TIMEDOUT" or folder == type1Name:
+					continue
+				else:
+					if minTime > runOutcome[run][folder][file][2]:
+						minTime = runOutcome[run][folder][file][2]
+						minType = headers[i-10].split('/')[-1]
+			if minTime == maxValue:
+				type2ExecTime = maxValue
+			else:
+				type2ExecTime = minTime
+
+			# Adding to templist
+			if bestPerformer == "NONE":
+				tempList.append("NA")
+			elif bestPerformer == type1Name:
+				percentMore =  ((type2ExecTime - type1ExecTime) / type1ExecTime) * 100
+				tempList.append(percentMore)
+				speedUp.append(-1 * (type2ExecTime/type1ExecTime))
+			else:
+				percentMore =  ((type1ExecTime - type2ExecTime) / type2ExecTime) * 100
+				tempList.append(percentMore)
+				speedUp.append(type1ExecTime/type2ExecTime)
+			tempList.append(type2ExecTime)
 
 		comparisonOutcome.append(tempList)
 
@@ -603,6 +647,38 @@ for run in runList:
 	if plotScatter:
 		makeScatterPlot(comparisonOutcome)
 
+	if makePercentMore:
+		speedUpX = ['    < -10x' , '    -10 to -2x', '    -2 to -1.5x', '    -1.5x to 0x', '    0x to 1.5x', '    1.5 to 2x', '    2 to 5x', '    5 to 10x', '    10 to 20x', '    > 20x']
+		speedUpValues = [0,0,0,0,0,0,0,0,0,0]
+		for x in speedUp:
+		    if x < float(-10) :
+		        speedUpValues[0] += 1
+		    elif x <= float(-2):
+		        speedUpValues[1] += 1
+		    elif x <= float(-1.5):
+		        speedUpValues[2] += 1
+		    elif x <= float(0):
+		        speedUpValues[3] += 1
+		    elif x <= float(1.5):
+		        speedUpValues[4] += 1
+		    elif x <= float(2):
+		        speedUpValues[5] += 1
+		    elif x <= float(5):
+		        speedUpValues[6] += 1
+		    elif x <= float(10):
+		        speedUpValues[7] += 1
+		    elif x <= float(20):
+		        speedUpValues[8] += 1
+		    else:
+		        speedUpValues[9] += 1
+
+		fig1 = plt.figure(figsize=(10, 5))
+		ax1 = fig1.add_axes([0,0,1,1])
+		ax1.bar(speedUpX,speedUpValues)
+		ax1.set_title('speedup plot')
+		ax1.set_ylabel('Number of Instances')
+		ax1.set_ylabel('SpeedUp')
+		plt.savefig('speedup-plot.png', dpi=300, bbox_inches='tight')
 if makeCompiledCSV:
 	my_df = pd.DataFrame(compiledOutcome)
 	my_df.to_csv(myDir + '_Compiled_ComparisonResult.csv', index=False, header=False)

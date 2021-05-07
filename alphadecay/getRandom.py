@@ -35,7 +35,7 @@ for index, row in okResult.iterrows():
 #files = random.sample(nokFiles, 10)
 #files = files + random.sample(okFiles, 20)
 files = [x for x in nokFiles if x not in okFiles]
-filesRequired = random.sample(nokFiles, 50)
+filesRequired = random.sample(files, 50)
 
 if os.path.isdir(unzipFolder) == False:
     cmd = "mkdir " + unzipFolder
