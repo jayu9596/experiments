@@ -14,7 +14,7 @@ from datetime import datetime
 import matplotlib.lines as mlines
 
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/'
-folderList = ['simulate8Clients/alpha50','simulate8Clients/alpha50_2','simulate8Clients/alpha50_3','simulate8Clients/OR_8','wholeBenchmarkRun/OR']
+folderList = ['simulate8Clients/alpha50_1','simulate8Clients/alpha50_2','simulate8Clients/alpha50_3','simulate8Clients/OR_8Clients','wholeBenchmarkRun/OR']
 runList = ['Run1']
 exceptionFolderList = ['OR','UW']
 makeCompiledCSV = True
@@ -23,7 +23,7 @@ limitToMaxValue = True
 plotFigures = False
 plotScatter = True
 type1Name = "wholeBenchmarkRun/OR"
-type2Name = ['simulate8Clients/alpha50','simulate8Clients/alpha50_2','simulate8Clients/alpha50_3','simulate8Clients/OR_8']
+type2Name = ['simulate8Clients/alpha50_1','simulate8Clients/alpha50_2','simulate8Clients/alpha50_3','simulate8Clients/OR_8Clients']
 type2DisplayName = "ORx8_alpha50x8"
 makePercentMore = True
 
@@ -598,7 +598,7 @@ for run in runList:
 			minTime = maxValue
 			minType = 'NONE'
 			for folder in folderList:
-				if runOutcome[run][folder][file][1] == "TIMEDOUT" or folder == type1Name:
+				if runOutcome[run][folder][file][1] == "TIMEDOUT" or folder == type1Name or runOutcome[run][folder][file][1] == "0":
 					continue
 				else:
 					if minTime > runOutcome[run][folder][file][2]:
@@ -617,6 +617,8 @@ for run in runList:
 				tempList.append(percentMore)
 				speedUp.append(-1 * (type2ExecTime/type1ExecTime))
 			else:
+				print(file)
+				print(str(type1ExecTime) + " " + str(type2ExecTime))
 				percentMore =  ((type1ExecTime - type2ExecTime) / type2ExecTime) * 100
 				tempList.append(percentMore)
 				speedUp.append(type1ExecTime/type2ExecTime)
