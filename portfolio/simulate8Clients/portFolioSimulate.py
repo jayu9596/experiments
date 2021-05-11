@@ -679,7 +679,6 @@ for run in runList:
 		ax1.bar(speedUpX,speedUpValues)
 		ax1.set_title('speedup plot')
 		ax1.set_ylabel('Number of Instances')
-		ax1.set_ylabel('SpeedUp')
 		plt.savefig('speedup-plot.png', dpi=300, bbox_inches='tight')
 if makeCompiledCSV:
 	my_df = pd.DataFrame(compiledOutcome)
