@@ -5,8 +5,8 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/'
-uwFolder = 'simulate8Clients/alpha50-2_1'
-vanillaFolder = 'simulate8Clients/alpha50-2_1'
+uwFolder = 'simulate8Clients/portfolio'
+vanillaFolder = 'wholeBenchmarkRun/OR'
 maxValue = 3600
 limitToMaxValue = False
 
@@ -124,21 +124,29 @@ for file in allfiles:
     vanillaData = vanillaFilesOutcome[file]
     tempList = []
     tempList.append(file)
-    tempList.append(vanillaData[1])
+    if vanillaData[1] == "0":
+        tempList.append("TIMEDOUT")
+    else:
+        tempList.append(vanillaData[1])
     tempList.append(uwData[1])
     tempList.append(str(vanillaData[3]))
     tempList.append(str(uwData[3]))
-    tempList.append(str(vanillaData[2]))
+    if vanillaData[1] == "0":
+        tempList.append("3600")
+    else:
+        tempList.append(str(vanillaData[2]))
     tempList.append(str(uwData[2]))
     uwExecTime = uwData[2]
     vanillaExecTime = vanillaData[2]
+    if vanillaData[1] == "0":
+        vanillaExecTime = 3600
     if limitToMaxValue:
         if uwData[2] >= maxValue or 'TIMEDOUT' in uwData[1]:
             uwExecutionTimes.append(maxValue)
             uwExecTime = maxValue
         else:
             uwExecutionTimes.append(uwData[2])
-        if vanillaData[2] >= maxValue or 'TIMEDOUT' in vanillaData[1]:
+        if vanillaData[2] >= maxValue or 'TIMEDOUT' in vanillaData[1] or vanillaData[1] == "0":
             vanillaExecutionTimes.append(maxValue)
             vanillaExecTime = maxValue
         else:
@@ -147,7 +155,7 @@ for file in allfiles:
         uwExecutionTimes.append(uwExecTime)
         vanillaExecutionTimes.append(vanillaExecTime)
 
-    if 'TIMEDOUT' in uwData[1] and 'TIMEDOUT' in vanillaData[1]:
+    if 'TIMEDOUT' in uwData[1] and ('TIMEDOUT' in vanillaData[1] or vanillaData[1] == "0"):
         col.append('b')
     else:
         if 'NOK' in uwData[1] or 'NOK' in vanillaData[1]:
@@ -155,13 +163,13 @@ for file in allfiles:
         else:
             col.append('r')
 
-    if 'TIMEDOUT' in uwData[1] and 'TIMEDOUT' in vanillaData[1]:
+    if 'TIMEDOUT' in uwData[1] and ('TIMEDOUT' in vanillaData[1] or vanillaData[1] == "0"):
         tempList.append('TIMED-OUT')
         tempList.append('TIMED-OUT')
     elif 'TIMEDOUT' in uwData[1]:
         tempList.append(vanillaFolder)
         tempList.append('TIMED-OUT')
-    elif 'TIMEDOUT' in vanillaData[1]:
+    elif 'TIMEDOUT' in vanillaData[1] or vanillaData[1] == "0":
         tempList.append(uwFolder)
         tempList.append('TIMED-OUT')
     elif uwExecTime < vanillaExecTime :
