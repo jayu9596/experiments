@@ -23,8 +23,9 @@ limitToMaxValue = True
 plotFigures = False
 plotScatter = True
 type1Name = "wholeBenchmarkRun/OR"
+type1NameDisplayName = "1by1Run-Portfolio"
 type2Name = ['simulate8Clients/alpha50_1','simulate8Clients/alpha50_2','simulate8Clients/alpha50_3','simulate8Clients/OR_8Clients']
-type2DisplayName = "ORx8_alpha50x8"
+type2DisplayName = "Simultaneous-Portfolio"
 makePercentMore = True
 
 # Get total clients used, Raise error if inconsistency found
@@ -388,7 +389,7 @@ def makeScatterPlot(comparisonOutcome):
 
 	#plt.axis('scaled')
 	ax.scatter(type1ExecTimes, type2ExecTimes, color=colOutcome)
-	ax.set_xlabel('Time Taken by '+type1Name.split('/')[-1]+'(seconds)')
+	ax.set_xlabel('Time Taken by '+type1NameDisplayName+'(seconds)')
 	ax.set_ylabel('Time Taken by min(alpha50,OR_8)(seconds)')
 	line = mlines.Line2D([0, 1], [0, 1], color='red')
 	transform = ax.transAxes

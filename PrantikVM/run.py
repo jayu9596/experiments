@@ -5,10 +5,10 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/'
-uwFolder = 'simulate8Clients/portfolio'
+uwFolder = 'simulate8Clients/sanityCheck'
 vanillaFolder = 'wholeBenchmarkRun/OR'
 maxValue = 3600
-limitToMaxValue = False
+limitToMaxValue = True
 
 # VanillaW
 f = open(myDir + vanillaFolder + 'Result.csv','w+')
@@ -168,10 +168,12 @@ for file in allfiles:
         tempList.append('TIMED-OUT')
     elif 'TIMEDOUT' in uwData[1]:
         tempList.append(vanillaFolder)
-        tempList.append('TIMED-OUT')
+        percentMore =  ((maxValue - vanillaData[2]) / vanillaData[2]) * 100
+        tempList.append(str(percentMore))
     elif 'TIMEDOUT' in vanillaData[1] or vanillaData[1] == "0":
         tempList.append(uwFolder)
-        tempList.append('TIMED-OUT')
+        percentMore =  ((maxValue - uwData[2]) / uwData[2]) * 100
+        tempList.append(str(percentMore))
     elif uwExecTime < vanillaExecTime :
         percentMore =  ((vanillaData[2] - uwData[2]) / uwData[2]) * 100
 #        line += 'UW,'

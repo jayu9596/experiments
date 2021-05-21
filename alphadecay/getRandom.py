@@ -13,7 +13,7 @@ import random
 zipFolder = '/home/jaydeep/ORvs0.5OR/sdvBenchBpl.zip'
 unzipFolder = '/home/jaydeep/Thesis/experiments/alphadecay/sdv'
 destFolder = '/home/jaydeep/Thesis/experiments/alphadecay/safe'
-nokFile = '/home/jaydeep/Thesis/experiments/alphadecay/All.txt'
+nokFile = '/home/jaydeep/Thesis/experiments/alphadecay/SDV_OK_NOK.txt'
 okFile = '/home/jaydeep/Thesis/experiments/alphadecay/completed.txt'
 
 with open(nokFile) as csvFile1:
@@ -32,10 +32,10 @@ okFiles = []
 for index, row in okResult.iterrows():
     okFiles.append(row[0].replace('.txt',''))
 
-#files = random.sample(nokFiles, 10)
-#files = files + random.sample(okFiles, 20)
+#files = random.sample(nokFiles, 25)
+#files = files + random.sample(okFiles, 25)
 files = [x for x in nokFiles if x not in okFiles]
-filesRequired = random.sample(files, 50)
+filesRequired = files #random.sample(files, 50)
 
 if os.path.isdir(unzipFolder) == False:
     cmd = "mkdir " + unzipFolder
