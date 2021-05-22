@@ -5,7 +5,7 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/'
-uwFolder = 'simulate8Clients/deleteMe'
+uwFolder = 'simulate8Clients/purePortfolio'
 vanillaFolder = 'wholeBenchmarkRun/OR'
 maxValue = 3600
 limitToMaxValue = True
