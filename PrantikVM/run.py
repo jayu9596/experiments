@@ -5,7 +5,7 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/'
-uwFolder = 'simulate8Clients/sanityCheck'
+uwFolder = 'simulate8Clients/deleteMe'
 vanillaFolder = 'wholeBenchmarkRun/OR'
 maxValue = 3600
 limitToMaxValue = True
@@ -232,7 +232,7 @@ ax.set_title('scatter plot')
 plt.savefig('plot-scatter.png', dpi=300, bbox_inches='tight')
 plt.show()
 
-speedUpX = ['    < -10x' , '    -10 to -2x', '    -2 to -1.5x', '    -1.5x to 0x', '    0x to 1.5x', '    1.5 to 2x', '    2 to 5x', '    5 to 10x', '    10 to 20x', '    > 20x']
+speedUpX = ['    < -10x' , '    -10 to -2x', '    -2 to -1.5x', '    -1.5x to -1x', '    1x to 1.5x', '    1.5 to 2x', '    2 to 5x', '    5 to 10x', '    10 to 20x', '    > 20x']
 speedUpValues = [0,0,0,0,0,0,0,0,0,0]
 for x in speedUp:
     if x < float(-10) :

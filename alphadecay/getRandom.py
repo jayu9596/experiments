@@ -13,7 +13,7 @@ import random
 zipFolder = '/home/jaydeep/ORvs0.5OR/sdvBenchBpl.zip'
 unzipFolder = '/home/jaydeep/Thesis/experiments/alphadecay/sdv'
 destFolder = '/home/jaydeep/Thesis/experiments/alphadecay/safe'
-nokFile = '/home/jaydeep/Thesis/experiments/alphadecay/SDV_OK_NOK.txt'
+nokFile = '/home/jaydeep/Thesis/experiments/alphadecay/All.txt'
 okFile = '/home/jaydeep/Thesis/experiments/alphadecay/completed.txt'
 
 with open(nokFile) as csvFile1:
