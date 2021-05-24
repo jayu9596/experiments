@@ -5,8 +5,10 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/'
-uwFolder = 'simulate8Clients/purePortfolio'
-vanillaFolder = 'wholeBenchmarkRun/OR'
+uwFolder = 'wholeBenchmarkRun/svcompPortfolio'
+vanillaFolder = 'wholeBenchmarkRun/vanillaHydra'
+uwName = 'portfolio'
+vanillaName = 'VanillaHydra'
 maxValue = 3600
 limitToMaxValue = True
 
@@ -168,7 +170,7 @@ for file in allfiles:
         tempList.append('TIMED-OUT')
     elif 'TIMEDOUT' in uwData[1]:
         tempList.append(vanillaFolder)
-        percentMore =  ((maxValue - vanillaData[2]) / vanillaData[2]) * 100
+        percentMore =  -1 * ((maxValue - vanillaData[2]) / vanillaData[2]) * 100
         tempList.append(str(percentMore))
     elif 'TIMEDOUT' in vanillaData[1] or vanillaData[1] == "0":
         tempList.append(uwFolder)
@@ -183,7 +185,7 @@ for file in allfiles:
         sp = vanillaData[2]/uwData[2]
         speedUp.append(sp);
     elif uwExecTime > vanillaExecTime:
-        percentMore =  ((uwData[2] - vanillaData[2]) / vanillaData[2]) * 100
+        percentMore =  -1 * ((uwData[2] - vanillaData[2]) / vanillaData[2]) * 100
 #        line += 'Vanilla,'
 #        line += str(percentMore)
         tempList.append(vanillaFolder)
@@ -222,8 +224,8 @@ if limitToMaxValue:
 
 #plt.axis('scaled')
 ax.scatter(vanillaExecutionTimes, uwExecutionTimes, color=col)
-ax.set_xlabel('Time Taken by '+vanillaFolder+'(seconds)')
-ax.set_ylabel('Time Taken by '+uwFolder+'(seconds)')
+ax.set_xlabel('Time Taken by '+vanillaName+'(seconds)')
+ax.set_ylabel('Time Taken by '+uwName+'(seconds)')
 line = mlines.Line2D([0, 1], [0, 1], color='red')
 transform = ax.transAxes
 line.set_transform(transform)
