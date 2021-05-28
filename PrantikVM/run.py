@@ -5,7 +5,7 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/'
-uwFolder = 'simulate4Algo/portfolio_1_3'
+uwFolder = 'simulate8Algo/portfolio_1_1_6'
 vanillaFolder = 'wholeBenchmarkRun/vanillaHydra'
 uwName = 'portfolio'
 vanillaName = 'VanillaHydra'

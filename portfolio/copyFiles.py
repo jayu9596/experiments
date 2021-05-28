@@ -8,7 +8,7 @@ Created on Wed May 26 22:54:37 2021
 import os
 import pandas as pd
 
-srcFolder = '/home/jaydeep/Thesis/experiments/portfolio/simulate4Algo/portfolio_1_3/Run1'
+srcFolder = '/home/jaydeep/Thesis/experiments/portfolio/simulate8Algo/portfolio_1_1_6/Run1'
 destFolder = '/home/jaydeep/Thesis/experiments/portfolio/tempFolder'
 tempFile = '/home/jaydeep/Thesis/experiments/portfolio/temp.txt'
 okFile = '/home/jaydeep/Thesis/benchmarks/completed.txt'
