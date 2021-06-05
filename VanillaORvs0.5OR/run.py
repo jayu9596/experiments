@@ -5,7 +5,7 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/VanillaORvs0.5OR/'
-uwFolder = 'alpha50'
+uwFolder = 'alpha90'
 vanillaFolder = 'OR'
 
 # Vanilla

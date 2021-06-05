@@ -13,8 +13,8 @@ import random
 zipFolder = '/home/jaydeep/ORvs0.5OR/sdvBenchBpl.zip'
 unzipFolder = '/home/jaydeep/Thesis/experiments/alphadecay/sdv'
 destFolder = '/home/jaydeep/Thesis/experiments/alphadecay/safe'
-nokFile = '/home/jaydeep/Thesis/experiments/alphadecay/SDV_OK.txt'
-okFile = '/home/jaydeep/Thesis/experiments/alphadecay/SDV_NOK.txt'
+nokFile = '/home/jaydeep/Thesis/experiments/alphadecay/All.txt'
+okFile = '/home/jaydeep/Thesis/experiments/alphadecay/completed.txt'
 
 with open(nokFile) as csvFile1:
     nokResult = pd.read_csv(csvFile1,header=None)
@@ -32,9 +32,9 @@ okFiles = []
 for index, row in okResult.iterrows():
     okFiles.append(row[0].replace('.txt',''))
 
-files = random.sample(nokFiles, 25)
-files = files + random.sample(okFiles, 25)
-#files = [x for x in nokFiles if x not in okFiles]
+#files = random.sample(nokFiles, 25)
+#files = files + random.sample(okFiles, 25)
+files = [x for x in nokFiles if x not in okFiles]
 filesRequired = files# random.sample(files, 50)
 
 if os.path.isdir(unzipFolder) == False:
