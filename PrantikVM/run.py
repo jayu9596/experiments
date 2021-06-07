@@ -6,7 +6,7 @@ import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/'
 uwFolder = 'staticAlpha/alpha50/Run1'
-vanillaFolder = 'staticAlpha/alpha50/Run2'
+vanillaFolder = 'wholeBenchmarkRun/OR'
 uwName = 'alpha50'
 vanillaName = 'VanillaHydra'
 maxValue = 3600
