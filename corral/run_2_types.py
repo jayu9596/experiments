@@ -14,62 +14,74 @@ limitToMaxValue = True
 
 # VanillaW
 f = open(myDir + vanillaFolder + 'Result.csv','w+')
-f.write("Name,OutCome,RunTime,TotalSplits,BoogieDumpTime\n")
+f.write("Name,OutCome,RunTime,InlinedProcesures\n")
 i = 0
 for root, dirs, files in os.walk(myDir + vanillaFolder + '/'):
     for file in files:
         if file.endswith(".bpl.txt"):
             i+=1
-#            print(str(i) + '\n')
-#            print(os.path.join(root, file))
-            line = str(file)
-            rf = open(os.path.join(root, file),'r');
-            content = rf.readlines()
-            # print("content " + content)
-            cnt = 0;
-            for sline in content:
-                if cnt == 0:
-                    line += (',' + sline[0:len(sline)-1] + ',')
-                elif cnt == 1:
-                    line += (str(float(sline))+',')
-                elif cnt == 2:
-                    line += (sline[0:len(sline)-1]+',')
-                elif cnt == 3:
-                    line += sline[0:len(sline)-1].split(' ')[-1]
-                cnt+=1
-            line += '\n'
-#            print(line)
-            f.write(line)
+					# print(str(i) + '\n')
+					# print(os.path.join(root, file))
+					line = str(file)
+					rf = open(os.path.join(root, file),'r');
+					content = rf.readlines()
+					# print("content " + content)
+					cnt = 0;
+					currOutcome = 'Inconclusive'
+					currTimeTaken = maxValue
+					currProceduresInlined = 0
+					for sline in content:
+						if 'Corral timed out' in sline:
+							currOutcome = 'TIMEDOUT'
+						elif 'Return status: ReachedBound' in sline:
+							currOutcome = 'ReachedBound'
+						elif 'Return status: OK' in sline:
+							currOutcome = 'OK'
+						elif 'Return status: NOK' in sline:
+							currOutcome = 'NOK'
+						elif 'Total Time:' in sline:
+							currTimeTaken = float(sline.split(' ')[2])
+						elif 'Number of procedures inlined:' in sline:
+							currProceduresInlined = int(sline.split(' ')[4])
+						cnt+=1
+					line += ',' + str(currOutcome) + ',' + str(currTimeTaken) + ',' + str(currProceduresInlined) + '\n'
+					# print(line)
 f.close()
 
 # UW
 f = open(myDir + uwFolder + 'Result.csv','w+')
-f.write("Name,OutCome,RunTime,TotalSplits,BoogieDumpTime\n")
+f.write("Name,OutCome,RunTime,ProcesuresInlined\n")
 i = 0
 for root, dirs, files in os.walk(myDir + uwFolder + '/'):
     for file in files:
         if file.endswith(".bpl.txt"):
             i+=1
-#            print(str(i) + '\n')
-            # print(os.path.join(root, file))
-            line = str(file)
-            rf = open(os.path.join(root, file),'r');
-            content = rf.readlines()
-            # print("content " + content)
-            cnt = 0;
-            for sline in content:
-                if cnt == 0:
-                    line += (',' + sline[0:len(sline)-1] + ',')
-                elif cnt == 1:
-                    line += (str(float(sline))+',')
-                elif cnt == 2:
-                    line += (sline[0:len(sline)-1]+',')
-                elif cnt == 3:
-                    line += sline[0:len(sline)-1].split(' ')[-1]
-                cnt+=1
-            line += '\n'
-            # print(line)
-            f.write(line)
+					# print(str(i) + '\n')
+					# print(os.path.join(root, file))
+					line = str(file)
+					rf = open(os.path.join(root, file),'r');
+					content = rf.readlines()
+					# print("content " + content)
+					cnt = 0;
+					currOutcome = 'Inconclusive'
+					currTimeTaken = maxValue
+					currProceduresInlined = 0
+					for sline in content:
+						if 'Corral timed out' in sline:
+							currOutcome = 'TIMEDOUT'
+						elif 'Return status: ReachedBound' in sline:
+							currOutcome = 'ReachedBound'
+						elif 'Return status: OK' in sline:
+							currOutcome = 'OK'
+						elif 'Return status: NOK' in sline:
+							currOutcome = 'NOK'
+						elif 'Total Time:' in sline:
+							currTimeTaken = float(sline.split(' ')[2])
+						elif 'Number of procedures inlined:' in sline:
+							currProceduresInlined = int(sline.split(' ')[4])
+						cnt+=1
+					line += ',' + str(currOutcome) + ',' + str(currTimeTaken) + ',' + str(currProceduresInlined) + '\n'
+					# print(line)
 f.close()
 
 # Compare
@@ -115,7 +127,7 @@ comparisonOutcome = []
 vanillaExecutionTimesFiltered = []
 uwExecutionTimesFiltered = []
 colFiltered = []
-comparisonOutcome.append(['Name',vanillaFolder + '_OutCome',uwFolder + '_Outcome',vanillaFolder + '_TotalSplits',uwFolder + '_TotalSplits',vanillaFolder + '_RunTime',uwFolder + '_RunTime','Who Performed Better','By How Much Percentage',uwFolder + ' TimedOut but not ' + vanillaFolder,vanillaFolder + ' TimedOut but not ' + uwFolder])
+comparisonOutcome.append(['Name',vanillaFolder + '_OutCome',uwFolder + '_Outcome',vanillaFolder + '_InlinedProcedures',uwFolder + '_InlinedProcedures',vanillaFolder + '_RunTime',uwFolder + '_RunTime','Who Performed Better','By How Much Percentage',uwFolder + ' TimedOut but not ' + vanillaFolder,vanillaFolder + ' TimedOut but not ' + uwFolder])
 
 for file in allfiles:
     if file not in uwFilesOutcome or file not in vanillaFilesOutcome:
