@@ -15,7 +15,7 @@ import matplotlib.lines as mlines
 
 myDir = '/home/jaydeep/Thesis/experiments/corral/'
 folderList = ['100','50','10','30','70','90','0']
-runList = ['Run1']
+runList = ['Run1','Run2']
 exceptionFolderList = ['100','0']
 makeCompiledCSV = True
 maxValue = 3600
@@ -25,7 +25,7 @@ plotScatter = True
 type1Name = "100"
 type1NameDisplayName = "OR"
 type2Name = ['0','50','10','30','70','90']
-type2DisplayName = "Simultaneous-Portfolio"
+type2DisplayName = "UW and alpha setting"
 makePercentMore = True
 
 # Get total clients used, Raise error if inconsistency found
@@ -402,13 +402,16 @@ def makeScatterPlot(comparisonOutcome):
 	plt.show()
 
 
-def getBestPerformer(runData, folderList, file):
+def getBestPerformer(outComeData, folderList, file, run):
 	bestPerformer = 'NONE'
 	bestTime = 999999.99
 	for folder in folderList:
-		if 'TIMEDOUT' in runData[folder][file][1] or runData[folder][file][1] == "0":
+		thisRun = run
+		if folder in exceptionFolderList:
+			thisRun = 'Run1'
+		if 'TIMEDOUT' in outComeData[thisRun][folder][file][1] or outComeData[thisRun][folder][file][1] == "0":
 			continue
-		time = float(runData[folder][file][2])
+		time = float(outComeData[thisRun][folder][file][2])
 		if time < bestTime:
 			bestTime = time
 			bestPerformer = folder
@@ -566,7 +569,7 @@ for run in runList:
 	for file in allfiles:
 		isFilePresent = True
 		for folder in folderList:
-			if file not in runOutcome[run][folder]:
+			if file not in runOutcome[run][folder] and folder not in exceptionFolderList:
 				isFilePresent = False
 				break
 		if isFilePresent == False:
@@ -578,21 +581,28 @@ for run in runList:
 		tempList.append(file)
 		# Outcome
 		for folder in folderList:
-			if runOutcome[run][folder][file][1] == "0":
+			if folder in exceptionFolderList:
+				tempList.append(runOutcome['Run1'][folder][file][1])
+			elif runOutcome[run][folder][file][1] == "0":
 				tempList.append('TIMEDOUT')
 			else:
 				tempList.append(runOutcome[run][folder][file][1])
 		# Total Splits
 		for folder in folderList:
-			tempList.append(runOutcome[run][folder][file][3])
+			if folder in exceptionFolderList:
+				tempList.append(runOutcome['Run1'][folder][file][3])
+			else:
+				tempList.append(runOutcome[run][folder][file][3])
 		# Runtime
 		for folder in folderList:
-			if runOutcome[run][folder][file][1] == "0":
+			if folder in exceptionFolderList:
+				tempList.append(runOutcome['Run1'][folder][file][2])
+			elif runOutcome[run][folder][file][1] == "0":
 				tempList.append(maxValue)
 			else:
 				tempList.append(runOutcome[run][folder][file][2])
 
-		bestPerformer = getBestPerformer(runOutcome[run], folderList, file)
+		bestPerformer = getBestPerformer(runOutcome, folderList, file, run)
 
 		# Best Performer
 		tempList.append(bestPerformer)
@@ -600,18 +610,24 @@ for run in runList:
 		if makePercentMore:
 			type1ExecTime = maxValue
 			type2ExecTime = maxValue
-			if runOutcome[run][type1Name][file][1] == "0":
+			type1Run = run
+			if type1Name in exceptionFolderList:
+				type1Run = 'Run1'
+			if runOutcome[type1Run][type1Name][file][1] == "0":
 				type1ExecTime = maxValue
 			else:
-				type1ExecTime = runOutcome[run][type1Name][file][2]
+				type1ExecTime = runOutcome[type1Run][type1Name][file][2]
 			minTime = maxValue
 			minType = 'NONE'
 			for folder in folderList:
-				if runOutcome[run][folder][file][1] == "TIMEDOUT" or folder == type1Name or runOutcome[run][folder][file][1] == "0":
+				type2Run = run
+				if folder in exceptionFolderList:
+					type2Run = 'Run1'
+				if runOutcome[type2Run][folder][file][1] == "TIMEDOUT" or folder == type1Name or runOutcome[type2Run][folder][file][1] == "0":
 					continue
 				else:
-					if minTime > runOutcome[run][folder][file][2]:
-						minTime = runOutcome[run][folder][file][2]
+					if minTime > runOutcome[type2Run][folder][file][2]:
+						minTime = runOutcome[type2Run][folder][file][2]
 						minType = headers[i-10].split('/')[-1]
 			if minTime == maxValue:
 				type2ExecTime = maxValue
