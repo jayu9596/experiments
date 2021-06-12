@@ -13,15 +13,16 @@ import pandas as pd
 from datetime import datetime
 import matplotlib.lines as mlines
 
-myDir = '/home/jaydeep/Thesis/experiments/corral/'
+myDir = '/home/jaydeep/Thesis/experiments/corral/svcomp/'
 folderList = ['100','50','10','30','70','90','0']
-runList = ['Run1','Run2']
+folderList = ['100','10','90','0']
+runList = ['Run1']
 exceptionFolderList = ['100','0']
 makeCompiledCSV = True
 maxValue = 3600
 limitToMaxValue = True
 plotFigures = False
-plotScatter = True
+plotScatter = False
 type1Name = "100"
 type1NameDisplayName = "OR"
 type2Name = ['0','50','10','30','70','90']

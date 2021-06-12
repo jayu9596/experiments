@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
-myDir = '/home/jaydeep/Thesis/experiments/corral/'
-uwFolder = 'svcomp/OR/Run1'
-vanillaFolder = 'svcomp/OR/Run1'
+myDir = '/home/jaydeep/Thesis/experiments/corral/svcomp/'
+uwFolder = 'recursionBound/rec10'
+vanillaFolder = 'recursionBound/rec10'
 uwName = 'r1'
 vanillaName = 'r2'
 maxValue = 3600

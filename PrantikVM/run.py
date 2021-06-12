@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
-myDir = '/home/jaydeep/Thesis/experiments/portfolio/'
-uwFolder = 'simulate8Algo/svcompSanityCheck'
-vanillaFolder = 'simulate8Algo/svcompSanityCheck'
-uwName = 'svcompSanityCheck'
-vanillaName = 'svcompSanityCheck'
+myDir = '/home/jaydeep/Thesis/experiments/corral/svcomp/'
+uwFolder = 'portfolio_find'
+vanillaFolder = 'portfolio_find'
+uwName = 'portfolio_find'
+vanillaName = 'portfolio_find'
 maxValue = 3600
 limitToMaxValue = True
 
