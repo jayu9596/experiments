@@ -6,7 +6,7 @@ import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/corral/svcomp/'
 uwFolder = 'recursionBound/rec10'
-vanillaFolder = 'recursionBound/rec10'
+vanillaFolder = 'recursionBound/rec5'
 uwName = 'r1'
 vanillaName = 'r2'
 maxValue = 3600
