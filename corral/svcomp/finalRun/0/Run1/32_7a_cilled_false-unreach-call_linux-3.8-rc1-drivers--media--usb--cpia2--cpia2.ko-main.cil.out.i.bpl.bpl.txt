@@ -1,0 +1,819 @@
+Corral program verifier version 1.0.0.0
+UQ: 19.345
+UW Inlining:1
+UQ: 44.598
+UW Inlining:1
+UQ: 4.56
+UW Inlining:1
+UQ: 46.193
+UW Inlining:1
+UQ: 2.271
+UW Inlining:1
+UQ: 698.135
+UW Inlining:1
+UQ: 4.435
+UW Inlining:1
+UQ: 2.592
+UW Inlining:1
+UQ: 2.616
+UW Inlining:4
+UQ: 98.956
+UW Inlining:6
+UQ: 47.236
+UW Inlining:10
+UQ: 34.848
+UW Inlining:12
+UQ: 20.694
+UW Inlining:12
+UQ: 44.155
+UW Inlining:17
+UQ: 711.042
+UW Inlining:17
+UQ: 35.148
+UW Inlining:17
+UQ: 27.202
+UW Inlining:16
+UQ: 11.476
+UW Inlining:16
+UQ: 8.901
+UW Inlining:16
+UQ: 24.402
+UW Inlining:16
+UQ: 27.347
+UW Inlining:16
+UQ: 39.181
+UW Inlining:24
+UQ: 122.181
+UW Inlining:34
+UQ: 254.329
+UW Inlining:21
+UQ: 206.263
+UW Inlining:26
+UQ: 1979.927
+UW Inlining:32
+UQ: 1861.744
+UW Inlining:21
+UQ: 2084.436
+UW Inlining:27
+UQ: 6390.653
+UW Inlining:27
+UQ: 6327.91
+UW Inlining:19
+UQ: 5159.978
+UW Inlining:22
+UQ: 16611.995
+UW Inlining:27
+UQ: 14149.651
+UW Inlining:24
+UQ: 98921.563
+Return status: NOK
+Program has bugs
+main_SeqInstr did not verify
+/home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(72204,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56157,3): $bb0
+    Inlined call to procedure $initialize begins
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(64210,3): anon0
+        Inlined call to procedure __SMACK_static_init begins
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(63279,3): $bb0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = -1
+            value = 0
+            value = 3
+            value = 69632
+            value = 7
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+        Inlined call to procedure __SMACK_static_init ends
+        Inlined call to procedure __SMACK_init_func_memory_model begins
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(63242,3): $bb0
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(63246,3): corral_source_split_8765
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(63251,3): corral_source_split_8766
+        Inlined call to procedure __SMACK_init_func_memory_model ends
+    Inlined call to procedure $initialize ends
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56161,3): corral_source_split_7975
+    value = -405403
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56166,3): corral_source_split_7976
+    Inlined call to procedure ldv_initialize begins
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59476,3): $bb0
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59480,3): corral_source_split_8443
+        value = 1
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59486,3): corral_source_split_8444
+        value = 1
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59492,3): corral_source_split_8445
+        value = 1
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59498,3): corral_source_split_8446
+        value = 1
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59504,3): corral_source_split_8447
+        value = 1
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59510,3): corral_source_split_8448
+    Inlined call to procedure ldv_initialize ends
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56171,3): corral_source_split_7977
+    value = 0
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56177,3): corral_source_split_7978
+    value = 0
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56183,3): corral_source_split_7979
+    value = 0
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56189,3): corral_source_split_7980
+    value = 1
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56195,3): corral_source_split_7981
+    value = 0
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56201,3): corral_source_split_7982
+    value = 0
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56207,3): corral_source_split_7983
+    value = 0
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56213,3): corral_source_split_7984
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56217,3): $bb1
+    Inlined call to procedure main_loop_$bb1 begins
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76127,3): entry
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76131,3): $bb1
+        Inlined call to procedure __VERIFIER_nondet_int begins
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61496,3): $bb0
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61500,3): corral_source_split_8692
+            value = 2
+            value = 2
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61507,3): corral_source_split_8693
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61512,3): corral_source_split_8694
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61542,3): $bb1
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61546,3): corral_source_split_8696
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61523,3): $bb3
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61527,3): corral_source_split_8698
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61532,3): corral_source_split_8699
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61315,3): $bb0
+                value = 1
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61320,3): corral_source_split_8685
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61324,3): corral_source_split_8686
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61329,3): corral_source_split_8687
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61537,3): corral_source_split_8700
+        Inlined call to procedure __VERIFIER_nondet_int ends
+        value = 2
+        value = 2
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76383,3): $bb2
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76375,3): $bb3
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76965,3): $bb13
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77088,3): $bb15
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77083,3): corral_source_split_8002
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77078,3): corral_source_split_8003
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77073,3): corral_source_split_8004
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77069,3): $bb73
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77061,3): corral_source_split_8115
+        Inlined call to procedure __VERIFIER_nondet_int begins
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61496,3): $bb0
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61500,3): corral_source_split_8692
+            value = 1
+            value = 1
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61507,3): corral_source_split_8693
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61512,3): corral_source_split_8694
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61542,3): $bb1
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61546,3): corral_source_split_8696
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61523,3): $bb3
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61527,3): corral_source_split_8698
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61532,3): corral_source_split_8699
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61315,3): $bb0
+                value = 1
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61320,3): corral_source_split_8685
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61324,3): corral_source_split_8686
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61329,3): corral_source_split_8687
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61537,3): corral_source_split_8700
+        Inlined call to procedure __VERIFIER_nondet_int ends
+        value = 1
+        value = 1
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77054,3): $bb75
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77213,3): $bb77
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77209,3): $bb78
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77204,3): corral_source_split_8117
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77199,3): corral_source_split_8118
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77194,3): corral_source_split_8119
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77190,3): $bb91
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77185,3): corral_source_split_8135
+        Inlined call to procedure cpia2_init begins
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60322,3): $bb0
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60326,3): corral_source_split_8548
+            Inlined call to procedure printk.ref.ref.ref begins
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(8627,3): $bb1
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(8631,3): corral_source_split_1055
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61496,3): $bb0
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61500,3): corral_source_split_8692
+                    value = -2147481462
+                    value = -2147481462
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61507,3): corral_source_split_8693
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61512,3): corral_source_split_8694
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61542,3): $bb1
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61546,3): corral_source_split_8696
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61523,3): $bb3
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61527,3): corral_source_split_8698
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61532,3): corral_source_split_8699
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61315,3): $bb0
+                        value = 1
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61320,3): corral_source_split_8685
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61324,3): corral_source_split_8686
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61329,3): corral_source_split_8687
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61537,3): corral_source_split_8700
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = -2147481462
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(8637,3): corral_source_split_1056
+            Inlined call to procedure printk.ref.ref.ref ends
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60331,3): corral_source_split_8549
+            Inlined call to procedure check_parameters begins
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60681,3): $bb0
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60685,3): corral_source_split_8592
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60690,3): corral_source_split_8593
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60695,3): corral_source_split_8594
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60700,3): $bb2
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60704,3): corral_source_split_8601
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60709,3): corral_source_split_8602
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60714,3): corral_source_split_8603
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60719,3): $bb5
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60723,3): corral_source_split_8613
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60728,3): corral_source_split_8614
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60733,3): corral_source_split_8615
+                value = 73727
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60739,3): corral_source_split_8616
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60744,3): corral_source_split_8617
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60749,3): corral_source_split_8618
+                value = 69633
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60756,3): $bb6
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60760,3): $bb3
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60765,3): corral_source_split_8605
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60770,3): corral_source_split_8606
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60775,3): $bb8
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60779,3): corral_source_split_8625
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60784,3): corral_source_split_8626
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60789,3): corral_source_split_8627
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60794,3): $bb11
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60799,3): $bb12
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60803,3): $bb9
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60808,3): corral_source_split_8629
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60813,3): corral_source_split_8630
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60818,3): $bb15
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60822,3): corral_source_split_8641
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60827,3): corral_source_split_8642
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60832,3): corral_source_split_8643
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60837,3): $bb17
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60842,3): $bb18
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60847,3): corral_source_split_8645
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60852,3): corral_source_split_8646
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60857,3): $bb20
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60862,3): $bb21
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60866,3): $bb26
+            Inlined call to procedure check_parameters ends
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60336,3): corral_source_split_8550
+            Inlined call to procedure cpia2_usb_init begins
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61085,3): $bb0
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61089,3): corral_source_split_8661
+                Inlined call to procedure ldv_usb_register_driver_62 begins
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61117,3): $bb0
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61121,3): corral_source_split_8664
+                    Inlined call to procedure usb_register_driver begins
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61160,3): $bb0
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61164,3): corral_source_split_8669
+                        Inlined call to procedure __VERIFIER_nondet_int begins
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61496,3): $bb0
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61500,3): corral_source_split_8692
+                            value = -903
+                            value = -903
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61507,3): corral_source_split_8693
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61512,3): corral_source_split_8694
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61542,3): $bb1
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61546,3): corral_source_split_8696
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61523,3): $bb3
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61527,3): corral_source_split_8698
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61532,3): corral_source_split_8699
+                            Inlined call to procedure __VERIFIER_assume begins
+                                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61315,3): $bb0
+                                value = 1
+                                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61320,3): corral_source_split_8685
+                                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61324,3): corral_source_split_8686
+                                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61329,3): corral_source_split_8687
+                            Inlined call to procedure __VERIFIER_assume ends
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61537,3): corral_source_split_8700
+                        Inlined call to procedure __VERIFIER_nondet_int ends
+                        value = -903
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61170,3): corral_source_split_8670
+                    Inlined call to procedure usb_register_driver ends
+                    value = -903
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61127,3): corral_source_split_8665
+                    value = 1
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61133,3): corral_source_split_8666
+                    value = 0
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61139,3): corral_source_split_8667
+                Inlined call to procedure ldv_usb_register_driver_62 ends
+                value = -903
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61095,3): corral_source_split_8662
+            Inlined call to procedure cpia2_usb_init ends
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60341,3): corral_source_split_8551
+        Inlined call to procedure cpia2_init ends
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77179,3): corral_source_split_8136
+        value = 0
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77174,3): corral_source_split_8137
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77169,3): corral_source_split_8138
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77164,3): corral_source_split_8139
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77159,3): $bb94
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77154,3): $bb95
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77149,3): corral_source_split_8144
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77144,3): corral_source_split_8145
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77140,3): $bb96
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77134,3): corral_source_split_8147
+        value = 2
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77128,3): corral_source_split_8148
+        value = 1
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77122,3): corral_source_split_8149
+        value = 1
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77116,3): corral_source_split_8150
+        value = 1
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77110,3): corral_source_split_8151
+        value = 1
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77106,3): corral_source_split_8152
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77097,3): $bb98
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76986,3): $bb99
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76978,3): $bb90
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76159,3): $bb101
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76139,3): $bb69
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(79272,3): $bb69_dummy
+        Inlined call to procedure main_loop_$bb1 begins
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76127,3): entry
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76131,3): $bb1
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61496,3): $bb0
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61500,3): corral_source_split_8692
+                value = 1
+                value = 1
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61507,3): corral_source_split_8693
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61512,3): corral_source_split_8694
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61542,3): $bb1
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61546,3): corral_source_split_8696
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61523,3): $bb3
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61527,3): corral_source_split_8698
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61532,3): corral_source_split_8699
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61315,3): $bb0
+                    value = 1
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61320,3): corral_source_split_8685
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61324,3): corral_source_split_8686
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61329,3): corral_source_split_8687
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61537,3): corral_source_split_8700
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 1
+            value = 1
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76383,3): $bb2
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76375,3): $bb3
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76965,3): $bb13
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76961,3): $bb14
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76956,3): corral_source_split_7998
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76951,3): corral_source_split_7999
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76946,3): corral_source_split_8000
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76942,3): $bb70
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76937,3): corral_source_split_8112
+            Inlined call to procedure ldv_main_exported_1 begins
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59579,3): $bb0
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59583,3): corral_source_split_8450
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61496,3): $bb0
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61500,3): corral_source_split_8692
+                    value = 1
+                    value = 1
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61507,3): corral_source_split_8693
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61512,3): corral_source_split_8694
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61542,3): $bb1
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61546,3): corral_source_split_8696
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61523,3): $bb3
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61527,3): corral_source_split_8698
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61532,3): corral_source_split_8699
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61315,3): $bb0
+                        value = 1
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61320,3): corral_source_split_8685
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61324,3): corral_source_split_8686
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61329,3): corral_source_split_8687
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61537,3): corral_source_split_8700
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = 1
+                value = 1
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59591,3): $bb1
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60039,3): $bb2
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60047,3): $bb12
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60051,3): corral_source_split_8464
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60056,3): corral_source_split_8465
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60061,3): corral_source_split_8466
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60066,3): $bb23
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60071,3): $bb27
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59635,3): $bb21
+            Inlined call to procedure ldv_main_exported_1 ends
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76933,3): SeqInstr_203
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76930,3): SeqInstr_204
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76926,3): corral_source_split_8113
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76163,3): $bb72
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76139,3): $bb69
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(79272,3): $bb69_dummy
+            Inlined call to procedure main_loop_$bb1 begins
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76127,3): entry
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76131,3): $bb1
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61496,3): $bb0
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61500,3): corral_source_split_8692
+                    value = 1
+                    value = 1
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61507,3): corral_source_split_8693
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61512,3): corral_source_split_8694
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61542,3): $bb1
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61546,3): corral_source_split_8696
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61523,3): $bb3
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61527,3): corral_source_split_8698
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61532,3): corral_source_split_8699
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61315,3): $bb0
+                        value = 1
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61320,3): corral_source_split_8685
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61324,3): corral_source_split_8686
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61329,3): corral_source_split_8687
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61537,3): corral_source_split_8700
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = 1
+                value = 1
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76383,3): $bb2
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76375,3): $bb3
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76965,3): $bb13
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76961,3): $bb14
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76956,3): corral_source_split_7998
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76951,3): corral_source_split_7999
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76946,3): corral_source_split_8000
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76942,3): $bb70
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76937,3): corral_source_split_8112
+                Inlined call to procedure ldv_main_exported_1 begins
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59579,3): $bb0
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59583,3): corral_source_split_8450
+                    Inlined call to procedure __VERIFIER_nondet_int begins
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61496,3): $bb0
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61500,3): corral_source_split_8692
+                        value = 1
+                        value = 1
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61507,3): corral_source_split_8693
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61512,3): corral_source_split_8694
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61542,3): $bb1
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61546,3): corral_source_split_8696
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61523,3): $bb3
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61527,3): corral_source_split_8698
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61532,3): corral_source_split_8699
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61315,3): $bb0
+                            value = 1
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61320,3): corral_source_split_8685
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61324,3): corral_source_split_8686
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61329,3): corral_source_split_8687
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61537,3): corral_source_split_8700
+                    Inlined call to procedure __VERIFIER_nondet_int ends
+                    value = 1
+                    value = 1
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59591,3): $bb1
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60039,3): $bb2
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60047,3): $bb12
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60051,3): corral_source_split_8464
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60056,3): corral_source_split_8465
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60061,3): corral_source_split_8466
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60066,3): $bb23
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(60071,3): $bb27
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59635,3): $bb21
+                Inlined call to procedure ldv_main_exported_1 ends
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76933,3): SeqInstr_203
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76930,3): SeqInstr_204
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76926,3): corral_source_split_8113
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76163,3): $bb72
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76139,3): $bb69
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(79272,3): $bb69_dummy
+                Inlined call to procedure main_loop_$bb1 begins
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76127,3): entry
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76131,3): $bb1
+                    Inlined call to procedure __VERIFIER_nondet_int begins
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61496,3): $bb0
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61500,3): corral_source_split_8692
+                        value = 2
+                        value = 2
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61507,3): corral_source_split_8693
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61512,3): corral_source_split_8694
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61542,3): $bb1
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61546,3): corral_source_split_8696
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61523,3): $bb3
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61527,3): corral_source_split_8698
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61532,3): corral_source_split_8699
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61315,3): $bb0
+                            value = 1
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61320,3): corral_source_split_8685
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61324,3): corral_source_split_8686
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61329,3): corral_source_split_8687
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61537,3): corral_source_split_8700
+                    Inlined call to procedure __VERIFIER_nondet_int ends
+                    value = 2
+                    value = 2
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76383,3): $bb2
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76375,3): $bb3
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76965,3): $bb13
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77088,3): $bb15
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77083,3): corral_source_split_8002
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77078,3): corral_source_split_8003
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77073,3): corral_source_split_8004
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77069,3): $bb73
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77061,3): corral_source_split_8115
+                    Inlined call to procedure __VERIFIER_nondet_int begins
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61496,3): $bb0
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61500,3): corral_source_split_8692
+                        value = -2147479167
+                        value = -2147479167
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61507,3): corral_source_split_8693
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61512,3): corral_source_split_8694
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61542,3): $bb1
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61546,3): corral_source_split_8696
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61523,3): $bb3
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61527,3): corral_source_split_8698
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61532,3): corral_source_split_8699
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61315,3): $bb0
+                            value = 1
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61320,3): corral_source_split_8685
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61324,3): corral_source_split_8686
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61329,3): corral_source_split_8687
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61537,3): corral_source_split_8700
+                    Inlined call to procedure __VERIFIER_nondet_int ends
+                    value = -2147479167
+                    value = -2147479167
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77054,3): $bb75
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77046,3): $bb76
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77230,3): $bb82
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(77221,3): $bb80
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76982,3): $bb100
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76978,3): $bb90
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76159,3): $bb101
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76139,3): $bb69
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(79272,3): $bb69_dummy
+                    Inlined call to procedure main_loop_$bb1 begins
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(76127,3): entry
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(79276,3): exit
+                    Inlined call to procedure main_loop_$bb1 ends
+                Inlined call to procedure main_loop_$bb1 ends
+            Inlined call to procedure main_loop_$bb1 ends
+        Inlined call to procedure main_loop_$bb1 ends
+    Inlined call to procedure main_loop_$bb1 ends
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(59452,3): $bb1_last
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61496,3): $bb0
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61500,3): corral_source_split_8692
+        value = 5
+        value = 5
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61507,3): corral_source_split_8693
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61512,3): corral_source_split_8694
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61542,3): $bb1
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61546,3): corral_source_split_8696
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61523,3): $bb3
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61527,3): corral_source_split_8698
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61532,3): corral_source_split_8699
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61315,3): $bb0
+            value = 1
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61320,3): corral_source_split_8685
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61324,3): corral_source_split_8686
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61329,3): corral_source_split_8687
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61537,3): corral_source_split_8700
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = 5
+    value = 5
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56221,3): $bb2
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56228,3): $bb4
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56236,3): $bb6
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56244,3): $bb8
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56269,3): $bb9
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56273,3): corral_source_split_7994
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56278,3): corral_source_split_7995
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56283,3): corral_source_split_7996
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56297,3): $bb132
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56301,3): corral_source_split_8190
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61496,3): $bb0
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61500,3): corral_source_split_8692
+        value = 4
+        value = 4
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61507,3): corral_source_split_8693
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61512,3): corral_source_split_8694
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61542,3): $bb1
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61546,3): corral_source_split_8696
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61523,3): $bb3
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61527,3): corral_source_split_8698
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61532,3): corral_source_split_8699
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61315,3): $bb0
+            value = 1
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61320,3): corral_source_split_8685
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61324,3): corral_source_split_8686
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61329,3): corral_source_split_8687
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61537,3): corral_source_split_8700
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = 4
+    value = 4
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(56309,3): $bb134
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57168,3): $bb135
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57599,3): $bb162
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57607,3): $bb175
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57615,3): $bb177
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57623,3): $bb179
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57627,3): corral_source_split_8272
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57632,3): corral_source_split_8273
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57637,3): corral_source_split_8274
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57651,3): $bb197
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57655,3): corral_source_split_8311
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57660,3): corral_source_split_8312
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57665,3): corral_source_split_8313
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57670,3): corral_source_split_8314
+    Inlined call to procedure cpia2_dqbuf begins
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45280,3): $bb0
+        Inlined call to procedure $alloc begins
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(63165,3): anon0
+            Inlined call to procedure $$alloc begins
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(63197,3): anon0
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(63206,3): anon3_Then
+            Inlined call to procedure $$alloc ends
+        Inlined call to procedure $alloc ends
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45286,3): corral_source_split_6444
+        Inlined call to procedure video_drvdata begins
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(14171,3): $bb0
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(14175,3): corral_source_split_1827
+            Inlined call to procedure video_devdata begins
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11159,3): $bb0
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11163,3): corral_source_split_1397
+                Inlined call to procedure external_alloc begins
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(12224,3): $bb0
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(12228,3): corral_source_split_1528
+                    Inlined call to procedure __VERIFIER_nondet_pointer begins
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(62156,3): $bb0
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(62160,3): corral_source_split_8762
+                        value = -662
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(62166,3): corral_source_split_8763
+                    Inlined call to procedure __VERIFIER_nondet_pointer ends
+                    value = -662
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(12234,3): corral_source_split_1529
+                Inlined call to procedure external_alloc ends
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11168,3): corral_source_split_1398
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11173,3): corral_source_split_1399
+            Inlined call to procedure video_devdata ends
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(14180,3): corral_source_split_1828
+            Inlined call to procedure video_get_drvdata begins
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11195,3): $bb0
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11199,3): corral_source_split_1401
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11204,3): corral_source_split_1402
+                Inlined call to procedure dev_get_drvdata begins
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(14140,3): $bb0
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(14144,3): corral_source_split_1824
+                    Inlined call to procedure external_alloc begins
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(12224,3): $bb0
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(12228,3): corral_source_split_1528
+                        Inlined call to procedure __VERIFIER_nondet_pointer begins
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(62156,3): $bb0
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(62160,3): corral_source_split_8762
+                            value = 181
+                            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(62166,3): corral_source_split_8763
+                        Inlined call to procedure __VERIFIER_nondet_pointer ends
+                        value = 181
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(12234,3): corral_source_split_1529
+                    Inlined call to procedure external_alloc ends
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(14149,3): corral_source_split_1825
+                Inlined call to procedure dev_get_drvdata ends
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11209,3): corral_source_split_1403
+            Inlined call to procedure video_get_drvdata ends
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(14185,3): corral_source_split_1829
+        Inlined call to procedure video_drvdata ends
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45291,3): corral_source_split_6445
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45296,3): corral_source_split_6446
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45301,3): corral_source_split_6447
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45306,3): corral_source_split_6448
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45311,3): corral_source_split_6449
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45316,3): $bb3
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45320,3): corral_source_split_6451
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45325,3): corral_source_split_6452
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45330,3): corral_source_split_6453
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45335,3): corral_source_split_6454
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45340,3): $bb5
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45345,3): $bb7
+        Inlined call to procedure find_earliest_filled_buffer begins
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50711,3): $bb0
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50715,3): corral_source_split_7244
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50720,3): corral_source_split_7245
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50725,3): corral_source_split_7246
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50730,3): corral_source_split_7247
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50754,3): $bb1
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50758,3): corral_source_split_7249
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50763,3): $bb4
+            Inlined call to procedure find_earliest_filled_buffer_loop_$bb4 begins
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(75235,3): entry
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(75524,3): exit
+            Inlined call to procedure find_earliest_filled_buffer_loop_$bb4 ends
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(51057,3): $bb4_last
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50767,3): corral_source_split_7253
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50771,3): $bb5
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50776,3): corral_source_split_7255
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50781,3): corral_source_split_7256
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50786,3): corral_source_split_7257
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50790,3): corral_source_split_7258
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50795,3): corral_source_split_7259
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50800,3): corral_source_split_7260
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50805,3): corral_source_split_7261
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50810,3): $bb7
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50816,3): $bb20
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50821,3): corral_source_split_7295
+            value = 1
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50827,3): corral_source_split_7296
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50832,3): corral_source_split_7297
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50837,3): corral_source_split_7298
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50843,3): $bb22
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50848,3): corral_source_split_7300
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50741,3): $bb3
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50745,3): corral_source_split_7251
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(50749,3): $bb23
+        Inlined call to procedure find_earliest_filled_buffer ends
+        value = -1
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45351,3): corral_source_split_6458
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45356,3): corral_source_split_6459
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(46262,3): $bb8
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(46266,3): corral_source_split_6461
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(46271,3): corral_source_split_6462
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(46276,3): corral_source_split_6463
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(46281,3): corral_source_split_6464
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(46286,3): corral_source_split_6465
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(46291,3): $bb12
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45366,3): $bb10
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45370,3): $bb13
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45375,3): corral_source_split_6469
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45740,3): $bb14
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45744,3): corral_source_split_6471
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45749,3): corral_source_split_6472
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45754,3): corral_source_split_6473
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(45759,3): corral_source_split_6474
+        Inlined call to procedure ldv_mutex_unlock_20 begins
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(51078,3): $bb0
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(51082,3): corral_source_split_7302
+            Inlined call to procedure ldv_mutex_unlock_v4l2_lock_of_camera_data begins
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11778,3): $bb0
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11782,3): corral_source_split_1474
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11787,3): corral_source_split_1475
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11792,3): corral_source_split_1476
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11797,3): $bb2
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11801,3): corral_source_split_1480
+                Inlined call to procedure ldv_error begins
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11875,3): $bb0
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11879,3): corral_source_split_1486
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11883,3): $bb1
+                    Inlined call to procedure __VERIFIER_error begins
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61369,3): $bb0
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61373,3): corral_source_split_8689
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61381,3): assert_rewrite_dummy_block_0
+                        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(61400,3): SeqInstr_244
+                    Inlined call to procedure __VERIFIER_error ends
+                    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11899,3): SeqInstr_43
+                Inlined call to procedure ldv_error ends
+                /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(11824,3): SeqInstr_40
+            Inlined call to procedure ldv_mutex_unlock_v4l2_lock_of_camera_data ends
+            /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(51103,3): SeqInstr_121
+        Inlined call to procedure ldv_mutex_unlock_20 ends
+        /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(46258,3): SeqInstr_109
+    Inlined call to procedure cpia2_dqbuf ends
+    /home/ubuntu/benchmarks/svcomp/batch2/32_7a_cilled_false-unreach-call_linux-3.8-rc1-drivers--media--usb--cpia2--cpia2.ko-main.cil.out.i.bpl.bpl(57692,3): SeqInstr_208
+Inlined call to procedure main ends
+Number of procedures inlined: 487
+Total Time: 164.38 s
+
+Stopping: Done

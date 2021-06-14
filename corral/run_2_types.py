@@ -5,8 +5,8 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/corral/svcomp/'
-uwFolder = 'recursionBound/rec10'
-vanillaFolder = 'recursionBound/rec5'
+uwFolder = 'finalRun/0/Run1'
+vanillaFolder = 'finalRun/100/Run1'
 uwName = 'r1'
 vanillaName = 'r2'
 maxValue = 3600

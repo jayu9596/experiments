@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -13,9 +14,9 @@ import pandas as pd
 from datetime import datetime
 import matplotlib.lines as mlines
 
-myDir = '/home/jaydeep/Thesis/experiments/corral/svcomp/'
+myDir = '/home/jaydeep/Thesis/experiments/corral/svcomp/recursionBound/'
 folderList = ['100','50','10','30','70','90','0']
-folderList = ['100','10','90','0']
+folderList = ['UW_rec3','rec3','rec5','rec10','rec15','rec20']
 runList = ['Run1']
 exceptionFolderList = ['100','0']
 makeCompiledCSV = True
@@ -23,10 +24,10 @@ maxValue = 3600
 limitToMaxValue = True
 plotFigures = False
 plotScatter = False
-type1Name = "100"
-type1NameDisplayName = "OR"
-type2Name = ['0','50','10','30','70','90']
-type2DisplayName = "UW and alpha setting"
+type1Name = "rec3"
+type1NameDisplayName = "rec3"
+type2Name = ['UW_rec3','rec3','rec5','rec10','rec15','rec20']
+type2DisplayName = "recusrion setting"
 makePercentMore = True
 
 # Get total clients used, Raise error if inconsistency found
