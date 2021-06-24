@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
-myDir = '/home/jaydeep/Thesis/experiments/corral/svcomp/'
-uwFolder = 'finalRun/0/Run1'
-vanillaFolder = 'finalRun/100/Run1'
-uwName = 'r1'
-vanillaName = 'r2'
+myDir = '/home/jaydeep/Thesis/experiments/corral/sdv/'
+uwFolder = '50/Run1'
+vanillaFolder = '100/Run1'
+uwName = 'UW'
+vanillaName = 'Corral'
 maxValue = 3600
 limitToMaxValue = True
 
@@ -31,6 +31,8 @@ for root, dirs, files in os.walk(myDir + vanillaFolder + '/'):
 			currTimeTaken = maxValue
 			currProceduresInlined = 0
 			for sline in content:
+				if 'linux-4.2-rc1.tar.xz-32_7a-drivers--media--usb--pvrusb2--pvrusb2.ko-entry_point_true-unreach-call.cil.out.i.bpl.bpl.txt' in file:
+					print(sline)
 				if 'Corral timed out' in sline:
 					currOutcome = 'TIMEDOUT'
 				elif 'Return status: ReachedBound' in sline:
