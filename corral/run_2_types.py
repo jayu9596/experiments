@@ -5,8 +5,8 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/corral/sdv/'
-uwFolder = '30/Run1'
-vanillaFolder = '70/Run1'
+uwFolder = '50/Run1'
+vanillaFolder = '50/Run2'
 uwName = '30'
 vanillaName = '70'
 maxValue = 3600
