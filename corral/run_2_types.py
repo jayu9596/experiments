@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
-myDir = '/home/jaydeep/Thesis/experiments/corral/svcomp/'
-uwFolder = '50/Run1'
+myDir = '/home/jaydeep/Thesis/experiments/corral/'
+uwFolder = '0/Run1'
 vanillaFolder = '100/Run1'
 uwName = uwFolder
 vanillaName = vanillaFolder
