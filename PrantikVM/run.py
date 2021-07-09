@@ -5,9 +5,9 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/portfolio/'
-uwFolder = 'check/sanityCheck'
+uwFolder = 'wholeBenchmarkRun/sdv-alpha50'
 vanillaFolder = 'wholeBenchmarkRun/OR'
-uwName = 'sanityCheck'
+uwName = 'alpha50'
 vanillaName = 'OR'
 maxValue = 3600
 limitToMaxValue = True
