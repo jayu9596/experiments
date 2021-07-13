@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
-myDir = '/home/jaydeep/Thesis/VanillaORvs0.5OR/'
+myDir = '/home/jaydeep/Thesis/experiments/VanillaORvs0.5OR/'
 alpha10 = 'alpha10'
 alpha50 = 'alpha50'
 alpha90 = 'alpha90'
@@ -329,7 +329,7 @@ my_df.to_csv(myDir + 'ComparisonResult.csv', index=False, header=False)
 
 #vanillaExecutionTimes = [800, 800, 100]
 #uwExecutionTimes = [100, 200, 800]
-times_range = [100, 200, 300, 400, 500, 600, 700, 800, 900]
+#times_range = [100, 200, 300, 400, 500, 600, 700, 800, 900]
 fig=plt.figure()
 ax=fig.add_axes([0,0,1,1])
 #ax.scatter(vanillaExecutionTimes, uwExecutionTimes, color='b')
@@ -372,7 +372,7 @@ for x in speedUp:
         speedUpValues[8] += 1
     else:
         speedUpValues[9] += 1
-        
+
 fig1 = plt.figure(figsize=(10, 5))
 ax1 = fig1.add_axes([0,0,1,1])
 ax1.bar(speedUpX,speedUpValues)

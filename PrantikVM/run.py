@@ -4,13 +4,13 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
-myDir = '/home/jaydeep/Thesis/experiments/portfolio/'
-uwFolder = 'wholeBenchmarkRun/sdv-alpha50'
-vanillaFolder = 'wholeBenchmarkRun/OR'
-uwName = 'alpha50'
-vanillaName = 'OR'
+myDir = '/home/jaydeep/Thesis/experiments/VanillaORvs0.5OR/'
+uwFolder = 'Vanilla'
+vanillaFolder = 'OR'
+uwName = uwFolder
+vanillaName = vanillaFolder
 maxValue = 3600
-limitToMaxValue = True
+limitToMaxValue = False
 
 # VanillaW
 f = open(myDir + vanillaFolder + 'Result.csv','w+')

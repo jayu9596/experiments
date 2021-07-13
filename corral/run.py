@@ -14,8 +14,8 @@ import pandas as pd
 from datetime import datetime
 import matplotlib.lines as mlines
 
-myDir = '/home/jaydeep/Thesis/experiments/corral/sdv/'
-folderList = ['100','50','30','70','0']
+myDir = '/home/jaydeep/Thesis/experiments/multiThread/'
+folderList = ['OR','alpha50','UW']
 #folderList = ['recursionBound/UW_rec3','recursionBound/rec3','recursionBound/rec5','recursionBound/rec10','recursionBound/rec15','recursionBound/rec20']
 runList = ['Run1']
 exceptionFolderList = ['100','0']
@@ -28,7 +28,7 @@ type1Name = "100"
 type1NameDisplayName = "recursionBound/rec3"
 type2Name = ['UW_rec3','rec3','rec5','rec10','rec15','rec20']
 type2DisplayName = "recusrion setting"
-makePercentMore = True
+makePercentMore = False
 
 # Get total clients used, Raise error if inconsistency found
 def getClientsCount():

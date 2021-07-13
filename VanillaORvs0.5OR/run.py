@@ -5,8 +5,8 @@ import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/VanillaORvs0.5OR/'
-uwFolder = 'alpha90'
-vanillaFolder = 'OR'
+uwFolder = 'UW'
+vanillaFolder = 'alpha10'
 
 # Vanilla
 f = open(myDir + vanillaFolder + 'Result.csv','w+')
