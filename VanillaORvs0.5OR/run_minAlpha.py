@@ -267,9 +267,20 @@ for file in allfiles:
     elif 'TIMEDOUT' in uwData[1]:
         tempList.append(vanillaFolder)
         tempList.append('N/A')
+        uwOR.append(uwData[2])
+        vanillaOR.append(vanillaData[2])
     elif 'TIMEDOUT' in vanillaData[1]:
         tempList.append(alphaValue)
         tempList.append('N/A')
+        if alphaValue == 10:
+            uwAlpha10.append(uwData[2])
+            vanillaAlpha10.append(vanillaData[2])
+        elif alphaValue == 50:
+            uwAlpha50.append(uwData[2])
+            vanillaAlpha50.append(vanillaData[2])
+        else:
+            uwAlpha90.append(uwData[2])
+            vanillaAlpha90.append(vanillaData[2])
     elif uwData[2] < vanillaData[2] :
         percentMore =  ((vanillaData[2] - uwData[2]) / uwData[2]) * 100
 #        line += 'UW,'
@@ -332,21 +343,24 @@ my_df.to_csv(myDir + 'ComparisonResult.csv', index=False, header=False)
 #times_range = [100, 200, 300, 400, 500, 600, 700, 800, 900]
 fig=plt.figure()
 ax=fig.add_axes([0,0,1,1])
+plt.ylim(0, 950)
+plt.xlim(0, 920)
 #ax.scatter(vanillaExecutionTimes, uwExecutionTimes, color='b')
-ax.scatter(vanillaAlpha10, uwAlpha10, color='g', label='Alpha 10')
-ax.scatter(vanillaAlpha50, uwAlpha50, color='b', label='Alpha 50')
-ax.scatter(vanillaAlpha90, uwAlpha90, color='y', label='Alpha 90')
-ax.scatter(vanillaOR, uwOR, color='r', label='OR')
+ax.scatter(vanillaAlpha10, uwAlpha10, color='y', label='alpha-90 wins')
+ax.scatter(vanillaAlpha50, uwAlpha50, color='m', label='alpha-50 wins')
+ax.scatter(vanillaAlpha90, uwAlpha90, color='g', label='alpha-10 wins')
+ax.scatter(vanillaOR, uwOR, color='r', label='OR wins')
 #ax.scatter(vanillaTimedOut, uwTimedOut, color='black', label='BOTH TIMEDOUT')
-ax.set_xlabel('Time Taken by '+ vanillaFolder +'(seconds)')
-ax.set_ylabel('Time Taken by '+ otherName +'(seconds)')
+ax.set_xlabel('Time Taken by '+ vanillaFolder +'(sec)', fontsize=12)
+ax.set_ylabel('Time Taken by '+ otherName +'(sec)', fontsize=12)
 line = mlines.Line2D([0, 1], [0, 1], color='red')
 transform = ax.transAxes
 line.set_transform(transform)
 ax.add_line(line)
-ax.set_title('scatter plot')
-plt.legend()
-plt.savefig('plot-scatter.png', dpi=300, bbox_inches='tight')
+#ax.set_title('scatter plot')
+plt.legend(bbox_to_anchor=(1, 1))
+#plt.savefig('plot-scatter.png', dpi=300, bbox_inches='tight')
+plt.savefig( myDir + 'plot-scatter.eps', format='eps', bbox_inches='tight')
 plt.show()
 
 speedUpX = ['    < -10x' , '    -10 to -2x', '    -2 to -1.5x', '    -1.5x to 0x', '    0x to 1.5x', '    1.5 to 2x', '    2 to 5x', '    5 to 10x', '    10 to 20x', '    > 20x']

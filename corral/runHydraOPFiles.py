@@ -397,14 +397,15 @@ def makeScatterPlot(comparisonOutcome):
 
 	#plt.axis('scaled')
 	ax.scatter(type1ExecTimes, type2ExecTimes, color=colOutcome)
-	ax.set_xlabel('Time Taken by '+type1NameDisplayName+'(seconds)')
-	ax.set_ylabel('Time Taken by min(alpha50, UW)(seconds)')
+	ax.set_xlabel('Time Taken by '+type1NameDisplayName+'(sec)', fontsize=12)
+	ax.set_ylabel('Time Taken by min(alpha50, UW)(sec)', fontsize=12)
 	line = mlines.Line2D([0, 1], [0, 1], color='red')
 	transform = ax.transAxes
 	line.set_transform(transform)
 	ax.add_line(line)
-	ax.set_title('scatter plot')
-	plt.savefig( myDir + 'plot-scatter.png', dpi=300, bbox_inches='tight')
+	#ax.set_title('scatter plot')
+	plt.savefig( myDir + 'plot-scatter.eps', format='eps', bbox_inches='tight')
+	#plt.savefig( myDir + 'plot-scatter.png', dpi=300, bbox_inches='tight')
 	plt.show()
 
 
