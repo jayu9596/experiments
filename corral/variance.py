@@ -12,6 +12,7 @@ import copy
 import pandas as pd
 from datetime import datetime
 import matplotlib.lines as mlines
+import numpy as np
 
 myDir = '/home/jaydeep/Thesis/experiments/corral/sdv/'
 folderList = ['50','70','30']
@@ -24,6 +25,7 @@ limitToMaxValue = True
 plotFigures = False
 plotScatter = False
 plotVariance = True
+plotBox = True
 type1Name = "100"
 type1NameDisplayName = "recursionBound/rec3"
 type2Name = ['UW_rec3','rec3','rec5','rec10','rec15','rec20']
@@ -469,8 +471,62 @@ def makeVarianceScatterPlot(runOutcome, files):
 		line.set_transform(transform)
 		ax.add_line(line)
 		ax.set_title('scatter plot')
-		plt.savefig('plot-scatter.png', dpi=300, bbox_inches='tight')
+		plt.savefig(folder + '-plot-scatter.eps', format='eps', bbox_inches='tight')
 		plt.show()
+
+def makeBoxPlot(runOutcome, files):
+	minFolder = {}
+	maxFolder = {}
+	for folder in folderList:
+		minTime = {}
+		maxTime = {}
+		for file in allfiles:
+			minTime[file] = maxValue;
+			maxTime[file] = 0
+		minFolder[folder] = minTime
+		maxFolder[folder] = maxTime
+
+	for folder in folderList:
+		for run in runList:
+			for file in files:
+				runTime = 3600
+				if (folder not in exceptionFolderList) and (runOutcome[run][folder][file][1] == "0"):
+					print('continue')
+					continue
+				elif (folder in exceptionFolderList) and (runOutcome['Run1'][folder][file][1] == "0"):
+					print('continue')
+					continue
+				elif folder in exceptionFolderList:
+					runTime = runOutcome['Run1'][folder][file][2]
+				else:
+					runTime = runOutcome[run][folder][file][2]
+				print(runTime)
+				if minFolder[folder][file] > runTime:
+					minFolder[folder][file] = runTime
+				if maxFolder[folder][file] < runTime:
+					maxFolder[folder][file] = runTime
+
+	runData = {}
+	for folder in folderList:
+		fileData = np.array([[0],[0],[0],[0],[0]])
+		for file in files:
+			if maxFolder[folder][file] < 1000 or minFolder[folder][file] == maxValue:
+				continue
+			execList = []
+			for run in runList:
+				execList.append(int(runOutcome[run][folder][file][2]))
+			tp = np.c_[fileData, execList]
+			fileData = tp
+		runData[folder] = fileData
+		fig = plt.figure()
+		# Creating axes instance
+		ax = fig.add_axes([0, 0, 1, 1])
+
+		# Creating plot
+		bp = ax.boxplot(fileData[:,1:])
+
+		# show plot
+		plt.savefig(folder + '-plot-box.eps', format='eps', bbox_inches='tight')
 
 
 def getBestPerformer(outComeData, folderList, file, run):
@@ -754,3 +810,6 @@ if makeCompiledCSV:
 
 if plotVariance:
 	makeVarianceScatterPlot(runOutcome, allfiles)
+
+if plotBox:
+	makeBoxPlot(runOutcome, allfiles)

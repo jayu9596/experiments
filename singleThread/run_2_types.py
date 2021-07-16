@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
-myDir = '/home/jaydeep/Thesis/experiments/singleThread/svcomp/'
-uwFolder = '100/Run1'
-vanillaFolder = '100/Run1'
+myDir = '/home/jaydeep/Thesis/experiments/corral/sdv/'
+uwFolder = '70/Run5'
+vanillaFolder = '70/Run2'
 uwName = uwFolder
 vanillaName = vanillaFolder
 maxValue = 3600
@@ -244,7 +244,7 @@ ax.add_line(line)
 ax.set_title('scatter plot')
 plt.savefig('plot-scatter.png', dpi=300, bbox_inches='tight')
 plt.show()
-
+'''
 speedUpX = ['	< -10x' , '	-10 to -2x', '	-2 to -1.5x', '	-1.5x to -1x', '	1x to 1.5x', '	1.5 to 2x', '	2 to 5x', '	5 to 10x', '	10 to 20x', '	> 20x']
 speedUpValues = [0,0,0,0,0,0,0,0,0,0]
 for x in speedUp:
@@ -276,6 +276,7 @@ ax.set_title('speedup plot')
 ax.set_ylabel('Number of Instances')
 ax.set_ylabel('SpeedUp')
 plt.savefig('speedup-plot.png', dpi=300, bbox_inches='tight')
+'''
 #plt.show()
 
 ccc = 0
