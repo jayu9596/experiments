@@ -1,0 +1,340 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+main_SeqInstr did not verify
+/home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(35919,3): start
+Inlined call to procedure main begins
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(24905,3): $bb0
+    Inlined call to procedure $initialize begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(27925,3): anon0
+        Inlined call to procedure __SMACK_static_init begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(26733,3): $bb0
+            value = 1
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 1
+            value = 1
+            value = 1
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 0
+            value = 0
+            value = 0
+            value = 64
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 47
+            value = 0
+        Inlined call to procedure __SMACK_static_init ends
+        Inlined call to procedure __SMACK_init_func_memory_model begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(26696,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(26700,3): corral_source_split_3200
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(26705,3): corral_source_split_3201
+        Inlined call to procedure __SMACK_init_func_memory_model ends
+    Inlined call to procedure $initialize ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(24909,3): corral_source_split_3138
+    value = -346948
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(24914,3): corral_source_split_3139
+    Inlined call to procedure ldv_ldv_initialize_124 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(24955,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(24959,3): corral_source_split_3143
+        Inlined call to procedure ldv_linux_lib_find_bit_initialize begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(24986,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(24990,3): corral_source_split_3146
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(24995,3): corral_source_split_3147
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25000,3): corral_source_split_3148
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25005,3): corral_source_split_3149
+            Inlined call to procedure ldv_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(7864,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(7869,3): corral_source_split_951
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(7874,3): corral_source_split_952
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(7879,3): $bb2
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(7884,3): $bb4
+            Inlined call to procedure ldv_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25010,3): corral_source_split_3150
+        Inlined call to procedure ldv_linux_lib_find_bit_initialize ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(24964,3): corral_source_split_3144
+    Inlined call to procedure ldv_ldv_initialize_124 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(24919,3): corral_source_split_3140
+    Inlined call to procedure ldv_entry_EMGentry_2 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(21247,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(21251,3): corral_source_split_2793
+        Inlined call to procedure ldv_EMGentry_init_pf_init_2_11 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9185,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9189,3): corral_source_split_1088
+            Inlined call to procedure pf_init begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9274,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9278,3): corral_source_split_1091
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9283,3): corral_source_split_1092
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9288,3): corral_source_split_1093
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9293,3): $bb2
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9298,3): $bb4
+                Inlined call to procedure pf_init_units begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9890,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9894,3): corral_source_split_1171
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9900,3): corral_source_split_1172
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9905,3): $bb1
+                    Inlined call to procedure pf_init_units_loop_$bb1 begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36744,3): entry
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36748,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36819,3): corral_source_split_1174
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36814,3): $bb2
+                        Inlined call to procedure ldv_alloc_disk_101 begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19610,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19615,3): corral_source_split_2609
+                            Inlined call to procedure alloc_disk begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19674,3): $bb0
+                                value = 1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19679,3): corral_source_split_2613
+                                Inlined call to procedure external_alloc begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(8210,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(8214,3): corral_source_split_987
+                                    Inlined call to procedure __VERIFIER_nondet_pointer begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25610,3): $bb0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25614,3): corral_source_split_3197
+                                        value = 85
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25620,3): corral_source_split_3198
+                                    Inlined call to procedure __VERIFIER_nondet_pointer ends
+                                    value = 85
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(8220,3): corral_source_split_988
+                                Inlined call to procedure external_alloc ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19684,3): corral_source_split_2614
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19689,3): corral_source_split_2615
+                            Inlined call to procedure alloc_disk ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19620,3): corral_source_split_2610
+                            Inlined call to procedure ldv_linux_block_genhd_alloc_disk begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19717,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19721,3): corral_source_split_2617
+                                Inlined call to procedure ldv_undef_ptr begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(8099,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(8103,3): corral_source_split_975
+                                    Inlined call to procedure __VERIFIER_nondet_pointer begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25610,3): $bb0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25614,3): corral_source_split_3197
+                                        value = 3969
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25620,3): corral_source_split_3198
+                                    Inlined call to procedure __VERIFIER_nondet_pointer ends
+                                    value = 3969
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(8109,3): corral_source_split_976
+                                Inlined call to procedure ldv_undef_ptr ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19726,3): corral_source_split_2618
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19731,3): corral_source_split_2619
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19736,3): corral_source_split_2620
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19741,3): corral_source_split_2621
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19746,3): corral_source_split_2622
+                                Inlined call to procedure ldv_assert_linux_block_genhd__double_allocation begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19822,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19827,3): corral_source_split_2630
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19832,3): corral_source_split_2631
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19865,3): $bb1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19857,3): $bb3
+                                Inlined call to procedure ldv_assert_linux_block_genhd__double_allocation ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19751,3): SeqInstr_272
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19755,3): SeqInstr_273
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19758,3): corral_source_split_2623
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19763,3): corral_source_split_2624
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19768,3): corral_source_split_2625
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19787,3): $bb1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19791,3): corral_source_split_2627
+                                value = 1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19797,3): corral_source_split_2628
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19782,3): $bb3
+                            Inlined call to procedure ldv_linux_block_genhd_alloc_disk ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19625,3): SeqInstr_269
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19629,3): SeqInstr_270
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19632,3): corral_source_split_2611
+                        Inlined call to procedure ldv_alloc_disk_101 ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36810,3): SeqInstr_161
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36807,3): SeqInstr_162
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36802,3): corral_source_split_1176
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36797,3): corral_source_split_1177
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36792,3): corral_source_split_1178
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37071,3): $bb4
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37066,3): $bb6
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37061,3): corral_source_split_1186
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37057,3): corral_source_split_1187
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37052,3): corral_source_split_1188
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37047,3): corral_source_split_1189
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37042,3): corral_source_split_1190
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37037,3): corral_source_split_1191
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37032,3): corral_source_split_1192
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37027,3): corral_source_split_1193
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37022,3): corral_source_split_1194
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37017,3): corral_source_split_1195
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37012,3): corral_source_split_1196
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37007,3): corral_source_split_1197
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37002,3): corral_source_split_1198
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36997,3): corral_source_split_1199
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36992,3): corral_source_split_1200
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36987,3): corral_source_split_1201
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36982,3): corral_source_split_1202
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36977,3): corral_source_split_1203
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36972,3): corral_source_split_1204
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36967,3): corral_source_split_1205
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36962,3): corral_source_split_1206
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36957,3): corral_source_split_1207
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36952,3): corral_source_split_1208
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36947,3): corral_source_split_1209
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36942,3): corral_source_split_1210
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36937,3): corral_source_split_1211
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36932,3): corral_source_split_1212
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36927,3): corral_source_split_1213
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36922,3): corral_source_split_1214
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36917,3): corral_source_split_1215
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36912,3): corral_source_split_1216
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36907,3): corral_source_split_1217
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36902,3): corral_source_split_1218
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36897,3): corral_source_split_1219
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36892,3): corral_source_split_1220
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36887,3): corral_source_split_1221
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36882,3): corral_source_split_1222
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36877,3): corral_source_split_1223
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36872,3): corral_source_split_1224
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36867,3): corral_source_split_1225
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36862,3): corral_source_split_1226
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36857,3): corral_source_split_1227
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36852,3): corral_source_split_1228
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36848,3): $bb7
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36843,3): corral_source_split_1230
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36838,3): corral_source_split_1231
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36832,3): corral_source_split_1232
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36828,3): corral_source_split_1233
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36780,3): $bb9
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36774,3): $bb5
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36769,3): corral_source_split_1182
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36764,3): corral_source_split_1183
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36759,3): corral_source_split_1184
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36753,3): $bb10
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37076,3): $bb10_dummy
+                        Inlined call to procedure pf_init_units_loop_$bb1 begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(36744,3): entry
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(37080,3): exit
+                        Inlined call to procedure pf_init_units_loop_$bb1 ends
+                    Inlined call to procedure pf_init_units_loop_$bb1 ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(10249,3): $bb1_last
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9909,3): corral_source_split_1174
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9913,3): $bb2
+                    Inlined call to procedure ldv_alloc_disk_101 begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19610,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19615,3): corral_source_split_2609
+                        Inlined call to procedure alloc_disk begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19674,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19679,3): corral_source_split_2613
+                            Inlined call to procedure external_alloc begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(8210,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(8214,3): corral_source_split_987
+                                Inlined call to procedure __VERIFIER_nondet_pointer begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25610,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25614,3): corral_source_split_3197
+                                    value = 78
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25620,3): corral_source_split_3198
+                                Inlined call to procedure __VERIFIER_nondet_pointer ends
+                                value = 78
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(8220,3): corral_source_split_988
+                            Inlined call to procedure external_alloc ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19684,3): corral_source_split_2614
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19689,3): corral_source_split_2615
+                        Inlined call to procedure alloc_disk ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19620,3): corral_source_split_2610
+                        Inlined call to procedure ldv_linux_block_genhd_alloc_disk begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19717,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19721,3): corral_source_split_2617
+                            Inlined call to procedure ldv_undef_ptr begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(8099,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(8103,3): corral_source_split_975
+                                Inlined call to procedure __VERIFIER_nondet_pointer begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25610,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25614,3): corral_source_split_3197
+                                    value = 76
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25620,3): corral_source_split_3198
+                                Inlined call to procedure __VERIFIER_nondet_pointer ends
+                                value = 76
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(8109,3): corral_source_split_976
+                            Inlined call to procedure ldv_undef_ptr ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19726,3): corral_source_split_2618
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19731,3): corral_source_split_2619
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19736,3): corral_source_split_2620
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19741,3): corral_source_split_2621
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19746,3): corral_source_split_2622
+                            Inlined call to procedure ldv_assert_linux_block_genhd__double_allocation begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19822,3): $bb0
+                                value = 0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19827,3): corral_source_split_2630
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19832,3): corral_source_split_2631
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19837,3): $bb2
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19841,3): corral_source_split_2633
+                                Inlined call to procedure __VERIFIER_error begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25083,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25087,3): corral_source_split_3156
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25095,3): assert_rewrite_dummy_block_0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(25114,3): SeqInstr_574
+                                Inlined call to procedure __VERIFIER_error ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19861,3): SeqInstr_274
+                            Inlined call to procedure ldv_assert_linux_block_genhd__double_allocation ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19801,3): SeqInstr_271
+                        Inlined call to procedure ldv_linux_block_genhd_alloc_disk ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(19637,3): SeqInstr_268
+                    Inlined call to procedure ldv_alloc_disk_101 ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(10241,3): SeqInstr_160
+                Inlined call to procedure pf_init_units ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9790,3): SeqInstr_142
+            Inlined call to procedure pf_init ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(9207,3): SeqInstr_139
+        Inlined call to procedure ldv_EMGentry_init_pf_init_2_11 ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(21465,3): SeqInstr_307
+    Inlined call to procedure ldv_entry_EMGentry_2 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--block--paride--pf.ko_false-unreach-call.cil.i.bpl.bpl(24936,3): SeqInstr_571
+Inlined call to procedure main ends
+Number of procedures inlined: 59
+Total Time: 17.74 s
+
+Stopping: Done

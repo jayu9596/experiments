@@ -1,0 +1,1155 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+main_SeqInstr did not verify
+/home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(107901,3): start
+Inlined call to procedure main begins
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94145,3): $bb0
+    Inlined call to procedure $initialize begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(99907,3): anon0
+        Inlined call to procedure __SMACK_static_init begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(99029,3): $bb0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 1
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = -1
+            value = 0
+            value = 0
+        Inlined call to procedure __SMACK_static_init ends
+        Inlined call to procedure __SMACK_init_func_memory_model begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98900,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98904,3): corral_source_split_15139
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98909,3): corral_source_split_15140
+        Inlined call to procedure __SMACK_init_func_memory_model ends
+    Inlined call to procedure $initialize ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94149,3): corral_source_split_14665
+    value = -387628
+    Inlined call to procedure $alloc begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98823,3): anon0
+        Inlined call to procedure $$alloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98855,3): anon0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98864,3): anon3_Then
+        Inlined call to procedure $$alloc ends
+    Inlined call to procedure $alloc ends
+    Inlined call to procedure $alloc begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98823,3): anon0
+        Inlined call to procedure $$alloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98855,3): anon0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98864,3): anon3_Then
+        Inlined call to procedure $$alloc ends
+    Inlined call to procedure $alloc ends
+    Inlined call to procedure $alloc begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98823,3): anon0
+        Inlined call to procedure $$alloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98855,3): anon0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98864,3): anon3_Then
+        Inlined call to procedure $$alloc ends
+    Inlined call to procedure $alloc ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94160,3): corral_source_split_14666
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+        value = -2147483648
+        value = -2147483648
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = -2147483648
+    value = -2147483648
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94167,3): corral_source_split_14667
+    Inlined call to procedure ldv_zalloc begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92829,3): $bb0
+        value = 9
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92834,3): corral_source_split_14533
+        Inlined call to procedure __VERIFIER_nondet_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+            value = 2048
+            value = 2048
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+        Inlined call to procedure __VERIFIER_nondet_int ends
+        value = 2048
+        value = 2048
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92841,3): corral_source_split_14534
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92846,3): corral_source_split_14535
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92894,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92898,3): corral_source_split_14537
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92885,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92889,3): corral_source_split_14546
+    Inlined call to procedure ldv_zalloc ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94172,3): corral_source_split_14668
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94177,3): corral_source_split_14669
+    Inlined call to procedure ldv_zalloc begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92829,3): $bb0
+        value = 32
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92834,3): corral_source_split_14533
+        Inlined call to procedure __VERIFIER_nondet_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+            value = 5456
+            value = 5456
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+        Inlined call to procedure __VERIFIER_nondet_int ends
+        value = 5456
+        value = 5456
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92841,3): corral_source_split_14534
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92846,3): corral_source_split_14535
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92894,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92898,3): corral_source_split_14537
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92885,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92889,3): corral_source_split_14546
+    Inlined call to procedure ldv_zalloc ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94182,3): corral_source_split_14670
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94187,3): corral_source_split_14671
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+        value = -2147475290
+        value = -2147475290
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = -2147475290
+    value = -2147475290
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94194,3): corral_source_split_14672
+    Inlined call to procedure __VERIFIER_nondet_uint begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97750,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97754,3): corral_source_split_15130
+        Inlined call to procedure __VERIFIER_nondet_unsigned_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97217,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97221,3): corral_source_split_15068
+            value = 326
+            value = 326
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97228,3): corral_source_split_15069
+            value = 0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97235,3): corral_source_split_15070
+            value = 4294967295
+            value = 4294967295
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97242,3): corral_source_split_15071
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97247,3): corral_source_split_15072
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97318,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97322,3): corral_source_split_15074
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97327,3): corral_source_split_15075
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97338,3): $bb4
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97342,3): corral_source_split_15082
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97258,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97262,3): corral_source_split_15077
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97267,3): corral_source_split_15078
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97272,3): corral_source_split_15079
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97277,3): corral_source_split_15080
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97307,3): $bb6
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97311,3): corral_source_split_15084
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97288,3): $bb8
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97292,3): corral_source_split_15086
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97297,3): corral_source_split_15087
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97302,3): corral_source_split_15088
+        Inlined call to procedure __VERIFIER_nondet_unsigned_int ends
+        value = 326
+        value = 326
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97761,3): corral_source_split_15131
+    Inlined call to procedure __VERIFIER_nondet_uint ends
+    value = 326
+    value = 326
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94201,3): corral_source_split_14673
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+        value = -2147475884
+        value = -2147475884
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = -2147475884
+    value = -2147475884
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94208,3): corral_source_split_14674
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+        value = 0
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = 0
+    value = 0
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94215,3): corral_source_split_14675
+    Inlined call to procedure ldv_initialize begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96769,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96773,3): corral_source_split_15036
+    Inlined call to procedure ldv_initialize ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94220,3): corral_source_split_14676
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94225,3): corral_source_split_14677
+    Inlined call to procedure $memset.i8 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(99865,3): anon0
+    Inlined call to procedure $memset.i8 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94232,3): corral_source_split_14678
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94237,3): corral_source_split_14679
+    Inlined call to procedure $memset.i8 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(99865,3): anon0
+    Inlined call to procedure $memset.i8 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94244,3): corral_source_split_14680
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94249,3): corral_source_split_14681
+    Inlined call to procedure $memset.i8 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(99865,3): anon0
+    Inlined call to procedure $memset.i8 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94256,3): corral_source_split_14682
+    value = 0
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94262,3): corral_source_split_14683
+    value = 1
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94268,3): corral_source_split_14684
+    value = 0
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94274,3): corral_source_split_14685
+    value = 1
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94280,3): corral_source_split_14686
+    value = 0
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94286,3): corral_source_split_14687
+    value = 1
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94292,3): corral_source_split_14688
+    value = 0
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94298,3): corral_source_split_14689
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94302,3): $bb1
+    Inlined call to procedure main_loop_$bb1 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(109365,3): entry
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(109369,3): $bb1
+        Inlined call to procedure __VERIFIER_nondet_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+            value = 2
+            value = 2
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+        Inlined call to procedure __VERIFIER_nondet_int ends
+        value = 2
+        value = 2
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(109584,3): $bb2
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(109576,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110122,3): $bb13
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110245,3): $bb15
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110240,3): corral_source_split_14707
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110235,3): corral_source_split_14708
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110230,3): corral_source_split_14709
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110226,3): $bb77
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110218,3): corral_source_split_14808
+        Inlined call to procedure __VERIFIER_nondet_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+            value = 1
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+        Inlined call to procedure __VERIFIER_nondet_int ends
+        value = 1
+        value = 1
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110211,3): $bb79
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110379,3): $bb81
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110375,3): $bb82
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110370,3): corral_source_split_14810
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110365,3): corral_source_split_14811
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110360,3): corral_source_split_14812
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110356,3): $bb95
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110351,3): corral_source_split_14828
+        Inlined call to procedure pch_udc_driver_init begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96821,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96825,3): corral_source_split_15041
+            Inlined call to procedure __pci_register_driver begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96875,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96879,3): corral_source_split_15046
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+                    value = 0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96885,3): corral_source_split_15047
+            Inlined call to procedure __pci_register_driver ends
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96831,3): corral_source_split_15042
+        Inlined call to procedure pch_udc_driver_init ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110345,3): corral_source_split_14829
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110340,3): corral_source_split_14830
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110335,3): corral_source_split_14831
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110330,3): corral_source_split_14832
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110326,3): $bb97
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110320,3): corral_source_split_14834
+        value = 3
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110314,3): corral_source_split_14835
+        value = 1
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110309,3): corral_source_split_14836
+        Inlined call to procedure ldv_initialize_usb_gadget_ops_5 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92921,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92925,3): corral_source_split_14548
+            Inlined call to procedure ldv_zalloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92829,3): $bb0
+                value = 184
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92834,3): corral_source_split_14533
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+                    value = 4347
+                    value = 4347
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = 4347
+                value = 4347
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92841,3): corral_source_split_14534
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92846,3): corral_source_split_14535
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92894,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92898,3): corral_source_split_14537
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92885,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92889,3): corral_source_split_14546
+            Inlined call to procedure ldv_zalloc ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92930,3): corral_source_split_14549
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92934,3): corral_source_split_14550
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92939,3): corral_source_split_14551
+            Inlined call to procedure ldv_zalloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92829,3): $bb0
+                value = 1568
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92834,3): corral_source_split_14533
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+                    value = 0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = 0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92841,3): corral_source_split_14534
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92846,3): corral_source_split_14535
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92851,3): $bb2
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92855,3): corral_source_split_14539
+                Inlined call to procedure calloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98937,3): $bb0
+                    value = 1
+                    value = 1568
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98943,3): corral_source_split_15142
+                    Inlined call to procedure __VERIFIER_nondet_int begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+                        value = 0
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+                    Inlined call to procedure __VERIFIER_nondet_int ends
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98949,3): corral_source_split_15143
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98954,3): corral_source_split_15144
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98959,3): $bb2
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98963,3): corral_source_split_15148
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98968,3): corral_source_split_15149
+                    Inlined call to procedure malloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(1029,3): anon0
+                        Inlined call to procedure $malloc begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98839,3): anon0
+                            Inlined call to procedure $$alloc begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98855,3): anon0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98864,3): anon3_Then
+                            Inlined call to procedure $$alloc ends
+                        Inlined call to procedure $malloc ends
+                    Inlined call to procedure malloc ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98973,3): corral_source_split_15150
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98978,3): corral_source_split_15151
+                    Inlined call to procedure $memset.i8 begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(99865,3): anon0
+                    Inlined call to procedure $memset.i8 ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98987,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98991,3): corral_source_split_15153
+                Inlined call to procedure calloc ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92860,3): corral_source_split_14540
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92865,3): corral_source_split_14541
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92870,3): corral_source_split_14542
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92875,3): corral_source_split_14543
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92880,3): corral_source_split_14544
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92885,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92889,3): corral_source_split_14546
+            Inlined call to procedure ldv_zalloc ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92944,3): corral_source_split_14552
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92948,3): corral_source_split_14553
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92953,3): corral_source_split_14554
+        Inlined call to procedure ldv_initialize_usb_gadget_ops_5 ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110303,3): corral_source_split_14837
+        value = 1
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110298,3): corral_source_split_14838
+        Inlined call to procedure ldv_initialize_pci_driver_3 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(93513,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(93517,3): corral_source_split_14613
+            Inlined call to procedure ldv_zalloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92829,3): $bb0
+                value = 2976
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92834,3): corral_source_split_14533
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+                    value = 1422
+                    value = 1422
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = 1422
+                value = 1422
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92841,3): corral_source_split_14534
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92846,3): corral_source_split_14535
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92894,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92898,3): corral_source_split_14537
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92885,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92889,3): corral_source_split_14546
+            Inlined call to procedure ldv_zalloc ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(93522,3): corral_source_split_14614
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(93526,3): corral_source_split_14615
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(93531,3): corral_source_split_14616
+        Inlined call to procedure ldv_initialize_pci_driver_3 ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110292,3): corral_source_split_14839
+        value = 1
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110287,3): corral_source_split_14840
+        Inlined call to procedure ldv_initialize_usb_ep_ops_4 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(93460,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(93464,3): corral_source_split_14605
+            Inlined call to procedure ldv_zalloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92829,3): $bb0
+                value = 64
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92834,3): corral_source_split_14533
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+                    value = 4819
+                    value = 4819
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = 4819
+                value = 4819
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92841,3): corral_source_split_14534
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92846,3): corral_source_split_14535
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92894,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92898,3): corral_source_split_14537
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92885,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92889,3): corral_source_split_14546
+            Inlined call to procedure ldv_zalloc ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(93469,3): corral_source_split_14606
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(93473,3): corral_source_split_14607
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(93478,3): corral_source_split_14608
+            Inlined call to procedure ldv_zalloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92829,3): $bb0
+                value = 88
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92834,3): corral_source_split_14533
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+                    value = 3255
+                    value = 3255
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = 3255
+                value = 3255
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92841,3): corral_source_split_14534
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92846,3): corral_source_split_14535
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92894,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92898,3): corral_source_split_14537
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92885,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92889,3): corral_source_split_14546
+            Inlined call to procedure ldv_zalloc ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(93483,3): corral_source_split_14609
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(93487,3): corral_source_split_14610
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(93492,3): corral_source_split_14611
+        Inlined call to procedure ldv_initialize_usb_ep_ops_4 ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110283,3): corral_source_split_14841
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110273,3): $bb99
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110268,3): corral_source_split_14843
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110263,3): corral_source_split_14844
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110258,3): $bb101
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110254,3): $bb102
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110143,3): $bb103
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110135,3): $bb94
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(109397,3): $bb106
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(109377,3): $bb73
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111754,3): $bb73_dummy
+        Inlined call to procedure main_loop_$bb1 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(109365,3): entry
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(109369,3): $bb1
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+                value = 5
+                value = 5
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 5
+            value = 5
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(109584,3): $bb2
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(110602,3): $bb4
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111151,3): $bb6
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111314,3): $bb8
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111310,3): $bb9
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111305,3): corral_source_split_14699
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111300,3): corral_source_split_14700
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111295,3): corral_source_split_14701
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111291,3): $bb163
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111283,3): corral_source_split_14956
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+                value = 5
+                value = 5
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 5
+            value = 5
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111276,3): $bb165
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111535,3): $bb167
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111527,3): $bb168
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111587,3): $bb176
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111582,3): corral_source_split_14970
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111577,3): corral_source_split_14971
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111572,3): corral_source_split_14972
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111568,3): $bb201
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111563,3): corral_source_split_15016
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111558,3): corral_source_split_15017
+            Inlined call to procedure pch_udc_pcd_vbus_session begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(91699,3): $bb0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(91704,3): corral_source_split_14371
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(91709,3): corral_source_split_14372
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(91714,3): corral_source_split_14373
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(91719,3): $bb2
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(91724,3): $bb4
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(91729,3): corral_source_split_14379
+                Inlined call to procedure pch_udc_vbus_session begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92421,3): $bb0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92426,3): corral_source_split_14472
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92431,3): corral_source_split_14473
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92436,3): $bb2
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92440,3): corral_source_split_14483
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92445,3): corral_source_split_14484
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92450,3): corral_source_split_14485
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92455,3): corral_source_split_14486
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92460,3): corral_source_split_14487
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92504,3): $bb4
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92508,3): corral_source_split_14489
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92513,3): corral_source_split_14490
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92518,3): corral_source_split_14491
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92523,3): corral_source_split_14492
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92528,3): corral_source_split_14493
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92533,3): corral_source_split_14494
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92538,3): corral_source_split_14495
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92548,3): $bb7
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92552,3): corral_source_split_14497
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92557,3): corral_source_split_14498
+                    Inlined call to procedure spin_unlock begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14648,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14652,3): corral_source_split_1981
+                        Inlined call to procedure ldv_spin_unlock begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14682,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14686,3): corral_source_split_1985
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14692,3): corral_source_split_1986
+                        Inlined call to procedure ldv_spin_unlock ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14657,3): corral_source_split_1982
+                        Inlined call to procedure ldv_spin_unlock_5 begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14713,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14717,3): corral_source_split_1988
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14722,3): corral_source_split_1989
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14727,3): corral_source_split_1990
+                            Inlined call to procedure _raw_spin_unlock begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14751,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14755,3): corral_source_split_1993
+                            Inlined call to procedure _raw_spin_unlock ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14732,3): corral_source_split_1991
+                        Inlined call to procedure ldv_spin_unlock_5 ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(14662,3): corral_source_split_1983
+                    Inlined call to procedure spin_unlock ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92562,3): corral_source_split_14499
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92567,3): corral_source_split_14500
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92572,3): corral_source_split_14501
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92577,3): corral_source_split_14502
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92582,3): corral_source_split_14503
+                    Inlined call to procedure devirtbounce.3 begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(99577,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(99581,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(99651,3): $bb7
+                        Inlined call to procedure pch_udc_pcd_fifo_flush begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88919,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88923,3): corral_source_split_13952
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88928,3): corral_source_split_13953
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88933,3): corral_source_split_13954
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88938,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88943,3): $bb4
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88948,3): corral_source_split_13958
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88953,3): corral_source_split_13959
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88958,3): corral_source_split_13960
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88963,3): corral_source_split_13961
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88968,3): corral_source_split_13962
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88973,3): $bb7
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88977,3): corral_source_split_13971
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88982,3): corral_source_split_13972
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88987,3): corral_source_split_13973
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88992,3): corral_source_split_13974
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(88997,3): corral_source_split_13975
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(89002,3): corral_source_split_13976
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(89020,3): $bb8
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(89025,3): $bb6
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(89030,3): corral_source_split_13964
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(89035,3): corral_source_split_13965
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(89040,3): corral_source_split_13966
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(89045,3): corral_source_split_13967
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(89050,3): corral_source_split_13968
+                            Inlined call to procedure pch_udc_ep_fifo_flush begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(19999,3): $bb0
+                                value = 0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(20004,3): corral_source_split_2786
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(20009,3): corral_source_split_2787
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(20014,3): $bb2
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(20019,3): $bb4
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(20023,3): $bb3
+                            Inlined call to procedure pch_udc_ep_fifo_flush ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(89055,3): corral_source_split_13969
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(89012,3): $bb10
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(89016,3): $bb3
+                        Inlined call to procedure pch_udc_pcd_fifo_flush ends
+                    Inlined call to procedure devirtbounce.3 ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92588,3): corral_source_split_14504
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92593,3): corral_source_split_14505
+                    Inlined call to procedure spin_lock begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(8741,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(8745,3): corral_source_split_1037
+                        Inlined call to procedure ldv_spin_lock begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(26006,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(26010,3): corral_source_split_3772
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(26016,3): corral_source_split_3773
+                        Inlined call to procedure ldv_spin_lock ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(8750,3): corral_source_split_1038
+                        Inlined call to procedure ldv_spin_lock_1 begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(26037,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(26041,3): corral_source_split_3775
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(26046,3): corral_source_split_3776
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(26051,3): corral_source_split_3777
+                            Inlined call to procedure _raw_spin_lock begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(26075,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(26079,3): corral_source_split_3780
+                            Inlined call to procedure _raw_spin_lock ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(26056,3): corral_source_split_3778
+                        Inlined call to procedure ldv_spin_lock_1 ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(8755,3): corral_source_split_1039
+                    Inlined call to procedure spin_lock ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92598,3): corral_source_split_14506
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92474,3): $bb9
+                    Inlined call to procedure pch_udc_set_disconnect begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3205,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3209,3): corral_source_split_342
+                        Inlined call to procedure pch_udc_bit_set begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3236,3): $bb0
+                            value = 1028
+                            value = 1024
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3242,3): corral_source_split_345
+                            Inlined call to procedure pch_udc_readl begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3286,3): $bb0
+                                value = 1028
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3291,3): corral_source_split_351
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3296,3): corral_source_split_352
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3301,3): corral_source_split_353
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3306,3): corral_source_split_354
+                                Inlined call to procedure ioread32 begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3411,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3415,3): corral_source_split_366
+                                    Inlined call to procedure __VERIFIER_nondet_uint begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97750,3): $bb0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97754,3): corral_source_split_15130
+                                        Inlined call to procedure __VERIFIER_nondet_unsigned_int begins
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97217,3): $bb0
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97221,3): corral_source_split_15068
+                                            value = 4294957696
+                                            value = 4294957696
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97228,3): corral_source_split_15069
+                                            value = 0
+                                            value = 0
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97235,3): corral_source_split_15070
+                                            value = 4294967295
+                                            value = 4294967295
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97242,3): corral_source_split_15071
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97247,3): corral_source_split_15072
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97318,3): $bb1
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97322,3): corral_source_split_15074
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97327,3): corral_source_split_15075
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97338,3): $bb4
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97342,3): corral_source_split_15082
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97258,3): $bb3
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97262,3): corral_source_split_15077
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97267,3): corral_source_split_15078
+                                            Inlined call to procedure __VERIFIER_assume begins
+                                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                                                value = 1
+                                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+                                            Inlined call to procedure __VERIFIER_assume ends
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97272,3): corral_source_split_15079
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97277,3): corral_source_split_15080
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97307,3): $bb6
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97311,3): corral_source_split_15084
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97288,3): $bb8
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97292,3): corral_source_split_15086
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97297,3): corral_source_split_15087
+                                            Inlined call to procedure __VERIFIER_assume begins
+                                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+                                                value = 1
+                                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+                                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+                                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+                                            Inlined call to procedure __VERIFIER_assume ends
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97302,3): corral_source_split_15088
+                                        Inlined call to procedure __VERIFIER_nondet_unsigned_int ends
+                                        value = 4294957696
+                                        value = 4294957696
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97761,3): corral_source_split_15131
+                                    Inlined call to procedure __VERIFIER_nondet_uint ends
+                                    value = 4294957696
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3421,3): corral_source_split_367
+                                Inlined call to procedure ioread32 ends
+                                value = 4294957696
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3312,3): corral_source_split_355
+                            Inlined call to procedure pch_udc_readl ends
+                            value = 4294957696
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3248,3): corral_source_split_346
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3253,3): corral_source_split_347
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3258,3): corral_source_split_348
+                            Inlined call to procedure pch_udc_writel begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3336,3): $bb0
+                                value = 635
+                                value = 1028
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3342,3): corral_source_split_357
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3347,3): corral_source_split_358
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3352,3): corral_source_split_359
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3357,3): corral_source_split_360
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3362,3): corral_source_split_361
+                                Inlined call to procedure iowrite32 begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3386,3): $bb0
+                                    value = 635
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3391,3): corral_source_split_364
+                                Inlined call to procedure iowrite32 ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3367,3): corral_source_split_362
+                            Inlined call to procedure pch_udc_writel ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3263,3): corral_source_split_349
+                        Inlined call to procedure pch_udc_bit_set ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(3214,3): corral_source_split_343
+                    Inlined call to procedure pch_udc_set_disconnect ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92479,3): corral_source_split_14508
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92484,3): corral_source_split_14509
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92489,3): corral_source_split_14510
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92494,3): corral_source_split_14511
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(92500,3): $bb3
+                Inlined call to procedure pch_udc_vbus_session ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(91734,3): corral_source_split_14380
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(91739,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(91743,3): corral_source_split_14377
+            Inlined call to procedure pch_udc_pcd_vbus_session ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111552,3): corral_source_split_15018
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111548,3): corral_source_split_15019
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111180,3): $bb203
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111164,3): $bb188
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(109385,3): $bb212
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(109377,3): $bb73
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111754,3): $bb73_dummy
+            Inlined call to procedure main_loop_$bb1 begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(109365,3): entry
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(111758,3): exit
+            Inlined call to procedure main_loop_$bb1 ends
+        Inlined call to procedure main_loop_$bb1 ends
+    Inlined call to procedure main_loop_$bb1 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96746,3): $bb1_last
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+        value = 3
+        value = 3
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = 3
+    value = 3
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94306,3): $bb2
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94313,3): $bb4
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94983,3): $bb5
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94987,3): corral_source_split_14691
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94992,3): corral_source_split_14692
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(94997,3): corral_source_split_14693
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(95011,3): $bb107
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(95015,3): corral_source_split_14851
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97109,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97113,3): corral_source_split_15058
+        value = 0
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97120,3): corral_source_split_15059
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97125,3): corral_source_split_15060
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97155,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97159,3): corral_source_split_15062
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97136,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97140,3): corral_source_split_15064
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97145,3): corral_source_split_15065
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96928,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96933,3): corral_source_split_15051
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96937,3): corral_source_split_15052
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96942,3): corral_source_split_15053
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97150,3): corral_source_split_15066
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = 0
+    value = 0
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(95023,3): $bb109
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(95450,3): $bb110
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(95554,3): $bb119
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(95567,3): $bb121
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(95571,3): corral_source_split_14869
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(95576,3): corral_source_split_14870
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(95581,3): corral_source_split_14871
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(95595,3): $bb123
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(95599,3): corral_source_split_14873
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(95604,3): corral_source_split_14874
+    Inlined call to procedure pch_udc_probe begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(1138,3): $bb0
+        Inlined call to procedure $alloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98823,3): anon0
+            Inlined call to procedure $$alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98855,3): anon0
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(98864,3): anon3_Then
+            Inlined call to procedure $$alloc ends
+        Inlined call to procedure $alloc ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(1144,3): corral_source_split_1
+        Inlined call to procedure kzalloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(5099,3): $bb0
+            value = 6512
+            value = 208
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(5105,3): corral_source_split_565
+            Inlined call to procedure ldv_check_alloc_flags begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7503,3): $bb0
+                value = 208
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7508,3): corral_source_split_888
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7513,3): corral_source_split_889
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7518,3): corral_source_split_890
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7523,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7527,3): corral_source_split_892
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7532,3): corral_source_split_893
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7537,3): corral_source_split_894
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7555,3): $bb4
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7559,3): corral_source_split_896
+                Inlined call to procedure ldv_error begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7659,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7663,3): corral_source_split_904
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7667,3): $bb1
+                    Inlined call to procedure __VERIFIER_error begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96982,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96986,3): corral_source_split_15055
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(96994,3): assert_rewrite_dummy_block_0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(97013,3): SeqInstr_103
+                    Inlined call to procedure __VERIFIER_error ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7683,3): SeqInstr_34
+                Inlined call to procedure ldv_error ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(7572,3): SeqInstr_31
+            Inlined call to procedure ldv_check_alloc_flags ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(5122,3): SeqInstr_7
+        Inlined call to procedure kzalloc ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(1909,3): SeqInstr_1
+    Inlined call to procedure pch_udc_probe ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/43_2a_bitvector_linux-3.16-rc1.tar.xz-43_2a-drivers--usb--gadget--pch_udc.ko-entry_point_false-unreach-call.cil.out.i.bpl.bpl(95676,3): SeqInstr_97
+Inlined call to procedure main ends
+Number of procedures inlined: 956
+Total Time: 42.16 s
+
+Stopping: Done

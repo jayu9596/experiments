@@ -1,0 +1,957 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+main_SeqInstr did not verify
+/home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(89811,3): start
+Inlined call to procedure main begins
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78020,3): $bb0
+    Inlined call to procedure $initialize begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(81817,3): anon0
+        Inlined call to procedure __SMACK_static_init begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(80039,3): $bb0
+            value = 1
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 1
+            value = 1
+            value = 1
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 0
+            value = 0
+            value = 0
+            value = 33554432
+            value = 0
+            value = 128
+            value = 0
+            value = 10
+            value = 63
+            value = 0
+            value = 0
+        Inlined call to procedure __SMACK_static_init ends
+        Inlined call to procedure __SMACK_init_func_memory_model begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(80002,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(80006,3): corral_source_split_11782
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(80011,3): corral_source_split_11783
+        Inlined call to procedure __SMACK_init_func_memory_model ends
+    Inlined call to procedure $initialize ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78024,3): corral_source_split_11695
+    value = -734460
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78029,3): corral_source_split_11696
+    Inlined call to procedure ldv_ldv_initialize_131 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78070,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78074,3): corral_source_split_11700
+        Inlined call to procedure ldv_linux_lib_find_bit_initialize begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78101,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78105,3): corral_source_split_11703
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78110,3): corral_source_split_11704
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78115,3): corral_source_split_11705
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78120,3): corral_source_split_11706
+            Inlined call to procedure ldv_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+            Inlined call to procedure ldv_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78125,3): corral_source_split_11707
+        Inlined call to procedure ldv_linux_lib_find_bit_initialize ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78079,3): corral_source_split_11701
+    Inlined call to procedure ldv_ldv_initialize_131 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78034,3): corral_source_split_11697
+    Inlined call to procedure ldv_entry_EMGentry_28 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74438,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74442,3): corral_source_split_11358
+        Inlined call to procedure ldv_EMGentry_init_megaraid_init_28_9 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67925,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67929,3): corral_source_split_10558
+            Inlined call to procedure megaraid_init begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67985,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67989,3): corral_source_split_10561
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67994,3): corral_source_split_10562
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67999,3): corral_source_split_10563
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68004,3): corral_source_split_10564
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68009,3): $bb2
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68014,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68019,3): corral_source_split_10569
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68024,3): corral_source_split_10570
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68029,3): corral_source_split_10571
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68034,3): $bb5
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68039,3): $bb6
+                Inlined call to procedure proc_mkdir begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68247,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68251,3): corral_source_split_10601
+                    Inlined call to procedure external_alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(30517,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(30521,3): corral_source_split_4890
+                        Inlined call to procedure __VERIFIER_nondet_pointer begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78916,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78920,3): corral_source_split_11779
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78926,3): corral_source_split_11780
+                        Inlined call to procedure __VERIFIER_nondet_pointer ends
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(30527,3): corral_source_split_4891
+                    Inlined call to procedure external_alloc ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68256,3): corral_source_split_10602
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68261,3): corral_source_split_10603
+                Inlined call to procedure proc_mkdir ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68044,3): corral_source_split_10576
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68049,3): corral_source_split_10577
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68054,3): corral_source_split_10578
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68059,3): corral_source_split_10579
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68064,3): corral_source_split_10580
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68189,3): $bb7
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68193,3): corral_source_split_10582
+                Inlined call to procedure printk.ref begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(16622,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(16626,3): corral_source_split_2947
+                    Inlined call to procedure __VERIFIER_nondet_int begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78325,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78329,3): corral_source_split_11716
+                        value = 482
+                        value = 482
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78336,3): corral_source_split_11717
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78341,3): corral_source_split_11718
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78371,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78375,3): corral_source_split_11720
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78352,3): $bb3
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78356,3): corral_source_split_11722
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78361,3): corral_source_split_11723
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78144,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78149,3): corral_source_split_11709
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78153,3): corral_source_split_11710
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78158,3): corral_source_split_11711
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78366,3): corral_source_split_11724
+                    Inlined call to procedure __VERIFIER_nondet_int ends
+                    value = 482
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(16632,3): corral_source_split_2948
+                Inlined call to procedure printk.ref ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68198,3): corral_source_split_10583
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68074,3): $bb9
+                Inlined call to procedure ldv___pci_register_driver_124 begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68284,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68288,3): corral_source_split_10605
+                    Inlined call to procedure __pci_register_driver begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70448,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70452,3): corral_source_split_10899
+                        Inlined call to procedure __VERIFIER_nondet_int begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78325,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78329,3): corral_source_split_11716
+                            value = 0
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78336,3): corral_source_split_11717
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78341,3): corral_source_split_11718
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78371,3): $bb1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78375,3): corral_source_split_11720
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78352,3): $bb3
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78356,3): corral_source_split_11722
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78361,3): corral_source_split_11723
+                            Inlined call to procedure __VERIFIER_assume begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78144,3): $bb0
+                                value = 1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78149,3): corral_source_split_11709
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78153,3): corral_source_split_11710
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78158,3): corral_source_split_11711
+                            Inlined call to procedure __VERIFIER_assume ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78366,3): corral_source_split_11724
+                        Inlined call to procedure __VERIFIER_nondet_int ends
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70458,3): corral_source_split_10900
+                    Inlined call to procedure __pci_register_driver ends
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68294,3): corral_source_split_10606
+                    Inlined call to procedure ldv___pci_register_driver begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70485,3): $bb0
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70490,3): corral_source_split_10902
+                        Inlined call to procedure ldv_undef_int begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19205,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19209,3): corral_source_split_3261
+                            Inlined call to procedure __VERIFIER_nondet_int begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78325,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78329,3): corral_source_split_11716
+                                value = 1497
+                                value = 1497
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78336,3): corral_source_split_11717
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78341,3): corral_source_split_11718
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78371,3): $bb1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78375,3): corral_source_split_11720
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78352,3): $bb3
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78356,3): corral_source_split_11722
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78361,3): corral_source_split_11723
+                                Inlined call to procedure __VERIFIER_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78144,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78149,3): corral_source_split_11709
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78153,3): corral_source_split_11710
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78158,3): corral_source_split_11711
+                                Inlined call to procedure __VERIFIER_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78366,3): corral_source_split_11724
+                            Inlined call to procedure __VERIFIER_nondet_int ends
+                            value = 1497
+                            value = 1497
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19216,3): corral_source_split_3262
+                        Inlined call to procedure ldv_undef_int ends
+                        value = 1497
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70496,3): corral_source_split_10903
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70501,3): corral_source_split_10904
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70534,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70538,3): corral_source_split_10906
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70543,3): corral_source_split_10907
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70548,3): corral_source_split_10908
+                        Inlined call to procedure ldv_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+                        Inlined call to procedure ldv_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70553,3): corral_source_split_10909
+                        Inlined call to procedure ldv_dispatch_register_27_2 begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70593,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70597,3): corral_source_split_10917
+                            Inlined call to procedure ldv_xmalloc begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27066,3): $bb0
+                                value = 16
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27071,3): corral_source_split_4415
+                                Inlined call to procedure malloc begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51815,3): anon0
+                                    Inlined call to procedure $malloc begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(79941,3): anon0
+                                        Inlined call to procedure $$alloc begins
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(79957,3): anon0
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(79966,3): anon3_Then
+                                        Inlined call to procedure $$alloc ends
+                                    Inlined call to procedure $malloc ends
+                                Inlined call to procedure malloc ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27076,3): corral_source_split_4416
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27081,3): corral_source_split_4417
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27086,3): corral_source_split_4418
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27091,3): corral_source_split_4419
+                                Inlined call to procedure ldv_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+                                Inlined call to procedure ldv_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27096,3): corral_source_split_4420
+                                Inlined call to procedure ldv_is_err begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51838,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51842,3): corral_source_split_8162
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51847,3): corral_source_split_8163
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51852,3): corral_source_split_8164
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51857,3): corral_source_split_8165
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51862,3): corral_source_split_8166
+                                Inlined call to procedure ldv_is_err ends
+                                value = 0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27102,3): corral_source_split_4421
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27107,3): corral_source_split_4422
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27112,3): corral_source_split_4423
+                                Inlined call to procedure ldv_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+                                Inlined call to procedure ldv_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27117,3): corral_source_split_4424
+                            Inlined call to procedure ldv_xmalloc ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70602,3): corral_source_split_10918
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70607,3): corral_source_split_10919
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70612,3): corral_source_split_10920
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70617,3): corral_source_split_10921
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70622,3): corral_source_split_10922
+                            Inlined call to procedure ldv_pci_pci_instance_3 begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70734,3): $bb0
+                                Inlined call to procedure $alloc begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(79925,3): anon0
+                                    Inlined call to procedure $$alloc begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(79957,3): anon0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(79966,3): anon3_Then
+                                    Inlined call to procedure $$alloc ends
+                                Inlined call to procedure $alloc ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70740,3): corral_source_split_10925
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70745,3): corral_source_split_10926
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70750,3): corral_source_split_10927
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70755,3): corral_source_split_10928
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(71468,3): $bb1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(71472,3): corral_source_split_10930
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(71477,3): corral_source_split_10931
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(71482,3): corral_source_split_10932
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(71487,3): corral_source_split_10933
+                                Inlined call to procedure ldv_free begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(29365,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(29369,3): corral_source_split_4762
+                                    Inlined call to procedure free_ begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(18436,3): anon0
+                                    Inlined call to procedure free_ ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(29374,3): corral_source_split_4763
+                                Inlined call to procedure ldv_free ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(71492,3): corral_source_split_10934
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70766,3): $bb3
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70770,3): corral_source_split_10936
+                                Inlined call to procedure ldv_xmalloc begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27066,3): $bb0
+                                    value = 2968
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27071,3): corral_source_split_4415
+                                    Inlined call to procedure malloc begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51815,3): anon0
+                                        Inlined call to procedure $malloc begins
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(79941,3): anon0
+                                            Inlined call to procedure $$alloc begins
+                                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(79957,3): anon0
+                                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(79966,3): anon3_Then
+                                            Inlined call to procedure $$alloc ends
+                                        Inlined call to procedure $malloc ends
+                                    Inlined call to procedure malloc ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27076,3): corral_source_split_4416
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27081,3): corral_source_split_4417
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27086,3): corral_source_split_4418
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27091,3): corral_source_split_4419
+                                    Inlined call to procedure ldv_assume begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+                                        value = 1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+                                    Inlined call to procedure ldv_assume ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27096,3): corral_source_split_4420
+                                    Inlined call to procedure ldv_is_err begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51838,3): $bb0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51842,3): corral_source_split_8162
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51847,3): corral_source_split_8163
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51852,3): corral_source_split_8164
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51857,3): corral_source_split_8165
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51862,3): corral_source_split_8166
+                                    Inlined call to procedure ldv_is_err ends
+                                    value = 0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27102,3): corral_source_split_4421
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27107,3): corral_source_split_4422
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27112,3): corral_source_split_4423
+                                    Inlined call to procedure ldv_assume begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+                                        value = 1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+                                    Inlined call to procedure ldv_assume ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27117,3): corral_source_split_4424
+                                Inlined call to procedure ldv_xmalloc ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70775,3): corral_source_split_10937
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70780,3): corral_source_split_10938
+                                Inlined call to procedure ldv_xmalloc begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27066,3): $bb0
+                                    value = 32
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27071,3): corral_source_split_4415
+                                    Inlined call to procedure malloc begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51815,3): anon0
+                                        Inlined call to procedure $malloc begins
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(79941,3): anon0
+                                            Inlined call to procedure $$alloc begins
+                                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(79957,3): anon0
+                                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(79966,3): anon3_Then
+                                            Inlined call to procedure $$alloc ends
+                                        Inlined call to procedure $malloc ends
+                                    Inlined call to procedure malloc ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27076,3): corral_source_split_4416
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27081,3): corral_source_split_4417
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27086,3): corral_source_split_4418
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27091,3): corral_source_split_4419
+                                    Inlined call to procedure ldv_assume begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+                                        value = 1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+                                    Inlined call to procedure ldv_assume ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27096,3): corral_source_split_4420
+                                    Inlined call to procedure ldv_is_err begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51838,3): $bb0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51842,3): corral_source_split_8162
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51847,3): corral_source_split_8163
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51852,3): corral_source_split_8164
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51857,3): corral_source_split_8165
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51862,3): corral_source_split_8166
+                                    Inlined call to procedure ldv_is_err ends
+                                    value = 0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27102,3): corral_source_split_4421
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27107,3): corral_source_split_4422
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27112,3): corral_source_split_4423
+                                    Inlined call to procedure ldv_assume begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+                                        value = 1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+                                    Inlined call to procedure ldv_assume ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(27117,3): corral_source_split_4424
+                                Inlined call to procedure ldv_xmalloc ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70785,3): corral_source_split_10939
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70790,3): corral_source_split_10940
+                                Inlined call to procedure ldv_undef_int begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19205,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19209,3): corral_source_split_3261
+                                    Inlined call to procedure __VERIFIER_nondet_int begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78325,3): $bb0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78329,3): corral_source_split_11716
+                                        value = 0
+                                        value = 0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78336,3): corral_source_split_11717
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78341,3): corral_source_split_11718
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78371,3): $bb1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78375,3): corral_source_split_11720
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78352,3): $bb3
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78356,3): corral_source_split_11722
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78361,3): corral_source_split_11723
+                                        Inlined call to procedure __VERIFIER_assume begins
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78144,3): $bb0
+                                            value = 1
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78149,3): corral_source_split_11709
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78153,3): corral_source_split_11710
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78158,3): corral_source_split_11711
+                                        Inlined call to procedure __VERIFIER_assume ends
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78366,3): corral_source_split_11724
+                                    Inlined call to procedure __VERIFIER_nondet_int ends
+                                    value = 0
+                                    value = 0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19216,3): corral_source_split_3262
+                                Inlined call to procedure ldv_undef_int ends
+                                value = 0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70796,3): corral_source_split_10941
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70801,3): corral_source_split_10942
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70806,3): $bb5
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70811,3): $bb6
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70816,3): corral_source_split_10946
+                                Inlined call to procedure ldv_free begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(29365,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(29369,3): corral_source_split_4762
+                                    Inlined call to procedure free_ begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(18436,3): anon0
+                                    Inlined call to procedure free_ ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(29374,3): corral_source_split_4763
+                                Inlined call to procedure ldv_free ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70821,3): corral_source_split_10947
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70826,3): corral_source_split_10948
+                                Inlined call to procedure ldv_free begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(29365,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(29369,3): corral_source_split_4762
+                                    Inlined call to procedure free_ begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(18436,3): anon0
+                                    Inlined call to procedure free_ ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(29374,3): corral_source_split_4763
+                                Inlined call to procedure ldv_free ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70831,3): corral_source_split_10949
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70835,3): $bb18
+                            Inlined call to procedure ldv_pci_pci_instance_3 ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70627,3): SeqInstr_719
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70631,3): SeqInstr_720
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70634,3): corral_source_split_10923
+                        Inlined call to procedure ldv_dispatch_register_27_2 ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70558,3): SeqInstr_716
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70562,3): SeqInstr_717
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70565,3): corral_source_split_10910
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70529,3): $bb3
+                    Inlined call to procedure ldv___pci_register_driver ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68299,3): SeqInstr_692
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68303,3): SeqInstr_693
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68307,3): corral_source_split_10607
+                Inlined call to procedure ldv___pci_register_driver_124 ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68079,3): SeqInstr_686
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68083,3): SeqInstr_687
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68087,3): corral_source_split_10585
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68092,3): corral_source_split_10586
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68097,3): $bb11
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68102,3): $bb13
+                Inlined call to procedure ldv_register_chrdev_125 begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68334,3): $bb0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68339,3): corral_source_split_10609
+                    Inlined call to procedure register_chrdev begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68388,3): $bb0
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68393,3): corral_source_split_10613
+                        Inlined call to procedure ldv_register_chrdev_90 begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(69940,3): $bb0
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(69945,3): corral_source_split_10838
+                            Inlined call to procedure __register_chrdev begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70414,3): $bb0
+                                value = 0
+                                value = 0
+                                value = 256
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70421,3): corral_source_split_10896
+                                Inlined call to procedure __VERIFIER_nondet_int begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78325,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78329,3): corral_source_split_11716
+                                    value = -932
+                                    value = -932
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78336,3): corral_source_split_11717
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78341,3): corral_source_split_11718
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78371,3): $bb1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78375,3): corral_source_split_11720
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78352,3): $bb3
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78356,3): corral_source_split_11722
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78361,3): corral_source_split_11723
+                                    Inlined call to procedure __VERIFIER_assume begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78144,3): $bb0
+                                        value = 1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78149,3): corral_source_split_11709
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78153,3): corral_source_split_11710
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78158,3): corral_source_split_11711
+                                    Inlined call to procedure __VERIFIER_assume ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78366,3): corral_source_split_11724
+                                Inlined call to procedure __VERIFIER_nondet_int ends
+                                value = -932
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70427,3): corral_source_split_10897
+                            Inlined call to procedure __register_chrdev ends
+                            value = -932
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(69951,3): corral_source_split_10839
+                        Inlined call to procedure ldv_register_chrdev_90 ends
+                        value = -932
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68399,3): corral_source_split_10614
+                        Inlined call to procedure ldv_linux_fs_char_dev_register_chrdev begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(69983,3): $bb0
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(69988,3): corral_source_split_10841
+                            Inlined call to procedure ldv_undef_int_nonpositive begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67208,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67212,3): corral_source_split_10488
+                                Inlined call to procedure ldv_undef_int begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19205,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19209,3): corral_source_split_3261
+                                    Inlined call to procedure __VERIFIER_nondet_int begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78325,3): $bb0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78329,3): corral_source_split_11716
+                                        value = -2147477766
+                                        value = -2147477766
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78336,3): corral_source_split_11717
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78341,3): corral_source_split_11718
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78371,3): $bb1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78375,3): corral_source_split_11720
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78352,3): $bb3
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78356,3): corral_source_split_11722
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78361,3): corral_source_split_11723
+                                        Inlined call to procedure __VERIFIER_assume begins
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78144,3): $bb0
+                                            value = 1
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78149,3): corral_source_split_11709
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78153,3): corral_source_split_11710
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78158,3): corral_source_split_11711
+                                        Inlined call to procedure __VERIFIER_assume ends
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78366,3): corral_source_split_11724
+                                    Inlined call to procedure __VERIFIER_nondet_int ends
+                                    value = -2147477766
+                                    value = -2147477766
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19216,3): corral_source_split_3262
+                                Inlined call to procedure ldv_undef_int ends
+                                value = -2147477766
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67218,3): corral_source_split_10489
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67223,3): corral_source_split_10490
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67228,3): corral_source_split_10491
+                                Inlined call to procedure ldv_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+                                Inlined call to procedure ldv_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67233,3): corral_source_split_10492
+                            Inlined call to procedure ldv_undef_int_nonpositive ends
+                            value = -2147477766
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(69994,3): corral_source_split_10842
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(69999,3): corral_source_split_10843
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70004,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70010,3): $bb6
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70014,3): corral_source_split_10861
+                        Inlined call to procedure ldv_linux_fs_char_dev_register_chrdev ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68404,3): SeqInstr_698
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68408,3): SeqInstr_699
+                        value = -2147477766
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68412,3): corral_source_split_10615
+                        Inlined call to procedure ldv_linux_usb_gadget_register_chrdev begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70142,3): $bb0
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70147,3): corral_source_split_10863
+                            Inlined call to procedure ldv_undef_int_nonpositive begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67208,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67212,3): corral_source_split_10488
+                                Inlined call to procedure ldv_undef_int begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19205,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19209,3): corral_source_split_3261
+                                    Inlined call to procedure __VERIFIER_nondet_int begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78325,3): $bb0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78329,3): corral_source_split_11716
+                                        value = -2147477766
+                                        value = -2147477766
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78336,3): corral_source_split_11717
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78341,3): corral_source_split_11718
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78371,3): $bb1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78375,3): corral_source_split_11720
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78352,3): $bb3
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78356,3): corral_source_split_11722
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78361,3): corral_source_split_11723
+                                        Inlined call to procedure __VERIFIER_assume begins
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78144,3): $bb0
+                                            value = 1
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78149,3): corral_source_split_11709
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78153,3): corral_source_split_11710
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78158,3): corral_source_split_11711
+                                        Inlined call to procedure __VERIFIER_assume ends
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78366,3): corral_source_split_11724
+                                    Inlined call to procedure __VERIFIER_nondet_int ends
+                                    value = -2147477766
+                                    value = -2147477766
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19216,3): corral_source_split_3262
+                                Inlined call to procedure ldv_undef_int ends
+                                value = -2147477766
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67218,3): corral_source_split_10489
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67223,3): corral_source_split_10490
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67228,3): corral_source_split_10491
+                                Inlined call to procedure ldv_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+                                Inlined call to procedure ldv_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67233,3): corral_source_split_10492
+                            Inlined call to procedure ldv_undef_int_nonpositive ends
+                            value = -2147477766
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70153,3): corral_source_split_10864
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70158,3): corral_source_split_10865
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70163,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70169,3): $bb6
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(70173,3): corral_source_split_10882
+                        Inlined call to procedure ldv_linux_usb_gadget_register_chrdev ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68417,3): SeqInstr_701
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68421,3): SeqInstr_702
+                        value = -2147477766
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68425,3): corral_source_split_10616
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68430,3): corral_source_split_10617
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68435,3): corral_source_split_10618
+                        Inlined call to procedure ldv_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+                        Inlined call to procedure ldv_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68440,3): corral_source_split_10619
+                    Inlined call to procedure register_chrdev ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68344,3): SeqInstr_695
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68348,3): SeqInstr_696
+                    value = -2147477766
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68352,3): corral_source_split_10610
+                    Inlined call to procedure ldv_register_chrdev begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68475,3): $bb0
+                        value = -2147477766
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68481,3): corral_source_split_10621
+                        Inlined call to procedure ldv_undef_int begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19205,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19209,3): corral_source_split_3261
+                            Inlined call to procedure __VERIFIER_nondet_int begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78325,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78329,3): corral_source_split_11716
+                                value = 0
+                                value = 0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78336,3): corral_source_split_11717
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78341,3): corral_source_split_11718
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78371,3): $bb1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78375,3): corral_source_split_11720
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78352,3): $bb3
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78356,3): corral_source_split_11722
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78361,3): corral_source_split_11723
+                                Inlined call to procedure __VERIFIER_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78144,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78149,3): corral_source_split_11709
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78153,3): corral_source_split_11710
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78158,3): corral_source_split_11711
+                                Inlined call to procedure __VERIFIER_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78366,3): corral_source_split_11724
+                            Inlined call to procedure __VERIFIER_nondet_int ends
+                            value = 0
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19216,3): corral_source_split_3262
+                        Inlined call to procedure ldv_undef_int ends
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68487,3): corral_source_split_10622
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68492,3): corral_source_split_10623
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68497,3): $bb2
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68501,3): corral_source_split_10631
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68506,3): corral_source_split_10632
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68511,3): corral_source_split_10633
+                        Inlined call to procedure ldv_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+                        Inlined call to procedure ldv_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68516,3): corral_source_split_10634
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68520,3): $bb3
+                    Inlined call to procedure ldv_register_chrdev ends
+                    value = -2147477766
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68358,3): corral_source_split_10611
+                Inlined call to procedure ldv_register_chrdev_125 ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68107,3): SeqInstr_689
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68111,3): SeqInstr_690
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68114,3): corral_source_split_10593
+                value = -2147477766
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68120,3): corral_source_split_10594
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68125,3): corral_source_split_10595
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68130,3): corral_source_split_10596
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68135,3): $bb15
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68140,3): $bb16
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68145,3): $bb12
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(68149,3): corral_source_split_10591
+            Inlined call to procedure megaraid_init ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67934,3): SeqInstr_683
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67938,3): SeqInstr_684
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67942,3): corral_source_split_10559
+        Inlined call to procedure ldv_EMGentry_init_megaraid_init_28_9 ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74447,3): SeqInstr_851
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74451,3): SeqInstr_852
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74455,3): corral_source_split_11359
+        Inlined call to procedure ldv_ldv_post_init_128 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74656,3): $bb0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74661,3): corral_source_split_11386
+            Inlined call to procedure ldv_linux_net_register_reset_error_counter begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51150,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51154,3): corral_source_split_8107
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51160,3): corral_source_split_8108
+            Inlined call to procedure ldv_linux_net_register_reset_error_counter ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74666,3): corral_source_split_11387
+            Inlined call to procedure ldv_linux_usb_register_reset_error_counter begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51055,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51059,3): corral_source_split_8098
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(51065,3): corral_source_split_8099
+            Inlined call to procedure ldv_linux_usb_register_reset_error_counter ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74671,3): corral_source_split_11388
+            Inlined call to procedure ldv_post_init begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(77988,3): $bb0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(77993,3): corral_source_split_11692
+                Inlined call to procedure ldv_filter_positive_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(50949,3): $bb0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(50954,3): corral_source_split_8087
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(50959,3): corral_source_split_8088
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(50964,3): corral_source_split_8089
+                    Inlined call to procedure ldv_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+                    Inlined call to procedure ldv_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(50969,3): corral_source_split_8090
+                Inlined call to procedure ldv_filter_positive_int ends
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(77999,3): corral_source_split_11693
+            Inlined call to procedure ldv_post_init ends
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74677,3): corral_source_split_11389
+        Inlined call to procedure ldv_ldv_post_init_128 ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74461,3): corral_source_split_11360
+        Inlined call to procedure ldv_undef_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19205,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19209,3): corral_source_split_3261
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78325,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78329,3): corral_source_split_11716
+                value = 0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78336,3): corral_source_split_11717
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78341,3): corral_source_split_11718
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78371,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78375,3): corral_source_split_11720
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78352,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78356,3): corral_source_split_11722
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78361,3): corral_source_split_11723
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78144,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78149,3): corral_source_split_11709
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78153,3): corral_source_split_11710
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78158,3): corral_source_split_11711
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78366,3): corral_source_split_11724
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19216,3): corral_source_split_3262
+        Inlined call to procedure ldv_undef_int ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74467,3): corral_source_split_11361
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74472,3): corral_source_split_11362
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74477,3): $bb2
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74481,3): corral_source_split_11371
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74486,3): corral_source_split_11372
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74491,3): corral_source_split_11373
+        Inlined call to procedure ldv_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26854,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26859,3): corral_source_split_4391
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26864,3): corral_source_split_4392
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26869,3): $bb2
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(26874,3): $bb4
+        Inlined call to procedure ldv_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74496,3): corral_source_split_11374
+        Inlined call to procedure ldv_undef_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19205,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19209,3): corral_source_split_3261
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78325,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78329,3): corral_source_split_11716
+                value = 0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78336,3): corral_source_split_11717
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78341,3): corral_source_split_11718
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78371,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78375,3): corral_source_split_11720
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78352,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78356,3): corral_source_split_11722
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78361,3): corral_source_split_11723
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78144,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78149,3): corral_source_split_11709
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78153,3): corral_source_split_11710
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78158,3): corral_source_split_11711
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78366,3): corral_source_split_11724
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(19216,3): corral_source_split_3262
+        Inlined call to procedure ldv_undef_int ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74502,3): corral_source_split_11375
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74507,3): corral_source_split_11376
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74512,3): $bb5
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74517,3): $bb6
+        Inlined call to procedure ldv_EMGentry_exit_megaraid_exit_28_2 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67254,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67258,3): corral_source_split_10494
+            Inlined call to procedure megaraid_exit begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67295,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67299,3): corral_source_split_10497
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67304,3): corral_source_split_10498
+                Inlined call to procedure ldv_unregister_chrdev_126 begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67350,3): $bb0
+                    value = -2147477766
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67355,3): corral_source_split_10503
+                    Inlined call to procedure unregister_chrdev begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67503,3): $bb0
+                        value = -2147477766
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67508,3): corral_source_split_10518
+                        Inlined call to procedure ldv_unregister_chrdev_91 begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67616,3): $bb0
+                            value = -2147477766
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67621,3): corral_source_split_10528
+                            Inlined call to procedure __unregister_chrdev begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67897,3): $bb0
+                                value = -2147477766
+                                value = 0
+                                value = 256
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67904,3): corral_source_split_10556
+                            Inlined call to procedure __unregister_chrdev ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67626,3): corral_source_split_10529
+                        Inlined call to procedure ldv_unregister_chrdev_91 ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67513,3): corral_source_split_10519
+                        Inlined call to procedure ldv_linux_fs_char_dev_unregister_chrdev_region begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67649,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67653,3): corral_source_split_10531
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67658,3): corral_source_split_10532
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67663,3): corral_source_split_10533
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67668,3): corral_source_split_10534
+                            Inlined call to procedure ldv_assert_linux_fs_char_dev__double_deregistration begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67834,3): $bb0
+                                value = 0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67839,3): corral_source_split_10550
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67844,3): corral_source_split_10551
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67849,3): $bb2
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67853,3): corral_source_split_10553
+                                Inlined call to procedure __VERIFIER_error begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78198,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78202,3): corral_source_split_11713
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78210,3): assert_rewrite_dummy_block_0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78229,3): SeqInstr_1114
+                                Inlined call to procedure __VERIFIER_error ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67873,3): SeqInstr_679
+                            Inlined call to procedure ldv_assert_linux_fs_char_dev__double_deregistration ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67690,3): SeqInstr_670
+                        Inlined call to procedure ldv_linux_fs_char_dev_unregister_chrdev_region ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67545,3): SeqInstr_664
+                    Inlined call to procedure unregister_chrdev ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67376,3): SeqInstr_661
+                Inlined call to procedure ldv_unregister_chrdev_126 ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67330,3): SeqInstr_658
+            Inlined call to procedure megaraid_exit ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(67274,3): SeqInstr_655
+        Inlined call to procedure ldv_EMGentry_exit_megaraid_exit_28_2 ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(74558,3): SeqInstr_859
+    Inlined call to procedure ldv_entry_EMGentry_28 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--scsi--megaraid.ko_false-unreach-call.cil.i.bpl.bpl(78051,3): SeqInstr_1111
+Inlined call to procedure main ends
+Number of procedures inlined: 176
+Total Time: 8.48 s
+
+Stopping: Done

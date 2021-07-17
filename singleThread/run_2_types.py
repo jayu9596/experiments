@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
-myDir = '/home/jaydeep/Thesis/experiments/corral/sdv/'
-uwFolder = '70/Run5'
-vanillaFolder = '70/Run2'
+myDir = '/home/jaydeep/Thesis/experiments/singleThread/sdv/'
+uwFolder = '100/Run1'
+vanillaFolder = 'old100/Run1'
 uwName = uwFolder
 vanillaName = vanillaFolder
 maxValue = 3600

@@ -1,0 +1,11 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+main_SeqInstr did not verify
+/home/jaydeep/benchmarks/svcompBenchmarks/m0_false-unreach-call_drivers-usb-gadget-g_printer-ko--106_1a--2b9ec6c-1.i.bpl.bpl(36488,3): start
+Inlined call to procedure main begins
+    /home/jaydeep/benchmarks/svcompBenchmarks/m0_false-unreach-call_drivers-usb-gadget-g_printer-ko--106_1a--2b9ec6c-1.i.bpl.bpl(21706,3): $bb0
+    Inlined call to procedure $initialize begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/m0_false-unreach-call_drivers-usb-gadget-g_printer-ko--106_1a--2b9ec6c-1.i.bpl.bpl(28494,3): anon0
+        Inlined call to procedure __SMACK_static_init begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/m0_false-unreach-call_drivers-usb-gadget-g_printer-ko--106_1a--2b9ec6c-1.i.bpl.bpl(26377,3): $bb0

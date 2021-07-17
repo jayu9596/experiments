@@ -1,0 +1,877 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+main_SeqInstr did not verify
+/home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(128667,3): start
+Inlined call to procedure main begins
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111810,3): $bb0
+    Inlined call to procedure $initialize begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(120673,3): anon0
+        Inlined call to procedure __SMACK_static_init begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(113799,3): $bb0
+            value = 0
+            value = 0
+            value = 0
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 1
+            value = 1
+            value = 1
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 1
+            value = 0
+        Inlined call to procedure __SMACK_static_init ends
+        Inlined call to procedure __SMACK_init_func_memory_model begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(113670,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(113674,3): corral_source_split_16344
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(113679,3): corral_source_split_16345
+        Inlined call to procedure __SMACK_init_func_memory_model ends
+    Inlined call to procedure $initialize ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111814,3): corral_source_split_16275
+    value = -765207
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111819,3): corral_source_split_16276
+    Inlined call to procedure ldv_ldv_initialize_128 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111860,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111864,3): corral_source_split_16280
+        Inlined call to procedure ldv_linux_lib_find_bit_initialize begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111891,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111895,3): corral_source_split_16283
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111900,3): corral_source_split_16284
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111905,3): corral_source_split_16285
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111910,3): corral_source_split_16286
+            Inlined call to procedure ldv_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10287,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10292,3): corral_source_split_1278
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10297,3): corral_source_split_1279
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10302,3): $bb2
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10307,3): $bb4
+            Inlined call to procedure ldv_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111915,3): corral_source_split_16287
+        Inlined call to procedure ldv_linux_lib_find_bit_initialize ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111869,3): corral_source_split_16281
+    Inlined call to procedure ldv_ldv_initialize_128 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111824,3): corral_source_split_16277
+    Inlined call to procedure ldv_entry_EMGentry_19 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108168,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108172,3): corral_source_split_15931
+        Inlined call to procedure ldv_EMGentry_init_fbmem_init_19_10 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100779,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100783,3): corral_source_split_15015
+            Inlined call to procedure fbmem_init begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100835,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100839,3): corral_source_split_15018
+                Inlined call to procedure proc_create begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101007,3): $bb0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101012,3): corral_source_split_15042
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101017,3): corral_source_split_15043
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101022,3): corral_source_split_15044
+                    Inlined call to procedure proc_create_data begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104581,3): $bb0
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104586,3): corral_source_split_15492
+                        Inlined call to procedure external_alloc begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(3350,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(3354,3): corral_source_split_239
+                            Inlined call to procedure __VERIFIER_nondet_pointer begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112584,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112588,3): corral_source_split_16341
+                                value = 236
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112594,3): corral_source_split_16342
+                            Inlined call to procedure __VERIFIER_nondet_pointer ends
+                            value = 236
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(3360,3): corral_source_split_240
+                        Inlined call to procedure external_alloc ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104591,3): corral_source_split_15493
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104596,3): corral_source_split_15494
+                    Inlined call to procedure proc_create_data ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101027,3): corral_source_split_15045
+                Inlined call to procedure proc_create ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100844,3): corral_source_split_15019
+                Inlined call to procedure ldv_register_chrdev_122 begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101050,3): $bb0
+                    value = 29
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101055,3): corral_source_split_15047
+                    Inlined call to procedure register_chrdev begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101115,3): $bb0
+                        value = 29
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101120,3): corral_source_split_15051
+                        Inlined call to procedure ldv_register_chrdev_72 begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104072,3): $bb0
+                            value = 29
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104077,3): corral_source_split_15431
+                            Inlined call to procedure __register_chrdev begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104546,3): $bb0
+                                value = 29
+                                value = 0
+                                value = 256
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104553,3): corral_source_split_15489
+                                Inlined call to procedure __VERIFIER_nondet_int begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112115,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112119,3): corral_source_split_16296
+                                    value = -2147483648
+                                    value = -2147483648
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112126,3): corral_source_split_16297
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112131,3): corral_source_split_16298
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112161,3): $bb1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112165,3): corral_source_split_16300
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112142,3): $bb3
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112146,3): corral_source_split_16302
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112151,3): corral_source_split_16303
+                                    Inlined call to procedure __VERIFIER_assume begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111934,3): $bb0
+                                        value = 1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111939,3): corral_source_split_16289
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111943,3): corral_source_split_16290
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111948,3): corral_source_split_16291
+                                    Inlined call to procedure __VERIFIER_assume ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112156,3): corral_source_split_16304
+                                Inlined call to procedure __VERIFIER_nondet_int ends
+                                value = -2147483648
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104559,3): corral_source_split_15490
+                            Inlined call to procedure __register_chrdev ends
+                            value = -2147483648
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104083,3): corral_source_split_15432
+                        Inlined call to procedure ldv_register_chrdev_72 ends
+                        value = -2147483648
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101126,3): corral_source_split_15052
+                        Inlined call to procedure ldv_linux_fs_char_dev_register_chrdev begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104115,3): $bb0
+                            value = 29
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104120,3): corral_source_split_15434
+                            Inlined call to procedure ldv_undef_int_nonpositive begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99599,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99603,3): corral_source_split_14895
+                                Inlined call to procedure ldv_undef_int begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10225,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10229,3): corral_source_split_1272
+                                    Inlined call to procedure __VERIFIER_nondet_int begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112115,3): $bb0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112119,3): corral_source_split_16296
+                                        value = -2147482966
+                                        value = -2147482966
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112126,3): corral_source_split_16297
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112131,3): corral_source_split_16298
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112161,3): $bb1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112165,3): corral_source_split_16300
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112142,3): $bb3
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112146,3): corral_source_split_16302
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112151,3): corral_source_split_16303
+                                        Inlined call to procedure __VERIFIER_assume begins
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111934,3): $bb0
+                                            value = 1
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111939,3): corral_source_split_16289
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111943,3): corral_source_split_16290
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111948,3): corral_source_split_16291
+                                        Inlined call to procedure __VERIFIER_assume ends
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112156,3): corral_source_split_16304
+                                    Inlined call to procedure __VERIFIER_nondet_int ends
+                                    value = -2147482966
+                                    value = -2147482966
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10236,3): corral_source_split_1273
+                                Inlined call to procedure ldv_undef_int ends
+                                value = -2147482966
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99609,3): corral_source_split_14896
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99614,3): corral_source_split_14897
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99619,3): corral_source_split_14898
+                                Inlined call to procedure ldv_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10287,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10292,3): corral_source_split_1278
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10297,3): corral_source_split_1279
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10302,3): $bb2
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10307,3): $bb4
+                                Inlined call to procedure ldv_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99624,3): corral_source_split_14899
+                            Inlined call to procedure ldv_undef_int_nonpositive ends
+                            value = -2147482966
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104126,3): corral_source_split_15435
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104131,3): corral_source_split_15436
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104136,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104142,3): $bb6
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104146,3): corral_source_split_15454
+                        Inlined call to procedure ldv_linux_fs_char_dev_register_chrdev ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101131,3): SeqInstr_758
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101135,3): SeqInstr_759
+                        value = -2147482966
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101139,3): corral_source_split_15053
+                        Inlined call to procedure ldv_linux_usb_gadget_register_chrdev begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104274,3): $bb0
+                            value = 29
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104279,3): corral_source_split_15456
+                            Inlined call to procedure ldv_undef_int_nonpositive begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99599,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99603,3): corral_source_split_14895
+                                Inlined call to procedure ldv_undef_int begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10225,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10229,3): corral_source_split_1272
+                                    Inlined call to procedure __VERIFIER_nondet_int begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112115,3): $bb0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112119,3): corral_source_split_16296
+                                        value = -2147482966
+                                        value = -2147482966
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112126,3): corral_source_split_16297
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112131,3): corral_source_split_16298
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112161,3): $bb1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112165,3): corral_source_split_16300
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112142,3): $bb3
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112146,3): corral_source_split_16302
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112151,3): corral_source_split_16303
+                                        Inlined call to procedure __VERIFIER_assume begins
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111934,3): $bb0
+                                            value = 1
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111939,3): corral_source_split_16289
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111943,3): corral_source_split_16290
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111948,3): corral_source_split_16291
+                                        Inlined call to procedure __VERIFIER_assume ends
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112156,3): corral_source_split_16304
+                                    Inlined call to procedure __VERIFIER_nondet_int ends
+                                    value = -2147482966
+                                    value = -2147482966
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10236,3): corral_source_split_1273
+                                Inlined call to procedure ldv_undef_int ends
+                                value = -2147482966
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99609,3): corral_source_split_14896
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99614,3): corral_source_split_14897
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99619,3): corral_source_split_14898
+                                Inlined call to procedure ldv_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10287,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10292,3): corral_source_split_1278
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10297,3): corral_source_split_1279
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10302,3): $bb2
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10307,3): $bb4
+                                Inlined call to procedure ldv_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99624,3): corral_source_split_14899
+                            Inlined call to procedure ldv_undef_int_nonpositive ends
+                            value = -2147482966
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104285,3): corral_source_split_15457
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104290,3): corral_source_split_15458
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104295,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104301,3): $bb6
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(104305,3): corral_source_split_15475
+                        Inlined call to procedure ldv_linux_usb_gadget_register_chrdev ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101144,3): SeqInstr_761
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101148,3): SeqInstr_762
+                        value = -2147482966
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101152,3): corral_source_split_15054
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101157,3): corral_source_split_15055
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101162,3): corral_source_split_15056
+                        Inlined call to procedure ldv_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10287,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10292,3): corral_source_split_1278
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10297,3): corral_source_split_1279
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10302,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10307,3): $bb4
+                        Inlined call to procedure ldv_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101167,3): corral_source_split_15057
+                    Inlined call to procedure register_chrdev ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101060,3): SeqInstr_752
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101064,3): SeqInstr_753
+                    value = -2147482966
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101068,3): corral_source_split_15048
+                    Inlined call to procedure ldv_register_chrdev begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101202,3): $bb0
+                        value = -2147482966
+                        value = 29
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101208,3): corral_source_split_15059
+                        Inlined call to procedure ldv_undef_int begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10225,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10229,3): corral_source_split_1272
+                            Inlined call to procedure __VERIFIER_nondet_int begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112115,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112119,3): corral_source_split_16296
+                                value = 0
+                                value = 0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112126,3): corral_source_split_16297
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112131,3): corral_source_split_16298
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112161,3): $bb1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112165,3): corral_source_split_16300
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112142,3): $bb3
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112146,3): corral_source_split_16302
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112151,3): corral_source_split_16303
+                                Inlined call to procedure __VERIFIER_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111934,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111939,3): corral_source_split_16289
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111943,3): corral_source_split_16290
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111948,3): corral_source_split_16291
+                                Inlined call to procedure __VERIFIER_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112156,3): corral_source_split_16304
+                            Inlined call to procedure __VERIFIER_nondet_int ends
+                            value = 0
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10236,3): corral_source_split_1273
+                        Inlined call to procedure ldv_undef_int ends
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101214,3): corral_source_split_15060
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101219,3): corral_source_split_15061
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101224,3): $bb2
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101228,3): corral_source_split_15069
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101233,3): corral_source_split_15070
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101238,3): corral_source_split_15071
+                        Inlined call to procedure ldv_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10287,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10292,3): corral_source_split_1278
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10297,3): corral_source_split_1279
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10302,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10307,3): $bb4
+                        Inlined call to procedure ldv_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101243,3): corral_source_split_15072
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101247,3): $bb3
+                    Inlined call to procedure ldv_register_chrdev ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101073,3): SeqInstr_755
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101077,3): SeqInstr_756
+                    value = -2147482966
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(101081,3): corral_source_split_15049
+                Inlined call to procedure ldv_register_chrdev_122 ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100849,3): SeqInstr_746
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100853,3): SeqInstr_747
+                value = -2147482966
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100857,3): corral_source_split_15020
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100862,3): corral_source_split_15021
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100972,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100976,3): corral_source_split_15023
+                Inlined call to procedure printk.ref.i32 begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(16387,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(16391,3): corral_source_split_2162
+                    Inlined call to procedure __VERIFIER_nondet_int begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112115,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112119,3): corral_source_split_16296
+                        value = -814
+                        value = -814
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112126,3): corral_source_split_16297
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112131,3): corral_source_split_16298
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112161,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112165,3): corral_source_split_16300
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112142,3): $bb3
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112146,3): corral_source_split_16302
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112151,3): corral_source_split_16303
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111934,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111939,3): corral_source_split_16289
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111943,3): corral_source_split_16290
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111948,3): corral_source_split_16291
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112156,3): corral_source_split_16304
+                    Inlined call to procedure __VERIFIER_nondet_int ends
+                    value = -814
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(16397,3): corral_source_split_2163
+                Inlined call to procedure printk.ref.i32 ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100981,3): corral_source_split_15024
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100872,3): $bb3
+                Inlined call to procedure ldv_create_class begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99122,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99126,3): corral_source_split_14842
+                    Inlined call to procedure ldv_linux_drivers_base_class_create_class begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99212,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99216,3): corral_source_split_14851
+                        Inlined call to procedure ldv_undef_ptr begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99436,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99440,3): corral_source_split_14880
+                            Inlined call to procedure __VERIFIER_nondet_pointer begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112584,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112588,3): corral_source_split_16341
+                                value = 4294967295
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112594,3): corral_source_split_16342
+                            Inlined call to procedure __VERIFIER_nondet_pointer ends
+                            value = 4294967295
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99446,3): corral_source_split_14881
+                        Inlined call to procedure ldv_undef_ptr ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99221,3): corral_source_split_14852
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99226,3): corral_source_split_14853
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99231,3): corral_source_split_14854
+                        Inlined call to procedure ldv_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10287,3): $bb0
+                            value = 4294967295
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10292,3): corral_source_split_1278
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10297,3): corral_source_split_1279
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10302,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10307,3): $bb4
+                        Inlined call to procedure ldv_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99236,3): corral_source_split_14855
+                        Inlined call to procedure ldv_is_err begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10350,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10354,3): corral_source_split_1283
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10359,3): corral_source_split_1284
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10364,3): corral_source_split_1285
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10369,3): corral_source_split_1286
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10374,3): corral_source_split_1287
+                        Inlined call to procedure ldv_is_err ends
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99242,3): corral_source_split_14856
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99247,3): corral_source_split_14857
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99262,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99266,3): corral_source_split_14859
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99271,3): corral_source_split_14860
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99276,3): corral_source_split_14861
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99281,3): corral_source_split_14862
+                        Inlined call to procedure ldv_assert_linux_drivers_base_class__double_registration begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99533,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99538,3): corral_source_split_14889
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99543,3): corral_source_split_14890
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99576,3): $bb1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99568,3): $bb3
+                        Inlined call to procedure ldv_assert_linux_drivers_base_class__double_registration ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99286,3): SeqInstr_677
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99290,3): SeqInstr_678
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99293,3): corral_source_split_14863
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99299,3): corral_source_split_14864
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99257,3): $bb3
+                    Inlined call to procedure ldv_linux_drivers_base_class_create_class ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99131,3): SeqInstr_671
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99135,3): SeqInstr_672
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99138,3): corral_source_split_14843
+                    Inlined call to procedure ldv_linux_usb_gadget_create_class begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99331,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99335,3): corral_source_split_14866
+                        Inlined call to procedure ldv_undef_ptr begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99436,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99440,3): corral_source_split_14880
+                            Inlined call to procedure __VERIFIER_nondet_pointer begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112584,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112588,3): corral_source_split_16341
+                                value = 4294967295
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112594,3): corral_source_split_16342
+                            Inlined call to procedure __VERIFIER_nondet_pointer ends
+                            value = 4294967295
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99446,3): corral_source_split_14881
+                        Inlined call to procedure ldv_undef_ptr ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99340,3): corral_source_split_14867
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99345,3): corral_source_split_14868
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99350,3): corral_source_split_14869
+                        Inlined call to procedure ldv_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10287,3): $bb0
+                            value = 4294967295
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10292,3): corral_source_split_1278
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10297,3): corral_source_split_1279
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10302,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10307,3): $bb4
+                        Inlined call to procedure ldv_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99355,3): corral_source_split_14870
+                        Inlined call to procedure ldv_is_err begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10350,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10354,3): corral_source_split_1283
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10359,3): corral_source_split_1284
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10364,3): corral_source_split_1285
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10369,3): corral_source_split_1286
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10374,3): corral_source_split_1287
+                        Inlined call to procedure ldv_is_err ends
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99361,3): corral_source_split_14871
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99366,3): corral_source_split_14872
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99381,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99385,3): corral_source_split_14874
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99390,3): corral_source_split_14875
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99395,3): corral_source_split_14876
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99400,3): corral_source_split_14877
+                        Inlined call to procedure ldv_assert_linux_usb_gadget__class_registration_with_usb_gadget begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99468,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99473,3): corral_source_split_14883
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99478,3): corral_source_split_14884
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99511,3): $bb1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99503,3): $bb3
+                        Inlined call to procedure ldv_assert_linux_usb_gadget__class_registration_with_usb_gadget ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99405,3): SeqInstr_680
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99409,3): SeqInstr_681
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99412,3): corral_source_split_14878
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99376,3): $bb3
+                    Inlined call to procedure ldv_linux_usb_gadget_create_class ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99143,3): SeqInstr_674
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99147,3): SeqInstr_675
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99150,3): corral_source_split_14844
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99155,3): corral_source_split_14845
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99160,3): corral_source_split_14846
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99165,3): corral_source_split_14847
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99170,3): corral_source_split_14848
+                    Inlined call to procedure ldv_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10287,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10292,3): corral_source_split_1278
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10297,3): corral_source_split_1279
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10302,3): $bb2
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10307,3): $bb4
+                    Inlined call to procedure ldv_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99175,3): corral_source_split_14849
+                Inlined call to procedure ldv_create_class ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100877,3): SeqInstr_749
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100881,3): SeqInstr_750
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100884,3): corral_source_split_15026
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100888,3): corral_source_split_15027
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100893,3): corral_source_split_15028
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100898,3): corral_source_split_15029
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100903,3): corral_source_split_15030
+                Inlined call to procedure IS_ERR begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(23154,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(23158,3): corral_source_split_3067
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(23163,3): corral_source_split_3068
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(23168,3): corral_source_split_3069
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(23173,3): corral_source_split_3070
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(23178,3): corral_source_split_3071
+                    Inlined call to procedure ldv__builtin_expect begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(23777,3): $bb0
+                        value = 0
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(23783,3): corral_source_split_3147
+                    Inlined call to procedure ldv__builtin_expect ends
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(23184,3): corral_source_split_3072
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(23189,3): corral_source_split_3073
+                Inlined call to procedure IS_ERR ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100908,3): corral_source_split_15031
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100914,3): corral_source_split_15032
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100919,3): corral_source_split_15033
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100924,3): $bb5
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100929,3): $bb6
+            Inlined call to procedure fbmem_init ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100788,3): SeqInstr_743
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100792,3): SeqInstr_744
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100796,3): corral_source_split_15016
+        Inlined call to procedure ldv_EMGentry_init_fbmem_init_19_10 ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108177,3): SeqInstr_953
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108181,3): SeqInstr_954
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108185,3): corral_source_split_15932
+        Inlined call to procedure ldv_ldv_post_init_125 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108390,3): $bb0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108395,3): corral_source_split_15960
+            Inlined call to procedure ldv_linux_net_register_reset_error_counter begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111721,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111725,3): corral_source_split_16266
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111730,3): corral_source_split_16267
+            Inlined call to procedure ldv_linux_net_register_reset_error_counter ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108400,3): corral_source_split_15961
+            Inlined call to procedure ldv_linux_usb_register_reset_error_counter begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111749,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111753,3): corral_source_split_16269
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111758,3): corral_source_split_16270
+            Inlined call to procedure ldv_linux_usb_register_reset_error_counter ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108405,3): corral_source_split_15962
+            Inlined call to procedure ldv_post_init begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111778,3): $bb0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111783,3): corral_source_split_16272
+                Inlined call to procedure ldv_filter_positive_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(103673,3): $bb0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(103678,3): corral_source_split_15399
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(103683,3): corral_source_split_15400
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(103688,3): corral_source_split_15401
+                    Inlined call to procedure ldv_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10287,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10292,3): corral_source_split_1278
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10297,3): corral_source_split_1279
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10302,3): $bb2
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10307,3): $bb4
+                    Inlined call to procedure ldv_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(103693,3): corral_source_split_15402
+                Inlined call to procedure ldv_filter_positive_int ends
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111789,3): corral_source_split_16273
+            Inlined call to procedure ldv_post_init ends
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108411,3): corral_source_split_15963
+        Inlined call to procedure ldv_ldv_post_init_125 ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108191,3): corral_source_split_15933
+        Inlined call to procedure ldv_undef_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10225,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10229,3): corral_source_split_1272
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112115,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112119,3): corral_source_split_16296
+                value = 0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112126,3): corral_source_split_16297
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112131,3): corral_source_split_16298
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112161,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112165,3): corral_source_split_16300
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112142,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112146,3): corral_source_split_16302
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112151,3): corral_source_split_16303
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111934,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111939,3): corral_source_split_16289
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111943,3): corral_source_split_16290
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111948,3): corral_source_split_16291
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112156,3): corral_source_split_16304
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10236,3): corral_source_split_1273
+        Inlined call to procedure ldv_undef_int ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108197,3): corral_source_split_15934
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108202,3): corral_source_split_15935
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108207,3): $bb2
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108211,3): corral_source_split_15944
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108216,3): corral_source_split_15945
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108221,3): corral_source_split_15946
+        Inlined call to procedure ldv_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10287,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10292,3): corral_source_split_1278
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10297,3): corral_source_split_1279
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10302,3): $bb2
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10307,3): $bb4
+        Inlined call to procedure ldv_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108226,3): corral_source_split_15947
+        Inlined call to procedure ldv_undef_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10225,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10229,3): corral_source_split_1272
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112115,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112119,3): corral_source_split_16296
+                value = 0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112126,3): corral_source_split_16297
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112131,3): corral_source_split_16298
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112161,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112165,3): corral_source_split_16300
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112142,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112146,3): corral_source_split_16302
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112151,3): corral_source_split_16303
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111934,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111939,3): corral_source_split_16289
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111943,3): corral_source_split_16290
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111948,3): corral_source_split_16291
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112156,3): corral_source_split_16304
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10236,3): corral_source_split_1273
+        Inlined call to procedure ldv_undef_int ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108232,3): corral_source_split_15948
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108237,3): corral_source_split_15949
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108242,3): $bb5
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108247,3): $bb6
+        Inlined call to procedure ldv_EMGentry_exit_fbmem_exit_19_2 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99645,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99649,3): corral_source_split_14901
+            Inlined call to procedure fbmem_exit begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99686,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99690,3): corral_source_split_14904
+                Inlined call to procedure remove_proc_entry begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99751,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99755,3): corral_source_split_14910
+                Inlined call to procedure remove_proc_entry ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99695,3): corral_source_split_14905
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99700,3): corral_source_split_14906
+                Inlined call to procedure ldv_class_destroy_123 begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99775,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99779,3): corral_source_split_14912
+                    Inlined call to procedure ldv_linux_drivers_base_class_destroy_class begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100303,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100307,3): corral_source_split_14960
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100312,3): corral_source_split_14961
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100317,3): corral_source_split_14962
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100322,3): $bb2
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100326,3): corral_source_split_14966
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100331,3): corral_source_split_14967
+                        Inlined call to procedure ldv_is_err begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10350,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10354,3): corral_source_split_1283
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10359,3): corral_source_split_1284
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10364,3): corral_source_split_1285
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10369,3): corral_source_split_1286
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10374,3): corral_source_split_1287
+                        Inlined call to procedure ldv_is_err ends
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100337,3): corral_source_split_14968
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100342,3): corral_source_split_14969
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100347,3): $bb5
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100352,3): $bb6
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100356,3): $bb7
+                        Inlined call to procedure ldv_linux_drivers_base_class_unregister_class begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100652,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100656,3): corral_source_split_15002
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100661,3): corral_source_split_15003
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100666,3): corral_source_split_15004
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100671,3): corral_source_split_15005
+                            Inlined call to procedure ldv_assert_linux_drivers_base_class__double_deregistration begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100714,3): $bb0
+                                value = 1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100719,3): corral_source_split_15009
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100724,3): corral_source_split_15010
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100757,3): $bb1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100749,3): $bb3
+                            Inlined call to procedure ldv_assert_linux_drivers_base_class__double_deregistration ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100676,3): SeqInstr_737
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100680,3): SeqInstr_738
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100683,3): corral_source_split_15006
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100689,3): corral_source_split_15007
+                        Inlined call to procedure ldv_linux_drivers_base_class_unregister_class ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100361,3): SeqInstr_725
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100365,3): SeqInstr_726
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100368,3): corral_source_split_14973
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100372,3): $bb3
+                    Inlined call to procedure ldv_linux_drivers_base_class_destroy_class ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99784,3): SeqInstr_698
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99788,3): SeqInstr_699
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99791,3): corral_source_split_14913
+                    Inlined call to procedure ldv_linux_usb_gadget_destroy_class begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100417,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100421,3): corral_source_split_14975
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100426,3): corral_source_split_14976
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100431,3): corral_source_split_14977
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100436,3): $bb2
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100440,3): corral_source_split_14981
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100445,3): corral_source_split_14982
+                        Inlined call to procedure ldv_is_err begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10350,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10354,3): corral_source_split_1283
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10359,3): corral_source_split_1284
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10364,3): corral_source_split_1285
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10369,3): corral_source_split_1286
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(10374,3): corral_source_split_1287
+                        Inlined call to procedure ldv_is_err ends
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100451,3): corral_source_split_14983
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100456,3): corral_source_split_14984
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100461,3): $bb5
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100466,3): $bb6
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100470,3): $bb7
+                        Inlined call to procedure ldv_linux_usb_gadget_unregister_class begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100529,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100533,3): corral_source_split_14990
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100538,3): corral_source_split_14991
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100543,3): corral_source_split_14992
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100548,3): corral_source_split_14993
+                            Inlined call to procedure ldv_assert_linux_usb_gadget__class_deregistration_with_usb_gadget begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100585,3): $bb0
+                                value = 1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100590,3): corral_source_split_14996
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100595,3): corral_source_split_14997
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100628,3): $bb1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100620,3): $bb3
+                            Inlined call to procedure ldv_assert_linux_usb_gadget__class_deregistration_with_usb_gadget ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100553,3): SeqInstr_731
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100557,3): SeqInstr_732
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100560,3): corral_source_split_14994
+                        Inlined call to procedure ldv_linux_usb_gadget_unregister_class ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100475,3): SeqInstr_728
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100479,3): SeqInstr_729
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100482,3): corral_source_split_14988
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100486,3): $bb3
+                    Inlined call to procedure ldv_linux_usb_gadget_destroy_class ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99796,3): SeqInstr_701
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99800,3): SeqInstr_702
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99803,3): corral_source_split_14914
+                Inlined call to procedure ldv_class_destroy_123 ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99705,3): SeqInstr_692
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99709,3): SeqInstr_693
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99712,3): corral_source_split_14907
+                Inlined call to procedure ldv_unregister_chrdev_124 begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99831,3): $bb0
+                    value = 29
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99836,3): corral_source_split_14916
+                    Inlined call to procedure unregister_chrdev begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99877,3): $bb0
+                        value = 29
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99882,3): corral_source_split_14920
+                        Inlined call to procedure ldv_unregister_chrdev_73 begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99990,3): $bb0
+                            value = 29
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99995,3): corral_source_split_14930
+                            Inlined call to procedure __unregister_chrdev begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100271,3): $bb0
+                                value = 29
+                                value = 0
+                                value = 256
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100278,3): corral_source_split_14958
+                            Inlined call to procedure __unregister_chrdev ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100000,3): corral_source_split_14931
+                        Inlined call to procedure ldv_unregister_chrdev_73 ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99887,3): corral_source_split_14921
+                        Inlined call to procedure ldv_linux_fs_char_dev_unregister_chrdev_region begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100023,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100027,3): corral_source_split_14933
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100032,3): corral_source_split_14934
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100037,3): corral_source_split_14935
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100042,3): corral_source_split_14936
+                            Inlined call to procedure ldv_assert_linux_fs_char_dev__double_deregistration begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100208,3): $bb0
+                                value = 0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100213,3): corral_source_split_14952
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100218,3): corral_source_split_14953
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100223,3): $bb2
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100227,3): corral_source_split_14955
+                                Inlined call to procedure __VERIFIER_error begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111988,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111992,3): corral_source_split_16293
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112000,3): assert_rewrite_dummy_block_0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(112019,3): SeqInstr_1216
+                                Inlined call to procedure __VERIFIER_error ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100247,3): SeqInstr_721
+                            Inlined call to procedure ldv_assert_linux_fs_char_dev__double_deregistration ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(100064,3): SeqInstr_712
+                        Inlined call to procedure ldv_linux_fs_char_dev_unregister_chrdev_region ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99919,3): SeqInstr_706
+                    Inlined call to procedure unregister_chrdev ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99857,3): SeqInstr_703
+                Inlined call to procedure ldv_unregister_chrdev_124 ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99728,3): SeqInstr_694
+            Inlined call to procedure fbmem_exit ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(99665,3): SeqInstr_688
+        Inlined call to procedure ldv_EMGentry_exit_fbmem_exit_19_2 ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(108288,3): SeqInstr_961
+    Inlined call to procedure ldv_entry_EMGentry_19 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--video--fbdev--core--fb.ko_false-unreach-call.cil.i.bpl.bpl(111841,3): SeqInstr_1213
+Inlined call to procedure main ends
+Number of procedures inlined: 222
+Total Time: 114.08 s
+
+Stopping: Done

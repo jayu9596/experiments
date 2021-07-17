@@ -1,0 +1,962 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+main_SeqInstr did not verify
+/home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(42492,3): start
+Inlined call to procedure main begins
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(29884,3): $bb0
+    Inlined call to procedure $initialize begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(34498,3): anon0
+        Inlined call to procedure __SMACK_static_init begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33461,3): $bb0
+            value = 0
+            value = 1
+            value = 1
+            value = 0
+            value = 0
+        Inlined call to procedure __SMACK_static_init ends
+        Inlined call to procedure __SMACK_init_func_memory_model begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33424,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33428,3): corral_source_split_4771
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33433,3): corral_source_split_4772
+        Inlined call to procedure __SMACK_init_func_memory_model ends
+    Inlined call to procedure $initialize ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(29888,3): corral_source_split_4444
+    value = -278584
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(29893,3): corral_source_split_4445
+    value = 1
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(29898,3): corral_source_split_4446
+    Inlined call to procedure ldv_initialize begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30673,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30677,3): corral_source_split_4584
+    Inlined call to procedure ldv_initialize ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(29903,3): corral_source_split_4447
+    Inlined call to procedure ppp_init begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30719,3): $bb0
+        Inlined call to procedure $alloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33359,3): anon0
+            Inlined call to procedure $$alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33379,3): anon0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33388,3): anon3_Then
+            Inlined call to procedure $$alloc ends
+        Inlined call to procedure $alloc ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30725,3): corral_source_split_4586
+        Inlined call to procedure printk.ref begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11029,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11033,3): corral_source_split_1655
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31645,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31649,3): corral_source_split_4690
+                value = -2147483648
+                value = -2147483648
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31656,3): corral_source_split_4691
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31661,3): corral_source_split_4692
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31691,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31695,3): corral_source_split_4694
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31672,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31676,3): corral_source_split_4696
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31681,3): corral_source_split_4697
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31464,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31469,3): corral_source_split_4683
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31473,3): corral_source_split_4684
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31478,3): corral_source_split_4685
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31686,3): corral_source_split_4698
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = -2147483648
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11039,3): corral_source_split_1656
+        Inlined call to procedure printk.ref ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30730,3): corral_source_split_4587
+        Inlined call to procedure register_pernet_device begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31295,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31299,3): corral_source_split_4666
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31645,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31649,3): corral_source_split_4690
+                value = 0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31656,3): corral_source_split_4691
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31661,3): corral_source_split_4692
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31691,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31695,3): corral_source_split_4694
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31672,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31676,3): corral_source_split_4696
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31681,3): corral_source_split_4697
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31464,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31469,3): corral_source_split_4683
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31473,3): corral_source_split_4684
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31478,3): corral_source_split_4685
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31686,3): corral_source_split_4698
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31305,3): corral_source_split_4667
+        Inlined call to procedure register_pernet_device ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30736,3): corral_source_split_4588
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30741,3): corral_source_split_4589
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30746,3): $bb2
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30751,3): $bb4
+        Inlined call to procedure register_chrdev begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31326,3): $bb0
+            value = 108
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31331,3): corral_source_split_4669
+            Inlined call to procedure __register_chrdev begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31431,3): $bb0
+                value = 108
+                value = 0
+                value = 256
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31438,3): corral_source_split_4680
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31645,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31649,3): corral_source_split_4690
+                    value = 0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31656,3): corral_source_split_4691
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31661,3): corral_source_split_4692
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31691,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31695,3): corral_source_split_4694
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31672,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31676,3): corral_source_split_4696
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31681,3): corral_source_split_4697
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31464,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31469,3): corral_source_split_4683
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31473,3): corral_source_split_4684
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31478,3): corral_source_split_4685
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31686,3): corral_source_split_4698
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31444,3): corral_source_split_4681
+            Inlined call to procedure __register_chrdev ends
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31337,3): corral_source_split_4670
+        Inlined call to procedure register_chrdev ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30757,3): corral_source_split_4596
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30762,3): corral_source_split_4597
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30767,3): $bb6
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30772,3): $bb8
+        Inlined call to procedure __class_create begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31359,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31363,3): corral_source_split_4672
+            Inlined call to procedure external_alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(3223,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(3227,3): corral_source_split_377
+                Inlined call to procedure __VERIFIER_nondet_pointer begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32350,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32354,3): corral_source_split_4768
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32360,3): corral_source_split_4769
+                Inlined call to procedure __VERIFIER_nondet_pointer ends
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(3233,3): corral_source_split_378
+            Inlined call to procedure external_alloc ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31368,3): corral_source_split_4673
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31373,3): corral_source_split_4674
+        Inlined call to procedure __class_create ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30777,3): corral_source_split_4605
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30782,3): corral_source_split_4606
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30787,3): corral_source_split_4607
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30792,3): corral_source_split_4608
+        Inlined call to procedure IS_ERR begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(15821,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(15825,3): corral_source_split_2405
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(15830,3): corral_source_split_2406
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(15835,3): corral_source_split_2407
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(15840,3): corral_source_split_2408
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(15845,3): corral_source_split_2409
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(15850,3): corral_source_split_2410
+            value = 185
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(15856,3): corral_source_split_2411
+        Inlined call to procedure IS_ERR ends
+        value = 185
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30798,3): corral_source_split_4609
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30803,3): corral_source_split_4610
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30837,3): $bb9
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30841,3): corral_source_split_4612
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30846,3): corral_source_split_4613
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30851,3): corral_source_split_4614
+        Inlined call to procedure PTR_ERR begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(15877,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(15881,3): corral_source_split_2413
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(15886,3): corral_source_split_2414
+        Inlined call to procedure PTR_ERR ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30857,3): corral_source_split_4615
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30863,3): corral_source_split_4616
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30867,3): $bb11
+        Inlined call to procedure unregister_chrdev begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31169,3): $bb0
+            value = 108
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31174,3): corral_source_split_4655
+            Inlined call to procedure __unregister_chrdev begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31268,3): $bb0
+                value = 108
+                value = 0
+                value = 256
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31275,3): corral_source_split_4664
+            Inlined call to procedure __unregister_chrdev ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31179,3): corral_source_split_4656
+        Inlined call to procedure unregister_chrdev ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30872,3): corral_source_split_4618
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30877,3): $bb7
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30881,3): corral_source_split_4602
+        Inlined call to procedure unregister_pernet_device begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31245,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31249,3): corral_source_split_4662
+        Inlined call to procedure unregister_pernet_device ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30886,3): corral_source_split_4603
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30891,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30895,3): corral_source_split_4594
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30828,3): $bb13
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30832,3): corral_source_split_4623
+    Inlined call to procedure ppp_init ends
+    value = 0
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(29909,3): corral_source_split_4448
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(29914,3): corral_source_split_4449
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(29919,3): $bb2
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(29924,3): $bb4
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(29929,3): $bb5
+    Inlined call to procedure main_loop_$bb5 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47257,3): entry
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47261,3): $bb5
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47437,3): corral_source_split_4455
+        Inlined call to procedure __VERIFIER_nondet_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31645,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31649,3): corral_source_split_4690
+            value = 271
+            value = 271
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31656,3): corral_source_split_4691
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31661,3): corral_source_split_4692
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31691,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31695,3): corral_source_split_4694
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31672,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31676,3): corral_source_split_4696
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31681,3): corral_source_split_4697
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31464,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31469,3): corral_source_split_4683
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31473,3): corral_source_split_4684
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31478,3): corral_source_split_4685
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31686,3): corral_source_split_4698
+        Inlined call to procedure __VERIFIER_nondet_int ends
+        value = 271
+        value = 271
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47432,3): corral_source_split_4456
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47427,3): corral_source_split_4457
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47423,3): $bb75
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47419,3): corral_source_split_4575
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47408,3): $bb6
+        Inlined call to procedure __VERIFIER_nondet_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31645,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31649,3): corral_source_split_4690
+            value = 0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31656,3): corral_source_split_4691
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31661,3): corral_source_split_4692
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31691,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31695,3): corral_source_split_4694
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31672,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31676,3): corral_source_split_4696
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31681,3): corral_source_split_4697
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31464,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31469,3): corral_source_split_4683
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31473,3): corral_source_split_4684
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31478,3): corral_source_split_4685
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31686,3): corral_source_split_4698
+        Inlined call to procedure __VERIFIER_nondet_int ends
+        value = 0
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47403,3): corral_source_split_4459
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47398,3): corral_source_split_4460
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47394,3): $bb7
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47390,3): corral_source_split_4462
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47385,3): $bb9
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47380,3): corral_source_split_4467
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47376,3): $bb41
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47370,3): corral_source_split_4531
+        Inlined call to procedure ppp_open begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9688,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9692,3): corral_source_split_1449
+            Inlined call to procedure capable begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(12042,3): $bb0
+                value = 12
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(12047,3): corral_source_split_1774
+                Inlined call to procedure __VERIFIER_nondet_bool begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32175,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32179,3): corral_source_split_4744
+                    Inlined call to procedure __VERIFIER_nondet_int begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31645,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31649,3): corral_source_split_4690
+                        value = 1775
+                        value = 1775
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31656,3): corral_source_split_4691
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31661,3): corral_source_split_4692
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31691,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31695,3): corral_source_split_4694
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31672,3): $bb3
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31676,3): corral_source_split_4696
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31681,3): corral_source_split_4697
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31464,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31469,3): corral_source_split_4683
+                            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31473,3): corral_source_split_4684
+                            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31478,3): corral_source_split_4685
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31686,3): corral_source_split_4698
+                    Inlined call to procedure __VERIFIER_nondet_int ends
+                    value = 1775
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32185,3): corral_source_split_4745
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32190,3): corral_source_split_4746
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32196,3): corral_source_split_4747
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32201,3): corral_source_split_4748
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32206,3): corral_source_split_4749
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32211,3): corral_source_split_4750
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32217,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32221,3): corral_source_split_4757
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32226,3): corral_source_split_4758
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32231,3): corral_source_split_4759
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32236,3): corral_source_split_4760
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32241,3): $bb2
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32245,3): corral_source_split_4752
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32250,3): corral_source_split_4753
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31464,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31469,3): corral_source_split_4683
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31473,3): corral_source_split_4684
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31478,3): corral_source_split_4685
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32255,3): corral_source_split_4754
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(32260,3): corral_source_split_4755
+                Inlined call to procedure __VERIFIER_nondet_bool ends
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(12053,3): corral_source_split_1775
+            Inlined call to procedure capable ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9697,3): corral_source_split_1450
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9703,3): corral_source_split_1451
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9708,3): corral_source_split_1452
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9761,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9765,3): corral_source_split_1454
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9719,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9723,3): corral_source_split_1456
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9728,3): corral_source_split_1457
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9733,3): $bb5
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9738,3): $bb7
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9743,3): $bb6
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(9747,3): corral_source_split_1461
+        Inlined call to procedure ppp_open ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47365,3): corral_source_split_4532
+        Inlined call to procedure ldv_check_return_value begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30943,3): $bb0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30948,3): corral_source_split_4625
+        Inlined call to procedure ldv_check_return_value ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47360,3): corral_source_split_4533
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47355,3): corral_source_split_4534
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47350,3): $bb44
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47344,3): $bb46
+        value = 1
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47339,3): corral_source_split_4540
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47329,3): $bb47
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47324,3): corral_source_split_4542
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47270,3): $bb48
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47265,3): corral_source_split_4544
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47892,3): corral_source_split_4544_dummy
+        Inlined call to procedure main_loop_$bb5 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47257,3): entry
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47261,3): $bb5
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47437,3): corral_source_split_4455
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31645,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31649,3): corral_source_split_4690
+                value = 312
+                value = 312
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31656,3): corral_source_split_4691
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31661,3): corral_source_split_4692
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31691,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31695,3): corral_source_split_4694
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31672,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31676,3): corral_source_split_4696
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31681,3): corral_source_split_4697
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31464,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31469,3): corral_source_split_4683
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31473,3): corral_source_split_4684
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31478,3): corral_source_split_4685
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31686,3): corral_source_split_4698
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 312
+            value = 312
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47432,3): corral_source_split_4456
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47427,3): corral_source_split_4457
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47423,3): $bb75
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47419,3): corral_source_split_4575
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47408,3): $bb6
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31645,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31649,3): corral_source_split_4690
+                value = 5
+                value = 5
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31656,3): corral_source_split_4691
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31661,3): corral_source_split_4692
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31691,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31695,3): corral_source_split_4694
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31672,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31676,3): corral_source_split_4696
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31681,3): corral_source_split_4697
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31464,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31469,3): corral_source_split_4683
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31473,3): corral_source_split_4684
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31478,3): corral_source_split_4685
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31686,3): corral_source_split_4698
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 5
+            value = 5
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47403,3): corral_source_split_4459
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47398,3): corral_source_split_4460
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47546,3): $bb8
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47541,3): corral_source_split_4464
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47536,3): corral_source_split_4465
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47641,3): $bb11
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47636,3): corral_source_split_4471
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47631,3): corral_source_split_4472
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47704,3): $bb14
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47699,3): corral_source_split_4478
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47694,3): corral_source_split_4479
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47731,3): $bb17
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47726,3): corral_source_split_4485
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47721,3): corral_source_split_4486
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47765,3): $bb20
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47760,3): corral_source_split_4492
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47755,3): corral_source_split_4493
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47751,3): $bb22
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47747,3): corral_source_split_4497
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47742,3): $bb24
+            Inlined call to procedure ppp_ioctl begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6597,3): $bb0
+                Inlined call to procedure $alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33359,3): anon0
+                    Inlined call to procedure $$alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33379,3): anon0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33388,3): anon3_Then
+                    Inlined call to procedure $$alloc ends
+                Inlined call to procedure $alloc ends
+                Inlined call to procedure $alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33359,3): anon0
+                    Inlined call to procedure $$alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33379,3): anon0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33388,3): anon3_Then
+                    Inlined call to procedure $$alloc ends
+                Inlined call to procedure $alloc ends
+                Inlined call to procedure $alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33359,3): anon0
+                    Inlined call to procedure $$alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33379,3): anon0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33388,3): anon3_Then
+                    Inlined call to procedure $$alloc ends
+                Inlined call to procedure $alloc ends
+                Inlined call to procedure $alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33359,3): anon0
+                    Inlined call to procedure $$alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33379,3): anon0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33388,3): anon3_Then
+                    Inlined call to procedure $$alloc ends
+                Inlined call to procedure $alloc ends
+                value = 1074033753
+                value = 3566
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6611,3): corral_source_split_816
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6616,3): corral_source_split_817
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6621,3): corral_source_split_818
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6626,3): corral_source_split_819
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6631,3): corral_source_split_820
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6636,3): corral_source_split_821
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6641,3): corral_source_split_822
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6646,3): corral_source_split_823
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6651,3): $bb2
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6656,3): $bb4
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6661,3): corral_source_split_836
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6666,3): $bb6
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6671,3): $bb16
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6676,3): corral_source_split_870
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6681,3): corral_source_split_871
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6686,3): corral_source_split_872
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6691,3): $bb18
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6696,3): $bb52
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6701,3): corral_source_split_957
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6706,3): corral_source_split_958
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6711,3): corral_source_split_959
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6716,3): $bb54
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6721,3): $bb55
+                Inlined call to procedure mutex_lock_nested begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11918,3): $bb0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11923,3): corral_source_split_1763
+                Inlined call to procedure mutex_lock_nested ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6726,3): corral_source_split_964
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6731,3): corral_source_split_965
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6736,3): corral_source_split_966
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6741,3): $bb57
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6745,3): corral_source_split_970
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6750,3): corral_source_split_971
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8636,3): $bb59
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8640,3): corral_source_split_975
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8644,3): $bb61
+                Inlined call to procedure might_fault begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(13149,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(13153,3): corral_source_split_1993
+                Inlined call to procedure might_fault ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8649,3): corral_source_split_980
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8852,3): $bb116
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8856,3): corral_source_split_1134
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8860,3): $bb118
+                Inlined call to procedure devirtbounce.6 begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33840,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33843,3): $bb1
+                Inlined call to procedure devirtbounce.6 ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8864,3): corral_source_split_1138
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8869,3): corral_source_split_1139
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8874,3): corral_source_split_1140
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8879,3): corral_source_split_1141
+                value = 290
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8885,3): corral_source_split_1142
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8692,3): $bb123
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8697,3): corral_source_split_1158
+                value = 293
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8703,3): corral_source_split_1159
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8708,3): corral_source_split_1160
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8843,3): $bb126
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8847,3): corral_source_split_1162
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6996,3): $bb114
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(7000,3): corral_source_split_1127
+                Inlined call to procedure mutex_unlock begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11994,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11998,3): corral_source_split_1770
+                Inlined call to procedure mutex_unlock ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(7005,3): corral_source_split_1128
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(7010,3): corral_source_split_1129
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(7015,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(7019,3): corral_source_split_834
+            Inlined call to procedure ppp_ioctl ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47738,3): SeqInstr_101
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47735,3): SeqInstr_102
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47299,3): corral_source_split_4502
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47270,3): $bb48
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47265,3): corral_source_split_4544
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47892,3): corral_source_split_4544_dummy
+            Inlined call to procedure main_loop_$bb5 begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47257,3): entry
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(47896,3): exit
+            Inlined call to procedure main_loop_$bb5 ends
+        Inlined call to procedure main_loop_$bb5 ends
+    Inlined call to procedure main_loop_$bb5 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30654,3): $bb5_last
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(29933,3): corral_source_split_4455
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31645,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31649,3): corral_source_split_4690
+        value = 1519
+        value = 1519
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31656,3): corral_source_split_4691
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31661,3): corral_source_split_4692
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31691,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31695,3): corral_source_split_4694
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31672,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31676,3): corral_source_split_4696
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31681,3): corral_source_split_4697
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31464,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31469,3): corral_source_split_4683
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31473,3): corral_source_split_4684
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31478,3): corral_source_split_4685
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31686,3): corral_source_split_4698
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = 1519
+    value = 1519
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(29940,3): corral_source_split_4456
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(29945,3): corral_source_split_4457
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30634,3): $bb75
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30638,3): corral_source_split_4575
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30014,3): $bb6
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31645,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31649,3): corral_source_split_4690
+        value = 5
+        value = 5
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31656,3): corral_source_split_4691
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31661,3): corral_source_split_4692
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31691,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31695,3): corral_source_split_4694
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31672,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31676,3): corral_source_split_4696
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31681,3): corral_source_split_4697
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31464,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31469,3): corral_source_split_4683
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31473,3): corral_source_split_4684
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31478,3): corral_source_split_4685
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31686,3): corral_source_split_4698
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = 5
+    value = 5
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30021,3): corral_source_split_4459
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30026,3): corral_source_split_4460
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30031,3): $bb8
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30035,3): corral_source_split_4464
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30040,3): corral_source_split_4465
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30045,3): $bb11
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30049,3): corral_source_split_4471
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30054,3): corral_source_split_4472
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30059,3): $bb14
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30063,3): corral_source_split_4478
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30068,3): corral_source_split_4479
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30073,3): $bb17
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30077,3): corral_source_split_4485
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30082,3): corral_source_split_4486
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30087,3): $bb20
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30091,3): corral_source_split_4492
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30096,3): corral_source_split_4493
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30262,3): $bb22
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30266,3): corral_source_split_4497
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30270,3): $bb24
+    Inlined call to procedure ppp_ioctl begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6597,3): $bb0
+        Inlined call to procedure $alloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33359,3): anon0
+            Inlined call to procedure $$alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33379,3): anon0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33388,3): anon3_Then
+            Inlined call to procedure $$alloc ends
+        Inlined call to procedure $alloc ends
+        Inlined call to procedure $alloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33359,3): anon0
+            Inlined call to procedure $$alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33379,3): anon0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33388,3): anon3_Then
+            Inlined call to procedure $$alloc ends
+        Inlined call to procedure $alloc ends
+        Inlined call to procedure $alloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33359,3): anon0
+            Inlined call to procedure $$alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33379,3): anon0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33388,3): anon3_Then
+            Inlined call to procedure $$alloc ends
+        Inlined call to procedure $alloc ends
+        Inlined call to procedure $alloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33359,3): anon0
+            Inlined call to procedure $$alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33379,3): anon0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33388,3): anon3_Then
+            Inlined call to procedure $$alloc ends
+        Inlined call to procedure $alloc ends
+        value = 1074033753
+        value = 3566
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6611,3): corral_source_split_816
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6616,3): corral_source_split_817
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6621,3): corral_source_split_818
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6626,3): corral_source_split_819
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6631,3): corral_source_split_820
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6636,3): corral_source_split_821
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6641,3): corral_source_split_822
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6646,3): corral_source_split_823
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6651,3): $bb2
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6656,3): $bb4
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6661,3): corral_source_split_836
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6666,3): $bb6
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6671,3): $bb16
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6676,3): corral_source_split_870
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6681,3): corral_source_split_871
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6686,3): corral_source_split_872
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6691,3): $bb18
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6696,3): $bb52
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6701,3): corral_source_split_957
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6706,3): corral_source_split_958
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6711,3): corral_source_split_959
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6716,3): $bb54
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6721,3): $bb55
+        Inlined call to procedure mutex_lock_nested begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11918,3): $bb0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11923,3): corral_source_split_1763
+        Inlined call to procedure mutex_lock_nested ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6726,3): corral_source_split_964
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6731,3): corral_source_split_965
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6736,3): corral_source_split_966
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6741,3): $bb57
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6745,3): corral_source_split_970
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(6750,3): corral_source_split_971
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8636,3): $bb59
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8640,3): corral_source_split_975
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8644,3): $bb61
+        Inlined call to procedure might_fault begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(13149,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(13153,3): corral_source_split_1993
+        Inlined call to procedure might_fault ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8649,3): corral_source_split_980
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8852,3): $bb116
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8856,3): corral_source_split_1134
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8860,3): $bb118
+        Inlined call to procedure devirtbounce.6 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33840,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33843,3): $bb1
+        Inlined call to procedure devirtbounce.6 ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8864,3): corral_source_split_1138
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8869,3): corral_source_split_1139
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8874,3): corral_source_split_1140
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8879,3): corral_source_split_1141
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8885,3): corral_source_split_1142
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8692,3): $bb123
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8697,3): corral_source_split_1158
+        value = 137
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8703,3): corral_source_split_1159
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8708,3): corral_source_split_1160
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8713,3): $bb127
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8718,3): $bb128
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8723,3): corral_source_split_1164
+        Inlined call to procedure spin_lock_bh begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1049,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1053,3): corral_source_split_50
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1058,3): corral_source_split_51
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1063,3): corral_source_split_52
+            Inlined call to procedure _raw_spin_lock_bh begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(3483,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(3487,3): corral_source_split_408
+            Inlined call to procedure _raw_spin_lock_bh ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1068,3): corral_source_split_53
+        Inlined call to procedure spin_lock_bh ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8728,3): corral_source_split_1165
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8733,3): corral_source_split_1166
+        Inlined call to procedure spin_lock_bh begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1049,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1053,3): corral_source_split_50
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1058,3): corral_source_split_51
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1063,3): corral_source_split_52
+            Inlined call to procedure _raw_spin_lock_bh begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(3483,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(3487,3): corral_source_split_408
+            Inlined call to procedure _raw_spin_lock_bh ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1068,3): corral_source_split_53
+        Inlined call to procedure spin_lock_bh ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8738,3): corral_source_split_1167
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8743,3): corral_source_split_1168
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8748,3): corral_source_split_1169
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8753,3): corral_source_split_1170
+        value = 144
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8759,3): corral_source_split_1171
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8764,3): corral_source_split_1172
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8769,3): corral_source_split_1173
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8774,3): corral_source_split_1174
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8779,3): corral_source_split_1175
+        Inlined call to procedure spin_unlock_bh begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1089,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1093,3): corral_source_split_55
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1098,3): corral_source_split_56
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1103,3): corral_source_split_57
+            Inlined call to procedure _raw_spin_unlock_bh begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1127,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1131,3): corral_source_split_60
+            Inlined call to procedure _raw_spin_unlock_bh ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1108,3): corral_source_split_58
+        Inlined call to procedure spin_unlock_bh ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8784,3): corral_source_split_1176
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8789,3): corral_source_split_1177
+        Inlined call to procedure spin_unlock_bh begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1089,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1093,3): corral_source_split_55
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1098,3): corral_source_split_56
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1103,3): corral_source_split_57
+            Inlined call to procedure _raw_spin_unlock_bh begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1127,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1131,3): corral_source_split_60
+            Inlined call to procedure _raw_spin_unlock_bh ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1108,3): corral_source_split_58
+        Inlined call to procedure spin_unlock_bh ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8794,3): corral_source_split_1178
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8799,3): corral_source_split_1179
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8804,3): corral_source_split_1180
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8819,3): $bb129
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8823,3): corral_source_split_1182
+        Inlined call to procedure ppp_ccp_closed begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11216,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11220,3): corral_source_split_1669
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11225,3): corral_source_split_1670
+            Inlined call to procedure spin_lock_bh begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1049,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1053,3): corral_source_split_50
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1058,3): corral_source_split_51
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1063,3): corral_source_split_52
+                Inlined call to procedure _raw_spin_lock_bh begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(3483,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(3487,3): corral_source_split_408
+                Inlined call to procedure _raw_spin_lock_bh ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1068,3): corral_source_split_53
+            Inlined call to procedure spin_lock_bh ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11230,3): corral_source_split_1671
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11235,3): corral_source_split_1672
+            Inlined call to procedure spin_lock_bh begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1049,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1053,3): corral_source_split_50
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1058,3): corral_source_split_51
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1063,3): corral_source_split_52
+                Inlined call to procedure _raw_spin_lock_bh begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(3483,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(3487,3): corral_source_split_408
+                Inlined call to procedure _raw_spin_lock_bh ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1068,3): corral_source_split_53
+            Inlined call to procedure spin_lock_bh ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11240,3): corral_source_split_1673
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11245,3): corral_source_split_1674
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11250,3): corral_source_split_1675
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11255,3): corral_source_split_1676
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11260,3): corral_source_split_1677
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11265,3): corral_source_split_1678
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11270,3): corral_source_split_1679
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11275,3): corral_source_split_1680
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11280,3): corral_source_split_1681
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11285,3): corral_source_split_1682
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11290,3): corral_source_split_1683
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11295,3): corral_source_split_1684
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11300,3): corral_source_split_1685
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11305,3): corral_source_split_1686
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11310,3): corral_source_split_1687
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11315,3): corral_source_split_1688
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11320,3): corral_source_split_1689
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11325,3): corral_source_split_1690
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11330,3): corral_source_split_1691
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11335,3): corral_source_split_1692
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11340,3): corral_source_split_1693
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11345,3): corral_source_split_1694
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11350,3): corral_source_split_1695
+            Inlined call to procedure spin_unlock_bh begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1089,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1093,3): corral_source_split_55
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1098,3): corral_source_split_56
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1103,3): corral_source_split_57
+                Inlined call to procedure _raw_spin_unlock_bh begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1127,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1131,3): corral_source_split_60
+                Inlined call to procedure _raw_spin_unlock_bh ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1108,3): corral_source_split_58
+            Inlined call to procedure spin_unlock_bh ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11355,3): corral_source_split_1696
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11360,3): corral_source_split_1697
+            Inlined call to procedure spin_unlock_bh begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1089,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1093,3): corral_source_split_55
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1098,3): corral_source_split_56
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1103,3): corral_source_split_57
+                Inlined call to procedure _raw_spin_unlock_bh begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1127,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1131,3): corral_source_split_60
+                Inlined call to procedure _raw_spin_unlock_bh ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(1108,3): corral_source_split_58
+            Inlined call to procedure spin_unlock_bh ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11365,3): corral_source_split_1698
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11370,3): corral_source_split_1699
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11375,3): corral_source_split_1700
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11454,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11458,3): corral_source_split_1702
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11463,3): corral_source_split_1703
+            Inlined call to procedure devirtbounce.2 begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33730,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33734,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(33756,3): $bb3
+                Inlined call to procedure ppp_setup begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18737,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18741,3): corral_source_split_2789
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18746,3): corral_source_split_2790
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18751,3): corral_source_split_2791
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18756,3): corral_source_split_2792
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18761,3): corral_source_split_2793
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18766,3): corral_source_split_2794
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18771,3): corral_source_split_2795
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18776,3): corral_source_split_2796
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18781,3): corral_source_split_2797
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18786,3): corral_source_split_2798
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18791,3): corral_source_split_2799
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18796,3): corral_source_split_2800
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18801,3): corral_source_split_2801
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18806,3): corral_source_split_2802
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18811,3): corral_source_split_2803
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18816,3): corral_source_split_2804
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18821,3): corral_source_split_2805
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18826,3): corral_source_split_2806
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18831,3): corral_source_split_2807
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18836,3): corral_source_split_2808
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18841,3): corral_source_split_2809
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18846,3): corral_source_split_2810
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18851,3): corral_source_split_2811
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18856,3): corral_source_split_2812
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(18861,3): corral_source_split_2813
+                Inlined call to procedure ppp_setup ends
+            Inlined call to procedure devirtbounce.2 ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11469,3): corral_source_split_1704
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11474,3): corral_source_split_1705
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11479,3): corral_source_split_1706
+            Inlined call to procedure ldv_module_put_5 begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11561,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11565,3): corral_source_split_1723
+                Inlined call to procedure ldv_module_put begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11647,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11651,3): corral_source_split_1729
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11656,3): corral_source_split_1730
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11661,3): corral_source_split_1731
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11675,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11679,3): corral_source_split_1733
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11684,3): corral_source_split_1734
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11689,3): corral_source_split_1735
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11719,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11723,3): corral_source_split_1737
+                    Inlined call to procedure ldv_blast_assert begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11759,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11763,3): corral_source_split_1744
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11767,3): $bb1
+                        Inlined call to procedure __VERIFIER_error begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31518,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31522,3): corral_source_split_4687
+                            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31530,3): assert_rewrite_dummy_block_0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(31549,3): SeqInstr_115
+                        Inlined call to procedure __VERIFIER_error ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11783,3): SeqInstr_40
+                    Inlined call to procedure ldv_blast_assert ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11739,3): SeqInstr_37
+                Inlined call to procedure ldv_module_put ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11581,3): SeqInstr_31
+            Inlined call to procedure ldv_module_put_5 ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(11495,3): SeqInstr_25
+        Inlined call to procedure ppp_ccp_closed ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(8839,3): SeqInstr_16
+    Inlined call to procedure ppp_ioctl ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/module_get_put-drivers-net-ppp_generic.ko_false-unreach-call.cil.out.i.bpl.bpl(30287,3): SeqInstr_100
+Inlined call to procedure main ends
+Number of procedures inlined: 1371
+Total Time: 15.04 s
+
+Stopping: Done

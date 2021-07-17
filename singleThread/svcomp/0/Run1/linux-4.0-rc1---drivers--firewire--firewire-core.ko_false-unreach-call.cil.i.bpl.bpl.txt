@@ -1,0 +1,947 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+main_SeqInstr did not verify
+/home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(118701,3): start
+Inlined call to procedure main begins
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95523,3): $bb0
+    Inlined call to procedure $initialize begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(110707,3): anon0
+        Inlined call to procedure __SMACK_static_init begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(97755,3): $bb0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 1
+            value = 0
+            value = 0
+            value = 0
+            value = 7
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 1
+            value = 1
+            value = 1
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 1
+            value = 0
+        Inlined call to procedure __SMACK_static_init ends
+        Inlined call to procedure __SMACK_init_func_memory_model begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(97626,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(97630,3): corral_source_split_12609
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(97635,3): corral_source_split_12610
+        Inlined call to procedure __SMACK_init_func_memory_model ends
+    Inlined call to procedure $initialize ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95527,3): corral_source_split_12507
+    value = -1057310
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95532,3): corral_source_split_12508
+    Inlined call to procedure ldv_ldv_initialize_132 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95573,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95577,3): corral_source_split_12512
+        Inlined call to procedure ldv_linux_lib_find_bit_initialize begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95604,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95608,3): corral_source_split_12515
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95613,3): corral_source_split_12516
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95618,3): corral_source_split_12517
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95623,3): corral_source_split_12518
+            Inlined call to procedure ldv_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18735,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18740,3): corral_source_split_2301
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18745,3): corral_source_split_2302
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18750,3): $bb2
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18755,3): $bb4
+            Inlined call to procedure ldv_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95628,3): corral_source_split_12519
+        Inlined call to procedure ldv_linux_lib_find_bit_initialize ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95582,3): corral_source_split_12513
+    Inlined call to procedure ldv_ldv_initialize_132 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95537,3): corral_source_split_12509
+    Inlined call to procedure ldv_entry_EMGentry_22 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91787,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91791,3): corral_source_split_12150
+        Inlined call to procedure ldv_EMGentry_init_fw_core_init_22_19 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82492,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82496,3): corral_source_split_11008
+            Inlined call to procedure fw_core_init begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82553,3): $bb0
+                Inlined call to procedure $alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(97549,3): anon0
+                    Inlined call to procedure $$alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(97581,3): anon0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(97590,3): anon3_Then
+                    Inlined call to procedure $$alloc ends
+                Inlined call to procedure $alloc ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82559,3): corral_source_split_11011
+                Inlined call to procedure __alloc_workqueue_key.ref.i32.i32.ref.ref begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82825,3): $bb0
+                    value = 8
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82831,3): corral_source_split_11046
+                    Inlined call to procedure external_alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(34704,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(34708,3): corral_source_split_4407
+                        Inlined call to procedure __VERIFIER_nondet_pointer begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(96540,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(96544,3): corral_source_split_12606
+                            value = 177
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(96550,3): corral_source_split_12607
+                        Inlined call to procedure __VERIFIER_nondet_pointer ends
+                        value = 177
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(34714,3): corral_source_split_4408
+                    Inlined call to procedure external_alloc ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82836,3): corral_source_split_11047
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82841,3): corral_source_split_11048
+                Inlined call to procedure __alloc_workqueue_key.ref.i32.i32.ref.ref ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82564,3): corral_source_split_11012
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82569,3): corral_source_split_11013
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82574,3): corral_source_split_11014
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82579,3): corral_source_split_11015
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82584,3): corral_source_split_11016
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82589,3): $bb2
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82594,3): $bb4
+                Inlined call to procedure bus_register begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82862,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82866,3): corral_source_split_11050
+                    Inlined call to procedure __VERIFIER_nondet_int begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95917,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95921,3): corral_source_split_12540
+                        value = 436
+                        value = 436
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95928,3): corral_source_split_12541
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95933,3): corral_source_split_12542
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95963,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95967,3): corral_source_split_12544
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95944,3): $bb3
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95948,3): corral_source_split_12546
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95953,3): corral_source_split_12547
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95647,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95652,3): corral_source_split_12521
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95656,3): corral_source_split_12522
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95661,3): corral_source_split_12523
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95958,3): corral_source_split_12548
+                    Inlined call to procedure __VERIFIER_nondet_int ends
+                    value = 436
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82872,3): corral_source_split_11051
+                Inlined call to procedure bus_register ends
+                value = 436
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82600,3): corral_source_split_11022
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82605,3): corral_source_split_11023
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82610,3): $bb6
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82615,3): $bb7
+                Inlined call to procedure ldv_register_chrdev_126 begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82895,3): $bb0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82900,3): corral_source_split_11053
+                    Inlined call to procedure register_chrdev begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82960,3): $bb0
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82965,3): corral_source_split_11057
+                        Inlined call to procedure ldv_register_chrdev_75 begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83041,3): $bb0
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83046,3): corral_source_split_11065
+                            Inlined call to procedure __register_chrdev begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83515,3): $bb0
+                                value = 0
+                                value = 0
+                                value = 256
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83522,3): corral_source_split_11123
+                                Inlined call to procedure __VERIFIER_nondet_int begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95917,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95921,3): corral_source_split_12540
+                                    value = -41
+                                    value = -41
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95928,3): corral_source_split_12541
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95933,3): corral_source_split_12542
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95963,3): $bb1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95967,3): corral_source_split_12544
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95944,3): $bb3
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95948,3): corral_source_split_12546
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95953,3): corral_source_split_12547
+                                    Inlined call to procedure __VERIFIER_assume begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95647,3): $bb0
+                                        value = 1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95652,3): corral_source_split_12521
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95656,3): corral_source_split_12522
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95661,3): corral_source_split_12523
+                                    Inlined call to procedure __VERIFIER_assume ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95958,3): corral_source_split_12548
+                                Inlined call to procedure __VERIFIER_nondet_int ends
+                                value = -41
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83528,3): corral_source_split_11124
+                            Inlined call to procedure __register_chrdev ends
+                            value = -41
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83052,3): corral_source_split_11066
+                        Inlined call to procedure ldv_register_chrdev_75 ends
+                        value = -41
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82971,3): corral_source_split_11058
+                        Inlined call to procedure ldv_linux_fs_char_dev_register_chrdev begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83084,3): $bb0
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83089,3): corral_source_split_11068
+                            Inlined call to procedure ldv_undef_int_nonpositive begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79427,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79431,3): corral_source_split_10668
+                                Inlined call to procedure ldv_undef_int begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18703,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18707,3): corral_source_split_2298
+                                    Inlined call to procedure __VERIFIER_nondet_int begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95917,3): $bb0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95921,3): corral_source_split_12540
+                                        value = 0
+                                        value = 0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95928,3): corral_source_split_12541
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95933,3): corral_source_split_12542
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95963,3): $bb1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95967,3): corral_source_split_12544
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95944,3): $bb3
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95948,3): corral_source_split_12546
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95953,3): corral_source_split_12547
+                                        Inlined call to procedure __VERIFIER_assume begins
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95647,3): $bb0
+                                            value = 1
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95652,3): corral_source_split_12521
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95656,3): corral_source_split_12522
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95661,3): corral_source_split_12523
+                                        Inlined call to procedure __VERIFIER_assume ends
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95958,3): corral_source_split_12548
+                                    Inlined call to procedure __VERIFIER_nondet_int ends
+                                    value = 0
+                                    value = 0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18714,3): corral_source_split_2299
+                                Inlined call to procedure ldv_undef_int ends
+                                value = 0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79437,3): corral_source_split_10669
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79442,3): corral_source_split_10670
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79447,3): corral_source_split_10671
+                                Inlined call to procedure ldv_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18735,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18740,3): corral_source_split_2301
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18745,3): corral_source_split_2302
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18750,3): $bb2
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18755,3): $bb4
+                                Inlined call to procedure ldv_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79452,3): corral_source_split_10672
+                            Inlined call to procedure ldv_undef_int_nonpositive ends
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83095,3): corral_source_split_11069
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83100,3): corral_source_split_11070
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83120,3): $bb1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83124,3): corral_source_split_11072
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83129,3): corral_source_split_11073
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83134,3): corral_source_split_11074
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83139,3): corral_source_split_11075
+                            Inlined call to procedure ldv_assert_linux_fs_char_dev__double_registration begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83451,3): $bb0
+                                value = 1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83456,3): corral_source_split_11117
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83461,3): corral_source_split_11118
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83494,3): $bb1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83486,3): $bb3
+                            Inlined call to procedure ldv_assert_linux_fs_char_dev__double_registration ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83144,3): SeqInstr_1571
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83148,3): SeqInstr_1572
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83151,3): corral_source_split_11076
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83157,3): corral_source_split_11077
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83162,3): corral_source_split_11078
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83182,3): $bb3
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83186,3): corral_source_split_11080
+                            Inlined call to procedure ldv_undef_int begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18703,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18707,3): corral_source_split_2298
+                                Inlined call to procedure __VERIFIER_nondet_int begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95917,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95921,3): corral_source_split_12540
+                                    value = 4308
+                                    value = 4308
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95928,3): corral_source_split_12541
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95933,3): corral_source_split_12542
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95963,3): $bb1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95967,3): corral_source_split_12544
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95944,3): $bb3
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95948,3): corral_source_split_12546
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95953,3): corral_source_split_12547
+                                    Inlined call to procedure __VERIFIER_assume begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95647,3): $bb0
+                                        value = 1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95652,3): corral_source_split_12521
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95656,3): corral_source_split_12522
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95661,3): corral_source_split_12523
+                                    Inlined call to procedure __VERIFIER_assume ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95958,3): corral_source_split_12548
+                                Inlined call to procedure __VERIFIER_nondet_int ends
+                                value = 4308
+                                value = 4308
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18714,3): corral_source_split_2299
+                            Inlined call to procedure ldv_undef_int ends
+                            value = 4308
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83192,3): corral_source_split_11081
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83197,3): corral_source_split_11082
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83202,3): corral_source_split_11083
+                            Inlined call to procedure ldv_assume begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18735,3): $bb0
+                                value = 1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18740,3): corral_source_split_2301
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18745,3): corral_source_split_2302
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18750,3): $bb2
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18755,3): $bb4
+                            Inlined call to procedure ldv_assume ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83207,3): corral_source_split_11084
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83173,3): $bb5
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83177,3): corral_source_split_11086
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83111,3): $bb6
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83115,3): corral_source_split_11088
+                        Inlined call to procedure ldv_linux_fs_char_dev_register_chrdev ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82976,3): SeqInstr_1565
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82980,3): SeqInstr_1566
+                        value = 4308
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82984,3): corral_source_split_11059
+                        Inlined call to procedure ldv_linux_usb_gadget_register_chrdev begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83243,3): $bb0
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83248,3): corral_source_split_11090
+                            Inlined call to procedure ldv_undef_int_nonpositive begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79427,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79431,3): corral_source_split_10668
+                                Inlined call to procedure ldv_undef_int begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18703,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18707,3): corral_source_split_2298
+                                    Inlined call to procedure __VERIFIER_nondet_int begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95917,3): $bb0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95921,3): corral_source_split_12540
+                                        value = 0
+                                        value = 0
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95928,3): corral_source_split_12541
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95933,3): corral_source_split_12542
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95963,3): $bb1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95967,3): corral_source_split_12544
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95944,3): $bb3
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95948,3): corral_source_split_12546
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95953,3): corral_source_split_12547
+                                        Inlined call to procedure __VERIFIER_assume begins
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95647,3): $bb0
+                                            value = 1
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95652,3): corral_source_split_12521
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95656,3): corral_source_split_12522
+                                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95661,3): corral_source_split_12523
+                                        Inlined call to procedure __VERIFIER_assume ends
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95958,3): corral_source_split_12548
+                                    Inlined call to procedure __VERIFIER_nondet_int ends
+                                    value = 0
+                                    value = 0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18714,3): corral_source_split_2299
+                                Inlined call to procedure ldv_undef_int ends
+                                value = 0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79437,3): corral_source_split_10669
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79442,3): corral_source_split_10670
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79447,3): corral_source_split_10671
+                                Inlined call to procedure ldv_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18735,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18740,3): corral_source_split_2301
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18745,3): corral_source_split_2302
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18750,3): $bb2
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18755,3): $bb4
+                                Inlined call to procedure ldv_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79452,3): corral_source_split_10672
+                            Inlined call to procedure ldv_undef_int_nonpositive ends
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83254,3): corral_source_split_11091
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83259,3): corral_source_split_11092
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83279,3): $bb1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83283,3): corral_source_split_11094
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83288,3): corral_source_split_11095
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83293,3): corral_source_split_11096
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83298,3): corral_source_split_11097
+                            Inlined call to procedure ldv_assert_linux_usb_gadget__chrdev_registration_with_usb_gadget begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83386,3): $bb0
+                                value = 1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83391,3): corral_source_split_11111
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83396,3): corral_source_split_11112
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83429,3): $bb1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83421,3): $bb3
+                            Inlined call to procedure ldv_assert_linux_usb_gadget__chrdev_registration_with_usb_gadget ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83303,3): SeqInstr_1574
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83307,3): SeqInstr_1575
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83310,3): corral_source_split_11098
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83315,3): corral_source_split_11099
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83335,3): $bb3
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83339,3): corral_source_split_11101
+                            Inlined call to procedure ldv_undef_int begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18703,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18707,3): corral_source_split_2298
+                                Inlined call to procedure __VERIFIER_nondet_int begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95917,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95921,3): corral_source_split_12540
+                                    value = 4308
+                                    value = 4308
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95928,3): corral_source_split_12541
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95933,3): corral_source_split_12542
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95963,3): $bb1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95967,3): corral_source_split_12544
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95944,3): $bb3
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95948,3): corral_source_split_12546
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95953,3): corral_source_split_12547
+                                    Inlined call to procedure __VERIFIER_assume begins
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95647,3): $bb0
+                                        value = 1
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95652,3): corral_source_split_12521
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95656,3): corral_source_split_12522
+                                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95661,3): corral_source_split_12523
+                                    Inlined call to procedure __VERIFIER_assume ends
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95958,3): corral_source_split_12548
+                                Inlined call to procedure __VERIFIER_nondet_int ends
+                                value = 4308
+                                value = 4308
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18714,3): corral_source_split_2299
+                            Inlined call to procedure ldv_undef_int ends
+                            value = 4308
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83345,3): corral_source_split_11102
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83350,3): corral_source_split_11103
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83355,3): corral_source_split_11104
+                            Inlined call to procedure ldv_assume begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18735,3): $bb0
+                                value = 1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18740,3): corral_source_split_2301
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18745,3): corral_source_split_2302
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18750,3): $bb2
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18755,3): $bb4
+                            Inlined call to procedure ldv_assume ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83360,3): corral_source_split_11105
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83326,3): $bb5
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83330,3): corral_source_split_11107
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83270,3): $bb6
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83274,3): corral_source_split_11109
+                        Inlined call to procedure ldv_linux_usb_gadget_register_chrdev ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82989,3): SeqInstr_1568
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82993,3): SeqInstr_1569
+                        value = 4308
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82997,3): corral_source_split_11060
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83002,3): corral_source_split_11061
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83007,3): corral_source_split_11062
+                        Inlined call to procedure ldv_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18735,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18740,3): corral_source_split_2301
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18745,3): corral_source_split_2302
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18750,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18755,3): $bb4
+                        Inlined call to procedure ldv_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(83012,3): corral_source_split_11063
+                    Inlined call to procedure register_chrdev ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82905,3): SeqInstr_1559
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82909,3): SeqInstr_1560
+                    value = 4308
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82913,3): corral_source_split_11054
+                    Inlined call to procedure ldv_register_chrdev begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81345,3): $bb0
+                        value = 4308
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81351,3): corral_source_split_10892
+                        Inlined call to procedure ldv_undef_int begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18703,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18707,3): corral_source_split_2298
+                            Inlined call to procedure __VERIFIER_nondet_int begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95917,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95921,3): corral_source_split_12540
+                                value = 0
+                                value = 0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95928,3): corral_source_split_12541
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95933,3): corral_source_split_12542
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95963,3): $bb1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95967,3): corral_source_split_12544
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95944,3): $bb3
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95948,3): corral_source_split_12546
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95953,3): corral_source_split_12547
+                                Inlined call to procedure __VERIFIER_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95647,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95652,3): corral_source_split_12521
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95656,3): corral_source_split_12522
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95661,3): corral_source_split_12523
+                                Inlined call to procedure __VERIFIER_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95958,3): corral_source_split_12548
+                            Inlined call to procedure __VERIFIER_nondet_int ends
+                            value = 0
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18714,3): corral_source_split_2299
+                        Inlined call to procedure ldv_undef_int ends
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81357,3): corral_source_split_10893
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81362,3): corral_source_split_10894
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81367,3): $bb2
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81371,3): corral_source_split_10902
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81376,3): corral_source_split_10903
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81381,3): corral_source_split_10904
+                        Inlined call to procedure ldv_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18735,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18740,3): corral_source_split_2301
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18745,3): corral_source_split_2302
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18750,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18755,3): $bb4
+                        Inlined call to procedure ldv_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81386,3): corral_source_split_10905
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81390,3): $bb3
+                    Inlined call to procedure ldv_register_chrdev ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82918,3): SeqInstr_1562
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82922,3): SeqInstr_1563
+                    value = 4308
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82926,3): corral_source_split_11055
+                Inlined call to procedure ldv_register_chrdev_126 ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82620,3): SeqInstr_1541
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82624,3): SeqInstr_1542
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82627,3): corral_source_split_11029
+                value = 4308
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82633,3): corral_source_split_11030
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82638,3): corral_source_split_11031
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82643,3): corral_source_split_11032
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82648,3): $bb9
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82653,3): $bb10
+                Inlined call to procedure fw_core_add_address_handler begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49202,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49206,3): corral_source_split_6324
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49211,3): corral_source_split_6325
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49216,3): corral_source_split_6326
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49221,3): corral_source_split_6327
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49226,3): corral_source_split_6328
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49729,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49709,3): $bb2
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49459,3): $bb12
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49463,3): corral_source_split_6353
+                Inlined call to procedure fw_core_add_address_handler ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82658,3): SeqInstr_1544
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82662,3): SeqInstr_1545
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82665,3): corral_source_split_11040
+                Inlined call to procedure fw_core_add_address_handler begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49202,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49206,3): corral_source_split_6324
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49211,3): corral_source_split_6325
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49216,3): corral_source_split_6326
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49221,3): corral_source_split_6327
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49226,3): corral_source_split_6328
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49729,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49709,3): $bb2
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49459,3): $bb12
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49463,3): corral_source_split_6353
+                Inlined call to procedure fw_core_add_address_handler ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82670,3): SeqInstr_1547
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82674,3): SeqInstr_1548
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82677,3): corral_source_split_11041
+                Inlined call to procedure fw_core_add_address_handler begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49202,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49206,3): corral_source_split_6324
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49211,3): corral_source_split_6325
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49216,3): corral_source_split_6326
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49221,3): corral_source_split_6327
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49226,3): corral_source_split_6328
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49729,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49709,3): $bb2
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49459,3): $bb12
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(49463,3): corral_source_split_6353
+                Inlined call to procedure fw_core_add_address_handler ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82682,3): SeqInstr_1550
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82686,3): SeqInstr_1551
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82689,3): corral_source_split_11042
+                Inlined call to procedure fw_core_add_descriptor begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1781,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1785,3): corral_source_split_1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1790,3): corral_source_split_2
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1795,3): corral_source_split_3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1800,3): corral_source_split_4
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2043,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2047,3): corral_source_split_6
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2052,3): $bb4
+                    Inlined call to procedure fw_core_add_descriptor_loop_$bb4 begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(118713,3): entry
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(118792,3): exit
+                    Inlined call to procedure fw_core_add_descriptor_loop_$bb4 ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2137,3): $bb4_last
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2056,3): corral_source_split_8
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2060,3): $bb5
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2065,3): corral_source_split_10
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2070,3): corral_source_split_11
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2075,3): corral_source_split_12
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2080,3): corral_source_split_13
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2085,3): corral_source_split_14
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2090,3): corral_source_split_15
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2095,3): corral_source_split_16
+                    value = 8020
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2101,3): corral_source_split_17
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2106,3): corral_source_split_18
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2111,3): corral_source_split_19
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2117,3): $bb7
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2122,3): corral_source_split_21
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1811,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1816,3): $bb8
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1821,3): corral_source_split_23
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1826,3): corral_source_split_24
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1831,3): corral_source_split_25
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2034,3): $bb9
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2038,3): corral_source_split_27
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1984,3): $bb11
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1988,3): corral_source_split_29
+                Inlined call to procedure fw_core_add_descriptor ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82694,3): SeqInstr_1553
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82698,3): SeqInstr_1554
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82701,3): corral_source_split_11043
+                Inlined call to procedure fw_core_add_descriptor begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1781,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1785,3): corral_source_split_1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1790,3): corral_source_split_2
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1795,3): corral_source_split_3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1800,3): corral_source_split_4
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2043,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2047,3): corral_source_split_6
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2052,3): $bb4
+                    Inlined call to procedure fw_core_add_descriptor_loop_$bb4 begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(118713,3): entry
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(118792,3): exit
+                    Inlined call to procedure fw_core_add_descriptor_loop_$bb4 ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2137,3): $bb4_last
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2056,3): corral_source_split_8
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2060,3): $bb5
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2065,3): corral_source_split_10
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2070,3): corral_source_split_11
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2075,3): corral_source_split_12
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2080,3): corral_source_split_13
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2085,3): corral_source_split_14
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2090,3): corral_source_split_15
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2095,3): corral_source_split_16
+                    value = 6675
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2101,3): corral_source_split_17
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2106,3): corral_source_split_18
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2111,3): corral_source_split_19
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2117,3): $bb7
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2122,3): corral_source_split_21
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1811,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1816,3): $bb8
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1821,3): corral_source_split_23
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1826,3): corral_source_split_24
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1831,3): corral_source_split_25
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2034,3): $bb9
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(2038,3): corral_source_split_27
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1984,3): $bb11
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(1988,3): corral_source_split_29
+                Inlined call to procedure fw_core_add_descriptor ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82706,3): SeqInstr_1556
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82710,3): SeqInstr_1557
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82713,3): corral_source_split_11044
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82718,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82722,3): corral_source_split_11020
+            Inlined call to procedure fw_core_init ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82501,3): SeqInstr_1538
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82505,3): SeqInstr_1539
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82509,3): corral_source_split_11009
+        Inlined call to procedure ldv_EMGentry_init_fw_core_init_22_19 ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91796,3): SeqInstr_1817
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91800,3): SeqInstr_1818
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91804,3): corral_source_split_12151
+        Inlined call to procedure ldv_ldv_post_init_129 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(92088,3): $bb0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(92093,3): corral_source_split_12188
+            Inlined call to procedure ldv_linux_net_register_reset_error_counter begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91160,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91164,3): corral_source_split_12075
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91170,3): corral_source_split_12076
+            Inlined call to procedure ldv_linux_net_register_reset_error_counter ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(92098,3): corral_source_split_12189
+            Inlined call to procedure ldv_linux_usb_register_reset_error_counter begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91065,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91069,3): corral_source_split_12066
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91075,3): corral_source_split_12067
+            Inlined call to procedure ldv_linux_usb_register_reset_error_counter ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(92103,3): corral_source_split_12190
+            Inlined call to procedure ldv_post_init begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95491,3): $bb0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95496,3): corral_source_split_12504
+                Inlined call to procedure ldv_filter_positive_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81298,3): $bb0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81303,3): corral_source_split_10887
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81308,3): corral_source_split_10888
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81313,3): corral_source_split_10889
+                    Inlined call to procedure ldv_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18735,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18740,3): corral_source_split_2301
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18745,3): corral_source_split_2302
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18750,3): $bb2
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18755,3): $bb4
+                    Inlined call to procedure ldv_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81318,3): corral_source_split_10890
+                Inlined call to procedure ldv_filter_positive_int ends
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95502,3): corral_source_split_12505
+            Inlined call to procedure ldv_post_init ends
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(92109,3): corral_source_split_12191
+        Inlined call to procedure ldv_ldv_post_init_129 ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91810,3): corral_source_split_12152
+        Inlined call to procedure ldv_undef_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18703,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18707,3): corral_source_split_2298
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95917,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95921,3): corral_source_split_12540
+                value = 0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95928,3): corral_source_split_12541
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95933,3): corral_source_split_12542
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95963,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95967,3): corral_source_split_12544
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95944,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95948,3): corral_source_split_12546
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95953,3): corral_source_split_12547
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95647,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95652,3): corral_source_split_12521
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95656,3): corral_source_split_12522
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95661,3): corral_source_split_12523
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95958,3): corral_source_split_12548
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18714,3): corral_source_split_2299
+        Inlined call to procedure ldv_undef_int ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91816,3): corral_source_split_12153
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91821,3): corral_source_split_12154
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91826,3): $bb2
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91830,3): corral_source_split_12163
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91835,3): corral_source_split_12164
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91840,3): corral_source_split_12165
+        Inlined call to procedure ldv_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18735,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18740,3): corral_source_split_2301
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18745,3): corral_source_split_2302
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18750,3): $bb2
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18755,3): $bb4
+        Inlined call to procedure ldv_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91845,3): corral_source_split_12166
+        Inlined call to procedure ldv_undef_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18703,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18707,3): corral_source_split_2298
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95917,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95921,3): corral_source_split_12540
+                value = 0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95928,3): corral_source_split_12541
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95933,3): corral_source_split_12542
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95963,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95967,3): corral_source_split_12544
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95944,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95948,3): corral_source_split_12546
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95953,3): corral_source_split_12547
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95647,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95652,3): corral_source_split_12521
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95656,3): corral_source_split_12522
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95661,3): corral_source_split_12523
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95958,3): corral_source_split_12548
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(18714,3): corral_source_split_2299
+        Inlined call to procedure ldv_undef_int ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91851,3): corral_source_split_12167
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91856,3): corral_source_split_12168
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91861,3): $bb5
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91866,3): $bb6
+        Inlined call to procedure ldv_EMGentry_exit_fw_core_cleanup_22_2 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81774,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81778,3): corral_source_split_10940
+            Inlined call to procedure fw_core_cleanup begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81816,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81820,3): corral_source_split_10943
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81825,3): corral_source_split_10944
+                Inlined call to procedure ldv_unregister_chrdev_127 begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81892,3): $bb0
+                    value = 4308
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81897,3): corral_source_split_10951
+                    Inlined call to procedure unregister_chrdev begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82122,3): $bb0
+                        value = 4308
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82127,3): corral_source_split_10973
+                        Inlined call to procedure ldv_unregister_chrdev_76 begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82183,3): $bb0
+                            value = 4308
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82188,3): corral_source_split_10978
+                            Inlined call to procedure __unregister_chrdev begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82464,3): $bb0
+                                value = 4308
+                                value = 0
+                                value = 256
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82471,3): corral_source_split_11006
+                            Inlined call to procedure __unregister_chrdev ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82193,3): corral_source_split_10979
+                        Inlined call to procedure ldv_unregister_chrdev_76 ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82132,3): corral_source_split_10974
+                        Inlined call to procedure ldv_linux_fs_char_dev_unregister_chrdev_region begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82216,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82220,3): corral_source_split_10981
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82225,3): corral_source_split_10982
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82230,3): corral_source_split_10983
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82235,3): corral_source_split_10984
+                            Inlined call to procedure ldv_assert_linux_fs_char_dev__double_deregistration begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82401,3): $bb0
+                                value = 1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82406,3): corral_source_split_11000
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82411,3): corral_source_split_11001
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82444,3): $bb1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82436,3): $bb3
+                            Inlined call to procedure ldv_assert_linux_fs_char_dev__double_deregistration ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82240,3): SeqInstr_1526
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82244,3): SeqInstr_1527
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82247,3): corral_source_split_10985
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82253,3): corral_source_split_10986
+                        Inlined call to procedure ldv_linux_fs_char_dev_unregister_chrdev_region ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82137,3): SeqInstr_1520
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82141,3): SeqInstr_1521
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82144,3): corral_source_split_10975
+                        Inlined call to procedure ldv_linux_usb_gadget_unregister_chrdev_region begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82280,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82284,3): corral_source_split_10988
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82289,3): corral_source_split_10989
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82294,3): corral_source_split_10990
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82299,3): corral_source_split_10991
+                            Inlined call to procedure ldv_assert_linux_usb_gadget__chrdev_deregistration_with_usb_gadget begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82336,3): $bb0
+                                value = 1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82341,3): corral_source_split_10994
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82346,3): corral_source_split_10995
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82379,3): $bb1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82371,3): $bb3
+                            Inlined call to procedure ldv_assert_linux_usb_gadget__chrdev_deregistration_with_usb_gadget ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82304,3): SeqInstr_1529
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82308,3): SeqInstr_1530
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82311,3): corral_source_split_10992
+                        Inlined call to procedure ldv_linux_usb_gadget_unregister_chrdev_region ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82149,3): SeqInstr_1523
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82153,3): SeqInstr_1524
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82156,3): corral_source_split_10976
+                    Inlined call to procedure unregister_chrdev ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81902,3): SeqInstr_1508
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81906,3): SeqInstr_1509
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81909,3): corral_source_split_10952
+                    Inlined call to procedure ldv_unregister_chrdev begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81449,3): $bb0
+                        value = 4308
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81454,3): corral_source_split_10907
+                        Inlined call to procedure ldv_dispatch_deregister_20_1 begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79854,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(79858,3): corral_source_split_10710
+                        Inlined call to procedure ldv_dispatch_deregister_20_1 ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81459,3): corral_source_split_10908
+                    Inlined call to procedure ldv_unregister_chrdev ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81914,3): corral_source_split_10953
+                Inlined call to procedure ldv_unregister_chrdev_127 ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81830,3): SeqInstr_1502
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81834,3): SeqInstr_1503
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81837,3): corral_source_split_10945
+                Inlined call to procedure bus_unregister begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81937,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81941,3): corral_source_split_10955
+                Inlined call to procedure bus_unregister ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81842,3): corral_source_split_10946
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81847,3): corral_source_split_10947
+                Inlined call to procedure destroy_workqueue begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81960,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81964,3): corral_source_split_10957
+                Inlined call to procedure destroy_workqueue ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81852,3): corral_source_split_10948
+                Inlined call to procedure ldv_idr_destroy_128 begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81984,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81988,3): corral_source_split_10959
+                    Inlined call to procedure ldv_linux_lib_idr_idr_destroy_fw_device_idr begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82030,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82034,3): corral_source_split_10962
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82039,3): corral_source_split_10963
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82044,3): corral_source_split_10964
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82049,3): corral_source_split_10965
+                        Inlined call to procedure ldv_assert_linux_lib_idr__not_initialized begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(26376,3): $bb0
+                            value = 0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(26381,3): corral_source_split_3333
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(26386,3): corral_source_split_3334
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(26391,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(26395,3): corral_source_split_3336
+                            Inlined call to procedure __VERIFIER_error begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95701,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95705,3): corral_source_split_12525
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95713,3): assert_rewrite_dummy_block_0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95732,3): SeqInstr_2092
+                            Inlined call to procedure __VERIFIER_error ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(26415,3): SeqInstr_475
+                        Inlined call to procedure ldv_assert_linux_lib_idr__not_initialized ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82102,3): SeqInstr_1513
+                    Inlined call to procedure ldv_linux_lib_idr_idr_destroy_fw_device_idr ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(82004,3): SeqInstr_1510
+                Inlined call to procedure ldv_idr_destroy_128 ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81868,3): SeqInstr_1504
+            Inlined call to procedure fw_core_cleanup ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(81794,3): SeqInstr_1498
+        Inlined call to procedure ldv_EMGentry_exit_fw_core_cleanup_22_2 ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(91907,3): SeqInstr_1834
+    Inlined call to procedure ldv_entry_EMGentry_22 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/linux-4.0-rc1---drivers--firewire--firewire-core.ko_false-unreach-call.cil.i.bpl.bpl(95554,3): SeqInstr_2089
+Inlined call to procedure main ends
+Number of procedures inlined: 295
+Total Time: 1832.79 s
+
+Stopping: Done

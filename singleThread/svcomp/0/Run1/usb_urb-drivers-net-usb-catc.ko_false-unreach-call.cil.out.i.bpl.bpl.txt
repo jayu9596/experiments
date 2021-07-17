@@ -1,0 +1,1466 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+main_SeqInstr did not verify
+/home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21198,3): start
+Inlined call to procedure main begins
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9746,3): $bb0
+    Inlined call to procedure $initialize begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(13204,3): anon0
+        Inlined call to procedure __SMACK_static_init begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(12673,3): $bb0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+        Inlined call to procedure __SMACK_static_init ends
+        Inlined call to procedure __SMACK_init_func_memory_model begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(12636,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(12640,3): corral_source_split_1541
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(12645,3): corral_source_split_1542
+        Inlined call to procedure __SMACK_init_func_memory_model ends
+    Inlined call to procedure $initialize ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9750,3): corral_source_split_1303
+    value = -153359
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9755,3): corral_source_split_1304
+    value = 1
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9760,3): corral_source_split_1305
+    Inlined call to procedure ldv_initialize begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10619,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10623,3): corral_source_split_1452
+    Inlined call to procedure ldv_initialize ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9765,3): corral_source_split_1306
+    Inlined call to procedure catc_init begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(509,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(513,3): corral_source_split_1
+        Inlined call to procedure usb_register begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(568,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(572,3): corral_source_split_8
+            Inlined call to procedure usb_register_driver begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(688,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(692,3): corral_source_split_20
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+                    value = 0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(698,3): corral_source_split_21
+            Inlined call to procedure usb_register_driver ends
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(578,3): corral_source_split_9
+        Inlined call to procedure usb_register ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(519,3): corral_source_split_2
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(524,3): corral_source_split_3
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(539,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(543,3): corral_source_split_5
+        Inlined call to procedure printk.ref begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(626,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(630,3): corral_source_split_14
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+                value = 244
+                value = 244
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 244
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(636,3): corral_source_split_15
+        Inlined call to procedure printk.ref ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(548,3): corral_source_split_6
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(534,3): $bb3
+    Inlined call to procedure catc_init ends
+    value = 0
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9771,3): corral_source_split_1307
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9776,3): corral_source_split_1308
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9781,3): $bb2
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9786,3): $bb4
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9791,3): $bb5
+    Inlined call to procedure main_loop_$bb5 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21815,3): entry
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21819,3): $bb5
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21989,3): corral_source_split_1314
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21982,3): $bb6
+        Inlined call to procedure __VERIFIER_nondet_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+            value = 880
+            value = 880
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+        Inlined call to procedure __VERIFIER_nondet_int ends
+        value = 880
+        value = 880
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21977,3): corral_source_split_1316
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21972,3): corral_source_split_1317
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21968,3): $bb7
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21964,3): corral_source_split_1319
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21953,3): $bb9
+        Inlined call to procedure __VERIFIER_nondet_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+            value = 7
+            value = 7
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+        Inlined call to procedure __VERIFIER_nondet_int ends
+        value = 7
+        value = 7
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21948,3): corral_source_split_1324
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21943,3): corral_source_split_1325
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22064,3): $bb18
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22059,3): corral_source_split_1338
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22054,3): corral_source_split_1339
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22162,3): $bb21
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22157,3): corral_source_split_1345
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22152,3): corral_source_split_1346
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22254,3): $bb24
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22249,3): corral_source_split_1352
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22244,3): corral_source_split_1353
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22281,3): $bb27
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22276,3): corral_source_split_1359
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22271,3): corral_source_split_1360
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22308,3): $bb30
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22303,3): corral_source_split_1366
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22298,3): corral_source_split_1367
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22335,3): $bb33
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22330,3): corral_source_split_1373
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22325,3): corral_source_split_1374
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22440,3): $bb36
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22435,3): corral_source_split_1380
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22430,3): corral_source_split_1381
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22426,3): $bb38
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22422,3): corral_source_split_1385
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22417,3): $bb40
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22412,3): corral_source_split_1390
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22408,3): $bb65
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22403,3): corral_source_split_1433
+        Inlined call to procedure catc_probe begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(919,3): $bb0
+            Inlined call to procedure $alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(12571,3): anon0
+                Inlined call to procedure $$alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(12591,3): anon0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(12600,3): anon3_Then
+                Inlined call to procedure $$alloc ends
+            Inlined call to procedure $alloc ends
+            Inlined call to procedure $alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(12571,3): anon0
+                Inlined call to procedure $$alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(12591,3): anon0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(12600,3): anon3_Then
+                Inlined call to procedure $$alloc ends
+            Inlined call to procedure $alloc ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(927,3): corral_source_split_23
+            Inlined call to procedure interface_to_usbdev begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3500,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3504,3): corral_source_split_425
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3509,3): corral_source_split_426
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3514,3): corral_source_split_427
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3519,3): corral_source_split_428
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3524,3): corral_source_split_429
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3529,3): corral_source_split_430
+            Inlined call to procedure interface_to_usbdev ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(932,3): corral_source_split_24
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(937,3): corral_source_split_25
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(942,3): corral_source_split_26
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(947,3): corral_source_split_27
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(952,3): corral_source_split_28
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(957,3): corral_source_split_29
+            Inlined call to procedure usb_set_interface begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3550,3): $bb0
+                value = 198
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3556,3): corral_source_split_432
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+                    value = 0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3562,3): corral_source_split_433
+            Inlined call to procedure usb_set_interface ends
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(963,3): corral_source_split_30
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(968,3): corral_source_split_31
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(973,3): $bb2
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(978,3): $bb4
+            Inlined call to procedure alloc_etherdev_mqs begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3584,3): $bb0
+                value = 70240
+                value = 1
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3591,3): corral_source_split_435
+                Inlined call to procedure external_alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3465,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3469,3): corral_source_split_422
+                    Inlined call to procedure __VERIFIER_nondet_pointer begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11562,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11566,3): corral_source_split_1538
+                        value = 13
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11572,3): corral_source_split_1539
+                    Inlined call to procedure __VERIFIER_nondet_pointer ends
+                    value = 13
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3475,3): corral_source_split_423
+                Inlined call to procedure external_alloc ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3596,3): corral_source_split_436
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3601,3): corral_source_split_437
+            Inlined call to procedure alloc_etherdev_mqs ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(983,3): corral_source_split_38
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(988,3): corral_source_split_39
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1011,3): $bb5
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1016,3): $bb7
+            Inlined call to procedure netdev_priv begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3623,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3627,3): corral_source_split_439
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3632,3): corral_source_split_440
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3637,3): corral_source_split_441
+            Inlined call to procedure netdev_priv ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1021,3): corral_source_split_43
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1026,3): corral_source_split_44
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1031,3): corral_source_split_45
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1036,3): corral_source_split_46
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1041,3): corral_source_split_47
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1046,3): corral_source_split_48
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1051,3): corral_source_split_49
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1056,3): corral_source_split_50
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1061,3): corral_source_split_51
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1066,3): corral_source_split_52
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1071,3): corral_source_split_53
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1076,3): corral_source_split_54
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1080,3): $bb8
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1084,3): $bb9
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1089,3): corral_source_split_56
+            Inlined call to procedure spinlock_check begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3659,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3663,3): corral_source_split_443
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3668,3): corral_source_split_444
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3673,3): corral_source_split_445
+            Inlined call to procedure spinlock_check ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1094,3): corral_source_split_57
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1098,3): $bb10
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1102,3): $bb11
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1107,3): corral_source_split_59
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1112,3): corral_source_split_60
+            Inlined call to procedure __raw_spin_lock_init begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3693,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3697,3): corral_source_split_447
+            Inlined call to procedure __raw_spin_lock_init ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1117,3): corral_source_split_61
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1121,3): $bb12
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1125,3): $bb14
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1129,3): $bb16
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1133,3): $bb17
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1138,3): corral_source_split_63
+            Inlined call to procedure spinlock_check begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3659,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3663,3): corral_source_split_443
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3668,3): corral_source_split_444
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3673,3): corral_source_split_445
+            Inlined call to procedure spinlock_check ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1143,3): corral_source_split_64
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1147,3): $bb18
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1151,3): $bb19
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1156,3): corral_source_split_66
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1161,3): corral_source_split_67
+            Inlined call to procedure __raw_spin_lock_init begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3693,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3697,3): corral_source_split_447
+            Inlined call to procedure __raw_spin_lock_init ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1166,3): corral_source_split_68
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1170,3): $bb20
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1174,3): $bb22
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1178,3): $bb24
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1182,3): $bb25
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1187,3): corral_source_split_70
+            Inlined call to procedure init_timer_key begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3716,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3720,3): corral_source_split_449
+            Inlined call to procedure init_timer_key ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1192,3): corral_source_split_71
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1196,3): $bb26
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1201,3): corral_source_split_73
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1206,3): corral_source_split_74
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1211,3): corral_source_split_75
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1216,3): corral_source_split_76
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1221,3): corral_source_split_77
+            Inlined call to procedure usb_alloc_urb begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3885,3): $bb0
+                value = 0
+                value = 208
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3891,3): corral_source_split_473
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3895,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3899,3): $bb2
+                Inlined call to procedure ldv_undefined_pointer begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6323,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6327,3): corral_source_split_797
+                    Inlined call to procedure external_alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3465,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3469,3): corral_source_split_422
+                        Inlined call to procedure __VERIFIER_nondet_pointer begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11562,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11566,3): corral_source_split_1538
+                            value = 148
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11572,3): corral_source_split_1539
+                        Inlined call to procedure __VERIFIER_nondet_pointer ends
+                        value = 148
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3475,3): corral_source_split_423
+                    Inlined call to procedure external_alloc ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6332,3): corral_source_split_798
+                Inlined call to procedure ldv_undefined_pointer ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3904,3): corral_source_split_475
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3909,3): corral_source_split_476
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3932,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3937,3): $bb6
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3942,3): corral_source_split_482
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3947,3): corral_source_split_483
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3953,3): corral_source_split_484
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3957,3): corral_source_split_485
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3923,3): $bb5
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3927,3): corral_source_split_480
+            Inlined call to procedure usb_alloc_urb ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1226,3): corral_source_split_78
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1231,3): corral_source_split_79
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1236,3): corral_source_split_80
+            Inlined call to procedure usb_alloc_urb begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3885,3): $bb0
+                value = 0
+                value = 208
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3891,3): corral_source_split_473
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3895,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3899,3): $bb2
+                Inlined call to procedure ldv_undefined_pointer begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6323,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6327,3): corral_source_split_797
+                    Inlined call to procedure external_alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3465,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3469,3): corral_source_split_422
+                        Inlined call to procedure __VERIFIER_nondet_pointer begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11562,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11566,3): corral_source_split_1538
+                            value = 235
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11572,3): corral_source_split_1539
+                        Inlined call to procedure __VERIFIER_nondet_pointer ends
+                        value = 235
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3475,3): corral_source_split_423
+                    Inlined call to procedure external_alloc ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6332,3): corral_source_split_798
+                Inlined call to procedure ldv_undefined_pointer ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3904,3): corral_source_split_475
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3909,3): corral_source_split_476
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3932,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3937,3): $bb6
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3942,3): corral_source_split_482
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3947,3): corral_source_split_483
+                value = 2
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3953,3): corral_source_split_484
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3957,3): corral_source_split_485
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3923,3): $bb5
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3927,3): corral_source_split_480
+            Inlined call to procedure usb_alloc_urb ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1241,3): corral_source_split_81
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1246,3): corral_source_split_82
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1251,3): corral_source_split_83
+            Inlined call to procedure usb_alloc_urb begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3885,3): $bb0
+                value = 0
+                value = 208
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3891,3): corral_source_split_473
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3895,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3899,3): $bb2
+                Inlined call to procedure ldv_undefined_pointer begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6323,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6327,3): corral_source_split_797
+                    Inlined call to procedure external_alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3465,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3469,3): corral_source_split_422
+                        Inlined call to procedure __VERIFIER_nondet_pointer begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11562,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11566,3): corral_source_split_1538
+                            value = 235
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11572,3): corral_source_split_1539
+                        Inlined call to procedure __VERIFIER_nondet_pointer ends
+                        value = 235
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3475,3): corral_source_split_423
+                    Inlined call to procedure external_alloc ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6332,3): corral_source_split_798
+                Inlined call to procedure ldv_undefined_pointer ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3904,3): corral_source_split_475
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3909,3): corral_source_split_476
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3932,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3937,3): $bb6
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3942,3): corral_source_split_482
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3947,3): corral_source_split_483
+                value = 3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3953,3): corral_source_split_484
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3957,3): corral_source_split_485
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3923,3): $bb5
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3927,3): corral_source_split_480
+            Inlined call to procedure usb_alloc_urb ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1256,3): corral_source_split_84
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1261,3): corral_source_split_85
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1266,3): corral_source_split_86
+            Inlined call to procedure usb_alloc_urb begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3885,3): $bb0
+                value = 0
+                value = 208
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3891,3): corral_source_split_473
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3895,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3899,3): $bb2
+                Inlined call to procedure ldv_undefined_pointer begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6323,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6327,3): corral_source_split_797
+                    Inlined call to procedure external_alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3465,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3469,3): corral_source_split_422
+                        Inlined call to procedure __VERIFIER_nondet_pointer begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11562,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11566,3): corral_source_split_1538
+                            value = 235
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11572,3): corral_source_split_1539
+                        Inlined call to procedure __VERIFIER_nondet_pointer ends
+                        value = 235
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3475,3): corral_source_split_423
+                    Inlined call to procedure external_alloc ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6332,3): corral_source_split_798
+                Inlined call to procedure ldv_undefined_pointer ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3904,3): corral_source_split_475
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3909,3): corral_source_split_476
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3932,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3937,3): $bb6
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3942,3): corral_source_split_482
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3947,3): corral_source_split_483
+                value = 4
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3953,3): corral_source_split_484
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3957,3): corral_source_split_485
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3923,3): $bb5
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3927,3): corral_source_split_480
+            Inlined call to procedure usb_alloc_urb ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1271,3): corral_source_split_87
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1276,3): corral_source_split_88
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1281,3): corral_source_split_89
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1286,3): corral_source_split_90
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1291,3): corral_source_split_91
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1296,3): corral_source_split_92
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1428,3): $bb28
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1432,3): corral_source_split_94
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1437,3): corral_source_split_95
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1442,3): corral_source_split_96
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1447,3): corral_source_split_97
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1460,3): $bb31
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1464,3): corral_source_split_116
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1469,3): corral_source_split_117
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1474,3): corral_source_split_118
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1479,3): corral_source_split_119
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1492,3): $bb33
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1496,3): corral_source_split_123
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1501,3): corral_source_split_124
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1506,3): corral_source_split_125
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1511,3): corral_source_split_126
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1524,3): $bb35
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1529,3): $bb37
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1533,3): $bb38
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1537,3): $bb39
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1541,3): $bb40
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1546,3): corral_source_split_132
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1551,3): corral_source_split_133
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1556,3): corral_source_split_134
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1561,3): corral_source_split_135
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2653,3): $bb41
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2657,3): corral_source_split_137
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2662,3): corral_source_split_138
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2667,3): corral_source_split_139
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2672,3): corral_source_split_140
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2677,3): corral_source_split_141
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2697,3): $bb43
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2701,3): corral_source_split_143
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2706,3): corral_source_split_144
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2711,3): corral_source_split_145
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2716,3): corral_source_split_146
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2721,3): corral_source_split_147
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2726,3): corral_source_split_148
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2731,3): corral_source_split_149
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2751,3): $bb45
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2755,3): corral_source_split_151
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2759,3): $bb47
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2763,3): $bb48
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2767,3): $bb49
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2772,3): corral_source_split_153
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2777,3): corral_source_split_154
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2782,3): corral_source_split_155
+            Inlined call to procedure atomic_set begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3979,3): $bb0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3984,3): corral_source_split_489
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3989,3): corral_source_split_490
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3994,3): corral_source_split_491
+            Inlined call to procedure atomic_set ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2787,3): corral_source_split_156
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2742,3): $bb51
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2746,3): corral_source_split_158
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2688,3): $bb52
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2692,3): corral_source_split_160
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1572,3): $bb53
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1576,3): corral_source_split_162
+            Inlined call to procedure __create_pipe begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4018,3): $bb0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4023,3): corral_source_split_493
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4028,3): corral_source_split_494
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4033,3): corral_source_split_495
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4038,3): corral_source_split_496
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4043,3): corral_source_split_497
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4048,3): corral_source_split_498
+            Inlined call to procedure __create_pipe ends
+            value = 852
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1582,3): corral_source_split_163
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1587,3): corral_source_split_164
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1592,3): corral_source_split_165
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1597,3): corral_source_split_166
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1602,3): corral_source_split_167
+            Inlined call to procedure usb_fill_control_urb begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4084,3): $bb0
+                value = 783
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4090,3): corral_source_split_500
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4095,3): corral_source_split_501
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4100,3): corral_source_split_502
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4105,3): corral_source_split_503
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4110,3): corral_source_split_504
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4115,3): corral_source_split_505
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4120,3): corral_source_split_506
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4125,3): corral_source_split_507
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4130,3): corral_source_split_508
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4135,3): corral_source_split_509
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4140,3): corral_source_split_510
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4145,3): corral_source_split_511
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4150,3): corral_source_split_512
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4155,3): corral_source_split_513
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4160,3): corral_source_split_514
+            Inlined call to procedure usb_fill_control_urb ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1607,3): corral_source_split_168
+            Inlined call to procedure __create_pipe begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4018,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4023,3): corral_source_split_493
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4028,3): corral_source_split_494
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4033,3): corral_source_split_495
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4038,3): corral_source_split_496
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4043,3): corral_source_split_497
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4048,3): corral_source_split_498
+            Inlined call to procedure __create_pipe ends
+            value = 744
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1613,3): corral_source_split_169
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1618,3): corral_source_split_170
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1623,3): corral_source_split_171
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1628,3): corral_source_split_172
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1633,3): corral_source_split_173
+            Inlined call to procedure usb_fill_bulk_urb begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4194,3): $bb0
+                value = 238
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4200,3): corral_source_split_516
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4205,3): corral_source_split_517
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4210,3): corral_source_split_518
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4215,3): corral_source_split_519
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4220,3): corral_source_split_520
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4225,3): corral_source_split_521
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4230,3): corral_source_split_522
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4235,3): corral_source_split_523
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4240,3): corral_source_split_524
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4245,3): corral_source_split_525
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4250,3): corral_source_split_526
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4255,3): corral_source_split_527
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4260,3): corral_source_split_528
+            Inlined call to procedure usb_fill_bulk_urb ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1638,3): corral_source_split_174
+            Inlined call to procedure __create_pipe begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4018,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4023,3): corral_source_split_493
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4028,3): corral_source_split_494
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4033,3): corral_source_split_495
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4038,3): corral_source_split_496
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4043,3): corral_source_split_497
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4048,3): corral_source_split_498
+            Inlined call to procedure __create_pipe ends
+            value = 744
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1644,3): corral_source_split_175
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1649,3): corral_source_split_176
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1654,3): corral_source_split_177
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1659,3): corral_source_split_178
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1664,3): corral_source_split_179
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1669,3): corral_source_split_180
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1674,3): corral_source_split_181
+            Inlined call to procedure usb_fill_bulk_urb begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4194,3): $bb0
+                value = 241
+                value = 1600
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4200,3): corral_source_split_516
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4205,3): corral_source_split_517
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4210,3): corral_source_split_518
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4215,3): corral_source_split_519
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4220,3): corral_source_split_520
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4225,3): corral_source_split_521
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4230,3): corral_source_split_522
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4235,3): corral_source_split_523
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4240,3): corral_source_split_524
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4245,3): corral_source_split_525
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4250,3): corral_source_split_526
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4255,3): corral_source_split_527
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4260,3): corral_source_split_528
+            Inlined call to procedure usb_fill_bulk_urb ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1679,3): corral_source_split_182
+            Inlined call to procedure __create_pipe begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4018,3): $bb0
+                value = 2
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4023,3): corral_source_split_493
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4028,3): corral_source_split_494
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4033,3): corral_source_split_495
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4038,3): corral_source_split_496
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4043,3): corral_source_split_497
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4048,3): corral_source_split_498
+            Inlined call to procedure __create_pipe ends
+            value = 758
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1685,3): corral_source_split_183
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1690,3): corral_source_split_184
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1695,3): corral_source_split_185
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1700,3): corral_source_split_186
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1705,3): corral_source_split_187
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1710,3): corral_source_split_188
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1715,3): corral_source_split_189
+            Inlined call to procedure usb_fill_int_urb begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4316,3): $bb0
+                value = 246
+                value = 2
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4323,3): corral_source_split_530
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4328,3): corral_source_split_531
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4333,3): corral_source_split_532
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4338,3): corral_source_split_533
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4343,3): corral_source_split_534
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4348,3): corral_source_split_535
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4353,3): corral_source_split_536
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4358,3): corral_source_split_537
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4363,3): corral_source_split_538
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4368,3): corral_source_split_539
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4373,3): corral_source_split_540
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4378,3): corral_source_split_541
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4383,3): corral_source_split_542
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4388,3): corral_source_split_543
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4393,3): corral_source_split_544
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4398,3): corral_source_split_545
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4488,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4492,3): corral_source_split_547
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4497,3): corral_source_split_548
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4502,3): corral_source_split_549
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4507,3): corral_source_split_550
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4512,3): corral_source_split_551
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4446,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4451,3): corral_source_split_558
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4456,3): corral_source_split_559
+            Inlined call to procedure usb_fill_int_urb ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1720,3): corral_source_split_190
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1725,3): corral_source_split_191
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1730,3): corral_source_split_192
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1735,3): corral_source_split_193
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2574,3): $bb54
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2578,3): corral_source_split_195
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2582,3): $bb117
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2586,3): $bb118
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2590,3): $bb119
+            Inlined call to procedure catc_ctrl_msg begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4551,3): $bb0
+                value = 0
+                value = -12
+                value = 0
+                value = 0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4560,3): corral_source_split_570
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4565,3): corral_source_split_571
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4570,3): $bb2
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4574,3): corral_source_split_580
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4579,3): corral_source_split_581
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4584,3): corral_source_split_582
+                Inlined call to procedure __create_pipe begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4018,3): $bb0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4023,3): corral_source_split_493
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4028,3): corral_source_split_494
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4033,3): corral_source_split_495
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4038,3): corral_source_split_496
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4043,3): corral_source_split_497
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4048,3): corral_source_split_498
+                Inlined call to procedure __create_pipe ends
+                value = 852
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4590,3): corral_source_split_583
+                value = 783
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4598,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4602,3): corral_source_split_585
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4607,3): corral_source_split_586
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4612,3): corral_source_split_587
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4617,3): corral_source_split_588
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4622,3): corral_source_split_589
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4627,3): corral_source_split_590
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4632,3): corral_source_split_591
+                Inlined call to procedure usb_control_msg begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4947,3): $bb0
+                    value = 783
+                    value = -12
+                    value = 781
+                    value = 0
+                    value = 0
+                    value = 0
+                    value = 1000
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4958,3): corral_source_split_626
+                    Inlined call to procedure __VERIFIER_nondet_int begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+                        value = -533
+                        value = -533
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+                    Inlined call to procedure __VERIFIER_nondet_int ends
+                    value = -533
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4964,3): corral_source_split_627
+                Inlined call to procedure usb_control_msg ends
+                value = -533
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4638,3): corral_source_split_592
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4643,3): corral_source_split_593
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4663,3): $bb4
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4667,3): corral_source_split_595
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4654,3): $bb6
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4658,3): corral_source_split_597
+            Inlined call to procedure catc_ctrl_msg ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2595,3): corral_source_split_299
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2600,3): corral_source_split_300
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2605,3): corral_source_split_301
+            Inlined call to procedure catc_ctrl_msg begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4551,3): $bb0
+                value = -128
+                value = -14
+                value = 0
+                value = 0
+                value = 6
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4560,3): corral_source_split_570
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4565,3): corral_source_split_571
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4672,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4676,3): corral_source_split_573
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4681,3): corral_source_split_574
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4686,3): corral_source_split_575
+                Inlined call to procedure __create_pipe begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4018,3): $bb0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4023,3): corral_source_split_493
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4028,3): corral_source_split_494
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4033,3): corral_source_split_495
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4038,3): corral_source_split_496
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4043,3): corral_source_split_497
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4048,3): corral_source_split_498
+                Inlined call to procedure __create_pipe ends
+                value = 852
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4692,3): corral_source_split_576
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4697,3): corral_source_split_577
+                value = 792
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4703,3): corral_source_split_578
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4598,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4602,3): corral_source_split_585
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4607,3): corral_source_split_586
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4612,3): corral_source_split_587
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4617,3): corral_source_split_588
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4622,3): corral_source_split_589
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4627,3): corral_source_split_590
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4632,3): corral_source_split_591
+                Inlined call to procedure usb_control_msg begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4947,3): $bb0
+                    value = 792
+                    value = -14
+                    value = 794
+                    value = 0
+                    value = 0
+                    value = 6
+                    value = 1000
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4958,3): corral_source_split_626
+                    Inlined call to procedure __VERIFIER_nondet_int begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+                        value = -2147477530
+                        value = -2147477530
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+                    Inlined call to procedure __VERIFIER_nondet_int ends
+                    value = -2147477530
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4964,3): corral_source_split_627
+                Inlined call to procedure usb_control_msg ends
+                value = -2147477530
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4638,3): corral_source_split_592
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4643,3): corral_source_split_593
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4663,3): $bb4
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4667,3): corral_source_split_595
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4654,3): $bb6
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4658,3): corral_source_split_597
+            Inlined call to procedure catc_ctrl_msg ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2610,3): corral_source_split_302
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2614,3): $bb121
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2618,3): $bb122
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2622,3): $bb123
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2627,3): corral_source_split_304
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2632,3): corral_source_split_305
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2637,3): corral_source_split_306
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2642,3): corral_source_split_307
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2647,3): corral_source_split_308
+            Inlined call to procedure catc_ctrl_msg begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4551,3): $bb0
+                value = 0
+                value = -11
+                value = 0
+                value = 1
+                value = 2
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4560,3): corral_source_split_570
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4565,3): corral_source_split_571
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4570,3): $bb2
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4574,3): corral_source_split_580
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4579,3): corral_source_split_581
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4584,3): corral_source_split_582
+                Inlined call to procedure __create_pipe begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4018,3): $bb0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4023,3): corral_source_split_493
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4028,3): corral_source_split_494
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4033,3): corral_source_split_495
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4038,3): corral_source_split_496
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4043,3): corral_source_split_497
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4048,3): corral_source_split_498
+                Inlined call to procedure __create_pipe ends
+                value = 852
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4590,3): corral_source_split_583
+                value = 783
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4598,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4602,3): corral_source_split_585
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4607,3): corral_source_split_586
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4612,3): corral_source_split_587
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4617,3): corral_source_split_588
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4622,3): corral_source_split_589
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4627,3): corral_source_split_590
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4632,3): corral_source_split_591
+                Inlined call to procedure usb_control_msg begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4947,3): $bb0
+                    value = 783
+                    value = -11
+                    value = 781
+                    value = 0
+                    value = 1
+                    value = 2
+                    value = 1000
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4958,3): corral_source_split_626
+                    Inlined call to procedure __VERIFIER_nondet_int begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+                        value = -2147478137
+                        value = -2147478137
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+                    Inlined call to procedure __VERIFIER_nondet_int ends
+                    value = -2147478137
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4964,3): corral_source_split_627
+                Inlined call to procedure usb_control_msg ends
+                value = -2147478137
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4638,3): corral_source_split_592
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4643,3): corral_source_split_593
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4663,3): $bb4
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4667,3): corral_source_split_595
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4654,3): $bb6
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4658,3): corral_source_split_597
+            Inlined call to procedure catc_ctrl_msg ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2133,3): $bb116
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2137,3): $bb125
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2141,3): $bb126
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2145,3): $bb127
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2150,3): corral_source_split_310
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2155,3): corral_source_split_311
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2160,3): corral_source_split_312
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2394,3): $bb129
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2398,3): corral_source_split_314
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2171,3): $bb131
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2175,3): corral_source_split_316
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2180,3): corral_source_split_317
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2185,3): corral_source_split_318
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2190,3): corral_source_split_319
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2195,3): corral_source_split_320
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2200,3): corral_source_split_321
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2205,3): corral_source_split_322
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2210,3): corral_source_split_323
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2215,3): corral_source_split_324
+            Inlined call to procedure printk.ref.ref.ref.ref.ref.ref begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(657,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(661,3): corral_source_split_17
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+                    value = -547
+                    value = -547
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = -547
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(667,3): corral_source_split_18
+            Inlined call to procedure printk.ref.ref.ref.ref.ref.ref ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2220,3): corral_source_split_325
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2225,3): corral_source_split_326
+            Inlined call to procedure usb_set_intfdata begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3086,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3090,3): corral_source_split_380
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3095,3): corral_source_split_381
+                Inlined call to procedure dev_set_drvdata begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3404,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3408,3): corral_source_split_416
+                    Inlined call to procedure __VERIFIER_nondet_int begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+                        value = -784
+                        value = -784
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+                    Inlined call to procedure __VERIFIER_nondet_int ends
+                    value = -784
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3414,3): corral_source_split_417
+                Inlined call to procedure dev_set_drvdata ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3100,3): corral_source_split_382
+            Inlined call to procedure usb_set_intfdata ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2230,3): corral_source_split_327
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2235,3): corral_source_split_328
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2240,3): corral_source_split_329
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2245,3): corral_source_split_330
+            Inlined call to procedure register_netdev begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4883,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4887,3): corral_source_split_620
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+                    value = 0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(4893,3): corral_source_split_621
+            Inlined call to procedure register_netdev ends
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2251,3): corral_source_split_331
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2256,3): corral_source_split_332
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2261,3): $bb133
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(2266,3): $bb134
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1002,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(1006,3): corral_source_split_36
+        Inlined call to procedure catc_probe ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22399,3): SeqInstr_47
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22396,3): SeqInstr_48
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22390,3): corral_source_split_1434
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22385,3): corral_source_split_1435
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22380,3): corral_source_split_1436
+        Inlined call to procedure ldv_check_return_value begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10642,3): $bb0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10647,3): corral_source_split_1454
+        Inlined call to procedure ldv_check_return_value ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22375,3): corral_source_split_1437
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22370,3): corral_source_split_1438
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22365,3): corral_source_split_1439
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22360,3): $bb68
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22354,3): $bb69
+        value = 1
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22349,3): corral_source_split_1443
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22339,3): $bb70
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21890,3): corral_source_split_1445
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21869,3): $bb51
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21865,3): $bb74
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21861,3): $bb75
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21857,3): $bb76
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21853,3): $bb77
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21849,3): $bb78
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21845,3): $bb79
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21841,3): $bb80
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21837,3): $bb81
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21833,3): $bb82
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21829,3): $bb83
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21824,3): $bb84
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22542,3): $bb84_dummy
+        Inlined call to procedure main_loop_$bb5 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21815,3): entry
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21819,3): $bb5
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21989,3): corral_source_split_1314
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21982,3): $bb6
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+                value = 6179
+                value = 6179
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 6179
+            value = 6179
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21977,3): corral_source_split_1316
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21972,3): corral_source_split_1317
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21968,3): $bb7
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21964,3): corral_source_split_1319
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21953,3): $bb9
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+                value = 0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21948,3): corral_source_split_1324
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21943,3): corral_source_split_1325
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21939,3): $bb17
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21935,3): corral_source_split_1336
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21930,3): $bb19
+            Inlined call to procedure catc_get_drvinfo begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9388,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9392,3): corral_source_split_1263
+                Inlined call to procedure netdev_priv begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3623,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3627,3): corral_source_split_439
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3632,3): corral_source_split_440
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3637,3): corral_source_split_441
+                Inlined call to procedure netdev_priv ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9397,3): corral_source_split_1264
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9402,3): corral_source_split_1265
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9407,3): corral_source_split_1266
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9412,3): corral_source_split_1267
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9417,3): corral_source_split_1268
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9422,3): corral_source_split_1269
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9427,3): corral_source_split_1270
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9432,3): corral_source_split_1271
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9437,3): corral_source_split_1272
+                Inlined call to procedure usb_make_path begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9486,3): $bb0
+                    value = 32
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9491,3): corral_source_split_1275
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9496,3): corral_source_split_1276
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9501,3): corral_source_split_1277
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9506,3): corral_source_split_1278
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9511,3): corral_source_split_1279
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9516,3): corral_source_split_1280
+                    value = 695
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9522,3): corral_source_split_1281
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9527,3): corral_source_split_1282
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9532,3): corral_source_split_1283
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9552,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9556,3): corral_source_split_1285
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9543,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9547,3): corral_source_split_1287
+                Inlined call to procedure usb_make_path ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9442,3): corral_source_split_1273
+            Inlined call to procedure catc_get_drvinfo ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21925,3): corral_source_split_1341
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21869,3): $bb51
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21865,3): $bb74
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21861,3): $bb75
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21857,3): $bb76
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21853,3): $bb77
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21849,3): $bb78
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21845,3): $bb79
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21841,3): $bb80
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21837,3): $bb81
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21833,3): $bb82
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21829,3): $bb83
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21824,3): $bb84
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22542,3): $bb84_dummy
+            Inlined call to procedure main_loop_$bb5 begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(21815,3): entry
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(22546,3): exit
+            Inlined call to procedure main_loop_$bb5 ends
+        Inlined call to procedure main_loop_$bb5 ends
+    Inlined call to procedure main_loop_$bb5 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10599,3): $bb5_last
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9795,3): corral_source_split_1314
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9799,3): $bb6
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+        value = 8295
+        value = 8295
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = 8295
+    value = 8295
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9806,3): corral_source_split_1316
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9811,3): corral_source_split_1317
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10579,3): $bb7
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10583,3): corral_source_split_1319
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9842,3): $bb9
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+        value = 2
+        value = 2
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = 2
+    value = 2
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9849,3): corral_source_split_1324
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9854,3): corral_source_split_1325
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9859,3): $bb18
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9863,3): corral_source_split_1338
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9868,3): corral_source_split_1339
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9873,3): $bb21
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9877,3): corral_source_split_1345
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9882,3): corral_source_split_1346
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10408,3): $bb23
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10412,3): corral_source_split_1350
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10416,3): $bb25
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10421,3): corral_source_split_1355
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10441,3): $bb52
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10445,3): corral_source_split_1405
+    Inlined call to procedure catc_open begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6741,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6745,3): corral_source_split_853
+        Inlined call to procedure netdev_priv begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3623,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3627,3): corral_source_split_439
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3632,3): corral_source_split_440
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3637,3): corral_source_split_441
+        Inlined call to procedure netdev_priv ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6750,3): corral_source_split_854
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6755,3): corral_source_split_855
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6760,3): corral_source_split_856
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6765,3): corral_source_split_857
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6770,3): corral_source_split_858
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6775,3): corral_source_split_859
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6780,3): corral_source_split_860
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6785,3): corral_source_split_861
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6790,3): corral_source_split_862
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6795,3): corral_source_split_863
+        Inlined call to procedure usb_submit_urb begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(5045,3): $bb0
+            value = 208
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(5050,3): corral_source_split_631
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+                value = -2147478948
+                value = -2147478948
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = -2147478948
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(5056,3): corral_source_split_632
+        Inlined call to procedure usb_submit_urb ends
+        value = -2147478948
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6801,3): corral_source_split_864
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6806,3): corral_source_split_865
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6888,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6892,3): corral_source_split_867
+        Inlined call to procedure printk.ref.i32 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(599,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(603,3): corral_source_split_11
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10971,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10975,3): corral_source_split_1478
+                value = -523
+                value = -523
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10982,3): corral_source_split_1479
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10987,3): corral_source_split_1480
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11017,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11021,3): corral_source_split_1482
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10998,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11002,3): corral_source_split_1484
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11007,3): corral_source_split_1485
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10782,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10787,3): corral_source_split_1471
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10791,3): corral_source_split_1472
+                    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10796,3): corral_source_split_1473
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(11012,3): corral_source_split_1486
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = -523
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(609,3): corral_source_split_12
+        Inlined call to procedure printk.ref.i32 ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6897,3): corral_source_split_868
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6874,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(6878,3): corral_source_split_870
+    Inlined call to procedure catc_open ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10450,3): corral_source_split_1406
+    value = -1
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10456,3): corral_source_split_1407
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10461,3): corral_source_split_1408
+    Inlined call to procedure ldv_check_return_value begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10642,3): $bb0
+        value = -1
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10647,3): corral_source_split_1454
+    Inlined call to procedure ldv_check_return_value ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10466,3): corral_source_split_1409
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10471,3): corral_source_split_1410
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10476,3): corral_source_split_1411
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10497,3): $bb54
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10501,3): corral_source_split_1413
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10229,3): $bb56
+    Inlined call to procedure catc_exit begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9649,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9653,3): corral_source_split_1298
+        Inlined call to procedure usb_deregister begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9677,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9681,3): corral_source_split_1301
+        Inlined call to procedure usb_deregister ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(9658,3): corral_source_split_1299
+    Inlined call to procedure catc_exit ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10234,3): corral_source_split_1415
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10238,3): $bb3
+    Inlined call to procedure ldv_check_final_state begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10671,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10675,3): corral_source_split_1456
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10680,3): corral_source_split_1457
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10685,3): corral_source_split_1458
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10690,3): $bb2
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10694,3): corral_source_split_1462
+        Inlined call to procedure ldv_blast_assert begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3360,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3364,3): corral_source_split_412
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3368,3): $bb1
+            Inlined call to procedure __VERIFIER_error begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10836,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10840,3): corral_source_split_1475
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10848,3): assert_rewrite_dummy_block_0
+                /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10867,3): SeqInstr_58
+            Inlined call to procedure __VERIFIER_error ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(3384,3): SeqInstr_40
+        Inlined call to procedure ldv_blast_assert ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10755,3): SeqInstr_52
+    Inlined call to procedure ldv_check_final_state ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.bpl.bpl(10255,3): SeqInstr_43
+Inlined call to procedure main ends
+Number of procedures inlined: 740
+Total Time: 17.16 s
+
+Stopping: Done
