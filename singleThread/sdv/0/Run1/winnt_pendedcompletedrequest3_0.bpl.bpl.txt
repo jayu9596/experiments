@@ -1,0 +1,183 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(28792,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(11564,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(23587,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(4217,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(15955,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(15292,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(13106,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(9222,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(612,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12063,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12004,3): L30
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12058,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12013,3): L34
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(10562,3): anon0
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(13480,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12425,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(10523,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(10537,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(10534,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(13500,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12449,3): anon97_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12452,3): anon116_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12455,3): anon115_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12458,3): anon114_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12461,3): anon113_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12464,3): anon112_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12467,3): anon111_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12470,3): anon110_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12692,3): anon109_Then
+            Inlined call to procedure USDispatchIO begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(16005,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12373,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(13155,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(13165,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(13172,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(13162,3): L1
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(16020,3): anon55_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(16094,3): anon56_Then
+                Inlined call to procedure USPreProcessIO begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(19751,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(11259,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(19765,3): anon53_Else
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(10299,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(10303,3): anon5_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(10308,3): L1
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(19987,3): anon74_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(19991,3): anon54_Else
+                    Inlined call to procedure sdv_RtlCopyMemory begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12964,3): anon0
+                    Inlined call to procedure sdv_RtlCopyMemory ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(19997,3): L141
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(20000,3): anon67_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(20006,3): anon68_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(20033,3): anon71_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(20026,3): L189
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(19795,3): L83
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(19802,3): L1
+                Inlined call to procedure USPreProcessIO ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(16100,3): anon57_Else
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(11259,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(16237,3): anon58_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(16121,3): L52
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(16126,3): anon59_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(16132,3): anon62_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(16138,3): anon61_Else
+                Inlined call to procedure USDeviceControl begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(6224,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12373,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(9201,3): anon413_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(6339,3): L35
+                    Inlined call to procedure USIncrementIoCount begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(22411,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(22484,3): anon9_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(22435,3): L8
+                        Inlined call to procedure sdv_InterlockedIncrement begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(13191,3): anon0
+                        Inlined call to procedure sdv_InterlockedIncrement ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(22477,3): anon10_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(22471,3): L1
+                    Inlined call to procedure USIncrementIoCount ends
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(11259,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(9191,3): anon525_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(6366,3): L59
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(9187,3): anon414_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(6386,3): L60
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(6389,3): anon415_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(6393,3): anon520_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(6397,3): anon519_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(6401,3): anon518_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(8588,3): anon517_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(8592,3): L78
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(8595,3): anon416_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(8861,3): anon490_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(8616,3): L821
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(8620,3): L816
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(8655,3): anon489_Then
+                    Inlined call to procedure sdv_RtlCopyMemory begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12964,3): anon0
+                    Inlined call to procedure sdv_RtlCopyMemory ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(8661,3): anon547_Else
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(10299,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(10303,3): anon5_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(10308,3): L1
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(8674,3): anon551_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(8698,3): anon497_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(6462,3): L124
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(6468,3): anon529_Else
+                    Inlined call to procedure SLIC_sdv_IoCompleteRequest_entry begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(4270,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(4288,3): anon5_Then
+                        Inlined call to procedure SLIC_ABORT_7_0 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(4606,3): anon0
+                            Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(4783,3): anon0
+                            Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                        Inlined call to procedure SLIC_ABORT_7_0 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(4297,3): anon6_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(4285,3): LM2
+                    Inlined call to procedure SLIC_sdv_IoCompleteRequest_entry ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(6517,3): anon530_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(6507,3): LM2
+                Inlined call to procedure USDeviceControl ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(16147,3): anon70_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(16076,3): LM2
+            Inlined call to procedure USDispatchIO ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12721,3): anon136_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12554,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(10578,3): anon3_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(10575,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12024,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12028,3): L28
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12031,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_pendedcompletedrequest3_0.bpl.bpl(12043,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 418
+Total Time: 5.92 s
+
+Stopping: Done

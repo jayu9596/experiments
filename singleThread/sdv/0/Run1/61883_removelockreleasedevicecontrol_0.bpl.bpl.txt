@@ -1,0 +1,213 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(31882,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(2626,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(20932,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init9 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(4300,3): anon0
+    Inlined call to procedure _sdv_init9 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(18739,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(16169,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(9244,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(6871,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(4485,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3368,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(494,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3242,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3185,3): L32
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3237,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3194,3): L36
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(2184,3): anon0
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3907,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchDeviceControl begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(2075,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(2150,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(2163,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(2160,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3925,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            Inlined call to procedure Av_IoControl begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(568,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(2427,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(620,3): anon222_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(625,3): anon199_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1525,3): anon201_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1559,3): anon202_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(633,3): L26
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(637,3): L27
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(643,3): anon224_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(661,3): anon214_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(667,3): anon203_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(679,3): anon226_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(688,3): anon204_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(697,3): anon227_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(702,3): anon221_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(707,3): anon220_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(712,3): anon219_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(717,3): anon218_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(722,3): anon217_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(727,3): anon216_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1076,3): anon215_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1479,3): anon205_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1120,3): L57
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1126,3): anon263_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1130,3): anon264_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1134,3): anon265_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1414,3): anon267_Then
+                Inlined call to procedure Av1394_BusReset begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(18602,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(18722,3): anon21_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(18657,3): L11
+                    Inlined call to procedure IoAllocateIrp begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3752,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3755,3): anon3_Else
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1922,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1934,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1938,3): anon6_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1931,3): L1
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3765,3): L1
+                    Inlined call to procedure IoAllocateIrp ends
+                    Inlined call to procedure sdv_ExAllocateFromNPagedLookasideList begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(4001,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(4004,3): anon3_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(4009,3): L1
+                    Inlined call to procedure sdv_ExAllocateFromNPagedLookasideList ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(18669,3): anon22_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(18673,3): anon20_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(18681,3): anon23_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(18689,3): L40
+                    Inlined call to procedure Av_SubmitIrpSynch begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1589,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1598,3): anon17_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1602,3): L12
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1605,3): anon13_Else
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1922,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1934,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1938,3): anon6_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1931,3): L1
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1616,3): L23
+                        Inlined call to procedure KeInitializeEvent begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3789,3): anon0
+                        Inlined call to procedure KeInitializeEvent ends
+                        Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(2290,3): anon0
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1922,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1934,3): anon5_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1938,3): anon6_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1931,3): L1
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                        Inlined call to procedure sdv_IoCallDriver#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(25520,3): anon0
+                            Inlined call to procedure IofCallDriver#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(25889,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26118,3): anon70_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26186,3): anon71_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26131,3): L45
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26182,3): anon60_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26140,3): L47
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26178,3): anon61_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26149,3): L49
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26152,3): anon62_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26156,3): anon63_Else
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26354,3): anon0
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1922,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1934,3): anon5_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1938,3): anon6_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1931,3): L1
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26473,3): anon24_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26375,3): L11
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26466,3): anon19_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26390,3): L28
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26395,3): anon20_Else
+                                    Inlined call to procedure AvCip_ProcessTalkPacket#1 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26623,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26699,3): anon12_Then
+                                        Inlined call to procedure sdv_IoReleaseRemoveLock begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1707,3): anon0
+                                            Inlined call to procedure SLIC_sdv_IoReleaseRemoveLock_entry begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(4406,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(4421,3): anon5_Then
+                                                Inlined call to procedure SLIC_ABORT_17_0 begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(4275,3): anon0
+                                                    Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(4450,3): anon0
+                                                    Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                                                Inlined call to procedure SLIC_ABORT_17_0 ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(4430,3): anon6_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(4418,3): LM2
+                                            Inlined call to procedure SLIC_sdv_IoReleaseRemoveLock_entry ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1724,3): anon3_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1721,3): LM2
+                                        Inlined call to procedure sdv_IoReleaseRemoveLock ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26710,3): anon15_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26674,3): LM2
+                                    Inlined call to procedure AvCip_ProcessTalkPacket#1 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26455,3): anon27_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26443,3): LM2
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(26166,3): anon72_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(25945,3): LM2
+                            Inlined call to procedure IofCallDriver#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(25532,3): anon3_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(25529,3): LM2
+                        Inlined call to procedure sdv_IoCallDriver#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1660,3): anon18_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1649,3): LM2
+                    Inlined call to procedure Av_SubmitIrpSynch ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(18700,3): anon24_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(18643,3): LM2
+                Inlined call to procedure Av1394_BusReset ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(1424,3): anon268_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(609,3): LM2
+            Inlined call to procedure Av_IoControl ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(2113,3): anon3_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(2110,3): LM2
+        Inlined call to procedure sdv_RunDispatchDeviceControl ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(2197,3): anon3_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(2194,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3203,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3207,3): L30
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3210,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_removelockreleasedevicecontrol_0.bpl.bpl(3222,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 2604
+Total Time: 23.07 s
+
+Stopping: Done

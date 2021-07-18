@@ -1,0 +1,292 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(24271,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1992,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(15482,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init9 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3750,3): anon0
+    Inlined call to procedure _sdv_init9 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(14732,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(11630,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(9832,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(8385,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(5363,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2824,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(466,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2590,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2533,3): L32
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2585,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2542,3): L36
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1327,3): anon0
+        Inlined call to procedure DriverEntry begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(536,3): anon0
+            Inlined call to procedure ExAllocatePoolWithTag begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3430,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3442,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3439,3): L1
+            Inlined call to procedure ExAllocatePoolWithTag ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(590,3): anon3_Else
+            Inlined call to procedure sdv_RtlZeroMemory begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2749,3): anon0
+            Inlined call to procedure sdv_RtlZeroMemory ends
+            Inlined call to procedure sdv_KeInitializeSpinLock begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3404,3): anon0
+            Inlined call to procedure sdv_KeInitializeSpinLock ends
+            Inlined call to procedure InitializeListHead begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(13952,3): anon0
+            Inlined call to procedure InitializeListHead ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(603,3): L1
+        Inlined call to procedure DriverEntry ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1404,3): anon14_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1342,3): L72
+        Inlined call to procedure sdv_RunAddDevice begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(949,3): anon0
+            Inlined call to procedure sdv_stub_add_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1604,3): anon0
+            Inlined call to procedure sdv_stub_add_begin ends
+            Inlined call to procedure Av_PnpAddDevice begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(4586,3): anon0
+                Inlined call to procedure IoCreateDevice begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1098,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1138,3): anon15_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1152,3): anon11_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1148,3): L21
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1117,3): L1
+                Inlined call to procedure IoCreateDevice ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(4605,3): anon13_Then
+                Inlined call to procedure sdv_RtlZeroMemory begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2749,3): anon0
+                Inlined call to procedure sdv_RtlZeroMemory ends
+                Inlined call to procedure IoAttachDeviceToDeviceStack begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2714,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2718,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2723,3): L1
+                Inlined call to procedure IoAttachDeviceToDeviceStack ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(4618,3): anon14_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(4717,3): anon16_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(4727,3): anon15_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(4636,3): L33
+                Inlined call to procedure ExInitializeNPagedLookasideList begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1033,3): anon0
+                Inlined call to procedure ExInitializeNPagedLookasideList ends
+                Inlined call to procedure sdv_KeInitializeSpinLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3404,3): anon0
+                Inlined call to procedure sdv_KeInitializeSpinLock ends
+                Inlined call to procedure InitializeListHead begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(13952,3): anon0
+                Inlined call to procedure InitializeListHead ends
+                Inlined call to procedure sdv_ExInitializeFastMutex begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(827,3): anon0
+                Inlined call to procedure sdv_ExInitializeFastMutex ends
+                Inlined call to procedure InitializeListHead begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(13952,3): anon0
+                Inlined call to procedure InitializeListHead ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(4701,3): anon17_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(4714,3): anon18_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(4695,3): L65
+                Inlined call to procedure IoRegisterDeviceInterface begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2944,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2962,3): anon7_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2976,3): anon8_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2971,3): L22
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2955,3): L1
+                Inlined call to procedure IoRegisterDeviceInterface ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(4601,3): L71
+            Inlined call to procedure Av_PnpAddDevice ends
+            Inlined call to procedure sdv_stub_add_end begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2659,3): anon0
+            Inlined call to procedure sdv_stub_add_end ends
+        Inlined call to procedure sdv_RunAddDevice ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1399,3): anon11_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1352,3): L82
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3464,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunQueryDeviceRelations begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1512,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1283,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1296,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1293,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure Av_Pnp begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(5394,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(5416,3): anon12_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(5421,3): anon9_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(5433,3): anon10_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(5447,3): anon11_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(5429,3): L16
+                Inlined call to procedure Av_FDO_Pnp begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(7239,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1748,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(8009,3): anon107_Then
+                    Inlined call to procedure Av_FDO_StartDevice begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3937,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3966,3): anon67_Then
+                        Inlined call to procedure Av_SubmitIrpSynch begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(642,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(651,3): anon21_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(655,3): L12
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(732,3): anon15_Then
+                            Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(850,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(855,3): anon5_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(859,3): L4
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(869,3): anon6_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(866,3): L1
+                            Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(669,3): L23
+                            Inlined call to procedure KeInitializeEvent begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3348,3): anon0
+                            Inlined call to procedure KeInitializeEvent ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(673,3): anon16_Else
+                            Inlined call to procedure SLIC_sdv_IoSetCompletionRoutine_entry begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3587,3): anon0
+                            Inlined call to procedure SLIC_sdv_IoSetCompletionRoutine_entry ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(679,3): L54
+                            Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1567,3): anon0
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1054,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1058,3): anon5_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1063,3): L1
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                            Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                            Inlined call to procedure sdv_IoCallDriver#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19273,3): anon0
+                                Inlined call to procedure IofCallDriver#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19606,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19805,3): anon62_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19864,3): anon63_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19818,3): L45
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19860,3): anon52_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19827,3): L47
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19856,3): anon53_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19836,3): L49
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19839,3): anon54_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19843,3): anon55_Else
+                                    Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(20024,3): anon0
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1054,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1058,3): anon5_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1063,3): L1
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(20126,3): anon18_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(20042,3): L11
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(20122,3): anon13_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(20054,3): L28
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(20118,3): anon14_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(20066,3): L45
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(20114,3): anon15_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(20078,3): L62
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(20110,3): anon16_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(20090,3): L79
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(20095,3): anon17_Else
+                                        Inlined call to procedure Av_SynchCompletionRoutine begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(489,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(493,3): anon3_Else
+                                            Inlined call to procedure KeSetEvent begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1721,3): anon0
+                                            Inlined call to procedure KeSetEvent ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(498,3): L4
+                                        Inlined call to procedure Av_SynchCompletionRoutine ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(20102,3): L96
+                                    Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19658,3): L29
+                                Inlined call to procedure IofCallDriver#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19278,3): anon3_Else
+                                Inlined call to procedure SLIC_IofCallDriver_exit begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3811,3): anon0
+                                Inlined call to procedure SLIC_IofCallDriver_exit ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(19284,3): L1
+                            Inlined call to procedure sdv_IoCallDriver#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(684,3): anon20_Else
+                            Inlined call to procedure SLIC_sdv_IoCallDriver_exit begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3720,3): anon0
+                            Inlined call to procedure SLIC_sdv_IoCallDriver_exit ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(690,3): L33
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(693,3): anon17_Else
+                            Inlined call to procedure KeWaitForSingleObject begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1657,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1676,3): anon5_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1669,3): L1
+                            Inlined call to procedure KeWaitForSingleObject ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(701,3): L34
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(716,3): anon18_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(709,3): L39
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(713,3): L1
+                        Inlined call to procedure Av_SubmitIrpSynch ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(4300,3): anon50_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3950,3): L12
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3961,3): anon49_Then
+                        Inlined call to procedure AvCmp_DestroyPlugs begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(11160,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(11207,3): anon12_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(11176,3): L6
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(11201,3): anon9_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(11190,3): L11
+                        Inlined call to procedure AvCmp_DestroyPlugs ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3957,3): L16
+                    Inlined call to procedure Av_FDO_StartDevice ends
+                    Inlined call to procedure sdv_IoCompleteRequest begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3050,3): anon0
+                    Inlined call to procedure sdv_IoCompleteRequest ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(7451,3): L1
+                Inlined call to procedure Av_FDO_Pnp ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(5412,3): L13
+            Inlined call to procedure Av_Pnp ends
+        Inlined call to procedure sdv_RunQueryDeviceRelations ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1361,3): anon13_Else
+        Inlined call to procedure SLIC_sdv_RunQueryDeviceRelations_exit begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3616,3): anon0
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3625,3): anon23_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3631,3): anon22_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3648,3): anon18_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3652,3): anon17_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3656,3): anon21_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3660,3): anon20_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3664,3): anon19_Else
+            Inlined call to procedure SLIC_ABORT_13_0 begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3887,3): anon0
+                Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3837,3): anon0
+                Inlined call to procedure SLIC_ERROR_ROUTINE ends
+            Inlined call to procedure SLIC_ABORT_13_0 ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3673,3): anon24_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(3645,3): LM2
+        Inlined call to procedure SLIC_sdv_RunQueryDeviceRelations_exit ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1391,3): anon15_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(1383,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2551,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2555,3): L30
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2558,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_markqueryrelations_1.bpl.bpl(2570,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 541
+Total Time: 4.93 s
+
+Stopping: Done

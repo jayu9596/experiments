@@ -1,0 +1,446 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(82407,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7652,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(30219,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init11 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9866,3): anon0
+    Inlined call to procedure _sdv_init11 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(20835,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19659,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(15461,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(14258,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(12030,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init9 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7262,3): anon0
+    Inlined call to procedure _sdv_init9 ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6059,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init8 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6039,3): anon0
+    Inlined call to procedure _sdv_init8 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(313,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7958,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7897,3): L34
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7953,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7906,3): L38
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6940,3): anon0
+        Inlined call to procedure sdv_RunAddDevice begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6297,3): anon0
+            Inlined call to procedure sdv_stub_add_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7332,3): anon0
+            Inlined call to procedure sdv_stub_add_begin ends
+            Inlined call to procedure Sbp2AddDevice begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(22957,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8379,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23041,3): anon15_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(22987,3): L11
+                Inlined call to procedure Sbp2CreateDevObject begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(22135,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8379,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(22152,3): L17
+                    Inlined call to procedure Sbp2CreateDevObject_loop_L17 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(76035,3): entry
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(76039,3): exit
+                    Inlined call to procedure Sbp2CreateDevObject_loop_L17 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(22156,3): L17_last
+                    Inlined call to procedure RtlStringCbPrintfW begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(26393,3): anon0
+                        Inlined call to procedure RtlStringValidateDestW_sdv_static_function_1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(20686,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(20692,3): anon6_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(20696,3): anon5_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(20700,3): L8
+                        Inlined call to procedure RtlStringValidateDestW_sdv_static_function_1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(26401,3): anon5_Else
+                        Inlined call to procedure RtlStringVPrintfWorkerW_sdv_static_function_1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19859,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19897,3): anon9_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19917,3): anon10_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19873,3): L16
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19880,3): L20
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19893,3): anon11_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19889,3): L21
+                        Inlined call to procedure RtlStringVPrintfWorkerW_sdv_static_function_1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(26411,3): L19
+                    Inlined call to procedure RtlStringCbPrintfW ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(22161,3): anon17_Else
+                    Inlined call to procedure RtlInitUnicodeString begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8124,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8130,3): anon5_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8138,3): L4
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8152,3): anon6_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8149,3): L1
+                    Inlined call to procedure RtlInitUnicodeString ends
+                    Inlined call to procedure IoCreateDevice begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6576,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6620,3): anon15_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6623,3): anon11_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6632,3): L21
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6596,3): L1
+                    Inlined call to procedure IoCreateDevice ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(22168,3): anon23_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(22172,3): anon18_Else
+                    Inlined call to procedure sdv_RtlZeroMemory begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8310,3): anon0
+                    Inlined call to procedure sdv_RtlZeroMemory ends
+                    Inlined call to procedure IoAttachDeviceToDeviceStack begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8237,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8241,3): anon3_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8246,3): L1
+                    Inlined call to procedure IoAttachDeviceToDeviceStack ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(22187,3): anon19_Else
+                    Inlined call to procedure sdv_KeInitializeSpinLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9378,3): anon0
+                    Inlined call to procedure sdv_KeInitializeSpinLock ends
+                    Inlined call to procedure KeInitializeMutex begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8290,3): anon0
+                    Inlined call to procedure KeInitializeMutex ends
+                    Inlined call to procedure RtlStringCbPrintfW begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(26393,3): anon0
+                        Inlined call to procedure RtlStringValidateDestW_sdv_static_function_1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(20686,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(20692,3): anon6_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(20696,3): anon5_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(20700,3): L8
+                        Inlined call to procedure RtlStringValidateDestW_sdv_static_function_1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(26401,3): anon5_Else
+                        Inlined call to procedure RtlStringVPrintfWorkerW_sdv_static_function_1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19859,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19897,3): anon9_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19917,3): anon10_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19873,3): L16
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19880,3): L20
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19893,3): anon11_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(19889,3): L21
+                        Inlined call to procedure RtlStringVPrintfWorkerW_sdv_static_function_1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(26411,3): L19
+                    Inlined call to procedure RtlStringCbPrintfW ends
+                    Inlined call to procedure RtlInitUnicodeString begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8124,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8130,3): anon5_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8138,3): L4
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8152,3): anon6_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8149,3): L1
+                    Inlined call to procedure RtlInitUnicodeString ends
+                    Inlined call to procedure sdv_InitializeObjectAttributes begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7510,3): anon0
+                    Inlined call to procedure sdv_InitializeObjectAttributes ends
+                    Inlined call to procedure ZwCreateDirectoryObject begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8882,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8885,3): anon9_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8888,3): anon12_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8891,3): anon11_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8901,3): anon10_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8898,3): L1
+                    Inlined call to procedure ZwCreateDirectoryObject ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(22280,3): anon20_Then
+                    Inlined call to procedure ZwClose begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9586,3): anon0
+                    Inlined call to procedure ZwClose ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(22253,3): L77
+                    Inlined call to procedure sdv_ExInitializeFastMutex begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6120,3): anon0
+                    Inlined call to procedure sdv_ExInitializeFastMutex ends
+                    Inlined call to procedure sdv_IoInitializeRemoveLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6250,3): anon0
+                    Inlined call to procedure sdv_IoInitializeRemoveLock ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(22267,3): L1
+                Inlined call to procedure Sbp2CreateDevObject ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23031,3): anon17_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23017,3): L26
+            Inlined call to procedure Sbp2AddDevice ends
+            Inlined call to procedure sdv_stub_add_end begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8049,3): anon0
+            Inlined call to procedure sdv_stub_add_end ends
+        Inlined call to procedure sdv_RunAddDevice ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6971,3): anon5_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6954,3): L44
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9504,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8471,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6870,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6883,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6880,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9524,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8496,3): anon57_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8499,3): anon76_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8502,3): anon75_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8505,3): anon74_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8508,3): anon73_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8511,3): anon72_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8514,3): anon71_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8517,3): anon70_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8520,3): anon69_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8523,3): anon68_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8526,3): anon67_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8529,3): anon66_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8532,3): anon65_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8535,3): anon64_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8538,3): anon63_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8541,3): anon62_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8548,3): anon83_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8552,3): L60
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8609,3): anon59_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8569,3): L61
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8601,3): anon60_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8579,3): L66
+            Inlined call to procedure Sbp2PnpDeviceControl begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23336,3): anon0
+                Inlined call to procedure SLIC_Sbp2PnpDeviceControl_entry begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9660,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9676,3): anon3_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9673,3): L2
+                Inlined call to procedure SLIC_Sbp2PnpDeviceControl_entry ends
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7487,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23405,3): anon412_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23410,3): anon317_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23415,3): anon390_Else
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9119,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9130,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9137,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9126,3): L1
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9786,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9818,3): anon8_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9798,3): L7
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9801,3): anon7_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9806,3): L2
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit ends
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23419,3): anon318_Else
+                Inlined call to procedure Sbp2AddLog begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(14129,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(14215,3): anon7_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(14204,3): L1
+                Inlined call to procedure Sbp2AddLog ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23432,3): anon319_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23438,3): anon405_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23444,3): anon404_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23450,3): anon403_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23456,3): anon402_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23462,3): anon401_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23468,3): anon400_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23474,3): anon399_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23480,3): anon398_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23486,3): anon397_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23492,3): anon396_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23498,3): anon395_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23504,3): anon394_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23510,3): anon393_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23552,3): anon392_Then
+                Inlined call to procedure Sbp2AddLog begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(14129,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(14215,3): anon7_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(14204,3): L1
+                Inlined call to procedure Sbp2AddLog ends
+                Inlined call to procedure sdv_KeAcquireSpinLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6271,3): anon0
+                Inlined call to procedure sdv_KeAcquireSpinLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23673,3): anon324_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23684,3): anon474_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23582,3): L94
+                Inlined call to procedure KeSetEvent begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7462,3): anon0
+                Inlined call to procedure KeSetEvent ends
+                Inlined call to procedure sdv_KeReleaseSpinLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8813,3): anon0
+                Inlined call to procedure sdv_KeReleaseSpinLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23669,3): anon325_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23607,3): L103
+                Inlined call to procedure sdv_KeRaiseIrql begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7153,3): anon0
+                Inlined call to procedure sdv_KeRaiseIrql ends
+                Inlined call to procedure _InlineInterlockedExchangePointer begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(27382,3): anon0
+                Inlined call to procedure _InlineInterlockedExchangePointer ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23621,3): anon470_Else
+                Inlined call to procedure Sbp2StartIo#1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(51191,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7487,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                    Inlined call to procedure sdv_KeAcquireSpinLockAtDpcLevel begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6160,3): anon0
+                    Inlined call to procedure sdv_KeAcquireSpinLockAtDpcLevel ends
+                    Inlined call to procedure Sbp2AddLog begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(14129,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(14215,3): anon7_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(14204,3): L1
+                    Inlined call to procedure Sbp2AddLog ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(52063,3): anon171_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(52270,3): anon172_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(51232,3): L24
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(51237,3): anon173_Else
+                    Inlined call to procedure sdv_KeReleaseSpinLockFromDpcLevel begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6400,3): anon0
+                    Inlined call to procedure sdv_KeReleaseSpinLockFromDpcLevel ends
+                    Inlined call to procedure sdv_IoCompleteRequest begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8834,3): anon0
+                    Inlined call to procedure sdv_IoCompleteRequest ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(51307,3): anon175_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(51272,3): L39
+                    Inlined call to procedure Sbp2StartNextPacketByKey#0 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(49703,3): anon0
+                        Inlined call to procedure sdv_InterlockedIncrement begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9156,3): anon0
+                        Inlined call to procedure sdv_InterlockedIncrement ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(49786,3): anon9_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(49772,3): L1
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(49775,3): LM2
+                    Inlined call to procedure Sbp2StartNextPacketByKey#0 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(51276,3): anon228_Else
+                    Inlined call to procedure sdv_IoReleaseRemoveLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(10146,3): anon0
+                        Inlined call to procedure SLIC_sdv_IoReleaseRemoveLock_entry begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9966,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(10001,3): anon7_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9978,3): L5
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9982,3): L2
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9985,3): LM2
+                        Inlined call to procedure SLIC_sdv_IoReleaseRemoveLock_entry ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(10152,3): anon3_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(10160,3): LM2
+                    Inlined call to procedure sdv_IoReleaseRemoveLock ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(51283,3): anon229_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(51287,3): L1
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(51290,3): LM2
+                Inlined call to procedure Sbp2StartIo#1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23629,3): anon471_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23633,3): L114
+                Inlined call to procedure Sbp2StartNextPacketByKey#1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(49826,3): anon0
+                    Inlined call to procedure sdv_InterlockedIncrement begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9156,3): anon0
+                    Inlined call to procedure sdv_InterlockedIncrement ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(49909,3): anon9_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(49895,3): L1
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(49898,3): LM2
+                Inlined call to procedure Sbp2StartNextPacketByKey#1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23637,3): anon472_Else
+                Inlined call to procedure sdv_KeLowerIrql begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8420,3): anon0
+                Inlined call to procedure sdv_KeLowerIrql ends
+                Inlined call to procedure Sbp2CleanDeviceExtension#1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(46941,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(47744,3): anon212_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(47757,3): anon239_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(48405,3): anon240_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(47800,3): L253
+                    Inlined call to procedure sdv_KeAcquireSpinLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6271,3): anon0
+                    Inlined call to procedure sdv_KeAcquireSpinLock ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(47810,3): L273
+                    Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L273 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79502,3): entry
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79509,3): L273
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79514,3): anon199_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(80038,3): anon242_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79891,3): L277
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79990,3): anon254_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79922,3): L423
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79987,3): anon255_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79953,3): L430
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79984,3): anon256_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79691,3): L328
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79696,3): L328_dummy
+                        Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L273 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79502,3): entry
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79509,3): L273
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79514,3): anon199_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(80038,3): anon242_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79891,3): L277
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79990,3): anon254_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79922,3): L423
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79987,3): anon255_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79953,3): L430
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79984,3): anon256_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79691,3): L328
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79696,3): L328_dummy
+                            Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L273 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79502,3): entry
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(79506,3): exit
+                            Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L273 ends
+                        Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L273 ends
+                    Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L273 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(47814,3): L273_last
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(48366,3): anon199_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(48384,3): anon200_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(48380,3): L443
+                    Inlined call to procedure sdv_KeReleaseSpinLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8813,3): anon0
+                    Inlined call to procedure sdv_KeReleaseSpinLock ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(47602,3): L54
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(47271,3): L1
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(47274,3): LM2
+                Inlined call to procedure Sbp2CleanDeviceExtension#1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23643,3): anon473_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23529,3): L74
+                Inlined call to procedure sdv_IoReleaseRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(10146,3): anon0
+                    Inlined call to procedure SLIC_sdv_IoReleaseRemoveLock_entry begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9966,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9970,3): anon7_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9988,3): anon8_Then
+                        Inlined call to procedure SLIC_ABORT_7_0 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9894,3): anon0
+                            Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(10101,3): anon0
+                            Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                        Inlined call to procedure SLIC_ABORT_7_0 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9997,3): anon9_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(9985,3): LM2
+                    Inlined call to procedure SLIC_sdv_IoReleaseRemoveLock_entry ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(10163,3): anon3_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(10160,3): LM2
+                Inlined call to procedure sdv_IoReleaseRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23541,3): anon416_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(23398,3): LM2
+            Inlined call to procedure Sbp2PnpDeviceControl ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8597,3): anon84_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(8594,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6967,3): anon6_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(6964,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7919,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7923,3): L32
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7926,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_removelock_0.bpl.bpl(7938,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 2367
+Total Time: 43.50 s
+
+Stopping: Done

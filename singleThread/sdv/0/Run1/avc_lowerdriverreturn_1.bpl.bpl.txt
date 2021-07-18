@@ -1,0 +1,871 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(44152,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(14055,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30216,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init12 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11600,3): anon0
+    Inlined call to procedure _sdv_init12 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(29520,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(27924,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(20827,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(20211,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(17249,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init10 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16162,3): anon0
+    Inlined call to procedure _sdv_init10 ends
+    Inlined call to procedure _sdv_init9 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11812,3): anon0
+    Inlined call to procedure _sdv_init9 ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(7802,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init8 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(6346,3): anon0
+    Inlined call to procedure _sdv_init8 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(526,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(14536,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(14477,3): L35
+    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(14531,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(14486,3): L39
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12950,3): anon0
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13008,3): anon15_Then
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16455,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15110,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12858,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12872,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12869,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16483,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15138,3): anon49_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15141,3): anon70_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15144,3): anon69_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15147,3): anon68_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15150,3): anon67_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15153,3): anon66_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15156,3): anon65_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15159,3): anon64_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15162,3): anon63_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15165,3): anon62_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15168,3): anon61_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15171,3): anon60_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15174,3): anon59_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15177,3): anon58_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15180,3): anon57_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15183,3): anon56_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15275,3): anon72_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15286,3): anon50_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15282,3): L220
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15193,3): L60
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15272,3): anon51_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15209,3): L61
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15265,3): anon52_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15217,3): L66
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15220,3): anon54_Else
+            Inlined call to procedure SLIC_Avc_Pnp_entry begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(10953,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(10994,3): anon9_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(10985,3): L2
+            Inlined call to procedure SLIC_Avc_Pnp_entry ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15226,3): L179
+            Inlined call to procedure Avc_Pnp begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(21460,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15031,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13825,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                Inlined call to procedure AvcAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(29237,3): anon0
+                    Inlined call to procedure sdv_InterlockedIncrement begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15760,3): anon0
+                    Inlined call to procedure sdv_InterlockedIncrement ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(29286,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(29275,3): L11
+                Inlined call to procedure AvcAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(21489,3): anon9_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(21513,3): anon10_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(21518,3): anon11_Else
+                Inlined call to procedure Avc_FDO_Pnp begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(23375,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15031,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check ends
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13825,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(23987,3): anon131_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(23994,3): anon132_Else
+                    Inlined call to procedure SLIC_sdv_IoCopyCurrentIrpStackLocationToNext_entry begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11083,3): anon0
+                    Inlined call to procedure SLIC_sdv_IoCopyCurrentIrpStackLocationToNext_entry ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(24000,3): L341
+                    Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12210,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12215,3): anon5_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12219,3): L4
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12229,3): anon6_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12226,3): L1
+                    Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext ends
+                    Inlined call to procedure Avc_SubmitIrpSynch begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(29987,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15031,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check ends
+                        Inlined call to procedure KeInitializeEvent begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16035,3): anon0
+                        Inlined call to procedure KeInitializeEvent ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(29995,3): anon9_Else
+                        Inlined call to procedure SLIC_sdv_IoSetCompletionRoutine_entry begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11023,3): anon0
+                        Inlined call to procedure SLIC_sdv_IoSetCompletionRoutine_entry ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30001,3): L26
+                        Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13511,3): anon0
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12482,3): anon5_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30005,3): anon10_Else
+                        Inlined call to procedure SLIC_sdv_IoCallDriver_entry begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(10923,3): anon0
+                        Inlined call to procedure SLIC_sdv_IoCallDriver_entry ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30011,3): L29
+                        Inlined call to procedure sdv_IoCallDriver#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33389,3): anon0
+                            Inlined call to procedure IofCallDriver#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33767,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33981,3): anon62_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34045,3): anon63_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33996,3): L45
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34041,3): anon52_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34006,3): L47
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34037,3): anon53_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34016,3): L49
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34019,3): anon54_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34023,3): anon55_Else
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34252,3): anon0
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12482,3): anon5_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34370,3): anon21_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34270,3): L11
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34366,3): anon15_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34282,3): L28
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34362,3): anon16_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34294,3): L45
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34358,3): anon17_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34306,3): L62
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34354,3): anon18_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34318,3): L79
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34323,3): anon19_Else
+                                    Inlined call to procedure Avc_SynchCompletionRoutine begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(29737,3): anon0
+                                        Inlined call to procedure KeSetEvent begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13792,3): anon0
+                                        Inlined call to procedure KeSetEvent ends
+                                    Inlined call to procedure Avc_SynchCompletionRoutine ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34330,3): L96
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34346,3): anon20_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34342,3): L113
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33823,3): L29
+                            Inlined call to procedure IofCallDriver#1 ends
+                        Inlined call to procedure sdv_IoCallDriver#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30015,3): anon12_Else
+                        Inlined call to procedure SLIC_sdv_IoCallDriver_exit begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11497,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11518,3): anon14_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11551,3): anon12_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11533,3): L9
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11542,3): anon11_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11510,3): L2
+                        Inlined call to procedure SLIC_sdv_IoCallDriver_exit ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30021,3): L18
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30024,3): anon11_Else
+                        Inlined call to procedure KeWaitForSingleObject begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13715,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13735,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13727,3): L1
+                            Inlined call to procedure SLIC_KeWaitForSingleObject_exit begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11666,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11670,3): anon3_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11675,3): L2
+                            Inlined call to procedure SLIC_KeWaitForSingleObject_exit ends
+                        Inlined call to procedure KeWaitForSingleObject ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30032,3): L19
+                    Inlined call to procedure Avc_SubmitIrpSynch ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(24008,3): anon113_Else
+                    Inlined call to procedure IoSetDeviceInterfaceState begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16388,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16427,3): anon11_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16407,3): L1
+                        Inlined call to procedure SLIC_IoSetDeviceInterfaceState_exit begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11745,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11757,3): anon3_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11754,3): L2
+                        Inlined call to procedure SLIC_IoSetDeviceInterfaceState_exit ends
+                    Inlined call to procedure IoSetDeviceInterfaceState ends
+                    Inlined call to procedure AvcReq_UnitInfo begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(24499,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15031,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(24787,3): anon37_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(24589,3): L10
+                    Inlined call to procedure AvcReq_UnitInfo ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(24015,3): anon114_Else
+                    Inlined call to procedure Avc_SetBusResetNotify begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(25219,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15031,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check ends
+                        Inlined call to procedure IoAllocateIrp begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15886,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15889,3): anon3_Else
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12490,3): anon5_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12494,3): anon6_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15900,3): L1
+                        Inlined call to procedure IoAllocateIrp ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(25234,3): anon9_Else
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12490,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12494,3): anon6_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(25239,3): anon10_Else
+                        Inlined call to procedure Avc_SubmitIrpSynch begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(29987,3): anon0
+                            Inlined call to procedure sdv_do_paged_code_check begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15031,3): anon0
+                            Inlined call to procedure sdv_do_paged_code_check ends
+                            Inlined call to procedure KeInitializeEvent begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16035,3): anon0
+                            Inlined call to procedure KeInitializeEvent ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30048,3): anon9_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30001,3): L26
+                            Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13511,3): anon0
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12490,3): anon5_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12494,3): anon6_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                            Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30044,3): anon10_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30011,3): L29
+                            Inlined call to procedure sdv_IoCallDriver#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33389,3): anon0
+                                Inlined call to procedure IofCallDriver#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33767,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33981,3): anon62_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34045,3): anon63_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33996,3): L45
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34041,3): anon52_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34006,3): L47
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34037,3): anon53_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34016,3): L49
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34019,3): anon54_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34023,3): anon55_Else
+                                    Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34252,3): anon0
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12490,3): anon5_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12494,3): anon6_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34370,3): anon21_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34270,3): L11
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34366,3): anon15_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34282,3): L28
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34362,3): anon16_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34294,3): L45
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34358,3): anon17_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34306,3): L62
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34354,3): anon18_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34318,3): L79
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34323,3): anon19_Else
+                                        Inlined call to procedure Avc_SynchCompletionRoutine begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(29737,3): anon0
+                                            Inlined call to procedure KeSetEvent begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13792,3): anon0
+                                            Inlined call to procedure KeSetEvent ends
+                                        Inlined call to procedure Avc_SynchCompletionRoutine ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34330,3): L96
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34346,3): anon20_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34342,3): L113
+                                    Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33823,3): L29
+                                Inlined call to procedure IofCallDriver#1 ends
+                            Inlined call to procedure sdv_IoCallDriver#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30040,3): anon12_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30021,3): L18
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30024,3): anon11_Else
+                            Inlined call to procedure KeWaitForSingleObject begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13715,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13735,3): anon5_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13727,3): L1
+                                Inlined call to procedure SLIC_KeWaitForSingleObject_exit begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11666,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11670,3): anon3_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11675,3): L2
+                                Inlined call to procedure SLIC_KeWaitForSingleObject_exit ends
+                            Inlined call to procedure KeWaitForSingleObject ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30032,3): L19
+                        Inlined call to procedure Avc_SubmitIrpSynch ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(25263,3): L22
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(25266,3): anon11_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(25274,3): anon12_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(25284,3): L44
+                        Inlined call to procedure Avc_SubmitIrpSynch begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(29987,3): anon0
+                            Inlined call to procedure sdv_do_paged_code_check begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15031,3): anon0
+                            Inlined call to procedure sdv_do_paged_code_check ends
+                            Inlined call to procedure KeInitializeEvent begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16035,3): anon0
+                            Inlined call to procedure KeInitializeEvent ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30048,3): anon9_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30001,3): L26
+                            Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13511,3): anon0
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12490,3): anon5_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12494,3): anon6_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                            Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30044,3): anon10_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30011,3): L29
+                            Inlined call to procedure sdv_IoCallDriver#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33389,3): anon0
+                                Inlined call to procedure IofCallDriver#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33767,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33775,3): anon62_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33778,3): anon61_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33781,3): anon60_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33841,3): anon65_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33796,3): L19
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33837,3): anon45_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33806,3): L21
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33833,3): anon46_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33816,3): L23
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33827,3): anon47_Then
+                                    Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34252,3): anon0
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12490,3): anon5_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12494,3): anon6_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34370,3): anon21_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34270,3): L11
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34366,3): anon15_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34282,3): L28
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34362,3): anon16_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34294,3): L45
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34358,3): anon17_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34306,3): L62
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34354,3): anon18_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34318,3): L79
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34323,3): anon19_Else
+                                        Inlined call to procedure Avc_SynchCompletionRoutine begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(29737,3): anon0
+                                            Inlined call to procedure KeSetEvent begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13792,3): anon0
+                                            Inlined call to procedure KeSetEvent ends
+                                        Inlined call to procedure Avc_SynchCompletionRoutine ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34330,3): L96
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34346,3): anon20_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34342,3): L113
+                                    Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33823,3): L29
+                                Inlined call to procedure IofCallDriver#1 ends
+                            Inlined call to procedure sdv_IoCallDriver#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30040,3): anon12_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30021,3): L18
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30024,3): anon11_Else
+                            Inlined call to procedure KeWaitForSingleObject begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13715,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13735,3): anon5_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13727,3): L1
+                                Inlined call to procedure SLIC_KeWaitForSingleObject_exit begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11666,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11670,3): anon3_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11675,3): L2
+                                Inlined call to procedure SLIC_KeWaitForSingleObject_exit ends
+                            Inlined call to procedure KeWaitForSingleObject ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30032,3): L19
+                        Inlined call to procedure Avc_SubmitIrpSynch ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(25297,3): L34
+                        Inlined call to procedure IoFreeIrp begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16074,3): anon0
+                        Inlined call to procedure IoFreeIrp ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(25301,3): L51
+                    Inlined call to procedure Avc_SetBusResetNotify ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(24020,3): anon116_Else
+                    Inlined call to procedure Avc_SetFcpNotify begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(27368,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15031,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check ends
+                        Inlined call to procedure IoAllocateIrp begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15886,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15889,3): anon3_Else
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12490,3): anon5_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12494,3): anon6_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15900,3): L1
+                        Inlined call to procedure IoAllocateIrp ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(27383,3): anon7_Else
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12490,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12494,3): anon6_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(27392,3): anon8_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(27421,3): anon9_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(27403,3): L28
+                        Inlined call to procedure Avc_SubmitIrpSynch begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(29987,3): anon0
+                            Inlined call to procedure sdv_do_paged_code_check begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15031,3): anon0
+                            Inlined call to procedure sdv_do_paged_code_check ends
+                            Inlined call to procedure KeInitializeEvent begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16035,3): anon0
+                            Inlined call to procedure KeInitializeEvent ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30048,3): anon9_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30001,3): L26
+                            Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13511,3): anon0
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12490,3): anon5_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12494,3): anon6_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                            Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30044,3): anon10_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30011,3): L29
+                            Inlined call to procedure sdv_IoCallDriver#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33389,3): anon0
+                                Inlined call to procedure IofCallDriver#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33767,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33775,3): anon62_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33778,3): anon61_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33781,3): anon60_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33841,3): anon65_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33796,3): L19
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33837,3): anon45_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33806,3): L21
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33833,3): anon46_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33816,3): L23
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33827,3): anon47_Then
+                                    Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34252,3): anon0
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12490,3): anon5_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12494,3): anon6_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34370,3): anon21_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34270,3): L11
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34366,3): anon15_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34282,3): L28
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34362,3): anon16_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34294,3): L45
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34358,3): anon17_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34306,3): L62
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34354,3): anon18_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34318,3): L79
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34323,3): anon19_Else
+                                        Inlined call to procedure Avc_SynchCompletionRoutine begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(29737,3): anon0
+                                            Inlined call to procedure KeSetEvent begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13792,3): anon0
+                                            Inlined call to procedure KeSetEvent ends
+                                        Inlined call to procedure Avc_SynchCompletionRoutine ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34330,3): L96
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34346,3): anon20_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34342,3): L113
+                                    Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33823,3): L29
+                                Inlined call to procedure IofCallDriver#1 ends
+                            Inlined call to procedure sdv_IoCallDriver#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30040,3): anon12_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30021,3): L18
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30024,3): anon11_Else
+                            Inlined call to procedure KeWaitForSingleObject begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13715,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13735,3): anon5_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13727,3): L1
+                                Inlined call to procedure SLIC_KeWaitForSingleObject_exit begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11666,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11670,3): anon3_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11675,3): L2
+                                Inlined call to procedure SLIC_KeWaitForSingleObject_exit ends
+                            Inlined call to procedure KeWaitForSingleObject ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(30032,3): L19
+                        Inlined call to procedure Avc_SubmitIrpSynch ends
+                        Inlined call to procedure IoFreeIrp begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16074,3): anon0
+                        Inlined call to procedure IoFreeIrp ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(27417,3): L38
+                    Inlined call to procedure Avc_SetFcpNotify ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(24025,3): anon117_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(24056,3): anon118_Then
+                    Inlined call to procedure AvcPrepareForResponseCallback begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(585,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(601,3): anon18_Then
+                        Inlined call to procedure sdv_KeAcquireSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12293,3): anon0
+                        Inlined call to procedure sdv_KeAcquireSpinLock ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(718,3): anon13_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(618,3): L14
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(705,3): anon14_Then
+                        Inlined call to procedure IoAllocateIrp begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15886,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15903,3): anon3_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15900,3): L1
+                        Inlined call to procedure IoAllocateIrp ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(626,3): L21
+                        Inlined call to procedure sdv_KeReleaseSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15495,3): anon0
+                        Inlined call to procedure sdv_KeReleaseSpinLock ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(630,3): anon15_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(636,3): anon16_Else
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12490,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12499,3): anon6_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13511,3): anon0
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12482,3): anon5_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                        Inlined call to procedure sdv_IoCallDriver#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33389,3): anon0
+                            Inlined call to procedure IofCallDriver#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33767,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33981,3): anon62_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34045,3): anon63_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33996,3): L45
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34041,3): anon52_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34006,3): L47
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34037,3): anon53_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34016,3): L49
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34019,3): anon54_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34023,3): anon55_Else
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34252,3): anon0
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12482,3): anon5_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34370,3): anon21_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34270,3): L11
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34366,3): anon15_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34282,3): L28
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34362,3): anon16_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34294,3): L45
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34299,3): anon17_Else
+                                    Inlined call to procedure AvcResponseCompletion_sdv_static_function_2#1 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35296,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35308,3): anon167_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35313,3): anon117_Else
+                                        Inlined call to procedure AvcValidateSubunitAddress begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(3999,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(4007,3): anon49_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(4011,3): anon37_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(4194,3): anon38_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(4024,3): L19
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(4029,3): anon40_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(4061,3): anon48_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(4042,3): L26
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(4048,3): L1
+                                        Inlined call to procedure AvcValidateSubunitAddress ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(36039,3): anon119_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35482,3): L37
+                                        Inlined call to procedure sdv_KeAcquireSpinLock begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12293,3): anon0
+                                        Inlined call to procedure sdv_KeAcquireSpinLock ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35571,3): anon120_Then
+                                        Inlined call to procedure IoReuseIrp begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15526,3): anon0
+                                        Inlined call to procedure IoReuseIrp ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35499,3): L48
+                                        Inlined call to procedure sdv_KeReleaseSpinLock begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15495,3): anon0
+                                        Inlined call to procedure sdv_KeReleaseSpinLock ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35503,3): anon121_Else
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12482,3): anon5_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35522,3): anon168_Else
+                                        Inlined call to procedure SLIC_sdv_IoSetCompletionRoutine_entry begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11023,3): anon0
+                                        Inlined call to procedure SLIC_sdv_IoSetCompletionRoutine_entry ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35528,3): L273
+                                        Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13511,3): anon0
+                                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12482,3): anon5_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                        Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35532,3): anon122_Else
+                                        Inlined call to procedure SLIC_sdv_IoCallDriver_entry begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(10923,3): anon0
+                                        Inlined call to procedure SLIC_sdv_IoCallDriver_entry ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35538,3): L276
+                                        Inlined call to procedure sdv_IoCallDriver#0 begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33351,3): anon0
+                                            Inlined call to procedure IofCallDriver#0 begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33442,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33450,3): anon62_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33588,3): anon61_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33652,3): anon64_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33603,3): L32
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33648,3): anon48_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33613,3): L34
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33644,3): anon49_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33623,3): L36
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33626,3): anon50_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33630,3): anon51_Else
+                                                Inlined call to procedure sdv_RunIoCompletionRoutines#0 begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34092,3): anon0
+                                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12482,3): anon5_Else
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34210,3): anon21_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34110,3): L11
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34206,3): anon15_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34122,3): L28
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34202,3): anon16_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34134,3): L45
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34139,3): anon17_Else
+                                                    Inlined call to procedure AvcResponseCompletion_sdv_static_function_2#0 begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34453,3): anon0
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35216,3): anon167_Then
+                                                        Inlined call to procedure IoFreeIrp begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16074,3): anon0
+                                                        Inlined call to procedure IoFreeIrp ends
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34713,3): L10
+                                                    Inlined call to procedure AvcResponseCompletion_sdv_static_function_2#0 ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34146,3): L62
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34194,3): anon18_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34158,3): L79
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34190,3): anon19_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34170,3): L96
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34186,3): anon20_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34182,3): L113
+                                                Inlined call to procedure sdv_RunIoCompletionRoutines#0 ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33498,3): L29
+                                            Inlined call to procedure IofCallDriver#0 ends
+                                        Inlined call to procedure sdv_IoCallDriver#0 ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35545,3): anon166_Else
+                                        Inlined call to procedure SLIC_sdv_IoCallDriver_exit begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11497,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11518,3): anon14_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11524,3): anon12_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11546,3): anon15_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11510,3): L2
+                                        Inlined call to procedure SLIC_sdv_IoCallDriver_exit ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35551,3): L10
+                                    Inlined call to procedure AvcResponseCompletion_sdv_static_function_2#1 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34306,3): L62
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34354,3): anon18_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34318,3): L79
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34350,3): anon19_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34330,3): L96
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34346,3): anon20_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34342,3): L113
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33823,3): L29
+                            Inlined call to procedure IofCallDriver#1 ends
+                        Inlined call to procedure sdv_IoCallDriver#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(672,3): L25
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(598,3): L1
+                    Inlined call to procedure AvcPrepareForResponseCallback ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(24060,3): anon119_Else
+                    Inlined call to procedure AvcPrepareForRequestCallback begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(3151,3): anon0
+                        Inlined call to procedure sdv_KeAcquireSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12293,3): anon0
+                        Inlined call to procedure sdv_KeAcquireSpinLock ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(3272,3): anon11_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(3172,3): L12
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(3259,3): anon12_Then
+                        Inlined call to procedure IoAllocateIrp begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15886,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15903,3): anon3_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15900,3): L1
+                        Inlined call to procedure IoAllocateIrp ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(3180,3): L19
+                        Inlined call to procedure sdv_KeReleaseSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15495,3): anon0
+                        Inlined call to procedure sdv_KeReleaseSpinLock ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(3184,3): anon13_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(3190,3): anon14_Else
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12490,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12499,3): anon6_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13511,3): anon0
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12490,3): anon5_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12499,3): anon6_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                        Inlined call to procedure sdv_IoCallDriver#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33389,3): anon0
+                            Inlined call to procedure IofCallDriver#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33767,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33981,3): anon62_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34045,3): anon63_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33996,3): L45
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34041,3): anon52_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34006,3): L47
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34037,3): anon53_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34016,3): L49
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34019,3): anon54_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34023,3): anon55_Else
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34252,3): anon0
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12478,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12482,3): anon5_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12487,3): L1
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34370,3): anon21_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34270,3): L11
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34366,3): anon15_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34282,3): L28
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34362,3): anon16_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34294,3): L45
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34299,3): anon17_Else
+                                    Inlined call to procedure AvcResponseCompletion_sdv_static_function_2#1 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35296,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(36070,3): anon167_Then
+                                        Inlined call to procedure IoFreeIrp begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(16074,3): anon0
+                                        Inlined call to procedure IoFreeIrp ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(35551,3): L10
+                                    Inlined call to procedure AvcResponseCompletion_sdv_static_function_2#1 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34306,3): L62
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34354,3): anon18_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34318,3): L79
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34350,3): anon19_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34330,3): L96
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34346,3): anon20_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(34342,3): L113
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(33823,3): L29
+                            Inlined call to procedure IofCallDriver#1 ends
+                        Inlined call to procedure sdv_IoCallDriver#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(3226,3): L23
+                    Inlined call to procedure AvcPrepareForRequestCallback ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(24036,3): L275
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(24039,3): anon115_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(24044,3): L262
+                    Inlined call to procedure sdv_IoCompleteRequest begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15559,3): anon0
+                    Inlined call to procedure sdv_IoCompleteRequest ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(23558,3): L1
+                Inlined call to procedure Avc_FDO_Pnp ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(21499,3): L33
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(21509,3): anon12_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(21485,3): L27
+            Inlined call to procedure Avc_Pnp ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15230,3): L72
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15233,3): anon55_Else
+            Inlined call to procedure SLIC_sdv_stub_dispatch_end_entry begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11207,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11213,3): anon22_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11219,3): anon21_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11225,3): anon20_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11273,3): anon23_Then
+                Inlined call to procedure SLIC_ABORT_14_1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11433,3): anon0
+                    Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11718,3): anon0
+                    Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                Inlined call to procedure SLIC_ABORT_14_1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11282,3): anon26_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(11253,3): LM2
+            Inlined call to procedure SLIC_sdv_stub_dispatch_end_entry ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15253,3): anon71_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(15250,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(13017,3): anon20_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(12981,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(14497,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(14501,3): L33
+    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(14504,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/avc_lowerdriverreturn_1.bpl.bpl(14516,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 9902
+Total Time: 799.66 s
+
+Stopping: Done

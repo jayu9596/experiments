@@ -1,0 +1,214 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(73674,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(9789,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(33094,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init11 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(12277,3): anon0
+    Inlined call to procedure _sdv_init11 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(23249,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(22134,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(18109,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(16769,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(14229,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init9 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(9297,3): anon0
+    Inlined call to procedure _sdv_init9 ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(7156,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init8 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(7138,3): anon0
+    Inlined call to procedure _sdv_init8 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(293,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10094,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10037,3): L34
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10089,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10046,3): L38
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8058,3): anon0
+        Inlined call to procedure sdv_CheckDispatchRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(7359,3): anon0
+        Inlined call to procedure sdv_CheckDispatchRoutines ends
+        Inlined call to procedure sdv_CheckStartIoRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(11284,3): anon0
+        Inlined call to procedure sdv_CheckStartIoRoutines ends
+        Inlined call to procedure sdv_CheckDpcRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8933,3): anon0
+        Inlined call to procedure sdv_CheckDpcRoutines ends
+        Inlined call to procedure sdv_CheckIsrRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(11194,3): anon0
+        Inlined call to procedure sdv_CheckIsrRoutines ends
+        Inlined call to procedure sdv_CheckCancelRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(7874,3): anon0
+        Inlined call to procedure sdv_CheckCancelRoutines ends
+        Inlined call to procedure sdv_CheckIoDpcRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8916,3): anon0
+        Inlined call to procedure sdv_CheckIoDpcRoutines ends
+        Inlined call to procedure sdv_IoCompletionRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10391,3): anon0
+        Inlined call to procedure sdv_IoCompletionRoutines ends
+        Inlined call to procedure sdv_CheckWorkerRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10916,3): anon0
+        Inlined call to procedure sdv_CheckWorkerRoutines ends
+        Inlined call to procedure sdv_CheckAddDevice begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10899,3): anon0
+        Inlined call to procedure sdv_CheckAddDevice ends
+        Inlined call to procedure sdv_CheckIrpMjPnp begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(11386,3): anon0
+        Inlined call to procedure sdv_CheckIrpMjPnp ends
+        Inlined call to procedure sdv_CheckIrpMjPower begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(7766,3): anon0
+        Inlined call to procedure sdv_CheckIrpMjPower ends
+        Inlined call to procedure sdv_CheckDriverUnload begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8791,3): anon0
+        Inlined call to procedure sdv_CheckDriverUnload ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8074,3): anon195_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8077,3): anon279_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8080,3): anon278_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8083,3): anon277_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8086,3): anon276_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8089,3): anon275_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8092,3): anon274_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8095,3): anon273_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8098,3): anon272_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8101,3): anon271_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8104,3): anon270_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8107,3): anon269_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8110,3): anon268_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8113,3): anon267_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8116,3): anon266_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8119,3): anon265_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8122,3): anon264_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8125,3): anon263_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8128,3): anon262_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8131,3): anon261_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8134,3): anon260_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8137,3): anon259_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8140,3): anon258_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8143,3): anon257_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8146,3): anon256_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8149,3): anon255_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8152,3): anon254_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8155,3): anon253_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8158,3): anon252_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8161,3): anon251_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8164,3): anon250_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8167,3): anon249_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8170,3): anon248_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8173,3): anon247_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8176,3): anon246_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8179,3): anon245_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8182,3): anon244_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8185,3): anon243_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8188,3): anon242_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8191,3): anon241_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8572,3): anon240_Then
+        Inlined call to procedure Sbp2RequestCompletionRoutine begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(15768,3): anon0
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(15788,3): anon26_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(15836,3): anon23_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(15942,3): anon24_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(15896,3): L13
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(15904,3): anon29_Else
+            Inlined call to procedure sdv_KeAcquireSpinLock begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(7338,3): anon0
+                Inlined call to procedure SLIC_sdv_KeAcquireSpinLock_exit begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(12341,3): anon0
+                Inlined call to procedure SLIC_sdv_KeAcquireSpinLock_exit ends
+            Inlined call to procedure sdv_KeAcquireSpinLock ends
+            Inlined call to procedure ExFreeToNPagedLookasideList#1 begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(38231,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(38246,3): anon28_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(38251,3): anon29_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(38254,3): anon24_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(38257,3): anon25_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(38260,3): anon26_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(38263,3): anon27_Else
+                Inlined call to procedure Sbp2AllocComplete#1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55489,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55834,3): anon40_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55529,3): L18
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55534,3): anon33_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55541,3): anon42_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55544,3): L32
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55754,3): anon43_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55582,3): L39
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55655,3): anon36_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55747,3): anon37_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55675,3): L62
+                    Inlined call to procedure DeAllocateIrpAndIrb begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(17314,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(17326,3): anon3_Else
+                        Inlined call to procedure sdv_ExInterlockedPushEntrySList begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(7988,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(7998,3): anon3_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(7995,3): L1
+                        Inlined call to procedure sdv_ExInterlockedPushEntrySList ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(17330,3): L1
+                    Inlined call to procedure DeAllocateIrpAndIrb ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55688,3): anon45_Else
+                    Inlined call to procedure FreeAsyncRequestContext begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(16142,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(16187,3): anon21_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(16193,3): anon22_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(16153,3): L37
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(16184,3): anon26_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(16171,3): L38
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(16175,3): L1
+                    Inlined call to procedure FreeAsyncRequestContext ends
+                    Inlined call to procedure sdv_IoCompleteRequest begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10986,3): anon0
+                        Inlined call to procedure SLIC_sdv_IoCompleteRequest_entry begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(12230,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(12234,3): anon5_Else
+                            Inlined call to procedure SLIC_ABORT_10_0 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(12320,3): anon0
+                                Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(12361,3): anon0
+                                Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                            Inlined call to procedure SLIC_ABORT_10_0 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(12249,3): anon6_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(12246,3): LM2
+                        Inlined call to procedure SLIC_sdv_IoCompleteRequest_entry ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10998,3): anon3_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10995,3): LM2
+                    Inlined call to procedure sdv_IoCompleteRequest ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55733,3): anon46_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(55726,3): LM2
+                Inlined call to procedure Sbp2AllocComplete#1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(38280,3): anon33_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(38277,3): LM2
+            Inlined call to procedure ExFreeToNPagedLookasideList#1 ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(15925,3): anon30_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(15785,3): LM2
+        Inlined call to procedure Sbp2RequestCompletionRoutine ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8580,3): anon286_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(8326,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10055,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10059,3): L32
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10062,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_spinlocksafe_0.bpl.bpl(10074,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 855
+Total Time: 7.31 s
+
+Stopping: Done

@@ -1,0 +1,344 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(170910,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(3677,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(43891,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1166,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(26953,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(7619,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5723,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1397,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(738,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(4689,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(4632,3): L30
+    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(4684,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(4641,3): L34
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(2092,3): anon0
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(6483,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5174,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(2058,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(2071,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(2068,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(6501,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5198,3): anon57_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5201,3): anon76_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5204,3): anon75_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5207,3): anon74_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5210,3): anon73_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5213,3): anon72_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5216,3): anon71_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5219,3): anon70_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5381,3): anon69_Then
+            Inlined call to procedure VolSnapDeviceControl begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10453,3): anon0
+                Inlined call to procedure IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(9051,3): anon0
+                Inlined call to procedure IoGetCurrentIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10467,3): anon560_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10494,3): anon561_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10499,3): anon413_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10504,3): anon517_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10509,3): anon516_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10514,3): anon515_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10519,3): anon514_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10524,3): anon513_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10529,3): anon512_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10534,3): anon511_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10539,3): anon510_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10544,3): anon509_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10549,3): anon508_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10554,3): anon507_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10559,3): anon506_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10564,3): anon505_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10569,3): anon504_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10574,3): anon503_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10579,3): anon502_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10584,3): anon501_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10589,3): anon500_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10594,3): anon499_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10599,3): anon498_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10604,3): anon497_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10609,3): anon496_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10614,3): anon495_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10619,3): anon494_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10624,3): anon493_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10629,3): anon492_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10634,3): anon491_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10639,3): anon490_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10644,3): anon489_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10649,3): anon488_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10654,3): anon487_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10659,3): anon486_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10664,3): anon485_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10669,3): anon484_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10674,3): anon483_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10679,3): anon482_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(11119,3): anon481_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(11065,3): L133
+                Inlined call to procedure sdv_hash_461996347 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(33204,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(33257,3): anon11_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(33232,3): L1
+                Inlined call to procedure sdv_hash_461996347 ends
+                Inlined call to procedure sdv_hash_950660666 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(36312,3): anon0
+                    Inlined call to procedure IoGetCurrentIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(9051,3): anon0
+                    Inlined call to procedure IoGetCurrentIrpStackLocation ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(36333,3): anon17_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(36342,3): anon13_Then
+                    Inlined call to procedure sdv_hash_805325738 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(16025,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(16125,3): anon18_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(16042,3): L13
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(16106,3): anon13_Then
+                        Inlined call to procedure KeInitializeEvent begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(6052,3): anon0
+                        Inlined call to procedure KeInitializeEvent ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(16050,3): L16
+                        Inlined call to procedure KfAcquireSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1542,3): anon0
+                        Inlined call to procedure KfAcquireSpinLock ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(16077,3): anon14_Then
+                        Inlined call to procedure KfReleaseSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5066,3): anon0
+                        Inlined call to procedure KfReleaseSpinLock ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(16102,3): anon16_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(16070,3): L1
+                    Inlined call to procedure sdv_hash_805325738 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(36348,3): anon14_Else
+                    Inlined call to procedure sdv_hash_307580759#1 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(68935,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(68958,3): anon41_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69312,3): anon52_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(68967,3): L19
+                        Inlined call to procedure ExAllocatePoolWithTag begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(6350,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(6354,3): anon3_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(6359,3): L1
+                        Inlined call to procedure ExAllocatePoolWithTag ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(68971,3): anon42_Else
+                        Inlined call to procedure KeInitializeEvent begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(6052,3): anon0
+                        Inlined call to procedure KeInitializeEvent ends
+                        Inlined call to procedure IoBuildSynchronousFsdRequest begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5531,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5536,3): anon3_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5549,3): L1
+                        Inlined call to procedure IoBuildSynchronousFsdRequest ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69303,3): anon51_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(68985,3): L34
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(68988,3): anon43_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(68996,3): L41
+                        Inlined call to procedure sdv_hash_307580759#1_loop_L41 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(149888,3): entry
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(149891,3): exit
+                        Inlined call to procedure sdv_hash_307580759#1_loop_L41 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69000,3): L41_last
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69015,3): anon53_Else
+                        Inlined call to procedure IofCallDriver#0 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57118,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57326,3): anon70_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57387,3): anon71_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57337,3): L45
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57340,3): anon60_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57344,3): L47
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57379,3): anon61_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57353,3): L49
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57375,3): anon62_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57165,3): L29
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57169,3): LM2
+                        Inlined call to procedure IofCallDriver#0 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69019,3): anon54_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69023,3): anon44_Else
+                        Inlined call to procedure KeWaitForSingleObject begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(2901,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(2920,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(2913,3): L1
+                        Inlined call to procedure KeWaitForSingleObject ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69031,3): L53
+                        Inlined call to procedure sdv_hash_403736888 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(24115,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(24166,3): anon47_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(24666,3): anon48_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(24570,3): L1
+                        Inlined call to procedure sdv_hash_403736888 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69038,3): anon45_Else
+                        Inlined call to procedure sdv_hash_1053884949#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69442,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69463,3): anon23_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69468,3): anon17_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69473,3): anon18_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69478,3): anon19_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69483,3): anon20_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69488,3): anon21_Else
+                            Inlined call to procedure sdv_hash_257967338#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69599,3): anon0
+                                Inlined call to procedure KeInitializeEvent begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(6052,3): anon0
+                                Inlined call to procedure KeInitializeEvent ends
+                                Inlined call to procedure IoBuildDeviceIoControlRequest begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(6101,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(6138,3): anon5_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(6126,3): L1
+                                Inlined call to procedure IoBuildDeviceIoControlRequest ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69656,3): anon9_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69637,3): L1
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69640,3): LM2
+                            Inlined call to procedure sdv_hash_257967338#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69496,3): anon24_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69505,3): anon22_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69457,3): L1
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69460,3): LM2
+                        Inlined call to procedure sdv_hash_1053884949#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69043,3): anon55_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69047,3): anon46_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69260,3): anon56_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69081,3): L83
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69250,3): anon57_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69124,3): L85
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69247,3): anon58_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69242,3): L91
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69154,3): L94
+                        Inlined call to procedure KeInitializeEvent begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(6052,3): anon0
+                        Inlined call to procedure KeInitializeEvent ends
+                        Inlined call to procedure IoBuildSynchronousFsdRequest begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5531,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5536,3): anon3_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5549,3): L1
+                        Inlined call to procedure IoBuildSynchronousFsdRequest ends
+                        Inlined call to procedure SLIC_IoBuildSynchronousFsdRequest_exit begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1203,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1215,3): anon3_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1212,3): L2
+                        Inlined call to procedure SLIC_IoBuildSynchronousFsdRequest_exit ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69165,3): anon49_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69173,3): L109
+                        Inlined call to procedure sdv_hash_307580759#1_loop_L109 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(149848,3): entry
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(149851,3): exit
+                        Inlined call to procedure sdv_hash_307580759#1_loop_L109 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69177,3): L109_last
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69192,3): anon59_Else
+                        Inlined call to procedure IofCallDriver#0 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57118,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57126,3): anon70_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57129,3): anon69_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57132,3): anon68_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57192,3): anon75_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57143,3): L19
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57146,3): anon53_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57150,3): L21
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57184,3): anon54_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57159,3): L23
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57172,3): anon55_Then
+                            Inlined call to procedure sdv_RunIoCompletionRoutines#0 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57706,3): anon0
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1740,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1752,3): anon5_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1761,3): anon6_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1749,3): L1
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57940,3): anon50_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57723,3): L11
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57937,3): anon39_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57734,3): L28
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57934,3): anon40_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57749,3): L45
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57927,3): anon41_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57764,3): L62
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57920,3): anon42_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57779,3): L79
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57913,3): anon43_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57790,3): L96
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57910,3): anon44_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57801,3): L113
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57907,3): anon45_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57812,3): L130
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57817,3): anon46_Else
+                                Inlined call to procedure sdv_hash_638857785 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(32314,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(32344,3): anon5_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(32327,3): L12
+                                    Inlined call to procedure VspFreeIrp begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(28779,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(28785,3): anon13_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(28850,3): anon14_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(28804,3): L9
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(28844,3): anon15_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(28813,3): L15
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(28816,3): anon17_Else
+                                        Inlined call to procedure SLIC_IoFreeIrp_entry begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1271,3): anon0
+                                            Inlined call to procedure SLIC_ABORT_2_0 begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1234,3): anon0
+                                                Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1186,3): anon0
+                                                Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                                            Inlined call to procedure SLIC_ABORT_2_0 ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1283,3): anon3_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(1280,3): LM2
+                                        Inlined call to procedure SLIC_IoFreeIrp_entry ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(28836,3): anon18_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(28833,3): LM2
+                                    Inlined call to procedure VspFreeIrp ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(32340,3): anon6_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(32337,3): LM2
+                                Inlined call to procedure sdv_hash_638857785 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57900,3): anon54_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57876,3): LM2
+                            Inlined call to procedure sdv_RunIoCompletionRoutines#0 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57180,3): anon76_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(57169,3): LM2
+                        Inlined call to procedure IofCallDriver#0 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(69221,3): anon60_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(68955,3): LM2
+                    Inlined call to procedure sdv_hash_307580759#1 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(36402,3): anon18_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(36330,3): LM2
+                Inlined call to procedure sdv_hash_950660666 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(11077,3): anon583_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(10487,3): LM2
+            Inlined call to procedure VolSnapDeviceControl ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5391,3): anon80_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(5292,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(2105,3): anon3_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(2102,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(4650,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(4654,3): L28
+    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(4657,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/driver_iobuildsynchronousfsdrequestnofree_0.bpl.bpl(4669,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 62128
+Total Time: 1784.30 s
+
+Stopping: Done

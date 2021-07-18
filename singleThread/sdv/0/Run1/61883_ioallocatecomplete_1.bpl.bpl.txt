@@ -1,0 +1,256 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(47826,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(3330,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(32153,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init9 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5328,3): anon0
+    Inlined call to procedure _sdv_init9 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(30895,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(25148,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(15413,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(12635,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(7013,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4089,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(446,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(3924,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(3867,3): L32
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(3919,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(3876,3): L36
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2481,3): anon0
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5125,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4240,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2444,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2457,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2454,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5145,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4264,3): anon57_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4267,3): anon76_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4270,3): anon75_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4273,3): anon74_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4276,3): anon73_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4279,3): anon72_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4282,3): anon71_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4285,3): anon70_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4455,3): anon69_Then
+            Inlined call to procedure Av_IoControl begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(616,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(3092,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(669,3): anon239_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(674,3): anon215_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1643,3): anon216_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1677,3): anon217_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(682,3): L25
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(686,3): L26
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(692,3): anon242_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(731,3): anon231_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(737,3): anon218_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(749,3): anon244_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(758,3): anon220_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(767,3): anon245_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(772,3): anon238_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(777,3): anon237_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(782,3): anon236_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(787,3): anon235_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(792,3): anon234_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(797,3): anon233_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1170,3): anon232_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1597,3): anon221_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1214,3): L63
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1220,3): anon284_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1224,3): anon285_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1228,3): anon286_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1232,3): anon288_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1236,3): anon290_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1240,3): anon291_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1244,3): anon292_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1248,3): anon293_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1252,3): anon295_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1256,3): anon297_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1260,3): anon299_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1264,3): anon301_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1430,3): anon303_Then
+                Inlined call to procedure AvCip_Stop begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(10606,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(10618,3): anon31_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(10622,3): anon23_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(10628,3): anon24_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(10647,3): anon25_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(10650,3): L10
+                    Inlined call to procedure Av1394_Stop begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(11458,3): anon0
+                        Inlined call to procedure sdv_ExAllocateFromNPagedLookasideList begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5246,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5249,3): anon3_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5254,3): L1
+                        Inlined call to procedure sdv_ExAllocateFromNPagedLookasideList ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(11466,3): anon7_Else
+                        Inlined call to procedure Av_SubmitIrpSynch#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(35749,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(35829,3): anon17_Then
+                            Inlined call to procedure IoAllocateIrp begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4890,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4893,3): anon3_Else
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2039,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2051,3): anon5_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2055,3): anon6_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2048,3): L1
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4902,3): L1
+                            Inlined call to procedure IoAllocateIrp ends
+                            Inlined call to procedure SLIC_IoAllocateIrp_exit begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5354,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5358,3): anon3_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5363,3): L2
+                            Inlined call to procedure SLIC_IoAllocateIrp_exit ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(35841,3): anon16_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(35762,3): L12
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(35765,3): anon13_Else
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2039,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2051,3): anon5_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2055,3): anon6_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2048,3): L1
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(35776,3): L23
+                            Inlined call to procedure KeInitializeEvent begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4947,3): anon0
+                            Inlined call to procedure KeInitializeEvent ends
+                            Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2909,3): anon0
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2039,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2051,3): anon5_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2055,3): anon6_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2048,3): L1
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                            Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                            Inlined call to procedure sdv_IoCallDriver#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(35907,3): anon0
+                                Inlined call to procedure IofCallDriver#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36270,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36489,3): anon70_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36553,3): anon71_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36502,3): L45
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36549,3): anon60_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36511,3): L47
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36545,3): anon61_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36520,3): L49
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36523,3): anon62_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36526,3): anon63_Else
+                                    Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36728,3): anon0
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2039,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2051,3): anon5_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2055,3): anon6_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2048,3): L1
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36846,3): anon24_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36745,3): L11
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36843,3): anon19_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36760,3): L28
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36836,3): anon20_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36775,3): L45
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36780,3): anon21_Else
+                                        Inlined call to procedure AvFcp_SendFcpCR#1 begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(38629,3): anon0
+                                            Inlined call to procedure IoFreeMdl begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4040,3): anon0
+                                            Inlined call to procedure IoFreeMdl ends
+                                            Inlined call to procedure IoFreeIrp begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4998,3): anon0
+                                            Inlined call to procedure IoFreeIrp ends
+                                            Inlined call to procedure ExFreeToNPagedLookasideList#1 begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(38852,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(38956,3): anon26_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(38962,3): anon21_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(38895,3): L1
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(38898,3): LM2
+                                            Inlined call to procedure ExFreeToNPagedLookasideList#1 ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(38652,3): anon7_Else
+                                            Inlined call to procedure sdv_ExFreePool begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4766,3): anon0
+                                            Inlined call to procedure sdv_ExFreePool ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(38659,3): anon8_Else
+                                            Inlined call to procedure SLIC_sdv_IoCompleteRequest_entry begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5280,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5284,3): anon5_Else
+                                                Inlined call to procedure SLIC_ABORT_2_0 begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5412,3): anon0
+                                                    Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5389,3): anon0
+                                                    Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                                                Inlined call to procedure SLIC_ABORT_2_0 ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5299,3): anon6_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(5296,3): LM2
+                                            Inlined call to procedure SLIC_sdv_IoCompleteRequest_entry ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(38677,3): anon9_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(38674,3): LM2
+                                        Inlined call to procedure AvFcp_SendFcpCR#1 ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36825,3): anon27_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36816,3): LM2
+                                    Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36535,3): anon72_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(36325,3): LM2
+                                Inlined call to procedure IofCallDriver#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(35919,3): anon3_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(35916,3): LM2
+                            Inlined call to procedure sdv_IoCallDriver#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(35820,3): anon18_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(35809,3): LM2
+                        Inlined call to procedure Av_SubmitIrpSynch#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(11507,3): anon8_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(11500,3): LM2
+                    Inlined call to procedure Av1394_Stop ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(10730,3): anon32_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(10644,3): LM2
+                Inlined call to procedure AvCip_Stop ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(1440,3): anon304_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(658,3): LM2
+            Inlined call to procedure Av_IoControl ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4465,3): anon79_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(4358,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2494,3): anon3_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(2491,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(3885,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(3889,3): L30
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(3892,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/61883_ioallocatecomplete_1.bpl.bpl(3904,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 37992
+Total Time: 1344.61 s
+
+Stopping: Done

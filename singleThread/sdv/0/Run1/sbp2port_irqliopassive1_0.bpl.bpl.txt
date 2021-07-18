@@ -1,0 +1,1039 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(73170,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10118,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(33237,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init11 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12564,3): anon0
+    Inlined call to procedure _sdv_init11 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(23590,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(22454,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(18409,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16994,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(14410,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init9 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9582,3): anon0
+    Inlined call to procedure _sdv_init9 ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7306,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init8 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7288,3): anon0
+    Inlined call to procedure _sdv_init8 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(324,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10427,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10366,3): L34
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10422,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10375,3): L38
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8280,3): anon0
+        Inlined call to procedure sdv_CheckDispatchRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7548,3): anon0
+        Inlined call to procedure sdv_CheckDispatchRoutines ends
+        Inlined call to procedure sdv_CheckStartIoRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11601,3): anon0
+        Inlined call to procedure sdv_CheckStartIoRoutines ends
+        Inlined call to procedure sdv_CheckDpcRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9181,3): anon0
+        Inlined call to procedure sdv_CheckDpcRoutines ends
+        Inlined call to procedure sdv_CheckIsrRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11511,3): anon0
+        Inlined call to procedure sdv_CheckIsrRoutines ends
+        Inlined call to procedure sdv_CheckCancelRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8097,3): anon0
+        Inlined call to procedure sdv_CheckCancelRoutines ends
+        Inlined call to procedure sdv_CheckIoDpcRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9164,3): anon0
+        Inlined call to procedure sdv_CheckIoDpcRoutines ends
+        Inlined call to procedure sdv_IoCompletionRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10739,3): anon0
+        Inlined call to procedure sdv_IoCompletionRoutines ends
+        Inlined call to procedure sdv_CheckWorkerRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11229,3): anon0
+        Inlined call to procedure sdv_CheckWorkerRoutines ends
+        Inlined call to procedure sdv_CheckAddDevice begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11212,3): anon0
+        Inlined call to procedure sdv_CheckAddDevice ends
+        Inlined call to procedure sdv_CheckIrpMjPnp begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11715,3): anon0
+        Inlined call to procedure sdv_CheckIrpMjPnp ends
+        Inlined call to procedure sdv_CheckIrpMjPower begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7985,3): anon0
+        Inlined call to procedure sdv_CheckIrpMjPower ends
+        Inlined call to procedure sdv_CheckDriverUnload begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9039,3): anon0
+        Inlined call to procedure sdv_CheckDriverUnload ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9005,3): anon173_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9008,3): anon174_Else
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12222,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10943,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8179,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8193,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8190,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12435,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10968,3): anon45_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10971,3): anon64_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10974,3): anon63_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10977,3): anon62_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10980,3): anon61_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10983,3): anon60_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10986,3): anon59_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10989,3): anon58_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10992,3): anon57_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10995,3): anon56_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10998,3): anon55_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11001,3): anon54_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11004,3): anon53_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11007,3): anon52_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11010,3): anon51_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11013,3): anon50_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11020,3): anon65_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11024,3): L60
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11083,3): anon47_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11041,3): L61
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11075,3): anon48_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11050,3): L66
+            Inlined call to procedure Sbp2PnpDeviceControl begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(26939,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9791,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(26999,3): anon380_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(28965,3): anon285_Then
+                Inlined call to procedure Sbp2FDOPnpDeviceControl begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(25767,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9791,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                    Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11567,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11577,3): anon5_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11584,3): anon6_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11574,3): L1
+                    Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(25780,3): anon37_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(25786,3): anon38_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(25792,3): anon49_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(25847,3): anon48_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(25968,3): anon39_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(25870,3): L48
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(25875,3): anon40_Else
+                    Inlined call to procedure ExAllocatePoolWithTag begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12117,3): anon3_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                    Inlined call to procedure ExAllocatePoolWithTag ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(25923,3): anon51_Then
+                    Inlined call to procedure Sbp2CreateDeviceRelations begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31587,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10851,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check ends
+                        Inlined call to procedure Sbp2Get1394ConfigInfo begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1889,3): anon0
+                            Inlined call to procedure AllocateIrpAndIrb begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(17055,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(17189,3): anon19_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(17072,3): L10
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(17077,3): anon20_Else
+                                Inlined call to procedure ExAllocatePoolWithTag begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12117,3): anon3_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                Inlined call to procedure ExAllocatePoolWithTag ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(17083,3): anon25_Else
+                                Inlined call to procedure ExAllocatePoolWithTag begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12125,3): anon3_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                Inlined call to procedure ExAllocatePoolWithTag ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(17096,3): anon26_Else
+                                Inlined call to procedure IoAllocateIrp begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11732,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11735,3): anon3_Else
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7711,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7723,3): anon5_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7727,3): anon6_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7720,3): L1
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11744,3): L1
+                                Inlined call to procedure IoAllocateIrp ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(17114,3): anon21_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(17168,3): anon22_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(17147,3): L40
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(17153,3): L1
+                            Inlined call to procedure AllocateIrpAndIrb ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1944,3): anon281_Else
+                            Inlined call to procedure Sbp2GetConfigPacket begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(910,3): anon0
+                                Inlined call to procedure Sbp2SendRequest#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37747,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38211,3): anon74_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37771,3): L13
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38205,3): anon57_Then
+                                    Inlined call to procedure ExAllocatePoolWithTag begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12117,3): anon3_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                    Inlined call to procedure ExAllocatePoolWithTag ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37815,3): L32
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37852,3): anon58_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37856,3): anon59_Else
+                                    Inlined call to procedure sdv_KeGetCurrentIrql begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9942,3): anon0
+                                    Inlined call to procedure sdv_KeGetCurrentIrql ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38191,3): anon60_Then
+                                    Inlined call to procedure KeInitializeEvent begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12004,3): anon0
+                                    Inlined call to procedure KeInitializeEvent ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37869,3): L37
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37876,3): anon77_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37882,3): L51
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7711,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7723,3): anon5_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7727,3): anon6_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7720,3): L1
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9548,3): anon0
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7711,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7723,3): anon5_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7727,3): anon6_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7720,3): L1
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                                    Inlined call to procedure sdv_IoCallDriver begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12052,3): anon0
+                                        Inlined call to procedure IofCallDriver begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11767,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11923,3): anon41_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11966,3): anon42_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11938,3): L36
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11962,3): anon35_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11948,3): L38
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11958,3): anon36_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11810,3): L25
+                                        Inlined call to procedure IofCallDriver ends
+                                    Inlined call to procedure sdv_IoCallDriver ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38181,3): anon61_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37964,3): L66
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37967,3): anon62_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38126,3): anon67_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38130,3): anon68_Else
+                                    Inlined call to procedure KeWaitForSingleObject begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9712,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9731,3): anon5_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9724,3): L1
+                                    Inlined call to procedure KeWaitForSingleObject ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38066,3): L97
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38096,3): anon69_Then
+                                    Inlined call to procedure sdv_ExFreePool begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11494,3): anon0
+                                    Inlined call to procedure sdv_ExFreePool ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38087,3): L113
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37795,3): L1
+                                Inlined call to procedure Sbp2SendRequest#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1045,3): anon79_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1087,3): anon106_Then
+                                Inlined call to procedure ExAllocatePoolWithTag begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12117,3): anon3_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                Inlined call to procedure ExAllocatePoolWithTag ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1131,3): anon80_Then
+                                Inlined call to procedure sdv_RtlZeroMemory begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10757,3): anon0
+                                Inlined call to procedure sdv_RtlZeroMemory ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1464,3): anon107_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1202,3): L44
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1461,3): anon108_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1265,3): L83
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1458,3): anon109_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1328,3): L105
+                                Inlined call to procedure Sbp2SendRequest#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37747,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38211,3): anon74_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37771,3): L13
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38205,3): anon57_Then
+                                    Inlined call to procedure ExAllocatePoolWithTag begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12117,3): anon3_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                    Inlined call to procedure ExAllocatePoolWithTag ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37815,3): L32
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37852,3): anon58_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37856,3): anon59_Else
+                                    Inlined call to procedure sdv_KeGetCurrentIrql begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9942,3): anon0
+                                    Inlined call to procedure sdv_KeGetCurrentIrql ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38191,3): anon60_Then
+                                    Inlined call to procedure KeInitializeEvent begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12004,3): anon0
+                                    Inlined call to procedure KeInitializeEvent ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37869,3): L37
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37876,3): anon77_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37882,3): L51
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7711,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7723,3): anon5_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7727,3): anon6_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7720,3): L1
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9548,3): anon0
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7711,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7723,3): anon5_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7727,3): anon6_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7720,3): L1
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                                    Inlined call to procedure sdv_IoCallDriver begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12052,3): anon0
+                                        Inlined call to procedure IofCallDriver begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11767,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11923,3): anon41_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11966,3): anon42_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11938,3): L36
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11962,3): anon35_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11948,3): L38
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11958,3): anon36_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11810,3): L25
+                                        Inlined call to procedure IofCallDriver ends
+                                    Inlined call to procedure sdv_IoCallDriver ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38181,3): anon61_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37964,3): L66
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37967,3): anon62_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38126,3): anon67_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38130,3): anon68_Else
+                                    Inlined call to procedure KeWaitForSingleObject begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9712,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9731,3): anon5_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9724,3): L1
+                                    Inlined call to procedure KeWaitForSingleObject ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38066,3): L97
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38096,3): anon69_Then
+                                    Inlined call to procedure sdv_ExFreePool begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11494,3): anon0
+                                    Inlined call to procedure sdv_ExFreePool ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38087,3): L113
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37795,3): L1
+                                Inlined call to procedure Sbp2SendRequest#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1372,3): anon94_Then
+                                Inlined call to procedure Sbp2SendRequest#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37747,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38211,3): anon74_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37771,3): L13
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38205,3): anon57_Then
+                                    Inlined call to procedure ExAllocatePoolWithTag begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12117,3): anon3_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                    Inlined call to procedure ExAllocatePoolWithTag ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37815,3): L32
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37852,3): anon58_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37856,3): anon59_Else
+                                    Inlined call to procedure sdv_KeGetCurrentIrql begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9942,3): anon0
+                                    Inlined call to procedure sdv_KeGetCurrentIrql ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38191,3): anon60_Then
+                                    Inlined call to procedure KeInitializeEvent begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12004,3): anon0
+                                    Inlined call to procedure KeInitializeEvent ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37869,3): L37
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37876,3): anon77_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37882,3): L51
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7711,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7723,3): anon5_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7727,3): anon6_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7720,3): L1
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9548,3): anon0
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7711,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7723,3): anon5_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7727,3): anon6_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7720,3): L1
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                                    Inlined call to procedure sdv_IoCallDriver begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12052,3): anon0
+                                        Inlined call to procedure IofCallDriver begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11767,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11923,3): anon41_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11966,3): anon42_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11938,3): L36
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11962,3): anon35_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11948,3): L38
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11958,3): anon36_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11810,3): L25
+                                        Inlined call to procedure IofCallDriver ends
+                                    Inlined call to procedure sdv_IoCallDriver ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38181,3): anon61_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37964,3): L66
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37967,3): anon62_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38126,3): anon67_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38130,3): anon68_Else
+                                    Inlined call to procedure KeWaitForSingleObject begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9712,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9731,3): anon5_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9724,3): L1
+                                    Inlined call to procedure KeWaitForSingleObject ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38066,3): L97
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38096,3): anon69_Then
+                                    Inlined call to procedure sdv_ExFreePool begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11494,3): anon0
+                                    Inlined call to procedure sdv_ExFreePool ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(38087,3): L113
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(37795,3): L1
+                                Inlined call to procedure Sbp2SendRequest#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1453,3): anon95_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1016,3): L1
+                            Inlined call to procedure Sbp2GetConfigPacket ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2066,3): anon282_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(3993,3): anon374_Then
+                            Inlined call to procedure sdv_KeAcquireSpinLock begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7521,3): anon0
+                            Inlined call to procedure sdv_KeAcquireSpinLock ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(4006,3): L705
+                            Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L705 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(66898,3): entry
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(66902,3): exit
+                            Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L705 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(4010,3): L705_last
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(4049,3): anon358_Then
+                            Inlined call to procedure sdv_KeReleaseSpinLock begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11277,3): anon0
+                            Inlined call to procedure sdv_KeReleaseSpinLock ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2128,3): L67
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2154,3): L71
+                            Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L71 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(66833,3): entry
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(66837,3): exit
+                            Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L71 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2158,3): L71_last
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(3989,3): anon283_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2253,3): L72
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2257,3): L132
+                            Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L132 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65344,3): entry
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65351,3): L132
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65354,3): anon292_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65358,3): anon293_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65370,3): anon381_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65376,3): anon369_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65382,3): anon368_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65388,3): anon367_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65394,3): anon366_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65400,3): anon365_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65406,3): anon364_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65412,3): anon363_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65430,3): anon362_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(66104,3): anon305_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(66110,3): L445
+                                Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L445 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(64982,3): entry
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(64989,3): L445
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(64992,3): anon332_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(64999,3): anon411_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65273,3): anon412_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65313,3): anon333_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65017,3): L459
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65020,3): anon334_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65262,3): anon335_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65040,3): L465
+                                    Inlined call to procedure Sbp2_ProcessTextualDescriptor begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(451,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(509,3): anon75_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(803,3): anon57_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(470,3): L20
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(506,3): anon58_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(492,3): L21
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(496,3): L1
+                                    Inlined call to procedure Sbp2_ProcessTextualDescriptor ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65046,3): L476
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65248,3): anon414_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65059,3): L480
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65241,3): anon337_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65067,3): L482
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65230,3): anon338_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65075,3): L484
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65223,3): anon339_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65083,3): L486
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65087,3): L448
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65216,3): anon415_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65109,3): L542
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65113,3): L542_dummy
+                                    Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L445 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(64982,3): entry
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(64989,3): L445
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(64992,3): anon332_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(64999,3): anon411_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65009,3): anon412_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65017,3): L459
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65020,3): anon334_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65262,3): anon335_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65040,3): L465
+                                        Inlined call to procedure Sbp2_ProcessTextualDescriptor begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(451,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(509,3): anon75_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(803,3): anon57_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(470,3): L20
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(506,3): anon58_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(492,3): L21
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(496,3): L1
+                                        Inlined call to procedure Sbp2_ProcessTextualDescriptor ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65046,3): L476
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65248,3): anon414_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65059,3): L480
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65241,3): anon337_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65067,3): L482
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65230,3): anon338_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65075,3): L484
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65223,3): anon339_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65083,3): L486
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65087,3): L448
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65216,3): anon415_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65109,3): L542
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65113,3): L542_dummy
+                                        Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L445 begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(64982,3): entry
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(64986,3): exit
+                                        Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L445 ends
+                                    Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L445 ends
+                                Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L445 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(66114,3): L445_last
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(66443,3): anon332_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65422,3): L371
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65426,3): L371_dummy
+                                Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L132 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65344,3): entry
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(65348,3): exit
+                                Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L132 ends
+                            Inlined call to procedure Sbp2Get1394ConfigInfo_loop_L132 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2261,3): L132_last
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2328,3): anon292_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2332,3): anon293_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2344,3): anon381_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2350,3): anon369_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2356,3): anon368_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2362,3): anon367_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2368,3): anon366_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2374,3): anon365_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2380,3): anon364_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2386,3): anon363_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2404,3): anon362_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2408,3): anon305_Else
+                            Inlined call to procedure IoAllocateMdl begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10533,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10544,3): anon3_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10541,3): L1
+                            Inlined call to procedure IoAllocateMdl ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2450,3): anon393_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2476,3): anon330_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1971,3): L136
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1976,3): anon296_Else
+                            Inlined call to procedure DeAllocateIrpAndIrb begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(17585,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(17605,3): anon3_Then
+                                Inlined call to procedure IoFreeIrp begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12071,3): anon0
+                                Inlined call to procedure IoFreeIrp ends
+                                Inlined call to procedure sdv_ExFreePool begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11494,3): anon0
+                                Inlined call to procedure sdv_ExFreePool ends
+                                Inlined call to procedure sdv_ExFreePool begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11494,3): anon0
+                                Inlined call to procedure sdv_ExFreePool ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(17602,3): L1
+                            Inlined call to procedure DeAllocateIrpAndIrb ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1983,3): L137
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1986,3): anon297_Else
+                            Inlined call to procedure sdv_ExFreePool begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11494,3): anon0
+                            Inlined call to procedure sdv_ExFreePool ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1991,3): L141
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1994,3): anon298_Else
+                            Inlined call to procedure sdv_ExFreePool begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11494,3): anon0
+                            Inlined call to procedure sdv_ExFreePool ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(1999,3): L145
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2002,3): anon299_Else
+                            Inlined call to procedure sdv_ExFreePool begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11494,3): anon0
+                            Inlined call to procedure sdv_ExFreePool ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2007,3): L149
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2036,3): anon300_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2015,3): L153
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2029,3): anon301_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2022,3): L158
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(2026,3): L1
+                        Inlined call to procedure Sbp2Get1394ConfigInfo ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31618,3): anon41_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31754,3): anon42_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31759,3): L58
+                        Inlined call to procedure Sbp2CreateDeviceRelations_loop_L58 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69469,3): entry
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69476,3): L58
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69481,3): anon47_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69491,3): anon57_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69507,3): anon58_Else
+                            Inlined call to procedure Sbp2ReInitializePdo begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(22834,3): anon0
+                                Inlined call to procedure sdv_do_paged_code_check begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10851,3): anon0
+                                Inlined call to procedure sdv_do_paged_code_check ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(23442,3): anon43_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(22863,3): L15
+                                Inlined call to procedure sdv_RtlZeroMemory begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10757,3): anon0
+                                Inlined call to procedure sdv_RtlZeroMemory ends
+                                Inlined call to procedure KeInitializeEvent begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12004,3): anon0
+                                Inlined call to procedure KeInitializeEvent ends
+                                Inlined call to procedure KeInitializeEvent begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12004,3): anon0
+                                Inlined call to procedure KeInitializeEvent ends
+                                Inlined call to procedure sdv_KeInitializeSpinLock begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12090,3): anon0
+                                Inlined call to procedure sdv_KeInitializeSpinLock ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(23439,3): anon33_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(23273,3): L42
+                                Inlined call to procedure Sbp2PreAllocateLists begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30743,3): anon0
+                                    Inlined call to procedure InitializeListHead begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(24739,3): anon0
+                                    Inlined call to procedure InitializeListHead ends
+                                    Inlined call to procedure InitializeSListHead begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31220,3): anon0
+                                    Inlined call to procedure InitializeSListHead ends
+                                    Inlined call to procedure InitializeSListHead begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31220,3): anon0
+                                    Inlined call to procedure InitializeSListHead ends
+                                    Inlined call to procedure InitializeSListHead begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31220,3): anon0
+                                    Inlined call to procedure InitializeSListHead ends
+                                    Inlined call to procedure sdv_ExInitializeNPagedLookasideList_NXPoolOptIn begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7968,3): anon0
+                                    Inlined call to procedure sdv_ExInitializeNPagedLookasideList_NXPoolOptIn ends
+                                    Inlined call to procedure sdv_KeInitializeSpinLock begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12090,3): anon0
+                                    Inlined call to procedure sdv_KeInitializeSpinLock ends
+                                    Inlined call to procedure sdv_KeInitializeSpinLock begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12090,3): anon0
+                                    Inlined call to procedure sdv_KeInitializeSpinLock ends
+                                    Inlined call to procedure sdv_KeInitializeSpinLock begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12090,3): anon0
+                                    Inlined call to procedure sdv_KeInitializeSpinLock ends
+                                    Inlined call to procedure sdv_KeInitializeSpinLock begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12090,3): anon0
+                                    Inlined call to procedure sdv_KeInitializeSpinLock ends
+                                    Inlined call to procedure sdv_KeInitializeSpinLock begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12090,3): anon0
+                                    Inlined call to procedure sdv_KeInitializeSpinLock ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30824,3): L41
+                                    Inlined call to procedure Sbp2PreAllocateLists_loop_L41 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69303,3): entry
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69310,3): L41
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69314,3): anon25_Else
+                                        Inlined call to procedure ExAllocatePoolWithTag begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12117,3): anon3_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                        Inlined call to procedure ExAllocatePoolWithTag ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69324,3): anon33_Then
+                                        Inlined call to procedure ExAllocatePoolWithTag begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12125,3): anon3_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                        Inlined call to procedure ExAllocatePoolWithTag ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69337,3): anon34_Else
+                                        Inlined call to procedure IoAllocateIrp begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11732,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11735,3): anon3_Else
+                                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7711,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7723,3): anon5_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7727,3): anon6_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7720,3): L1
+                                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11744,3): L1
+                                        Inlined call to procedure IoAllocateIrp ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69356,3): anon26_Else
+                                        Inlined call to procedure sdv_ExInterlockedPushEntrySList begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8213,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8223,3): anon3_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8220,3): L1
+                                        Inlined call to procedure sdv_ExInterlockedPushEntrySList ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69362,3): anon26_Else_dummy
+                                        Inlined call to procedure Sbp2PreAllocateLists_loop_L41 begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69303,3): entry
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69310,3): L41
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69314,3): anon25_Else
+                                            Inlined call to procedure ExAllocatePoolWithTag begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12117,3): anon3_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                            Inlined call to procedure ExAllocatePoolWithTag ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69324,3): anon33_Then
+                                            Inlined call to procedure ExAllocatePoolWithTag begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12125,3): anon3_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                            Inlined call to procedure ExAllocatePoolWithTag ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69337,3): anon34_Else
+                                            Inlined call to procedure IoAllocateIrp begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11732,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11735,3): anon3_Else
+                                                Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7711,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7723,3): anon5_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7727,3): anon6_Else
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7720,3): L1
+                                                Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11744,3): L1
+                                            Inlined call to procedure IoAllocateIrp ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69356,3): anon26_Else
+                                            Inlined call to procedure sdv_ExInterlockedPushEntrySList begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8213,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8223,3): anon3_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8220,3): L1
+                                            Inlined call to procedure sdv_ExInterlockedPushEntrySList ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69362,3): anon26_Else_dummy
+                                            Inlined call to procedure Sbp2PreAllocateLists_loop_L41 begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69303,3): entry
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69310,3): L41
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69314,3): anon25_Else
+                                                Inlined call to procedure ExAllocatePoolWithTag begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12117,3): anon3_Else
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                                Inlined call to procedure ExAllocatePoolWithTag ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69324,3): anon33_Then
+                                                Inlined call to procedure ExAllocatePoolWithTag begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12125,3): anon3_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                                Inlined call to procedure ExAllocatePoolWithTag ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69337,3): anon34_Else
+                                                Inlined call to procedure IoAllocateIrp begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11732,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11735,3): anon3_Else
+                                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7711,3): anon0
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7723,3): anon5_Then
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7727,3): anon6_Else
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7720,3): L1
+                                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11744,3): L1
+                                                Inlined call to procedure IoAllocateIrp ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69356,3): anon26_Else
+                                                Inlined call to procedure sdv_ExInterlockedPushEntrySList begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8213,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8223,3): anon3_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8220,3): L1
+                                                Inlined call to procedure sdv_ExInterlockedPushEntrySList ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69362,3): anon26_Else_dummy
+                                                Inlined call to procedure Sbp2PreAllocateLists_loop_L41 begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69303,3): entry
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69307,3): exit
+                                                Inlined call to procedure Sbp2PreAllocateLists_loop_L41 ends
+                                            Inlined call to procedure Sbp2PreAllocateLists_loop_L41 ends
+                                        Inlined call to procedure Sbp2PreAllocateLists_loop_L41 ends
+                                    Inlined call to procedure Sbp2PreAllocateLists_loop_L41 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30828,3): L41_last
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30832,3): anon25_Else
+                                    Inlined call to procedure ExAllocatePoolWithTag begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12117,3): anon3_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                    Inlined call to procedure ExAllocatePoolWithTag ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30859,3): anon33_Then
+                                    Inlined call to procedure ExAllocatePoolWithTag begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12125,3): anon3_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                                    Inlined call to procedure ExAllocatePoolWithTag ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30910,3): anon34_Then
+                                    Inlined call to procedure ExFreePoolWithTag begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11529,3): anon0
+                                    Inlined call to procedure ExFreePoolWithTag ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30846,3): L74
+                                    Inlined call to procedure Sbp2CleanDeviceExtension#1 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45340,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45394,3): anon182_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(46025,3): anon143_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45418,3): L19
+                                        Inlined call to procedure Sbp2AddLog begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16868,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16954,3): anon7_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16944,3): L1
+                                        Inlined call to procedure Sbp2AddLog ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45430,3): L33
+                                        Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L33 begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(71944,3): entry
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(71951,3): L33
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(71960,3): anon184_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(71969,3): anon185_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(71973,3): anon185_Then_dummy
+                                        Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L33 ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45434,3): L33_last
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45443,3): anon184_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45452,3): anon185_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45456,3): L34
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45459,3): anon145_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45465,3): anon146_Else
+                                        Inlined call to procedure KeCancelTimer begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9495,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9505,3): anon3_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9502,3): L1
+                                        Inlined call to procedure KeCancelTimer ends
+                                        Inlined call to procedure CleanupOrbList#0 begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(40235,3): anon0
+                                            Inlined call to procedure AcquireOrbListLock begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16723,3): anon0
+                                                Inlined call to procedure sdv_KeGetCurrentThread begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10514,3): anon0
+                                                Inlined call to procedure sdv_KeGetCurrentThread ends
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16868,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16954,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16944,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16734,3): L12
+                                                Inlined call to procedure AcquireOrbListLock_loop_L12 begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(68088,3): entry
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(68095,3): L12
+                                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(26133,3): anon0
+                                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(68123,3): anon17_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(68165,3): anon13_Then
+                                                    Inlined call to procedure KeAcquireInStackQueuedSpinLock begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12198,3): anon0
+                                                    Inlined call to procedure KeAcquireInStackQueuedSpinLock ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(68132,3): L32
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(68161,3): anon15_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(68112,3): L22
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(68115,3): anon14_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(68119,3): anon14_Then_dummy
+                                                    Inlined call to procedure AcquireOrbListLock_loop_L12 begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(68088,3): entry
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(68092,3): exit
+                                                    Inlined call to procedure AcquireOrbListLock_loop_L12 ends
+                                                Inlined call to procedure AcquireOrbListLock_loop_L12 ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16738,3): L12_last
+                                                Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(26133,3): anon0
+                                                Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16774,3): anon17_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16816,3): anon13_Then
+                                                Inlined call to procedure KeAcquireInStackQueuedSpinLock begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12198,3): anon0
+                                                Inlined call to procedure KeAcquireInStackQueuedSpinLock ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16783,3): L32
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16786,3): anon15_Else
+                                                Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(26133,3): anon0
+                                                Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16794,3): anon18_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16803,3): anon16_Then
+                                                Inlined call to procedure KeReleaseInStackQueuedSpinLock begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11369,3): anon0
+                                                Inlined call to procedure KeReleaseInStackQueuedSpinLock ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16755,3): L22
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16758,3): anon14_Else
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16868,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16954,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16944,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                            Inlined call to procedure AcquireOrbListLock ends
+                                            Inlined call to procedure Sbp2AddLog begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16868,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16954,3): anon7_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16944,3): L1
+                                            Inlined call to procedure Sbp2AddLog ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(40513,3): anon35_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(40265,3): L18
+                                            Inlined call to procedure sdv_IsListEmpty begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11688,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11691,3): anon3_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11695,3): L1
+                                            Inlined call to procedure sdv_IsListEmpty ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(40269,3): anon36_Else
+                                            Inlined call to procedure ReleaseOrbListLock begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16163,3): anon0
+                                                Inlined call to procedure sdv_KeGetCurrentThread begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10514,3): anon0
+                                                Inlined call to procedure sdv_KeGetCurrentThread ends
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16868,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16954,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16944,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16212,3): anon7_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16197,3): L12
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16868,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16954,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(16944,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                            Inlined call to procedure ReleaseOrbListLock ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(40274,3): L1
+                                        Inlined call to procedure CleanupOrbList#0 ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45470,3): L43
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45993,3): anon147_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45481,3): L50
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45484,3): anon148_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45986,3): anon149_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45509,3): L60
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45976,3): anon150_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45926,3): L54
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(45621,3): L1
+                                    Inlined call to procedure Sbp2CleanDeviceExtension#1 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30856,3): L1
+                                Inlined call to procedure Sbp2PreAllocateLists ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(23424,3): anon35_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(23330,3): L105
+                                Inlined call to procedure InitializeListHead begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(24739,3): anon0
+                                Inlined call to procedure InitializeListHead ends
+                            Inlined call to procedure Sbp2ReInitializePdo ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69520,3): L66
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69558,3): anon48_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69550,3): L73
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69554,3): L73_dummy
+                            Inlined call to procedure Sbp2CreateDeviceRelations_loop_L58 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69469,3): entry
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69473,3): exit
+                            Inlined call to procedure Sbp2CreateDeviceRelations_loop_L58 ends
+                        Inlined call to procedure Sbp2CreateDeviceRelations_loop_L58 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31763,3): L58_last
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31768,3): anon47_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31853,3): anon57_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31857,3): L80
+                        Inlined call to procedure Sbp2CreateDeviceRelations_loop_L80 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69420,3): entry
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(69424,3): exit
+                        Inlined call to procedure Sbp2CreateDeviceRelations_loop_L80 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31861,3): L80_last
+                        Inlined call to procedure Sbp2CreatePdo begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(29850,3): anon0
+                            Inlined call to procedure sdv_do_paged_code_check begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10851,3): anon0
+                            Inlined call to procedure sdv_do_paged_code_check ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30463,3): anon85_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(29893,3): L18
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30456,3): anon86_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30445,3): L19
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(29917,3): L24
+                            Inlined call to procedure ExAllocatePoolWithTag begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12113,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12117,3): anon3_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12122,3): L1
+                            Inlined call to procedure ExAllocatePoolWithTag ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(29923,3): anon117_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30428,3): anon87_Then
+                            Inlined call to procedure RtlStringCbPrintfW begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(29723,3): anon0
+                                Inlined call to procedure RtlStringValidateDestW_sdv_static_function_1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(23461,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(23467,3): anon6_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(23471,3): anon5_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(23475,3): L8
+                                Inlined call to procedure RtlStringValidateDestW_sdv_static_function_1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(29731,3): anon5_Else
+                                Inlined call to procedure RtlStringVPrintfWorkerW_sdv_static_function_1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(22672,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(22712,3): anon9_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(22733,3): anon10_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(22686,3): L16
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(22694,3): L20
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(22708,3): anon11_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(22704,3): L21
+                                Inlined call to procedure RtlStringVPrintfWorkerW_sdv_static_function_1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(29741,3): L19
+                            Inlined call to procedure RtlStringCbPrintfW ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(29949,3): L48
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(29952,3): anon88_Else
+                            Inlined call to procedure RtlInitUnicodeString begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10564,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10570,3): anon5_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10578,3): L4
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10592,3): anon6_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10589,3): L1
+                            Inlined call to procedure RtlInitUnicodeString ends
+                            Inlined call to procedure IoCreateDevice begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7825,3): anon0
+                                Inlined call to procedure SLIC_IoCreateDevice_entry begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12624,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12628,3): anon5_Else
+                                    Inlined call to procedure SLIC_ABORT_1_0 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12584,3): anon0
+                                        Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12603,3): anon0
+                                        Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                                    Inlined call to procedure SLIC_ABORT_1_0 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12643,3): anon6_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(12640,3): LM2
+                                Inlined call to procedure SLIC_IoCreateDevice_entry ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7896,3): anon17_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(7852,3): LM2
+                            Inlined call to procedure IoCreateDevice ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30413,3): anon119_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(30186,3): LM2
+                        Inlined call to procedure Sbp2CreatePdo ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31950,3): anon59_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(31721,3): LM2
+                    Inlined call to procedure Sbp2CreateDeviceRelations ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(25954,3): anon52_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(25829,3): LM2
+                Inlined call to procedure Sbp2FDOPnpDeviceControl ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(28974,3): anon381_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(26996,3): LM2
+            Inlined call to procedure Sbp2PnpDeviceControl ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11071,3): anon66_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(11068,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(9018,3): anon258_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(8548,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10388,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10392,3): L32
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10395,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqliopassive1_0.bpl.bpl(10407,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 1363
+Total Time: 257.04 s
+
+Stopping: Done

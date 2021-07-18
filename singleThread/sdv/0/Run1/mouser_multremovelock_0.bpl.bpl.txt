@@ -1,0 +1,299 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(13134,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3500,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9791,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init12 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1595,3): anon0
+    Inlined call to procedure _sdv_init12 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(8504,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(8046,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(6741,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(5943,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(5642,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init10 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4822,3): anon0
+    Inlined call to procedure _sdv_init10 ends
+    Inlined call to procedure _sdv_init9 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1828,3): anon0
+    Inlined call to procedure _sdv_init9 ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1093,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init8 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(989,3): anon0
+    Inlined call to procedure _sdv_init8 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(220,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3725,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3668,3): L35
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3720,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3677,3): L39
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2655,3): anon0
+        Inlined call to procedure DriverEntry begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(7116,3): anon0
+            Inlined call to procedure IoAllocateDriverObjectExtension begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3412,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3415,3): anon5_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3418,3): anon6_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3422,3): L1
+            Inlined call to procedure IoAllocateDriverObjectExtension ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(7213,3): anon5_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(7160,3): L10
+        Inlined call to procedure DriverEntry ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2702,3): anon8_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2670,3): L63
+        Inlined call to procedure sdv_RunAddDevice begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2182,3): anon0
+            Inlined call to procedure sdv_stub_add_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3265,3): anon0
+            Inlined call to procedure sdv_stub_add_begin ends
+            Inlined call to procedure SerialMouseAddDevice begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(8271,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3970,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure IoCreateDevice begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2323,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2363,3): anon15_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2377,3): anon11_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2373,3): L21
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2342,3): L1
+                Inlined call to procedure IoCreateDevice ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(8279,3): anon9_Else
+                Inlined call to procedure sdv_RtlZeroMemory begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3950,3): anon0
+                Inlined call to procedure sdv_RtlZeroMemory ends
+                Inlined call to procedure IoAttachDeviceToDeviceStack begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3917,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3921,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3926,3): L1
+                Inlined call to procedure IoAttachDeviceToDeviceStack ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(8330,3): anon10_Then
+                Inlined call to procedure sdv_KeInitializeSpinLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4799,3): anon0
+                Inlined call to procedure sdv_KeInitializeSpinLock ends
+                Inlined call to procedure KeInitializeEvent begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4666,3): anon0
+                Inlined call to procedure KeInitializeEvent ends
+                Inlined call to procedure sdv_IoInitializeRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2135,3): anon0
+                Inlined call to procedure sdv_IoInitializeRemoveLock ends
+                Inlined call to procedure IoAllocateIrp begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4626,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4629,3): anon3_Else
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2261,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2273,3): anon5_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2277,3): anon6_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2270,3): L1
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4640,3): L1
+                Inlined call to procedure IoAllocateIrp ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(8372,3): anon11_Else
+                Inlined call to procedure IoWMIRegistrationControl begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(5104,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(5121,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(5114,3): L1
+                Inlined call to procedure IoWMIRegistrationControl ends
+                Inlined call to procedure KeInitializeTimer begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4697,3): anon0
+                Inlined call to procedure KeInitializeTimer ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(8323,3): L1
+            Inlined call to procedure SerialMouseAddDevice ends
+            Inlined call to procedure sdv_stub_add_end begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3843,3): anon0
+            Inlined call to procedure sdv_stub_add_end ends
+        Inlined call to procedure sdv_RunAddDevice ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2697,3): anon7_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2680,3): L73
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4956,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4062,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2585,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2598,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2595,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4976,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4090,3): anon57_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4093,3): anon76_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4096,3): anon75_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4099,3): anon74_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4102,3): anon73_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4105,3): anon72_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4108,3): anon71_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4111,3): anon70_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4114,3): anon69_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4117,3): anon68_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4120,3): anon67_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4123,3): anon66_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4126,3): anon65_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4236,3): anon64_Then
+            Inlined call to procedure sdv_SetPowerIrpMinorFunction begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2462,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2504,3): anon11_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2514,3): anon14_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2481,3): L1
+            Inlined call to procedure sdv_SetPowerIrpMinorFunction ends
+            Inlined call to procedure SerialMousePower begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9382,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3970,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3390,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4552,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4575,3): anon7_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4582,3): anon8_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4560,3): L1
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1522,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1528,3): anon10_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1567,3): anon9_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1541,3): L6
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1548,3): L2
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1551,3): LM2
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4564,3): anon9_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4568,3): LM2
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9416,3): anon62_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9420,3): anon47_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9426,3): anon48_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9431,3): anon58_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9434,3): anon49_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9442,3): anon50_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9573,3): anon51_Then
+                Inlined call to procedure KeInitializeEvent begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4666,3): anon0
+                Inlined call to procedure KeInitializeEvent ends
+                Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2092,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2097,3): anon5_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2101,3): L4
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2111,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2108,3): L1
+                Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext ends
+                Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3231,3): anon0
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2261,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2265,3): anon5_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2270,3): L1
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                Inlined call to procedure PoCallDriver begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2767,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2984,3): anon53_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3048,3): anon71_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2995,3): L45
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3044,3): anon61_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3002,3): L47
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3040,3): anon62_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3011,3): L49
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3014,3): anon63_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3018,3): anon64_Else
+                    Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(10783,3): anon0
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2261,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2265,3): anon5_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2270,3): L1
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(10794,3): anon16_Else
+                        Inlined call to procedure SerialMouseCompletionRoutine begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(8526,3): anon0
+                            Inlined call to procedure KeSetEvent begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3365,3): anon0
+                            Inlined call to procedure KeSetEvent ends
+                        Inlined call to procedure SerialMouseCompletionRoutine ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(10801,3): L11
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(10868,3): anon13_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(10817,3): L28
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(10860,3): anon14_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(10829,3): L45
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(10856,3): anon15_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(10845,3): L62
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(10849,3): LM2
+                    Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3024,3): anon72_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2815,3): L29
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2819,3): LM2
+                Inlined call to procedure PoCallDriver ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9586,3): anon64_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9590,3): anon53_Else
+                Inlined call to procedure KeWaitForSingleObject begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3305,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3324,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3317,3): L1
+                Inlined call to procedure KeWaitForSingleObject ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9598,3): L96
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9601,3): anon54_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9607,3): anon55_Else
+                Inlined call to procedure PoSetPowerState begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3138,3): anon0
+                Inlined call to procedure PoSetPowerState ends
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4552,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4575,3): anon7_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4582,3): anon8_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4560,3): L1
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1522,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1528,3): anon10_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1534,3): anon9_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1554,3): anon11_Then
+                        Inlined call to procedure SLIC_ABORT_1_0 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1623,3): anon0
+                            Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1648,3): anon0
+                            Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                        Inlined call to procedure SLIC_ABORT_1_0 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1563,3): anon12_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(1551,3): LM2
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4571,3): anon9_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4568,3): LM2
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9676,3): anon65_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(9528,3): LM2
+            Inlined call to procedure SerialMousePower ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4247,3): anon81_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(4184,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2693,3): anon9_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(2690,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3686,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3690,3): L33
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3693,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_multremovelock_0.bpl.bpl(3705,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 586
+Total Time: 3.72 s
+
+Stopping: Done

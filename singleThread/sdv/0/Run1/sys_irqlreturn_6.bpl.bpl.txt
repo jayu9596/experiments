@@ -1,0 +1,416 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(32028,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(20346,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(27894,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init16 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24345,3): anon0
+    Inlined call to procedure _sdv_init16 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(27870,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(27411,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26735,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25738,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init14 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22274,3): anon0
+    Inlined call to procedure _sdv_init14 ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(16093,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init10 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14154,3): anon0
+    Inlined call to procedure _sdv_init10 ends
+    Inlined call to procedure _sdv_init11 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(13172,3): anon0
+    Inlined call to procedure _sdv_init11 ends
+    Inlined call to procedure _sdv_init9 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(12961,3): anon0
+    Inlined call to procedure _sdv_init9 ends
+    Inlined call to procedure _sdv_init12 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(12677,3): anon0
+    Inlined call to procedure _sdv_init12 ends
+    Inlined call to procedure _sdv_init13 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(11788,3): anon0
+    Inlined call to procedure _sdv_init13 ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(7681,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init8 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6456,3): anon0
+    Inlined call to procedure _sdv_init8 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(1202,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22014,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(21957,3): L39
+    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22009,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(21966,3): L43
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(18342,3): anon0
+        Inlined call to procedure sdv_CheckDispatchRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(17863,3): anon0
+        Inlined call to procedure sdv_CheckDispatchRoutines ends
+        Inlined call to procedure sdv_CheckStartIoRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23248,3): anon0
+        Inlined call to procedure sdv_CheckStartIoRoutines ends
+        Inlined call to procedure sdv_CheckDpcRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(19057,3): anon0
+        Inlined call to procedure sdv_CheckDpcRoutines ends
+        Inlined call to procedure sdv_CheckIsrRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23161,3): anon0
+        Inlined call to procedure sdv_CheckIsrRoutines ends
+        Inlined call to procedure sdv_CheckCancelRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(18161,3): anon0
+        Inlined call to procedure sdv_CheckCancelRoutines ends
+        Inlined call to procedure sdv_CheckIoDpcRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(19040,3): anon0
+        Inlined call to procedure sdv_CheckIoDpcRoutines ends
+        Inlined call to procedure sdv_IoCompletionRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22326,3): anon0
+        Inlined call to procedure sdv_IoCompletionRoutines ends
+        Inlined call to procedure sdv_CheckWorkerRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22874,3): anon0
+        Inlined call to procedure sdv_CheckWorkerRoutines ends
+        Inlined call to procedure sdv_CheckAddDevice begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22857,3): anon0
+        Inlined call to procedure sdv_CheckAddDevice ends
+        Inlined call to procedure sdv_CheckIrpMjPnp begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23317,3): anon0
+        Inlined call to procedure sdv_CheckIrpMjPnp ends
+        Inlined call to procedure sdv_CheckIrpMjPower begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(18053,3): anon0
+        Inlined call to procedure sdv_CheckIrpMjPower ends
+        Inlined call to procedure sdv_CheckDriverUnload begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(18994,3): anon0
+        Inlined call to procedure sdv_CheckDriverUnload ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(18960,3): anon173_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(18963,3): anon174_Else
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23898,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22527,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(18232,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(18245,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(18242,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24107,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22551,3): anon57_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22554,3): anon76_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22557,3): anon75_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22560,3): anon74_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22563,3): anon73_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22566,3): anon72_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22569,3): anon71_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22572,3): anon70_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22575,3): anon69_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22578,3): anon68_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22730,3): anon67_Then
+            Inlined call to procedure DispatchShutdown begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25251,3): anon0
+                Inlined call to procedure SLIC_DispatchShutdown_entry begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24608,3): anon0
+                Inlined call to procedure SLIC_DispatchShutdown_entry ends
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22393,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25357,3): anon17_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25277,3): L13
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23214,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23224,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23231,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23221,3): L1
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25345,3): anon18_Then
+                Inlined call to procedure WriteShutdown2SEL begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24909,3): anon0
+                    Inlined call to procedure RtlInitUnicodeString begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22142,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22148,3): anon5_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22156,3): L4
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22170,3): anon6_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22167,3): L1
+                    Inlined call to procedure RtlInitUnicodeString ends
+                    Inlined call to procedure RtlInitUnicodeString begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22142,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22148,3): anon5_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22156,3): L4
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22170,3): anon6_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22167,3): L1
+                    Inlined call to procedure RtlInitUnicodeString ends
+                    Inlined call to procedure QueryConfigFromRegistry begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25893,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22393,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26263,3): anon61_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25931,3): L23
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26012,3): anon62_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26020,3): anon63_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26028,3): anon64_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26036,3): anon65_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26046,3): anon66_Then
+                        Inlined call to procedure sdv_InitializeObjectAttributes begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(19645,3): anon0
+                        Inlined call to procedure sdv_InitializeObjectAttributes ends
+                        Inlined call to procedure ZwOpenKey begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23567,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23571,3): anon3_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23578,3): L1
+                        Inlined call to procedure ZwOpenKey ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26076,3): anon67_Then
+                        Inlined call to procedure ZwQueryValueKey begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23023,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23046,3): anon15_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23085,3): anon11_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23066,3): L13
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23069,3): anon13_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23038,3): L1
+                        Inlined call to procedure ZwQueryValueKey ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26254,3): anon68_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26093,3): L55
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26101,3): anon81_Then
+                        Inlined call to procedure ExAllocatePoolWithTag begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23744,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23748,3): anon3_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23753,3): L1
+                        Inlined call to procedure ExAllocatePoolWithTag ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26107,3): anon82_Else
+                        Inlined call to procedure ZwQueryValueKey begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23023,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23046,3): anon15_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23085,3): anon11_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23066,3): L13
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23069,3): anon13_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23038,3): L1
+                        Inlined call to procedure ZwQueryValueKey ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26119,3): anon69_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26125,3): anon70_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26130,3): anon71_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26183,3): anon83_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26144,3): L76
+                        Inlined call to procedure sdv_RtlCopyMemory begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22910,3): anon0
+                        Inlined call to procedure sdv_RtlCopyMemory ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26161,3): anon72_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(26180,3): anon73_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25954,3): L82
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25957,3): anon74_Else
+                        Inlined call to procedure ExFreePoolWithTag begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(23179,3): anon0
+                        Inlined call to procedure ExFreePoolWithTag ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25962,3): L83
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25997,3): anon75_Then
+                        Inlined call to procedure ZwClose begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24130,3): anon0
+                        Inlined call to procedure ZwClose ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25970,3): L93
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25994,3): anon76_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25986,3): L94
+                    Inlined call to procedure QueryConfigFromRegistry ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24966,3): anon33_Then
+                    Inlined call to procedure AssembleShutdownHead begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25642,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22393,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check ends
+                    Inlined call to procedure AssembleShutdownHead ends
+                    Inlined call to procedure ipmi_ioctl_func begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15483,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15700,3): anon40_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15520,3): L21
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15523,3): anon31_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15527,3): anon32_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15533,3): anon33_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15536,3): anon34_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15540,3): anon39_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15646,3): anon43_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15551,3): L127
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15560,3): anon44_Else
+                        Inlined call to procedure KCS_RequestandReceive begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6810,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6899,3): anon16_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6909,3): anon17_Then
+                            Inlined call to procedure WPP_SF_ begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(12017,3): anon0
+                            Inlined call to procedure WPP_SF_ ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6826,3): L21
+                            Inlined call to procedure Func_GetTimeOut begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14365,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14377,3): L12
+                                Inlined call to procedure Func_GetTimeOut_loop_L12 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(31319,3): entry
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(31322,3): exit
+                                Inlined call to procedure Func_GetTimeOut_loop_L12 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14381,3): L12_last
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14396,3): anon3_Else
+                            Inlined call to procedure Func_GetTimeOut ends
+                            Inlined call to procedure KCS_IPMI_Message_Pack begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6946,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(7091,3): anon27_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6969,3): L9
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(7006,3): anon23_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(7014,3): anon24_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(7051,3): anon29_Then
+                                Inlined call to procedure sdv_RtlCopyMemory begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22910,3): anon0
+                                Inlined call to procedure sdv_RtlCopyMemory ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(7084,3): anon31_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(7076,3): L43
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6996,3): L1
+                            Inlined call to procedure KCS_IPMI_Message_Pack ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6885,3): anon13_Then
+                            Inlined call to procedure KCS_BMC_Transact begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(2934,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(3105,3): anon31_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(2979,3): L12
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(3097,3): anon23_Then
+                                Inlined call to procedure ExAcquireFastMutex begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(19476,3): anon0
+                                Inlined call to procedure ExAcquireFastMutex ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(2985,3): L22
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(3093,3): anon24_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(2996,3): L25
+                                Inlined call to procedure KCSSendRequestToBMC begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(5676,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6227,3): anon114_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(5731,3): L13
+                                    Inlined call to procedure SpinIBF begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6516,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6771,3): anon39_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6568,3): L14
+                                        Inlined call to procedure Func_GetTimeOut begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14365,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14377,3): L12
+                                            Inlined call to procedure Func_GetTimeOut_loop_L12 begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(31319,3): entry
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(31322,3): exit
+                                            Inlined call to procedure Func_GetTimeOut_loop_L12 ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14381,3): L12_last
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14396,3): anon3_Else
+                                        Inlined call to procedure Func_GetTimeOut ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6595,3): L24
+                                        Inlined call to procedure SpinIBF_loop_L24 begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(30368,3): entry
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(30372,3): exit
+                                        Inlined call to procedure SpinIBF_loop_L24 ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6599,3): L24_last
+                                        Inlined call to procedure Func_IPMIReadOneByte begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14515,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14531,3): anon3_Then
+                                            Inlined call to procedure Func_read_iomem_uchar begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(13834,3): anon0
+                                            Inlined call to procedure Func_read_iomem_uchar ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14528,3): L1
+                                        Inlined call to procedure Func_IPMIReadOneByte ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6638,3): anon29_Then
+                                        Inlined call to procedure Func_Time_After begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(13990,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14020,3): L8
+                                            Inlined call to procedure Func_Time_After_loop_L8 begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(31279,3): entry
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(31282,3): exit
+                                            Inlined call to procedure Func_Time_After_loop_L8 ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14024,3): L8_last
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14039,3): anon12_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14081,3): anon9_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14067,3): L16
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14078,3): anon10_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14056,3): L18
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14060,3): L19
+                                        Inlined call to procedure Func_Time_After ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6642,3): anon30_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6646,3): L38
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6628,3): L1
+                                    Inlined call to procedure SpinIBF ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(5757,3): anon83_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(5761,3): L29
+                                    Inlined call to procedure Func_IPMIWriteOneByte begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14475,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14493,3): anon3_Then
+                                        Inlined call to procedure Func_write_iomem_uchar begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15368,3): anon0
+                                        Inlined call to procedure Func_write_iomem_uchar ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(14490,3): L1
+                                    Inlined call to procedure Func_IPMIWriteOneByte ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(5789,3): anon84_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(5778,3): L36
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(5782,3): L1
+                                Inlined call to procedure KCSSendRequestToBMC ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(3004,3): anon25_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(3008,3): L32
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(3065,3): anon27_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(3024,3): L33
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(3027,3): anon28_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(3030,3): L49
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(3054,3): anon30_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(3046,3): L50
+                            Inlined call to procedure KCS_BMC_Transact ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6895,3): anon15_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6858,3): L36
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6882,3): anon14_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(6874,3): L37
+                        Inlined call to procedure KCS_RequestandReceive ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15572,3): L60
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15596,3): anon35_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15588,3): L61
+                    Inlined call to procedure ipmi_ioctl_func ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24997,3): anon34_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25001,3): L58
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24963,3): L1
+                Inlined call to procedure WriteShutdown2SEL ends
+                Inlined call to procedure sdv_IoReleaseRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(15429,3): anon0
+                Inlined call to procedure sdv_IoReleaseRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25298,3): L33
+                Inlined call to procedure sdv_IoCompleteRequest begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22892,3): anon0
+                Inlined call to procedure sdv_IoCompleteRequest ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25335,3): anon19_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25315,3): L40
+                Inlined call to procedure SLIC_DispatchShutdown_exit begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24647,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24651,3): anon5_Else
+                    Inlined call to procedure SLIC_ABORT_14_0 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24366,3): anon0
+                        Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24730,3): anon0
+                        Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                    Inlined call to procedure SLIC_ABORT_14_0 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24666,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(24663,3): LM2
+                Inlined call to procedure SLIC_DispatchShutdown_exit ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25327,3): anon23_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(25324,3): LM2
+            Inlined call to procedure DispatchShutdown ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22740,3): anon80_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(22649,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(18973,3): anon258_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(18610,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(21975,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(21979,3): L37
+    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(21982,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sys_irqlreturn_6.bpl.bpl(21994,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 748
+Total Time: 22.83 s
+
+Stopping: Done

@@ -1,0 +1,291 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(77838,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7235,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(28449,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init11 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(9170,3): anon0
+    Inlined call to procedure _sdv_init11 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(19817,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(18661,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(14410,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13187,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(11025,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init9 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6869,3): anon0
+    Inlined call to procedure _sdv_init9 ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(5766,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init8 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(5748,3): anon0
+    Inlined call to procedure _sdv_init8 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(300,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7534,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7477,3): L34
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7529,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7486,3): L38
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6566,3): anon0
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8955,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7970,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6503,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6516,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6513,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8980,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7994,3): anon57_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7997,3): anon76_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8000,3): anon75_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8003,3): anon74_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8006,3): anon73_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8009,3): anon72_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8012,3): anon71_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8015,3): anon70_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8018,3): anon69_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8021,3): anon68_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8024,3): anon67_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8027,3): anon66_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8030,3): anon65_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8033,3): anon64_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8126,3): anon63_Then
+            Inlined call to procedure Sbp2SystemControl begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(19730,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7878,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(19742,3): anon11_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(19790,3): anon12_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(19761,3): L15
+                Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(5891,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(5896,3): anon5_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(5900,3): L4
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(5910,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(5907,3): L1
+                Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext ends
+                Inlined call to procedure sdv_IoCallDriver#1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(33531,3): anon0
+                    Inlined call to procedure IofCallDriver#1 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(33885,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34105,3): anon70_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34169,3): anon71_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34118,3): L45
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34165,3): anon60_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34127,3): L47
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34161,3): anon61_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34136,3): L49
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34139,3): anon62_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34142,3): anon63_Else
+                        Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34372,3): anon0
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6124,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6128,3): anon5_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6133,3): L1
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34528,3): anon19_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34401,3): L11
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34525,3): anon15_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34424,3): L28
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34522,3): anon16_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34451,3): L45
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34515,3): anon17_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34474,3): L62
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34479,3): anon18_Else
+                            Inlined call to procedure Sbp2RequestCompletionRoutine#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(36595,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(36615,3): anon30_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(36672,3): anon27_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(36787,3): anon28_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(36732,3): L13
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(36740,3): anon33_Else
+                                Inlined call to procedure sdv_KeAcquireSpinLock begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(5979,3): anon0
+                                Inlined call to procedure sdv_KeAcquireSpinLock ends
+                                Inlined call to procedure ExFreeToNPagedLookasideList#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(36972,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(36987,3): anon32_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(36992,3): anon33_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(36995,3): anon28_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(37055,3): anon29_Then
+                                    Inlined call to procedure Sbp2GlobalStatusCallback#1 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(65837,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(65912,3): anon243_Then
+                                        Inlined call to procedure sdv_MmGetMdlVirtualAddress begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6685,3): anon0
+                                        Inlined call to procedure sdv_MmGetMdlVirtualAddress ends
+                                        Inlined call to procedure CheckStatusResponseValue begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(11768,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(11777,3): anon78_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(11782,3): L1
+                                        Inlined call to procedure CheckStatusResponseValue ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(65974,3): anon187_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(67135,3): anon188_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(66011,3): L66
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(66071,3): anon246_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(66109,3): anon192_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(66154,3): anon195_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(66237,3): anon251_Then
+                                        Inlined call to procedure AcquireOrbListLock begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12916,3): anon0
+                                            Inlined call to procedure sdv_KeGetCurrentThread begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7619,3): anon0
+                                            Inlined call to procedure sdv_KeGetCurrentThread ends
+                                            Inlined call to procedure Sbp2AddLog begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13061,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13147,3): anon7_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13137,3): L1
+                                            Inlined call to procedure Sbp2AddLog ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12927,3): L12
+                                            Inlined call to procedure AcquireOrbListLock_loop_L12 begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(71277,3): entry
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(71281,3): exit
+                                            Inlined call to procedure AcquireOrbListLock_loop_L12 ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12931,3): L12_last
+                                            Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(21058,3): anon0
+                                            Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12967,3): anon17_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12971,3): anon13_Else
+                                            Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7745,3): anon0
+                                            Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12976,3): L32
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12979,3): anon15_Else
+                                            Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(21058,3): anon0
+                                            Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12987,3): anon18_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12991,3): anon16_Else
+                                            Inlined call to procedure KeReleaseInStackQueuedSpinLockFromDpcLevel begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7774,3): anon0
+                                            Inlined call to procedure KeReleaseInStackQueuedSpinLockFromDpcLevel ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12948,3): L22
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12951,3): anon14_Else
+                                            Inlined call to procedure Sbp2AddLog begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13061,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13147,3): anon7_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13137,3): L1
+                                            Inlined call to procedure Sbp2AddLog ends
+                                        Inlined call to procedure AcquireOrbListLock ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(66248,3): anon254_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(66254,3): anon202_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(67087,3): anon203_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(66273,3): L158
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(66278,3): anon204_Else
+                                        Inlined call to procedure ReleaseOrbListLock begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12352,3): anon0
+                                            Inlined call to procedure sdv_KeGetCurrentThread begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7619,3): anon0
+                                            Inlined call to procedure sdv_KeGetCurrentThread ends
+                                            Inlined call to procedure Sbp2AddLog begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13061,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13147,3): anon7_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13137,3): L1
+                                            Inlined call to procedure Sbp2AddLog ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12365,3): anon7_Else
+                                            Inlined call to procedure Sbp2AddLog begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13061,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13147,3): anon7_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13137,3): L1
+                                            Inlined call to procedure Sbp2AddLog ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12376,3): anon8_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12381,3): anon9_Else
+                                            Inlined call to procedure KeReleaseInStackQueuedSpinLockFromDpcLevel begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7774,3): anon0
+                                            Inlined call to procedure KeReleaseInStackQueuedSpinLockFromDpcLevel ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(12386,3): L12
+                                            Inlined call to procedure Sbp2AddLog begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13061,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13147,3): anon7_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(13137,3): L1
+                                            Inlined call to procedure Sbp2AddLog ends
+                                        Inlined call to procedure ReleaseOrbListLock ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(66309,3): anon206_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(66298,3): L174
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(65997,3): L73
+                                        Inlined call to procedure sdv_ExInterlockedPushEntrySList begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6535,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6545,3): anon3_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6542,3): L1
+                                        Inlined call to procedure sdv_ExInterlockedPushEntrySList ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(65896,3): L1
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(65899,3): LM2
+                                    Inlined call to procedure Sbp2GlobalStatusCallback#1 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(37062,3): anon36_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(37015,3): L1
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(37018,3): LM2
+                                Inlined call to procedure ExFreeToNPagedLookasideList#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(36757,3): anon34_Else
+                                Inlined call to procedure sdv_KeReleaseSpinLock begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8306,3): anon0
+                                    Inlined call to procedure SLIC_sdv_KeReleaseSpinLock_entry begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(9110,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(9115,3): anon10_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(9119,3): anon9_Else
+                                        Inlined call to procedure SLIC_ABORT_1_1 begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(9231,3): anon0
+                                            Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(9211,3): anon0
+                                            Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                                        Inlined call to procedure SLIC_ABORT_1_1 ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(9134,3): anon12_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(9131,3): LM2
+                                    Inlined call to procedure SLIC_sdv_KeReleaseSpinLock_entry ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8324,3): anon3_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8321,3): LM2
+                                Inlined call to procedure sdv_KeReleaseSpinLock ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(36766,3): anon35_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(36612,3): LM2
+                            Inlined call to procedure Sbp2RequestCompletionRoutine#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34508,3): anon21_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34505,3): LM2
+                        Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(34151,3): anon72_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(33941,3): LM2
+                    Inlined call to procedure IofCallDriver#1 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(33543,3): anon3_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(33540,3): LM2
+                Inlined call to procedure sdv_IoCallDriver#1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(19779,3): anon15_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(19776,3): LM2
+            Inlined call to procedure Sbp2SystemControl ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8136,3): anon82_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(8088,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6579,3): anon3_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(6576,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7495,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7499,3): L32
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7502,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlkereleasespinlock_0.bpl.bpl(7514,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 28043
+Total Time: 624.10 s
+
+Stopping: Done
