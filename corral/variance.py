@@ -14,7 +14,7 @@ from datetime import datetime
 import matplotlib.lines as mlines
 import numpy as np
 
-myDir = '/home/jaydeep/Thesis/experiments/singleThread/sdv/'
+myDir = '/home/jaydeep/Thesis/experiments/singleThread/svcomp/'
 folderList = ['0','50','100']
 #folderList = ['recursionBound/UW_rec3','recursionBound/rec3','recursionBound/rec5','recursionBound/rec10','recursionBound/rec15','recursionBound/rec20']
 runList = ['Run1']

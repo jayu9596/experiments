@@ -1,0 +1,902 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+main_SeqInstr did not verify
+/home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(65117,3): start
+Inlined call to procedure main begins
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50298,3): $bb0
+    Inlined call to procedure $initialize begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(57123,3): anon0
+        Inlined call to procedure __SMACK_static_init begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55580,3): $bb0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+            value = 0
+        Inlined call to procedure __SMACK_static_init ends
+        Inlined call to procedure __SMACK_init_func_memory_model begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55543,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55547,3): corral_source_split_7582
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55552,3): corral_source_split_7583
+        Inlined call to procedure __SMACK_init_func_memory_model ends
+    Inlined call to procedure $initialize ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50302,3): corral_source_split_7038
+    value = -508166
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50307,3): corral_source_split_7039
+    value = 1
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50312,3): corral_source_split_7040
+    Inlined call to procedure ldv_initialize begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51685,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51689,3): corral_source_split_7226
+        value = 1
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51695,3): corral_source_split_7227
+        value = 1
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51701,3): corral_source_split_7228
+        value = 1
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51707,3): corral_source_split_7229
+        value = 1
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51713,3): corral_source_split_7230
+        value = 1
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51719,3): corral_source_split_7231
+        value = 1
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51725,3): corral_source_split_7232
+    Inlined call to procedure ldv_initialize ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50317,3): corral_source_split_7041
+    Inlined call to procedure ldv_handler_precall begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51744,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51748,3): corral_source_split_7234
+    Inlined call to procedure ldv_handler_precall ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50322,3): corral_source_split_7042
+    Inlined call to procedure tcm_vhost_init begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51782,3): $bb0
+        Inlined call to procedure $alloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55466,3): anon0
+            Inlined call to procedure $$alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55498,3): anon0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55507,3): anon3_Then
+            Inlined call to procedure $$alloc ends
+        Inlined call to procedure $alloc ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51788,3): corral_source_split_7236
+        Inlined call to procedure __alloc_workqueue_key.ref.i32.i32.ref.ref begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52672,3): $bb0
+            value = 0
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52678,3): corral_source_split_7362
+            Inlined call to procedure external_alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41588,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41592,3): corral_source_split_5990
+                Inlined call to procedure __VERIFIER_nondet_pointer begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54457,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54461,3): corral_source_split_7579
+                    value = 126
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54467,3): corral_source_split_7580
+                Inlined call to procedure __VERIFIER_nondet_pointer ends
+                value = 126
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41598,3): corral_source_split_5991
+            Inlined call to procedure external_alloc ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52683,3): corral_source_split_7363
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52688,3): corral_source_split_7364
+        Inlined call to procedure __alloc_workqueue_key.ref.i32.i32.ref.ref ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51793,3): corral_source_split_7237
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51798,3): corral_source_split_7238
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51803,3): corral_source_split_7239
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51808,3): corral_source_split_7240
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51813,3): corral_source_split_7241
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51818,3): $bb2
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51823,3): $bb4
+        Inlined call to procedure vhost_scsi_register begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52709,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52713,3): corral_source_split_7366
+            Inlined call to procedure misc_register begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53420,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53424,3): corral_source_split_7476
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53720,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53724,3): corral_source_split_7498
+                    value = 4363
+                    value = 4363
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53731,3): corral_source_split_7499
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53736,3): corral_source_split_7500
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53766,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53770,3): corral_source_split_7502
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53747,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53751,3): corral_source_split_7504
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53756,3): corral_source_split_7505
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53450,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53455,3): corral_source_split_7479
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53459,3): corral_source_split_7480
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53464,3): corral_source_split_7481
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53761,3): corral_source_split_7506
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = 4363
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53430,3): corral_source_split_7477
+            Inlined call to procedure misc_register ends
+            value = 4363
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52719,3): corral_source_split_7367
+        Inlined call to procedure vhost_scsi_register ends
+        value = 4363
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51829,3): corral_source_split_7247
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51834,3): corral_source_split_7248
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51839,3): $bb6
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51844,3): $bb8
+        Inlined call to procedure tcm_vhost_register_configfs begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52808,3): $bb0
+            Inlined call to procedure $alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55466,3): anon0
+                Inlined call to procedure $$alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55498,3): anon0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55507,3): anon3_Then
+                Inlined call to procedure $$alloc ends
+            Inlined call to procedure $alloc ends
+            Inlined call to procedure $alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55466,3): anon0
+                Inlined call to procedure $$alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55498,3): anon0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55507,3): anon3_Then
+                Inlined call to procedure $$alloc ends
+            Inlined call to procedure $alloc ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52816,3): corral_source_split_7369
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52821,3): corral_source_split_7370
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52826,3): corral_source_split_7371
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52831,3): corral_source_split_7372
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52836,3): corral_source_split_7373
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52841,3): corral_source_split_7374
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52846,3): corral_source_split_7375
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52851,3): corral_source_split_7376
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52856,3): corral_source_split_7377
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52861,3): corral_source_split_7378
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52866,3): corral_source_split_7379
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52871,3): corral_source_split_7380
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52876,3): corral_source_split_7381
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52881,3): corral_source_split_7382
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52886,3): corral_source_split_7383
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52891,3): corral_source_split_7384
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52896,3): corral_source_split_7385
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52901,3): corral_source_split_7386
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52906,3): corral_source_split_7387
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52911,3): corral_source_split_7388
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52916,3): corral_source_split_7389
+            Inlined call to procedure ldv__builtin_expect begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(5961,3): $bb0
+                value = 0
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(5967,3): corral_source_split_727
+            Inlined call to procedure ldv__builtin_expect ends
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52922,3): corral_source_split_7390
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52927,3): corral_source_split_7391
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52932,3): $bb2
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52937,3): $bb3
+            Inlined call to procedure target_fabric_configfs_init begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53354,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53358,3): corral_source_split_7469
+                Inlined call to procedure external_alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41588,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41592,3): corral_source_split_5990
+                    Inlined call to procedure __VERIFIER_nondet_pointer begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54457,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54461,3): corral_source_split_7579
+                        value = 18446744073709547521
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54467,3): corral_source_split_7580
+                    Inlined call to procedure __VERIFIER_nondet_pointer ends
+                    value = 18446744073709547521
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41598,3): corral_source_split_5991
+                Inlined call to procedure external_alloc ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53363,3): corral_source_split_7470
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53368,3): corral_source_split_7471
+            Inlined call to procedure target_fabric_configfs_init ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52942,3): corral_source_split_7402
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52947,3): corral_source_split_7403
+            Inlined call to procedure IS_ERR begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(25762,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(25766,3): corral_source_split_3705
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(25771,3): corral_source_split_3706
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(25776,3): corral_source_split_3707
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(25781,3): corral_source_split_3708
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(25786,3): corral_source_split_3709
+                Inlined call to procedure ldv__builtin_expect begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(5961,3): $bb0
+                    value = 1
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(5967,3): corral_source_split_727
+                Inlined call to procedure ldv__builtin_expect ends
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(25792,3): corral_source_split_3710
+            Inlined call to procedure IS_ERR ends
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52953,3): corral_source_split_7404
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(52958,3): corral_source_split_7405
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53264,3): $bb4
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53268,3): corral_source_split_7407
+            Inlined call to procedure printk.ref begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(11598,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(11602,3): corral_source_split_1515
+                Inlined call to procedure __VERIFIER_nondet_int begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53720,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53724,3): corral_source_split_7498
+                    value = -2147483648
+                    value = -2147483648
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53731,3): corral_source_split_7499
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53736,3): corral_source_split_7500
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53766,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53770,3): corral_source_split_7502
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53747,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53751,3): corral_source_split_7504
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53756,3): corral_source_split_7505
+                    Inlined call to procedure __VERIFIER_assume begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53450,3): $bb0
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53455,3): corral_source_split_7479
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53459,3): corral_source_split_7480
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53464,3): corral_source_split_7481
+                    Inlined call to procedure __VERIFIER_assume ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53761,3): corral_source_split_7506
+                Inlined call to procedure __VERIFIER_nondet_int ends
+                value = -2147483648
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(11608,3): corral_source_split_1516
+            Inlined call to procedure printk.ref ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53273,3): corral_source_split_7408
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53278,3): corral_source_split_7409
+            Inlined call to procedure PTR_ERR begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(25813,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(25817,3): corral_source_split_3712
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(25822,3): corral_source_split_3713
+            Inlined call to procedure PTR_ERR ends
+            value = 18446744073709547521
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53284,3): corral_source_split_7410
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53289,3): corral_source_split_7411
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53228,3): $bb6
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53232,3): corral_source_split_7413
+        Inlined call to procedure tcm_vhost_register_configfs ends
+        value = 18446744073709547521
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51850,3): corral_source_split_7256
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51855,3): corral_source_split_7257
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51860,3): $bb10
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51865,3): $bb12
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51870,3): $bb13
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51874,3): corral_source_split_7263
+    Inlined call to procedure tcm_vhost_init ends
+    value = 0
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50328,3): corral_source_split_7043
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50333,3): corral_source_split_7044
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50338,3): $bb2
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50343,3): $bb4
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50348,3): $bb5
+    Inlined call to procedure main_loop_$bb5 begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73648,3): entry
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73652,3): $bb5
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74004,3): corral_source_split_7050
+        Inlined call to procedure __VERIFIER_nondet_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53720,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53724,3): corral_source_split_7498
+            value = 4904
+            value = 4904
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53731,3): corral_source_split_7499
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53736,3): corral_source_split_7500
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53766,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53770,3): corral_source_split_7502
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53747,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53751,3): corral_source_split_7504
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53756,3): corral_source_split_7505
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53450,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53455,3): corral_source_split_7479
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53459,3): corral_source_split_7480
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53464,3): corral_source_split_7481
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53761,3): corral_source_split_7506
+        Inlined call to procedure __VERIFIER_nondet_int ends
+        value = 4904
+        value = 4904
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73999,3): corral_source_split_7051
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73994,3): corral_source_split_7052
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73989,3): $bb97
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73980,3): $bb98
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73972,3): $bb6
+        Inlined call to procedure __VERIFIER_nondet_int begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53720,3): $bb0
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53724,3): corral_source_split_7498
+            value = 1
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53731,3): corral_source_split_7499
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53736,3): corral_source_split_7500
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53766,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53770,3): corral_source_split_7502
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53747,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53751,3): corral_source_split_7504
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53756,3): corral_source_split_7505
+            Inlined call to procedure __VERIFIER_assume begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53450,3): $bb0
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53455,3): corral_source_split_7479
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53459,3): corral_source_split_7480
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53464,3): corral_source_split_7481
+            Inlined call to procedure __VERIFIER_assume ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53761,3): corral_source_split_7506
+        Inlined call to procedure __VERIFIER_nondet_int ends
+        value = 1
+        value = 1
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73965,3): $bb7
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73957,3): $bb8
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73949,3): $bb49
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73941,3): $bb67
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73933,3): $bb77
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74071,3): $bb82
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74066,3): corral_source_split_7194
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74061,3): corral_source_split_7195
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74029,3): $bb94
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74025,3): $bb95
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73845,3): corral_source_split_7221
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73661,3): $bb92
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73656,3): corral_source_split_7215
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74877,3): corral_source_split_7215_dummy
+        Inlined call to procedure main_loop_$bb5 begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73648,3): entry
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73652,3): $bb5
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74004,3): corral_source_split_7050
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53720,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53724,3): corral_source_split_7498
+                value = 5570
+                value = 5570
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53731,3): corral_source_split_7499
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53736,3): corral_source_split_7500
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53766,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53770,3): corral_source_split_7502
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53747,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53751,3): corral_source_split_7504
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53756,3): corral_source_split_7505
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53450,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53455,3): corral_source_split_7479
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53459,3): corral_source_split_7480
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53464,3): corral_source_split_7481
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53761,3): corral_source_split_7506
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 5570
+            value = 5570
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73999,3): corral_source_split_7051
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73994,3): corral_source_split_7052
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73989,3): $bb97
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73980,3): $bb98
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73972,3): $bb6
+            Inlined call to procedure __VERIFIER_nondet_int begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53720,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53724,3): corral_source_split_7498
+                value = 2
+                value = 2
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53731,3): corral_source_split_7499
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53736,3): corral_source_split_7500
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53766,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53770,3): corral_source_split_7502
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53747,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53751,3): corral_source_split_7504
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53756,3): corral_source_split_7505
+                Inlined call to procedure __VERIFIER_assume begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53450,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53455,3): corral_source_split_7479
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53459,3): corral_source_split_7480
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53464,3): corral_source_split_7481
+                Inlined call to procedure __VERIFIER_assume ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53761,3): corral_source_split_7506
+            Inlined call to procedure __VERIFIER_nondet_int ends
+            value = 2
+            value = 2
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73965,3): $bb7
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73957,3): $bb8
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73949,3): $bb49
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73941,3): $bb67
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74096,3): $bb78
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74092,3): $bb79
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74087,3): corral_source_split_7186
+            Inlined call to procedure ldv_handler_precall begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51744,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51748,3): corral_source_split_7234
+            Inlined call to procedure ldv_handler_precall ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74082,3): corral_source_split_7187
+            Inlined call to procedure vhost_scsi_ioctl begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1134,3): $bb0
+                Inlined call to procedure $alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55466,3): anon0
+                    Inlined call to procedure $$alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55498,3): anon0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55507,3): anon3_Then
+                    Inlined call to procedure $$alloc ends
+                Inlined call to procedure $alloc ends
+                Inlined call to procedure $alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55466,3): anon0
+                    Inlined call to procedure $$alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55498,3): anon0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55507,3): anon3_Then
+                    Inlined call to procedure $$alloc ends
+                Inlined call to procedure $alloc ends
+                Inlined call to procedure $alloc begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55466,3): anon0
+                    Inlined call to procedure $$alloc begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55498,3): anon0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55507,3): anon3_Then
+                    Inlined call to procedure $$alloc ends
+                Inlined call to procedure $alloc ends
+                value = 1074310912
+                value = 278
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1146,3): corral_source_split_7
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1151,3): corral_source_split_8
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1156,3): corral_source_split_9
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1161,3): corral_source_split_10
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1166,3): corral_source_split_11
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1171,3): corral_source_split_12
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1177,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1184,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1516,3): $bb4
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1529,3): $bb11
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1533,3): corral_source_split_24
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1538,3): corral_source_split_25
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1543,3): corral_source_split_26
+                Inlined call to procedure copy_from_user begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34620,3): $bb0
+                    value = 8
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34625,3): corral_source_split_4994
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34630,3): corral_source_split_4995
+                    value = -1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34636,3): corral_source_split_4996
+                    value = -1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34642,3): corral_source_split_4997
+                    Inlined call to procedure might_fault begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(9185,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(9189,3): corral_source_split_1206
+                    Inlined call to procedure might_fault ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34647,3): corral_source_split_4998
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34652,3): corral_source_split_4999
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34657,3): corral_source_split_5000
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34662,3): corral_source_split_5001
+                    Inlined call to procedure ldv__builtin_expect begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(5961,3): $bb0
+                        value = 1
+                        value = 1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(5967,3): corral_source_split_727
+                    Inlined call to procedure ldv__builtin_expect ends
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34668,3): corral_source_split_5002
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34673,3): corral_source_split_5003
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34828,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34832,3): corral_source_split_5005
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34837,3): corral_source_split_5006
+                    Inlined call to procedure _copy_from_user begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(44616,3): $bb0
+                        value = 8
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(44621,3): corral_source_split_6357
+                        Inlined call to procedure __VERIFIER_nondet_ulong begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54425,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54429,3): corral_source_split_7576
+                            Inlined call to procedure __VERIFIER_nondet_unsigned_long begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54027,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54031,3): corral_source_split_7530
+                                value = 7007
+                                value = 7007
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54038,3): corral_source_split_7531
+                                value = 0
+                                value = 0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54045,3): corral_source_split_7532
+                                value = 18446744073709551615
+                                value = 18446744073709551615
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54052,3): corral_source_split_7533
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54057,3): corral_source_split_7534
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54128,3): $bb1
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54132,3): corral_source_split_7536
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54137,3): corral_source_split_7537
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54148,3): $bb4
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54152,3): corral_source_split_7544
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54068,3): $bb3
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54072,3): corral_source_split_7539
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54077,3): corral_source_split_7540
+                                Inlined call to procedure __VERIFIER_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53450,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53455,3): corral_source_split_7479
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53459,3): corral_source_split_7480
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53464,3): corral_source_split_7481
+                                Inlined call to procedure __VERIFIER_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54082,3): corral_source_split_7541
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54087,3): corral_source_split_7542
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54117,3): $bb6
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54121,3): corral_source_split_7546
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54098,3): $bb8
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54102,3): corral_source_split_7548
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54107,3): corral_source_split_7549
+                                Inlined call to procedure __VERIFIER_assume begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53450,3): $bb0
+                                    value = 1
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53455,3): corral_source_split_7479
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53459,3): corral_source_split_7480
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53464,3): corral_source_split_7481
+                                Inlined call to procedure __VERIFIER_assume ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54112,3): corral_source_split_7550
+                            Inlined call to procedure __VERIFIER_nondet_unsigned_long ends
+                            value = 7007
+                            value = 7007
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54436,3): corral_source_split_7577
+                        Inlined call to procedure __VERIFIER_nondet_ulong ends
+                        value = 7007
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(44627,3): corral_source_split_6358
+                    Inlined call to procedure _copy_from_user ends
+                    value = 7007
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34843,3): corral_source_split_5007
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34786,3): $bb3
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34790,3): corral_source_split_5017
+                Inlined call to procedure copy_from_user ends
+                value = 7007
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1549,3): corral_source_split_27
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1554,3): corral_source_split_28
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1596,3): $bb38
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1600,3): corral_source_split_72
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1285,3): $bb21
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1289,3): corral_source_split_44
+            Inlined call to procedure vhost_scsi_ioctl ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74078,3): SeqInstr_386
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74075,3): SeqInstr_387
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73840,3): corral_source_split_7188
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73661,3): $bb92
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73656,3): corral_source_split_7215
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74877,3): corral_source_split_7215_dummy
+            Inlined call to procedure main_loop_$bb5 begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73648,3): entry
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(74881,3): exit
+            Inlined call to procedure main_loop_$bb5 ends
+        Inlined call to procedure main_loop_$bb5 ends
+    Inlined call to procedure main_loop_$bb5 ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51665,3): $bb5_last
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50352,3): corral_source_split_7050
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53720,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53724,3): corral_source_split_7498
+        value = 3013
+        value = 3013
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53731,3): corral_source_split_7499
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53736,3): corral_source_split_7500
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53766,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53770,3): corral_source_split_7502
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53747,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53751,3): corral_source_split_7504
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53756,3): corral_source_split_7505
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53450,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53455,3): corral_source_split_7479
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53459,3): corral_source_split_7480
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53464,3): corral_source_split_7481
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53761,3): corral_source_split_7506
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = 3013
+    value = 3013
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50359,3): corral_source_split_7051
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50364,3): corral_source_split_7052
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51648,3): $bb97
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50432,3): $bb98
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50436,3): $bb6
+    Inlined call to procedure __VERIFIER_nondet_int begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53720,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53724,3): corral_source_split_7498
+        value = 2
+        value = 2
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53731,3): corral_source_split_7499
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53736,3): corral_source_split_7500
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53766,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53770,3): corral_source_split_7502
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53747,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53751,3): corral_source_split_7504
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53756,3): corral_source_split_7505
+        Inlined call to procedure __VERIFIER_assume begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53450,3): $bb0
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53455,3): corral_source_split_7479
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53459,3): corral_source_split_7480
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53464,3): corral_source_split_7481
+        Inlined call to procedure __VERIFIER_assume ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53761,3): corral_source_split_7506
+    Inlined call to procedure __VERIFIER_nondet_int ends
+    value = 2
+    value = 2
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(50444,3): $bb7
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51031,3): $bb8
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51274,3): $bb49
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51409,3): $bb67
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51417,3): $bb78
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51455,3): $bb79
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51459,3): corral_source_split_7186
+    Inlined call to procedure ldv_handler_precall begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51744,3): $bb0
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51748,3): corral_source_split_7234
+    Inlined call to procedure ldv_handler_precall ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51464,3): corral_source_split_7187
+    Inlined call to procedure vhost_scsi_ioctl begins
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1134,3): $bb0
+        Inlined call to procedure $alloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55466,3): anon0
+            Inlined call to procedure $$alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55498,3): anon0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55507,3): anon3_Then
+            Inlined call to procedure $$alloc ends
+        Inlined call to procedure $alloc ends
+        Inlined call to procedure $alloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55466,3): anon0
+            Inlined call to procedure $$alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55498,3): anon0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55507,3): anon3_Then
+            Inlined call to procedure $$alloc ends
+        Inlined call to procedure $alloc ends
+        Inlined call to procedure $alloc begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55466,3): anon0
+            Inlined call to procedure $$alloc begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55498,3): anon0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(55507,3): anon3_Then
+            Inlined call to procedure $$alloc ends
+        Inlined call to procedure $alloc ends
+        value = 1074310912
+        value = 278
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1146,3): corral_source_split_7
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1151,3): corral_source_split_8
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1156,3): corral_source_split_9
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1161,3): corral_source_split_10
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1166,3): corral_source_split_11
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1171,3): corral_source_split_12
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1177,3): $bb1
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1184,3): $bb3
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1516,3): $bb4
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1529,3): $bb11
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1533,3): corral_source_split_24
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1538,3): corral_source_split_25
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1543,3): corral_source_split_26
+        Inlined call to procedure copy_from_user begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34620,3): $bb0
+            value = 8
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34625,3): corral_source_split_4994
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34630,3): corral_source_split_4995
+            value = -1
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34636,3): corral_source_split_4996
+            value = -1
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34642,3): corral_source_split_4997
+            Inlined call to procedure might_fault begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(9185,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(9189,3): corral_source_split_1206
+            Inlined call to procedure might_fault ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34647,3): corral_source_split_4998
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34652,3): corral_source_split_4999
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34657,3): corral_source_split_5000
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34662,3): corral_source_split_5001
+            Inlined call to procedure ldv__builtin_expect begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(5961,3): $bb0
+                value = 1
+                value = 1
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(5967,3): corral_source_split_727
+            Inlined call to procedure ldv__builtin_expect ends
+            value = 1
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34668,3): corral_source_split_5002
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34673,3): corral_source_split_5003
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34828,3): $bb1
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34832,3): corral_source_split_5005
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34837,3): corral_source_split_5006
+            Inlined call to procedure _copy_from_user begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(44616,3): $bb0
+                value = 8
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(44621,3): corral_source_split_6357
+                Inlined call to procedure __VERIFIER_nondet_ulong begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54425,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54429,3): corral_source_split_7576
+                    Inlined call to procedure __VERIFIER_nondet_unsigned_long begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54027,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54031,3): corral_source_split_7530
+                        value = 0
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54038,3): corral_source_split_7531
+                        value = 0
+                        value = 0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54045,3): corral_source_split_7532
+                        value = 18446744073709551615
+                        value = 18446744073709551615
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54052,3): corral_source_split_7533
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54057,3): corral_source_split_7534
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54128,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54132,3): corral_source_split_7536
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54137,3): corral_source_split_7537
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54148,3): $bb4
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54152,3): corral_source_split_7544
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54068,3): $bb3
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54072,3): corral_source_split_7539
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54077,3): corral_source_split_7540
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53450,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53455,3): corral_source_split_7479
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53459,3): corral_source_split_7480
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53464,3): corral_source_split_7481
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54082,3): corral_source_split_7541
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54087,3): corral_source_split_7542
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54117,3): $bb6
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54121,3): corral_source_split_7546
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54098,3): $bb8
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54102,3): corral_source_split_7548
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54107,3): corral_source_split_7549
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53450,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53455,3): corral_source_split_7479
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53459,3): corral_source_split_7480
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53464,3): corral_source_split_7481
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54112,3): corral_source_split_7550
+                    Inlined call to procedure __VERIFIER_nondet_unsigned_long ends
+                    value = 0
+                    value = 0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(54436,3): corral_source_split_7577
+                Inlined call to procedure __VERIFIER_nondet_ulong ends
+                value = 0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(44627,3): corral_source_split_6358
+            Inlined call to procedure _copy_from_user ends
+            value = 0
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34843,3): corral_source_split_5007
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34786,3): $bb3
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(34790,3): corral_source_split_5017
+        Inlined call to procedure copy_from_user ends
+        value = 0
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1549,3): corral_source_split_27
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1554,3): corral_source_split_28
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1559,3): $bb39
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1564,3): $bb40
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1569,3): corral_source_split_74
+        Inlined call to procedure vhost_scsi_set_features begins
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35869,3): $bb0
+            value = 280
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35874,3): corral_source_split_5168
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35879,3): corral_source_split_5169
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35884,3): corral_source_split_5170
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35889,3): $bb2
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35894,3): $bb4
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35899,3): corral_source_split_5176
+            Inlined call to procedure ldv_mutex_lock_41 begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43196,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43200,3): corral_source_split_6209
+                Inlined call to procedure ldv_mutex_lock_mutex begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13216,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13220,3): corral_source_split_1740
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13225,3): corral_source_split_1741
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13230,3): corral_source_split_1742
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13266,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13270,3): corral_source_split_1744
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13252,3): $bb3
+                    value = 2
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13258,3): corral_source_split_1748
+                Inlined call to procedure ldv_mutex_lock_mutex ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43205,3): SeqInstr_212
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43209,3): SeqInstr_213
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43212,3): corral_source_split_6210
+                Inlined call to procedure mutex_lock begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13289,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13293,3): corral_source_split_1750
+                Inlined call to procedure mutex_lock ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43217,3): corral_source_split_6211
+            Inlined call to procedure ldv_mutex_lock_41 ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35904,3): SeqInstr_131
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35908,3): SeqInstr_132
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35911,3): corral_source_split_5177
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35916,3): corral_source_split_5178
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35921,3): corral_source_split_5179
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35987,3): $bb5
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35991,3): corral_source_split_5181
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(35996,3): corral_source_split_5182
+            Inlined call to procedure vhost_log_access_ok begins
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43250,3): $bb0
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43254,3): corral_source_split_6213
+                Inlined call to procedure debug_lockdep_rcu_enabled begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(5816,3): $bb0
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(5820,3): corral_source_split_711
+                    Inlined call to procedure __VERIFIER_nondet_int begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53720,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53724,3): corral_source_split_7498
+                        value = 4500
+                        value = 4500
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53731,3): corral_source_split_7499
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53736,3): corral_source_split_7500
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53766,3): $bb1
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53770,3): corral_source_split_7502
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53747,3): $bb3
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53751,3): corral_source_split_7504
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53756,3): corral_source_split_7505
+                        Inlined call to procedure __VERIFIER_assume begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53450,3): $bb0
+                            value = 1
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53455,3): corral_source_split_7479
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53459,3): corral_source_split_7480
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53464,3): corral_source_split_7481
+                        Inlined call to procedure __VERIFIER_assume ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53761,3): corral_source_split_7506
+                    Inlined call to procedure __VERIFIER_nondet_int ends
+                    value = 4500
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(5826,3): corral_source_split_712
+                Inlined call to procedure debug_lockdep_rcu_enabled ends
+                value = 4500
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43260,3): corral_source_split_6214
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43265,3): corral_source_split_6215
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43311,3): $bb1
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43315,3): corral_source_split_6217
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43320,3): corral_source_split_6218
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43372,3): $bb4
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43275,3): $bb3
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43279,3): $bb9
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43284,3): corral_source_split_6228
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43289,3): corral_source_split_6229
+                Inlined call to procedure memory_access_ok begins
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41650,3): $bb0
+                    value = 1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41655,3): corral_source_split_5993
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41660,3): corral_source_split_5994
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41665,3): corral_source_split_5995
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41670,3): corral_source_split_5996
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41698,3): $bb1
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41702,3): corral_source_split_5998
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41707,3): $bb4
+                    Inlined call to procedure memory_access_ok_loop_$bb4 begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(72851,3): entry
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(73079,3): exit
+                    Inlined call to procedure memory_access_ok_loop_$bb4 ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41956,3): $bb4_last
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41711,3): corral_source_split_6000
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41715,3): $bb5
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41720,3): corral_source_split_6002
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41725,3): corral_source_split_6003
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41730,3): corral_source_split_6004
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41734,3): corral_source_split_6005
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41739,3): corral_source_split_6006
+                    Inlined call to procedure ldv_mutex_lock_12 begins
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(42027,3): $bb0
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(42031,3): corral_source_split_6050
+                        Inlined call to procedure ldv_mutex_lock_mutex begins
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13216,3): $bb0
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13220,3): corral_source_split_1740
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13225,3): corral_source_split_1741
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13230,3): corral_source_split_1742
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13235,3): $bb2
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13239,3): corral_source_split_1746
+                            Inlined call to procedure ldv_error begins
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(11934,3): $bb0
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(11938,3): corral_source_split_1550
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(11942,3): $bb1
+                                Inlined call to procedure __VERIFIER_error begins
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53504,3): $bb0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53508,3): corral_source_split_7483
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53516,3): assert_rewrite_dummy_block_0
+                                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(53535,3): SeqInstr_412
+                                Inlined call to procedure __VERIFIER_error ends
+                                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(11958,3): SeqInstr_61
+                            Inlined call to procedure ldv_error ends
+                            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(13262,3): SeqInstr_64
+                        Inlined call to procedure ldv_mutex_lock_mutex ends
+                        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(42052,3): SeqInstr_205
+                    Inlined call to procedure ldv_mutex_lock_12 ends
+                    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(41948,3): SeqInstr_199
+                Inlined call to procedure memory_access_ok ends
+                /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(43307,3): SeqInstr_214
+            Inlined call to procedure vhost_log_access_ok ends
+            /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(36058,3): SeqInstr_133
+        Inlined call to procedure vhost_scsi_set_features ends
+        /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(1592,3): SeqInstr_7
+    Inlined call to procedure vhost_scsi_ioctl ends
+    /home/jaydeep/benchmarks/svcompBenchmarks/main0_false-unreach-call_drivers-vhost-tcm_vhost-ko--32_7a--linux-3.7.3.i.bpl.bpl(51481,3): SeqInstr_385
+Inlined call to procedure main ends
+Number of procedures inlined: 3306
+Total Time: 2650.99 s
+
+Stopping: Done
