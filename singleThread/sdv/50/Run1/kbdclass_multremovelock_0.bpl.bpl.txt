@@ -1,0 +1,718 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(20331,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(3027,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(13703,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6373,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6962,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(2471,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4560,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4499,3): L27
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4555,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4508,3): L31
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1875,3): anon0
+        Inlined call to procedure DriverEntry begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(7696,3): anon0
+            Inlined call to procedure sdv_RtlZeroMemory begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4829,3): anon0
+            Inlined call to procedure sdv_RtlZeroMemory ends
+            Inlined call to procedure InitializeListHead begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(11171,3): anon0
+            Inlined call to procedure InitializeListHead ends
+            Inlined call to procedure sdv_ExInitializeFastMutex begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1128,3): anon0
+            Inlined call to procedure sdv_ExInitializeFastMutex ends
+            Inlined call to procedure sdv_RtlZeroMemory begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4829,3): anon0
+            Inlined call to procedure sdv_RtlZeroMemory ends
+            Inlined call to procedure ExAllocatePoolWithTag begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5870,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5874,3): anon3_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5879,3): L1
+            Inlined call to procedure ExAllocatePoolWithTag ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(7756,3): anon72_Else
+            Inlined call to procedure sdv_RtlMoveMemory begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1679,3): anon0
+            Inlined call to procedure sdv_RtlMoveMemory ends
+            Inlined call to procedure KbdConfiguration begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6721,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4849,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure ExAllocatePoolWithTag begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5870,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5882,3): anon3_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5879,3): L1
+                Inlined call to procedure ExAllocatePoolWithTag ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6941,3): anon25_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6775,3): L48
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6932,3): anon19_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6853,3): L49
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6920,3): anon20_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6860,3): L99
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6915,3): anon21_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6866,3): L101
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6912,3): anon22_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6874,3): L104
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6909,3): anon23_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6880,3): L178
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6905,3): anon27_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6890,3): L106
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6901,3): anon24_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6898,3): L1
+            Inlined call to procedure KbdConfiguration ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8217,3): anon51_Then
+            Inlined call to procedure KbdCreateClassObject begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9401,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4849,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure ExAcquireFastMutex begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(2224,3): anon0
+                Inlined call to procedure ExAcquireFastMutex ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10011,3): anon41_Then
+                Inlined call to procedure ExReleaseFastMutex begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5604,3): anon0
+                Inlined call to procedure ExReleaseFastMutex ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10122,3): anon44_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10030,3): L95
+                Inlined call to procedure ExAllocatePoolWithTag begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5870,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5874,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5879,3): L1
+                Inlined call to procedure ExAllocatePoolWithTag ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10042,3): anon45_Else
+                Inlined call to procedure sdv_RtlZeroMemory begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4829,3): anon0
+                Inlined call to procedure sdv_RtlZeroMemory ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10103,3): anon38_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10060,3): L115
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10065,3): L123
+                Inlined call to procedure KbdCreateClassObject_loop_L123 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19934,3): entry
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19938,3): exit
+                Inlined call to procedure KbdCreateClassObject_loop_L123 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10069,3): L123_last
+                Inlined call to procedure IoCreateDevice begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1526,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1570,3): anon15_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1573,3): anon11_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1582,3): L21
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1546,3): L1
+                Inlined call to procedure IoCreateDevice ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10082,3): anon40_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9439,3): L37
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9442,3): anon31_Else
+                Inlined call to procedure sdv_IoInitializeRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1266,3): anon0
+                Inlined call to procedure sdv_IoInitializeRemoveLock ends
+                Inlined call to procedure sdv_KeInitializeSpinLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5846,3): anon0
+                Inlined call to procedure sdv_KeInitializeSpinLock ends
+                Inlined call to procedure InitializeListHead begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(11171,3): anon0
+                Inlined call to procedure InitializeListHead ends
+                Inlined call to procedure ExAllocatePoolWithTag begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5870,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5874,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5879,3): L1
+                Inlined call to procedure ExAllocatePoolWithTag ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9901,3): anon42_Else
+                Inlined call to procedure KbdInitializeDataQueue begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(13389,3): anon0
+                    Inlined call to procedure sdv_KeAcquireSpinLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1287,3): anon0
+                    Inlined call to procedure sdv_KeAcquireSpinLock ends
+                    Inlined call to procedure sdv_KeReleaseSpinLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5346,3): anon0
+                    Inlined call to procedure sdv_KeReleaseSpinLock ends
+                Inlined call to procedure KbdInitializeDataQueue ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9906,3): L62
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9989,3): anon32_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9964,3): L63
+            Inlined call to procedure KbdCreateClassObject ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8221,3): anon71_Else
+            Inlined call to procedure KeyboardAddDeviceEx begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8444,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4849,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure sdv_KeInitializeSpinLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5846,3): anon0
+                Inlined call to procedure sdv_KeInitializeSpinLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8740,3): anon37_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8470,3): L25
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8736,3): anon48_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8708,3): L27
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8732,3): anon38_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8566,3): L101
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8569,3): anon45_Else
+                Inlined call to procedure RtlWriteRegistryValue begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5901,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5911,3): anon3_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5908,3): L1
+                Inlined call to procedure RtlWriteRegistryValue ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8575,3): anon46_Else
+                Inlined call to procedure KeyboardClassLogError begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9162,3): anon0
+                    Inlined call to procedure IoAllocateErrorLogEntry begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1961,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1972,3): anon3_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1969,3): L1
+                    Inlined call to procedure IoAllocateErrorLogEntry ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9230,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9227,3): L1
+                Inlined call to procedure KeyboardClassLogError ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8580,3): L102
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8584,3): L1
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8587,3): LM2
+            Inlined call to procedure KeyboardAddDeviceEx ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8236,3): anon75_Else
+            Inlined call to procedure sdv_ExFreePool begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5509,3): anon0
+            Inlined call to procedure sdv_ExFreePool ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(7773,3): L63
+            Inlined call to procedure KbdDeterminePortsServiced begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(11323,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4849,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure ExAllocatePoolWithTag begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5870,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5874,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5879,3): L1
+                Inlined call to procedure ExAllocatePoolWithTag ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(11335,3): anon3_Else
+                Inlined call to procedure sdv_RtlZeroMemory begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4829,3): anon0
+                Inlined call to procedure sdv_RtlZeroMemory ends
+                Inlined call to procedure sdv_RtlQueryRegistryValues begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1801,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1804,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1808,3): L1
+                Inlined call to procedure sdv_RtlQueryRegistryValues ends
+                Inlined call to procedure sdv_ExFreePool begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5509,3): anon0
+                Inlined call to procedure sdv_ExFreePool ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(11347,3): L33
+            Inlined call to procedure KbdDeterminePortsServiced ends
+            Inlined call to procedure RtlInitUnicodeString begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4742,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4748,3): anon5_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4757,3): L4
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4760,3): anon6_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4769,3): L1
+            Inlined call to procedure RtlInitUnicodeString ends
+            Inlined call to procedure ExAllocatePoolWithTag begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5870,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5874,3): anon3_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5879,3): L1
+            Inlined call to procedure ExAllocatePoolWithTag ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(7796,3): anon73_Else
+            Inlined call to procedure sdv_RtlZeroMemory begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4829,3): anon0
+            Inlined call to procedure sdv_RtlZeroMemory ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(7808,3): L98
+            Inlined call to procedure DriverEntry_loop_L98 begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19491,3): entry
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19498,3): L98
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19501,3): anon52_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19506,3): anon53_Else
+                Inlined call to procedure KbdCreateClassObject begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9401,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4849,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check ends
+                    Inlined call to procedure ExAcquireFastMutex begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(2224,3): anon0
+                    Inlined call to procedure ExAcquireFastMutex ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9430,3): anon41_Else
+                    Inlined call to procedure ExReleaseFastMutex begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5604,3): anon0
+                    Inlined call to procedure ExReleaseFastMutex ends
+                    Inlined call to procedure IoCreateDevice begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1526,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1570,3): anon15_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1573,3): anon11_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1582,3): L21
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1546,3): L1
+                    Inlined call to procedure IoCreateDevice ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9439,3): L37
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9442,3): anon31_Else
+                    Inlined call to procedure sdv_IoInitializeRemoveLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1266,3): anon0
+                    Inlined call to procedure sdv_IoInitializeRemoveLock ends
+                    Inlined call to procedure sdv_KeInitializeSpinLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5846,3): anon0
+                    Inlined call to procedure sdv_KeInitializeSpinLock ends
+                    Inlined call to procedure InitializeListHead begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(11171,3): anon0
+                    Inlined call to procedure InitializeListHead ends
+                    Inlined call to procedure ExAllocatePoolWithTag begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5870,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5882,3): anon3_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5879,3): L1
+                    Inlined call to procedure ExAllocatePoolWithTag ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9993,3): anon42_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9906,3): L62
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9909,3): anon32_Else
+                    Inlined call to procedure RtlFreeUnicodeString begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5241,3): anon0
+                    Inlined call to procedure RtlFreeUnicodeString ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9917,3): anon43_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9923,3): anon34_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9930,3): L73
+                    Inlined call to procedure KeyboardClassLogError begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9162,3): anon0
+                        Inlined call to procedure IoAllocateErrorLogEntry begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1961,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1972,3): anon3_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1969,3): L1
+                        Inlined call to procedure IoAllocateErrorLogEntry ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9230,3): anon6_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9227,3): L1
+                    Inlined call to procedure KeyboardClassLogError ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9934,3): L69
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9937,3): anon33_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9972,3): anon36_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9951,3): L76
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9956,3): anon35_Else
+                    Inlined call to procedure IoDeleteDevice begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(2354,3): anon0
+                    Inlined call to procedure IoDeleteDevice ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9964,3): L63
+                Inlined call to procedure KbdCreateClassObject ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19694,3): anon54_Then
+                Inlined call to procedure KeyboardClassLogError begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9162,3): anon0
+                    Inlined call to procedure IoAllocateErrorLogEntry begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1961,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1972,3): anon3_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1969,3): L1
+                    Inlined call to procedure IoAllocateErrorLogEntry ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9230,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9227,3): L1
+                Inlined call to procedure KeyboardClassLogError ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19575,3): L134
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19579,3): L134_dummy
+                Inlined call to procedure DriverEntry_loop_L98 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19491,3): entry
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19498,3): L98
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19501,3): anon52_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19506,3): anon53_Else
+                    Inlined call to procedure KbdCreateClassObject begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9401,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4849,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check ends
+                        Inlined call to procedure ExAcquireFastMutex begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(2224,3): anon0
+                        Inlined call to procedure ExAcquireFastMutex ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9430,3): anon41_Else
+                        Inlined call to procedure ExReleaseFastMutex begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5604,3): anon0
+                        Inlined call to procedure ExReleaseFastMutex ends
+                        Inlined call to procedure IoCreateDevice begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1526,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1570,3): anon15_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1573,3): anon11_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1582,3): L21
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1546,3): L1
+                        Inlined call to procedure IoCreateDevice ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9439,3): L37
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9442,3): anon31_Else
+                        Inlined call to procedure sdv_IoInitializeRemoveLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1266,3): anon0
+                        Inlined call to procedure sdv_IoInitializeRemoveLock ends
+                        Inlined call to procedure sdv_KeInitializeSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5846,3): anon0
+                        Inlined call to procedure sdv_KeInitializeSpinLock ends
+                        Inlined call to procedure InitializeListHead begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(11171,3): anon0
+                        Inlined call to procedure InitializeListHead ends
+                        Inlined call to procedure ExAllocatePoolWithTag begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5870,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5882,3): anon3_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5879,3): L1
+                        Inlined call to procedure ExAllocatePoolWithTag ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9993,3): anon42_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9906,3): L62
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9909,3): anon32_Else
+                        Inlined call to procedure RtlFreeUnicodeString begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5241,3): anon0
+                        Inlined call to procedure RtlFreeUnicodeString ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9917,3): anon43_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9923,3): anon34_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9930,3): L73
+                        Inlined call to procedure KeyboardClassLogError begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9162,3): anon0
+                            Inlined call to procedure IoAllocateErrorLogEntry begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1961,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1972,3): anon3_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1969,3): L1
+                            Inlined call to procedure IoAllocateErrorLogEntry ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9230,3): anon6_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9227,3): L1
+                        Inlined call to procedure KeyboardClassLogError ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9934,3): L69
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9937,3): anon33_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9972,3): anon36_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9951,3): L76
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9956,3): anon35_Else
+                        Inlined call to procedure IoDeleteDevice begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(2354,3): anon0
+                        Inlined call to procedure IoDeleteDevice ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9964,3): L63
+                    Inlined call to procedure KbdCreateClassObject ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19694,3): anon54_Then
+                    Inlined call to procedure KeyboardClassLogError begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9162,3): anon0
+                        Inlined call to procedure IoAllocateErrorLogEntry begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1961,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1972,3): anon3_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1969,3): L1
+                        Inlined call to procedure IoAllocateErrorLogEntry ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9230,3): anon6_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9227,3): L1
+                    Inlined call to procedure KeyboardClassLogError ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19575,3): L134
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19579,3): L134_dummy
+                    Inlined call to procedure DriverEntry_loop_L98 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19491,3): entry
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19495,3): exit
+                    Inlined call to procedure DriverEntry_loop_L98 ends
+                Inlined call to procedure DriverEntry_loop_L98 ends
+            Inlined call to procedure DriverEntry_loop_L98 ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(7812,3): L98_last
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8204,3): anon52_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8023,3): L99
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8028,3): L178
+            Inlined call to procedure DriverEntry_loop_L178 begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19455,3): entry
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19462,3): L178
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19465,3): anon63_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19471,3): anon63_Else_dummy
+                Inlined call to procedure DriverEntry_loop_L178 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19455,3): entry
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19462,3): L178
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19465,3): anon63_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19471,3): anon63_Else_dummy
+                    Inlined call to procedure DriverEntry_loop_L178 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19455,3): entry
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(19459,3): exit
+                    Inlined call to procedure DriverEntry_loop_L178 ends
+                Inlined call to procedure DriverEntry_loop_L178 ends
+            Inlined call to procedure DriverEntry_loop_L178 ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8032,3): L178_last
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8045,3): anon63_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8048,3): L179
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8200,3): anon64_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8058,3): L182
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8196,3): anon65_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8068,3): L186
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8071,3): anon66_Else
+            Inlined call to procedure IoRegisterDriverReinitialization begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4624,3): anon0
+            Inlined call to procedure IoRegisterDriverReinitialization ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8132,3): L206
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(7984,3): LM2
+        Inlined call to procedure DriverEntry ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1886,3): anon12_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1936,3): anon13_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1896,3): L64
+        Inlined call to procedure sdv_RunAddDevice begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1316,3): anon0
+            Inlined call to procedure sdv_stub_add_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(2244,3): anon0
+            Inlined call to procedure sdv_stub_add_begin ends
+            Inlined call to procedure KeyboardAddDevice begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10214,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4849,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure KbdCreateClassObject begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9401,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4849,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check ends
+                    Inlined call to procedure ExAcquireFastMutex begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(2224,3): anon0
+                    Inlined call to procedure ExAcquireFastMutex ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9430,3): anon41_Else
+                    Inlined call to procedure ExReleaseFastMutex begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5604,3): anon0
+                    Inlined call to procedure ExReleaseFastMutex ends
+                    Inlined call to procedure IoCreateDevice begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1526,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1570,3): anon15_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1573,3): anon11_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1582,3): L21
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1546,3): L1
+                    Inlined call to procedure IoCreateDevice ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9439,3): L37
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9442,3): anon31_Else
+                    Inlined call to procedure sdv_IoInitializeRemoveLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1266,3): anon0
+                    Inlined call to procedure sdv_IoInitializeRemoveLock ends
+                    Inlined call to procedure sdv_KeInitializeSpinLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5846,3): anon0
+                    Inlined call to procedure sdv_KeInitializeSpinLock ends
+                    Inlined call to procedure InitializeListHead begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(11171,3): anon0
+                    Inlined call to procedure InitializeListHead ends
+                    Inlined call to procedure ExAllocatePoolWithTag begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5870,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5874,3): anon3_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5879,3): L1
+                    Inlined call to procedure ExAllocatePoolWithTag ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9901,3): anon42_Else
+                    Inlined call to procedure KbdInitializeDataQueue begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(13389,3): anon0
+                        Inlined call to procedure sdv_KeAcquireSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1287,3): anon0
+                        Inlined call to procedure sdv_KeAcquireSpinLock ends
+                        Inlined call to procedure sdv_KeReleaseSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5346,3): anon0
+                        Inlined call to procedure sdv_KeReleaseSpinLock ends
+                    Inlined call to procedure KbdInitializeDataQueue ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9906,3): L62
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9989,3): anon32_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(9964,3): L63
+                Inlined call to procedure KbdCreateClassObject ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10235,3): anon21_Else
+                Inlined call to procedure IoAttachDeviceToDeviceStack begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4796,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4800,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4805,3): L1
+                Inlined call to procedure IoAttachDeviceToDeviceStack ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10292,3): anon22_Then
+                Inlined call to procedure PoSetPowerState begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(2062,3): anon0
+                Inlined call to procedure PoSetPowerState ends
+                Inlined call to procedure sdv_InitializeObjectAttributes begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(2422,3): anon0
+                Inlined call to procedure sdv_InitializeObjectAttributes ends
+                Inlined call to procedure ZwOpenKey begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5689,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5703,3): anon3_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5700,3): L1
+                Inlined call to procedure ZwOpenKey ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10435,3): anon23_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10367,3): L50
+                Inlined call to procedure IoRegisterDeviceInterface begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5262,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5280,3): anon7_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5295,3): anon8_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5290,3): L22
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5273,3): L1
+                Inlined call to procedure IoRegisterDeviceInterface ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10381,3): anon27_Else
+                Inlined call to procedure KeyboardAddDeviceEx begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8444,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4849,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check ends
+                    Inlined call to procedure sdv_KeInitializeSpinLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5846,3): anon0
+                    Inlined call to procedure sdv_KeInitializeSpinLock ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8740,3): anon37_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8470,3): L25
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8736,3): anon48_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8708,3): L27
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8732,3): anon38_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8566,3): L101
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8569,3): anon45_Else
+                    Inlined call to procedure RtlWriteRegistryValue begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5901,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5904,3): anon3_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5908,3): L1
+                    Inlined call to procedure RtlWriteRegistryValue ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8590,3): anon46_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8580,3): L102
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8584,3): L1
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(8587,3): LM2
+                Inlined call to procedure KeyboardAddDeviceEx ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10388,3): anon29_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10392,3): L92
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10406,3): anon28_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10402,3): L93
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10282,3): L1
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(10285,3): LM2
+            Inlined call to procedure KeyboardAddDevice ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1324,3): anon3_Else
+            Inlined call to procedure sdv_stub_add_end begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4719,3): anon0
+            Inlined call to procedure sdv_stub_add_end ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1330,3): LM2
+        Inlined call to procedure sdv_RunAddDevice ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1901,3): anon14_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1927,3): anon11_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1910,3): L75
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6038,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4919,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1832,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1846,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1843,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6058,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4944,3): anon59_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4947,3): anon78_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4950,3): anon77_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4953,3): anon76_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4956,3): anon75_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4959,3): anon74_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4962,3): anon73_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4965,3): anon72_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5141,3): anon71_Then
+            Inlined call to procedure KeyboardClassDeviceControl begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12392,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4849,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(2399,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5554,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5577,3): anon7_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5584,3): anon8_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5562,3): L1
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6270,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6276,3): anon10_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6316,3): anon9_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6290,3): L6
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6297,3): L2
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6300,3): LM2
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5566,3): anon9_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5570,3): LM2
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12411,3): anon151_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12415,3): anon111_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12423,3): anon152_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(13046,3): anon150_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(13036,3): L34
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(13039,3): anon113_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12597,3): L33
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12918,3): anon112_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12626,3): L69
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12641,3): anon118_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12644,3): anon119_Else
+                Inlined call to procedure ExAcquireFastMutex begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(2224,3): anon0
+                Inlined call to procedure ExAcquireFastMutex ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12660,3): anon120_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12909,3): anon121_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12715,3): L94
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12729,3): anon122_Then
+                Inlined call to procedure ExReleaseFastMutex begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5604,3): anon0
+                Inlined call to procedure ExReleaseFastMutex ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12738,3): L117
+                Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1169,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1174,3): anon5_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1179,3): L4
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1190,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1187,3): L1
+                Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext ends
+                Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1421,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1425,3): anon5_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1430,3): L1
+                Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12745,3): anon157_Else
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5554,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5577,3): anon7_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5584,3): anon8_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5562,3): L1
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6270,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6276,3): anon10_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6316,3): anon9_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6290,3): L6
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6297,3): L2
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6300,3): LM2
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5566,3): anon9_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5570,3): LM2
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12752,3): anon158_Else
+                Inlined call to procedure ExAcquireFastMutex begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(2224,3): anon0
+                Inlined call to procedure ExAcquireFastMutex ends
+                Inlined call to procedure ExAllocatePoolWithTag begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5870,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5874,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5879,3): L1
+                Inlined call to procedure ExAllocatePoolWithTag ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12760,3): anon159_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12769,3): L145
+                Inlined call to procedure KeyboardClassDeviceControl_loop_L145 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(20095,3): entry
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(20099,3): exit
+                Inlined call to procedure KeyboardClassDeviceControl_loop_L145 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12773,3): L145_last
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12776,3): anon124_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12801,3): anon160_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12811,3): anon161_Else
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5554,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5577,3): anon7_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5584,3): anon8_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5562,3): L1
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6270,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6276,3): anon10_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6282,3): anon9_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6303,3): anon11_Then
+                        Inlined call to procedure SLIC_ABORT_1_0 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6345,3): anon0
+                            Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6398,3): anon0
+                            Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                        Inlined call to procedure SLIC_ABORT_1_0 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6312,3): anon12_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(6300,3): LM2
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5573,3): anon9_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5570,3): LM2
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12837,3): anon162_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(12561,3): LM2
+            Inlined call to procedure KeyboardClassDeviceControl ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5151,3): anon82_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(5041,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1923,3): anon15_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(1920,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4521,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4525,3): L25
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4528,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_multremovelock_0.bpl.bpl(4540,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 2409
+Total Time: 483.89 s
+
+Stopping: Done

@@ -1,0 +1,566 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(72335,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(9968,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(33381,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init11 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12613,3): anon0
+    Inlined call to procedure _sdv_init11 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(23873,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(22723,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(18679,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17273,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(14708,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init9 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(9434,3): anon0
+    Inlined call to procedure _sdv_init9 ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(7194,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init8 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(7176,3): anon0
+    Inlined call to procedure _sdv_init8 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(308,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10273,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10216,3): L34
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10268,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10225,3): L38
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(8149,3): anon0
+        Inlined call to procedure sdv_CheckDispatchRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(7434,3): anon0
+        Inlined call to procedure sdv_CheckDispatchRoutines ends
+        Inlined call to procedure sdv_CheckStartIoRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11487,3): anon0
+        Inlined call to procedure sdv_CheckStartIoRoutines ends
+        Inlined call to procedure sdv_CheckDpcRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(9050,3): anon0
+        Inlined call to procedure sdv_CheckDpcRoutines ends
+        Inlined call to procedure sdv_CheckIsrRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11397,3): anon0
+        Inlined call to procedure sdv_CheckIsrRoutines ends
+        Inlined call to procedure sdv_CheckCancelRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(7964,3): anon0
+        Inlined call to procedure sdv_CheckCancelRoutines ends
+        Inlined call to procedure sdv_CheckIoDpcRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(9033,3): anon0
+        Inlined call to procedure sdv_CheckIoDpcRoutines ends
+        Inlined call to procedure sdv_IoCompletionRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10583,3): anon0
+        Inlined call to procedure sdv_IoCompletionRoutines ends
+        Inlined call to procedure sdv_CheckWorkerRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11115,3): anon0
+        Inlined call to procedure sdv_CheckWorkerRoutines ends
+        Inlined call to procedure sdv_CheckAddDevice begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11098,3): anon0
+        Inlined call to procedure sdv_CheckAddDevice ends
+        Inlined call to procedure sdv_CheckIrpMjPnp begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11601,3): anon0
+        Inlined call to procedure sdv_CheckIrpMjPnp ends
+        Inlined call to procedure sdv_CheckIrpMjPower begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(7856,3): anon0
+        Inlined call to procedure sdv_CheckIrpMjPower ends
+        Inlined call to procedure sdv_CheckDriverUnload begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(8908,3): anon0
+        Inlined call to procedure sdv_CheckDriverUnload ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(8874,3): anon173_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(8877,3): anon174_Else
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12090,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10788,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(8046,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(8059,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(8056,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12299,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11071,3): anon57_Then
+            Inlined call to procedure Sbp2CreateClose begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29535,3): anon0
+                Inlined call to procedure SLIC_Sbp2CreateClose_entry begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12794,3): anon0
+                Inlined call to procedure SLIC_Sbp2CreateClose_entry ends
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(9643,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29553,3): anon79_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29902,3): anon58_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29910,3): anon59_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29561,3): L17
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29590,3): anon60_Then
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11453,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11463,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11470,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11460,3): L1
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29594,3): anon61_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29732,3): anon62_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29895,3): anon70_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29754,3): L81
+                Inlined call to procedure sdv_KeAcquireSpinLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(7407,3): anon0
+                Inlined call to procedure sdv_KeAcquireSpinLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29767,3): anon72_Else
+                Inlined call to procedure sdv_KeReleaseSpinLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11163,3): anon0
+                Inlined call to procedure sdv_KeReleaseSpinLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29869,3): anon73_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29787,3): L102
+                Inlined call to procedure Sbp2ManagementTransaction#1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(41889,3): anon0
+                    Inlined call to procedure Sbp2AddLog begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17147,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17233,3): anon7_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17223,3): L1
+                    Inlined call to procedure Sbp2AddLog ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(41912,3): anon67_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(41918,3): anon91_Else
+                    Inlined call to procedure sdv_RtlZeroMemory begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10601,3): anon0
+                    Inlined call to procedure sdv_RtlZeroMemory ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(42358,3): anon92_Then
+                    Inlined call to procedure Sbp2DoLogin#1 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(43259,3): anon0
+                        Inlined call to procedure sdv_KeGetCurrentIrql begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(9794,3): anon0
+                        Inlined call to procedure sdv_KeGetCurrentIrql ends
+                        Inlined call to procedure sdv_KeAcquireSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(7407,3): anon0
+                        Inlined call to procedure sdv_KeAcquireSpinLock ends
+                        Inlined call to procedure Sbp2AddLog begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17147,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17233,3): anon7_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17223,3): L1
+                        Inlined call to procedure Sbp2AddLog ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(43328,3): anon99_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(43982,3): anon100_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(43339,3): L39
+                        Inlined call to procedure sdv_KeReleaseSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11163,3): anon0
+                        Inlined call to procedure sdv_KeReleaseSpinLock ends
+                        Inlined call to procedure Sbp2CleanDeviceExtension#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(45417,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(46102,3): anon182_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(46114,3): anon199_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(46692,3): anon200_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(46145,3): L253
+                            Inlined call to procedure sdv_KeAcquireSpinLock begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(7407,3): anon0
+                            Inlined call to procedure sdv_KeAcquireSpinLock ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(46156,3): L273
+                            Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L273 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71199,3): entry
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71206,3): L273
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71211,3): anon169_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71697,3): anon201_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71549,3): L277
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71648,3): anon209_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71580,3): L423
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71645,3): anon210_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71611,3): L430
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71642,3): anon211_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71377,3): L328
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71382,3): L328_dummy
+                                Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L273 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71199,3): entry
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71206,3): L273
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71211,3): anon169_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71697,3): anon201_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71549,3): L277
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71648,3): anon209_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71580,3): L423
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71645,3): anon210_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71611,3): L430
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71620,3): anon211_Else
+                                    Inlined call to procedure sdv_ExFreePool begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11380,3): anon0
+                                    Inlined call to procedure sdv_ExFreePool ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71377,3): L328
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71382,3): L328_dummy
+                                    Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L273 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71199,3): entry
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(71203,3): exit
+                                    Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L273 ends
+                                Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L273 ends
+                            Inlined call to procedure Sbp2CleanDeviceExtension#1_loop_L273 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(46160,3): L273_last
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(46657,3): anon169_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(46675,3): anon170_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(46671,3): L443
+                            Inlined call to procedure sdv_KeReleaseSpinLock begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11163,3): anon0
+                            Inlined call to procedure sdv_KeReleaseSpinLock ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(45999,3): L54
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(45694,3): L1
+                        Inlined call to procedure Sbp2CleanDeviceExtension#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(43978,3): anon103_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(43369,3): L54
+                        Inlined call to procedure Sbp2InitializeDeviceExtension#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(55191,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(55217,3): anon61_Then
+                            Inlined call to procedure CleanupOrbList#0 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40328,3): anon0
+                                Inlined call to procedure AcquireOrbListLock begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17002,3): anon0
+                                    Inlined call to procedure sdv_KeGetCurrentThread begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10358,3): anon0
+                                    Inlined call to procedure sdv_KeGetCurrentThread ends
+                                    Inlined call to procedure Sbp2AddLog begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17147,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17233,3): anon7_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17223,3): L1
+                                    Inlined call to procedure Sbp2AddLog ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17013,3): L12
+                                    Inlined call to procedure AcquireOrbListLock_loop_L12 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(67328,3): entry
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(67335,3): L12
+                                        Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(26395,3): anon0
+                                        Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(67363,3): anon17_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(67405,3): anon13_Then
+                                        Inlined call to procedure KeAcquireInStackQueuedSpinLock begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12066,3): anon0
+                                        Inlined call to procedure KeAcquireInStackQueuedSpinLock ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(67372,3): L32
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(67401,3): anon15_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(67352,3): L22
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(67355,3): anon14_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(67359,3): anon14_Then_dummy
+                                        Inlined call to procedure AcquireOrbListLock_loop_L12 begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(67328,3): entry
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(67332,3): exit
+                                        Inlined call to procedure AcquireOrbListLock_loop_L12 ends
+                                    Inlined call to procedure AcquireOrbListLock_loop_L12 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17017,3): L12_last
+                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(26395,3): anon0
+                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17053,3): anon17_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17095,3): anon13_Then
+                                    Inlined call to procedure KeAcquireInStackQueuedSpinLock begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12066,3): anon0
+                                    Inlined call to procedure KeAcquireInStackQueuedSpinLock ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17062,3): L32
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17065,3): anon15_Else
+                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(26395,3): anon0
+                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17073,3): anon18_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17082,3): anon16_Then
+                                    Inlined call to procedure KeReleaseInStackQueuedSpinLock begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11255,3): anon0
+                                    Inlined call to procedure KeReleaseInStackQueuedSpinLock ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17034,3): L22
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17037,3): anon14_Else
+                                    Inlined call to procedure Sbp2AddLog begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17147,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17233,3): anon7_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17223,3): L1
+                                    Inlined call to procedure Sbp2AddLog ends
+                                Inlined call to procedure AcquireOrbListLock ends
+                                Inlined call to procedure Sbp2AddLog begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17147,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17233,3): anon7_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17223,3): L1
+                                Inlined call to procedure Sbp2AddLog ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40604,3): anon35_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40357,3): L18
+                                Inlined call to procedure sdv_IsListEmpty begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11574,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11584,3): anon3_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11581,3): L1
+                                Inlined call to procedure sdv_IsListEmpty ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40369,3): anon36_Then
+                                Inlined call to procedure InitializeListHead begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(25030,3): anon0
+                                Inlined call to procedure InitializeListHead ends
+                                Inlined call to procedure sdv_InsertTailList begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12977,3): anon0
+                                Inlined call to procedure sdv_InsertTailList ends
+                                Inlined call to procedure sdv_RemoveEntryList begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(9518,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(9528,3): anon3_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(9525,3): L1
+                                Inlined call to procedure sdv_RemoveEntryList ends
+                                Inlined call to procedure InitializeListHead begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(25030,3): anon0
+                                Inlined call to procedure InitializeListHead ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40381,3): L42
+                                Inlined call to procedure CleanupOrbList#0_loop_L42 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(69926,3): entry
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(69933,3): L42
+                                    Inlined call to procedure RemoveHeadList begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(25984,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(26009,3): anon6_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(26012,3): anon5_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(26001,3): L12
+                                    Inlined call to procedure RemoveHeadList ends
+                                    Inlined call to procedure InitializeListHead begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(25030,3): anon0
+                                    Inlined call to procedure InitializeListHead ends
+                                    Inlined call to procedure sdv_containing_record begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(7361,3): anon0
+                                    Inlined call to procedure sdv_containing_record ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(69942,3): anon47_Else
+                                    Inlined call to procedure FreeAsyncRequestContext begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(16625,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(16672,3): anon21_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(16678,3): anon22_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(16636,3): L37
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(16669,3): anon26_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(16655,3): L38
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(16659,3): L1
+                                    Inlined call to procedure FreeAsyncRequestContext ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(69946,3): L58
+                                    Inlined call to procedure sdv_IsListEmpty begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11574,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11584,3): anon3_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11581,3): L1
+                                    Inlined call to procedure sdv_IsListEmpty ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(69950,3): anon37_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(69954,3): anon37_Then_dummy
+                                    Inlined call to procedure CleanupOrbList#0_loop_L42 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(69926,3): entry
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(69930,3): exit
+                                    Inlined call to procedure CleanupOrbList#0_loop_L42 ends
+                                Inlined call to procedure CleanupOrbList#0_loop_L42 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40385,3): L42_last
+                                Inlined call to procedure RemoveHeadList begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(25984,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(26009,3): anon6_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(26012,3): anon5_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(26001,3): L12
+                                Inlined call to procedure RemoveHeadList ends
+                                Inlined call to procedure InitializeListHead begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(25030,3): anon0
+                                Inlined call to procedure InitializeListHead ends
+                                Inlined call to procedure sdv_containing_record begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(7361,3): anon0
+                                Inlined call to procedure sdv_containing_record ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40416,3): anon47_Then
+                                Inlined call to procedure KeCancelTimer begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(9347,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(9350,3): anon3_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(9354,3): L1
+                                Inlined call to procedure KeCancelTimer ends
+                                Inlined call to procedure ReleaseOrbListLock begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(16438,3): anon0
+                                    Inlined call to procedure sdv_KeGetCurrentThread begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10358,3): anon0
+                                    Inlined call to procedure sdv_KeGetCurrentThread ends
+                                    Inlined call to procedure Sbp2AddLog begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17147,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17233,3): anon7_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17223,3): L1
+                                    Inlined call to procedure Sbp2AddLog ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(16487,3): anon7_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(16472,3): L12
+                                    Inlined call to procedure Sbp2AddLog begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17147,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17233,3): anon7_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17223,3): L1
+                                    Inlined call to procedure Sbp2AddLog ends
+                                Inlined call to procedure ReleaseOrbListLock ends
+                                Inlined call to procedure Sbp2_SCSI_RBC_Conversion begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(18969,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(19038,3): anon48_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(19099,3): anon49_Then
+                                    Inlined call to procedure Sbp2AddLog begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17147,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17233,3): anon7_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17223,3): L1
+                                    Inlined call to procedure Sbp2AddLog ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(19327,3): anon51_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(19336,3): anon52_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(19028,3): L1
+                                Inlined call to procedure Sbp2_SCSI_RBC_Conversion ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40601,3): anon38_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40442,3): L83
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40453,3): anon49_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40457,3): anon46_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40461,3): anon45_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40470,3): L98
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40564,3): anon40_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40503,3): L99
+                                Inlined call to procedure AcquireOrbListLock begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17002,3): anon0
+                                    Inlined call to procedure sdv_KeGetCurrentThread begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10358,3): anon0
+                                    Inlined call to procedure sdv_KeGetCurrentThread ends
+                                    Inlined call to procedure Sbp2AddLog begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17147,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17233,3): anon7_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17223,3): L1
+                                    Inlined call to procedure Sbp2AddLog ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17013,3): L12
+                                    Inlined call to procedure AcquireOrbListLock_loop_L12 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(67328,3): entry
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(67332,3): exit
+                                    Inlined call to procedure AcquireOrbListLock_loop_L12 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17017,3): L12_last
+                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(26395,3): anon0
+                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17053,3): anon17_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17095,3): anon13_Then
+                                    Inlined call to procedure KeAcquireInStackQueuedSpinLock begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12066,3): anon0
+                                    Inlined call to procedure KeAcquireInStackQueuedSpinLock ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17062,3): L32
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17065,3): anon15_Else
+                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(26395,3): anon0
+                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17073,3): anon18_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17082,3): anon16_Then
+                                    Inlined call to procedure KeReleaseInStackQueuedSpinLock begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11255,3): anon0
+                                    Inlined call to procedure KeReleaseInStackQueuedSpinLock ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17034,3): L22
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17037,3): anon14_Else
+                                    Inlined call to procedure Sbp2AddLog begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17147,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17233,3): anon7_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17223,3): L1
+                                    Inlined call to procedure Sbp2AddLog ends
+                                Inlined call to procedure AcquireOrbListLock ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40398,3): L58
+                                Inlined call to procedure sdv_IsListEmpty begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11574,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11577,3): anon3_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11581,3): L1
+                                Inlined call to procedure sdv_IsListEmpty ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40402,3): anon37_Else
+                                Inlined call to procedure ReleaseOrbListLock begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(16438,3): anon0
+                                    Inlined call to procedure sdv_KeGetCurrentThread begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10358,3): anon0
+                                    Inlined call to procedure sdv_KeGetCurrentThread ends
+                                    Inlined call to procedure Sbp2AddLog begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17147,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17233,3): anon7_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17223,3): L1
+                                    Inlined call to procedure Sbp2AddLog ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(16487,3): anon7_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(16472,3): L12
+                                    Inlined call to procedure Sbp2AddLog begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17147,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17233,3): anon7_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17223,3): L1
+                                    Inlined call to procedure Sbp2AddLog ends
+                                Inlined call to procedure ReleaseOrbListLock ends
+                                Inlined call to procedure Sbp2RestartPendingPowerIrp#0 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40964,3): anon0
+                                    Inlined call to procedure _InlineInterlockedExchangePointer begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(30892,3): anon0
+                                    Inlined call to procedure _InlineInterlockedExchangePointer ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(41108,3): anon29_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(41062,3): L1
+                                Inlined call to procedure Sbp2RestartPendingPowerIrp#0 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(40366,3): L1
+                            Inlined call to procedure CleanupOrbList#0 ends
+                            Inlined call to procedure Sbp2UpdateNodeInformation#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(56835,3): anon0
+                                Inlined call to procedure Sbp2GetGenerationCount#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(57169,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(57179,3): anon9_Else
+                                    Inlined call to procedure sdv_KeAcquireSpinLock begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(7407,3): anon0
+                                    Inlined call to procedure sdv_KeAcquireSpinLock ends
+                                    Inlined call to procedure sdv_KeReleaseSpinLock begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11163,3): anon0
+                                    Inlined call to procedure sdv_KeReleaseSpinLock ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(57194,3): L1
+                                Inlined call to procedure Sbp2GetGenerationCount#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(56889,3): anon23_Then
+                                Inlined call to procedure AllocateIrpAndIrb begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17335,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17459,3): anon19_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17350,3): L10
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17456,3): anon20_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17426,3): L1
+                                Inlined call to procedure AllocateIrpAndIrb ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(57057,3): anon24_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(56876,3): L1
+                            Inlined call to procedure Sbp2UpdateNodeInformation#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(55228,3): anon45_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(55232,3): L70
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(55214,3): L1
+                        Inlined call to procedure Sbp2InitializeDeviceExtension#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(43373,3): anon104_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(43406,3): anon128_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(43393,3): L315
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(43315,3): L1
+                    Inlined call to procedure Sbp2DoLogin#1 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(41947,3): L39
+                    Inlined call to procedure Sbp2AddLog begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17147,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17233,3): anon7_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(17223,3): L1
+                    Inlined call to procedure Sbp2AddLog ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(41909,3): L1
+                Inlined call to procedure Sbp2ManagementTransaction#1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29858,3): anon75_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29816,3): L114
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29850,3): anon76_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29682,3): L31
+                Inlined call to procedure sdv_IoReleaseRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12953,3): anon0
+                Inlined call to procedure sdv_IoReleaseRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29569,3): L21
+                Inlined call to procedure sdv_IoCompleteRequest begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11187,3): anon0
+                Inlined call to procedure sdv_IoCompleteRequest ends
+                Inlined call to procedure SLIC_Sbp2CreateClose_exit begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12634,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12638,3): anon5_Else
+                    Inlined call to procedure SLIC_ABORT_17_0 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12735,3): anon0
+                        Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12896,3): anon0
+                        Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                    Inlined call to procedure SLIC_ABORT_17_0 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12653,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(12650,3): LM2
+                Inlined call to procedure SLIC_Sbp2CreateClose_exit ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29586,3): anon80_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(29583,3): LM2
+            Inlined call to procedure Sbp2CreateClose ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(11081,3): anon77_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10909,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(8887,3): anon258_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(8417,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10234,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10238,3): L32
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10241,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_irqlreturn_0.bpl.bpl(10253,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 923
+Total Time: 264.88 s
+
+Stopping: Done

@@ -14,18 +14,18 @@ from datetime import datetime
 import matplotlib.lines as mlines
 import numpy as np
 
-myDir = '/home/jaydeep/Thesis/experiments/corral/sdv/'
-folderList = ['50','70','30']
+myDir = '/home/jaydeep/Thesis/experiments/singleThread/sdv/'
+folderList = ['0','50','100']
 #folderList = ['recursionBound/UW_rec3','recursionBound/rec3','recursionBound/rec5','recursionBound/rec10','recursionBound/rec15','recursionBound/rec20']
-runList = ['Run1','Run2','Run3','Run4','Run5']
+runList = ['Run1']
 exceptionFolderList = ['100','0']
 makeCompiledCSV = True
 maxValue = 3600
 limitToMaxValue = True
 plotFigures = False
 plotScatter = False
-plotVariance = True
-plotBox = True
+plotVariance = False
+plotBox = False
 type1Name = "100"
 type1NameDisplayName = "recursionBound/rec3"
 type2Name = ['UW_rec3','rec3','rec5','rec10','rec15','rec20']
@@ -521,12 +521,13 @@ def makeBoxPlot(runOutcome, files):
 		fig = plt.figure()
 		# Creating axes instance
 		ax = fig.add_axes([0, 0, 1, 1])
-
+		ax.set_xlabel('Benchmarks',  fontsize='16')
+		ax.set_ylabel('Verification Time', fontsize='16')
 		# Creating plot
 		bp = ax.boxplot(fileData[:,1:])
 
 		# show plot
-		plt.savefig(folder + '-plot-box.eps', format='eps', bbox_inches='tight')
+		plt.savefig('BoxPlot'+folder+'.eps', format='eps', bbox_inches='tight')
 
 
 def getBestPerformer(outComeData, folderList, file, run):

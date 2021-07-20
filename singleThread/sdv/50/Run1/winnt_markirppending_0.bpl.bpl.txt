@@ -1,0 +1,380 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(26747,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(10768,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(21640,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(3821,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(14867,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(14249,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12293,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(8434,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(588,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11265,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11208,3): L30
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11260,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11217,3): L34
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9690,3): anon0
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12676,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11636,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9650,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9663,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9660,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12698,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11660,3): anon91_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11663,3): anon110_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11666,3): anon109_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11969,3): anon108_Then
+            Inlined call to procedure USDispatchIO begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(14921,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11577,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12344,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12354,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12361,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12351,3): L1
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(14936,3): anon47_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(14995,3): anon48_Then
+                Inlined call to procedure USPreProcessIO begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(18184,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(10471,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(18499,3): anon53_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(18231,3): L1
+                Inlined call to procedure USPreProcessIO ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(15001,3): anon49_Else
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(10471,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(15112,3): anon50_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(15017,3): L52
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(15097,3): anon51_Then
+                Inlined call to procedure USRead begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(3062,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11577,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(3186,3): anon17_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(3084,3): L17
+                    Inlined call to procedure USIncrementIoCount begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(20595,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(20657,3): anon9_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(20614,3): L8
+                        Inlined call to procedure sdv_InterlockedIncrement begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12382,3): anon0
+                        Inlined call to procedure sdv_InterlockedIncrement ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(20651,3): anon10_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(20645,3): L1
+                    Inlined call to procedure USIncrementIoCount ends
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(10471,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(3179,3): anon21_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(3126,3): L47
+                    Inlined call to procedure USTransfer begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(796,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11577,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(2082,3): anon175_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(873,3): L24
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1019,3): anon222_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(2059,3): anon176_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(2075,3): anon177_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1027,3): L43
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1034,3): anon178_Then
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9412,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9416,3): anon5_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9421,3): L1
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        Inlined call to procedure USGetPipeIndexToUse begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(429,3): anon0
+                            Inlined call to procedure sdv_do_paged_code_check begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11577,3): anon0
+                            Inlined call to procedure sdv_do_paged_code_check ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(566,3): anon21_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(453,3): L16
+                            Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(10471,3): anon0
+                            Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(559,3): anon27_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(526,3): L31
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(555,3): anon22_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(545,3): L47
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(493,3): L39
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(515,3): anon24_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(508,3): L40
+                        Inlined call to procedure USGetPipeIndexToUse ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(2056,3): anon179_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1057,3): L58
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(2050,3): anon228_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(2046,3): L67
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1093,3): L70
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(2039,3): anon230_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1376,3): L73
+                        Inlined call to procedure ExAllocatePoolWithTag begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12531,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12535,3): anon3_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12540,3): L1
+                        Inlined call to procedure ExAllocatePoolWithTag ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1423,3): anon240_Then
+                        Inlined call to procedure sdv_RtlZeroMemory begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11555,3): anon0
+                        Inlined call to procedure sdv_RtlZeroMemory ends
+                        Inlined call to procedure ExAllocatePoolWithTag begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12531,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12535,3): anon3_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12540,3): L1
+                        Inlined call to procedure ExAllocatePoolWithTag ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1472,3): anon241_Then
+                        Inlined call to procedure sdv_RtlZeroMemory begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11555,3): anon0
+                        Inlined call to procedure sdv_RtlZeroMemory ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1839,3): anon242_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1854,3): anon202_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1567,3): L318
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1827,3): anon204_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1577,3): L319
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1823,3): anon205_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1623,3): L321
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1662,3): anon244_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1743,3): anon214_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1678,3): L379
+                        Inlined call to procedure USIncrementIoCount begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(20595,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(20657,3): anon9_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(20614,3): L8
+                            Inlined call to procedure sdv_InterlockedIncrement begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12382,3): anon0
+                            Inlined call to procedure sdv_InterlockedIncrement ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(20651,3): anon10_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(20645,3): L1
+                        Inlined call to procedure USIncrementIoCount ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1682,3): anon211_Else
+                        Inlined call to procedure SLIC_sdv_IoMarkIrpPending_entry begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(4015,3): anon0
+                        Inlined call to procedure SLIC_sdv_IoMarkIrpPending_entry ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1688,3): L562
+                        Inlined call to procedure sdv_IoMarkIrpPending begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11599,3): anon0
+                        Inlined call to procedure sdv_IoMarkIrpPending ends
+                        Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(10296,3): anon0
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9412,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9416,3): anon5_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9421,3): L1
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                        Inlined call to procedure sdv_IoCallDriver#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24224,3): anon0
+                            Inlined call to procedure IofCallDriver#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24664,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24931,3): anon90_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25011,3): anon91_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24942,3): L45
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25007,3): anon76_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24951,3): L47
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25003,3): anon77_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24960,3): L49
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24963,3): anon78_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24966,3): anon79_Else
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25152,3): anon0
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9412,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9416,3): anon5_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9421,3): L1
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25226,3): anon14_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25169,3): L11
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25223,3): anon11_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25180,3): L28
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25185,3): anon12_Else
+                                    Inlined call to procedure USSystemPowerIrpComplete begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12990,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13199,3): anon42_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13014,3): L12
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13193,3): anon44_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13035,3): L20
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13185,3): anon33_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13090,3): L24
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13122,3): anon35_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13159,3): anon39_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13138,3): L58
+                                        Inlined call to procedure PoStartNextPowerIrp begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(10327,3): anon0
+                                        Inlined call to procedure PoStartNextPowerIrp ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13142,3): anon40_Else
+                                        Inlined call to procedure SLIC_sdv_IoCompleteRequest_entry begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(3850,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(3863,3): anon3_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(3860,3): L2
+                                        Inlined call to procedure SLIC_sdv_IoCompleteRequest_entry ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13148,3): L96
+                                        Inlined call to procedure sdv_IoCompleteRequest begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(12121,3): anon0
+                                        Inlined call to procedure sdv_IoCompleteRequest ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13097,3): L70
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13119,3): anon41_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(13112,3): L71
+                                    Inlined call to procedure USSystemPowerIrpComplete ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25191,3): L45
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25196,3): anon13_Else
+                                    Inlined call to procedure USTransferComplete#1 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23515,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24152,3): anon93_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23560,3): L21
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23568,3): anon95_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23573,3): L32
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9412,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9416,3): anon5_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9421,3): L1
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24139,3): anon96_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24135,3): L40
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23609,3): L43
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23749,3): anon98_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23753,3): anon75_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24125,3): anon82_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23781,3): L97
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24116,3): anon83_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23900,3): L109
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24088,3): anon106_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23912,3): L145
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23953,3): anon107_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23960,3): anon87_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24085,3): anon88_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23980,3): L156
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24079,3): anon89_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23990,3): L163
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24075,3): anon90_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24021,3): L165
+                                        Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(10296,3): anon0
+                                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9412,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9416,3): anon5_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9421,3): L1
+                                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                        Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                                        Inlined call to procedure sdv_IoCallDriver#0 begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24181,3): anon0
+                                            Inlined call to procedure IofCallDriver#0 begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24277,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24544,3): anon90_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24624,3): anon91_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24555,3): L45
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24620,3): anon76_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24564,3): L47
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24616,3): anon77_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24573,3): L49
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24576,3): anon78_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24579,3): anon79_Else
+                                                Inlined call to procedure sdv_RunIoCompletionRoutines#0 begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25046,3): anon0
+                                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9412,3): anon0
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9416,3): anon5_Else
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9421,3): L1
+                                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25120,3): anon14_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25063,3): L11
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25117,3): anon11_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25074,3): L28
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25114,3): anon12_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25085,3): L45
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25111,3): anon13_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25100,3): L62
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25104,3): LM2
+                                                Inlined call to procedure sdv_RunIoCompletionRoutines#0 ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24584,3): anon92_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24588,3): anon86_Else
+                                                Inlined call to procedure SLIC_sdv_RunIoCompletionRoutines_exit begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(4106,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(4114,3): anon17_Else
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(4117,3): anon16_Else
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(4121,3): anon15_Else
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(4166,3): anon20_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(4140,3): L10
+                                                    Inlined call to procedure SLIC_ABORT_18_0 begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(4241,3): anon0
+                                                        Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(4520,3): anon0
+                                                        Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                                                    Inlined call to procedure SLIC_ABORT_18_0 ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(4154,3): anon21_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(4151,3): LM2
+                                                Inlined call to procedure SLIC_sdv_RunIoCompletionRoutines_exit ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24598,3): anon93_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24330,3): LM2
+                                            Inlined call to procedure IofCallDriver#0 ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24194,3): anon3_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24191,3): LM2
+                                        Inlined call to procedure sdv_IoCallDriver#0 ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24068,3): anon110_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(23717,3): LM2
+                                    Inlined call to procedure USTransferComplete#1 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25213,3): anon15_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(25210,3): LM2
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24993,3): anon92_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24717,3): LM2
+                            Inlined call to procedure IofCallDriver#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24237,3): anon3_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(24234,3): LM2
+                        Inlined call to procedure sdv_IoCallDriver#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(1732,3): anon247_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(931,3): LM2
+                    Inlined call to procedure USTransfer ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(3169,3): anon23_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(3160,3): LM2
+                Inlined call to procedure USRead ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(15105,3): anon59_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(14982,3): LM2
+            Inlined call to procedure USDispatchIO ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11997,3): anon124_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11764,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9706,3): anon3_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(9703,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11226,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11230,3): L28
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11233,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/winnt_markirppending_0.bpl.bpl(11245,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 2681
+Total Time: 20.46 s
+
+Stopping: Done

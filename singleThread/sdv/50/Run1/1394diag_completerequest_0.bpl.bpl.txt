@@ -1,0 +1,257 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(22280,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(5384,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(16307,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2412,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(10495,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(7176,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6596,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4014,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(492,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(5996,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(5939,3): L30
+    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(5991,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(5948,3): L34
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4474,3): anon0
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6955,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6179,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4434,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4447,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4444,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6977,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6207,3): anon55_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6210,3): anon74_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6213,3): anon73_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6216,3): anon72_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6219,3): anon71_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6222,3): anon70_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6225,3): anon69_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6228,3): anon68_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6390,3): anon67_Then
+            Inlined call to procedure t1394Diag_IoControl begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(661,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(5128,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(729,3): anon409_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(734,3): anon305_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2290,3): anon413_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2302,3): anon371_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2306,3): anon372_Else
+                Inlined call to procedure t1394_AllocateAddressRange begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(14937,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(14960,3): anon81_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15402,3): anon59_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(14975,3): L22
+                    Inlined call to procedure ExAllocatePoolWithTag begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6862,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6866,3): anon3_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6871,3): L1
+                    Inlined call to procedure ExAllocatePoolWithTag ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(14980,3): anon82_Else
+                    Inlined call to procedure ExAllocatePoolWithTag begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6862,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6866,3): anon3_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6871,3): L1
+                    Inlined call to procedure ExAllocatePoolWithTag ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(14986,3): anon83_Else
+                    Inlined call to procedure ExAllocatePoolWithTag begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6862,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6874,3): anon3_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6871,3): L1
+                    Inlined call to procedure ExAllocatePoolWithTag ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(14995,3): anon63_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15367,3): anon65_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15363,3): L56
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15015,3): L62
+                    Inlined call to procedure ExAllocatePoolWithTag begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6862,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6874,3): anon3_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6871,3): L1
+                    Inlined call to procedure ExAllocatePoolWithTag ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15024,3): anon84_Else
+                    Inlined call to procedure IoAllocateMdl begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6065,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6076,3): anon3_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6073,3): L1
+                    Inlined call to procedure IoAllocateMdl ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15032,3): anon69_Else
+                    Inlined call to procedure sdv_RtlCopyMemory begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6552,3): anon0
+                    Inlined call to procedure sdv_RtlCopyMemory ends
+                    Inlined call to procedure sdv_RtlZeroMemory begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6098,3): anon0
+                    Inlined call to procedure sdv_RtlZeroMemory ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15270,3): anon85_Then
+                    Inlined call to procedure t1394_SubmitIrpSynch#1 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(20679,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(20687,3): anon11_Else
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4210,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4214,3): anon5_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4219,3): L1
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(20698,3): L18
+                        Inlined call to procedure KeInitializeEvent begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6721,3): anon0
+                        Inlined call to procedure KeInitializeEvent ends
+                        Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4952,3): anon0
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4210,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4214,3): anon5_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4219,3): L1
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(20703,3): anon10_Else
+                        Inlined call to procedure SLIC_sdv_IoSetCompletionRoutine_exit begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2378,3): anon0
+                        Inlined call to procedure SLIC_sdv_IoSetCompletionRoutine_exit ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(20709,3): L24
+                        Inlined call to procedure sdv_IoCallDriver#0 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18109,3): anon0
+                            Inlined call to procedure IofCallDriver#0 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18209,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18452,3): anon82_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18524,3): anon83_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18463,3): L45
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18520,3): anon68_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18472,3): L47
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18516,3): anon69_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18481,3): L49
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18484,3): anon70_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18487,3): anon71_Else
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#0 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18920,3): anon0
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4210,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4214,3): anon5_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4219,3): L1
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(19017,3): anon18_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18942,3): L11
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(19009,3): anon15_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18958,3): L28
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(19001,3): anon16_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18974,3): L45
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18979,3): anon17_Else
+                                    Inlined call to procedure t1394_SynchCompletionRoutine begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(12320,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(12333,3): anon3_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(12329,3): L6
+                                    Inlined call to procedure t1394_SynchCompletionRoutine ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18986,3): L62
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18990,3): LM2
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#0 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18492,3): anon84_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18496,3): anon78_Else
+                                Inlined call to procedure SLIC_sdv_RunIoCompletionRoutines_exit begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2733,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2738,3): anon8_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2744,3): anon9_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2747,3): L8
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2758,3): anon7_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2755,3): L2
+                                Inlined call to procedure SLIC_sdv_RunIoCompletionRoutines_exit ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18258,3): L29
+                                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18262,3): LM2
+                            Inlined call to procedure IofCallDriver#0 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18114,3): anon3_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(18118,3): LM2
+                        Inlined call to procedure sdv_IoCallDriver#0 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(20713,3): anon12_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(20717,3): anon9_Else
+                        Inlined call to procedure KeWaitForSingleObject begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(5037,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(5056,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(5049,3): L1
+                        Inlined call to procedure KeWaitForSingleObject ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(20722,3): L29
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(20729,3): LM2
+                    Inlined call to procedure t1394_SubmitIrpSynch#1 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15278,3): anon87_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15102,3): L113
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15213,3): anon72_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15259,3): anon73_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15223,3): L138
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15256,3): anon75_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15232,3): L142
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15253,3): anon76_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15241,3): L146
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15244,3): anon77_Else
+                    Inlined call to procedure sdv_ExFreePool begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6574,3): anon0
+                    Inlined call to procedure sdv_ExFreePool ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15171,3): L33
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15209,3): anon61_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15190,3): L34
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15193,3): anon62_Else
+                    Inlined call to procedure sdv_ExFreePool begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6574,3): anon0
+                    Inlined call to procedure sdv_ExFreePool ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15198,3): L36
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(15202,3): LM2
+                Inlined call to procedure t1394_AllocateAddressRange ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2320,3): anon416_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2330,3): anon373_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(889,3): L78
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(924,3): anon316_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(912,3): L79
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(706,3): L1
+                Inlined call to procedure SLIC_t1394Diag_IoControl_exit begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2913,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2918,3): anon7_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2922,3): anon8_Else
+                    Inlined call to procedure SLIC_ABORT_15_0 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2646,3): anon0
+                        Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(3022,3): anon0
+                        Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                    Inlined call to procedure SLIC_ABORT_15_0 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2937,3): anon9_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(2934,3): LM2
+                Inlined call to procedure SLIC_t1394Diag_IoControl_exit ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(717,3): anon412_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(714,3): LM2
+            Inlined call to procedure t1394Diag_IoControl ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6400,3): anon77_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(6301,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4490,3): anon3_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(4487,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(5957,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(5961,3): L28
+    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(5964,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/1394diag_completerequest_0.bpl.bpl(5976,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 318
+Total Time: 5.33 s
+
+Stopping: Done

@@ -1,0 +1,692 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(73068,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8416,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(30791,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init11 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10696,3): anon0
+    Inlined call to procedure _sdv_init11 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(21628,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(20458,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(16080,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14685,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(12638,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init9 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8012,3): anon0
+    Inlined call to procedure _sdv_init9 ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6548,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init8 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6528,3): anon0
+    Inlined call to procedure _sdv_init8 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(301,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8720,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8661,3): L34
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8715,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8670,3): L38
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7416,3): anon0
+        Inlined call to procedure sdv_CheckDispatchRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6740,3): anon0
+        Inlined call to procedure sdv_CheckDispatchRoutines ends
+        Inlined call to procedure sdv_CheckStartIoRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9859,3): anon0
+        Inlined call to procedure sdv_CheckStartIoRoutines ends
+        Inlined call to procedure sdv_CheckDpcRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7634,3): anon0
+        Inlined call to procedure sdv_CheckDpcRoutines ends
+        Inlined call to procedure sdv_CheckIsrRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9761,3): anon0
+        Inlined call to procedure sdv_CheckIsrRoutines ends
+        Inlined call to procedure sdv_CheckCancelRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7266,3): anon0
+        Inlined call to procedure sdv_CheckCancelRoutines ends
+        Inlined call to procedure sdv_CheckIoDpcRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7615,3): anon0
+        Inlined call to procedure sdv_CheckIoDpcRoutines ends
+        Inlined call to procedure sdv_IoCompletionRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8995,3): anon0
+        Inlined call to procedure sdv_IoCompletionRoutines ends
+        Inlined call to procedure sdv_CheckWorkerRoutines begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9503,3): anon0
+        Inlined call to procedure sdv_CheckWorkerRoutines ends
+        Inlined call to procedure sdv_CheckAddDevice begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9484,3): anon0
+        Inlined call to procedure sdv_CheckAddDevice ends
+        Inlined call to procedure sdv_CheckIrpMjPnp begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9971,3): anon0
+        Inlined call to procedure sdv_CheckIrpMjPnp ends
+        Inlined call to procedure sdv_CheckIrpMjPower begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7152,3): anon0
+        Inlined call to procedure sdv_CheckIrpMjPower ends
+        Inlined call to procedure sdv_CheckDriverUnload begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7480,3): anon0
+        Inlined call to procedure sdv_CheckDriverUnload ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7435,3): anon7_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7438,3): anon8_Else
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10470,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9178,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7336,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7349,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7346,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10490,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9455,3): anon57_Then
+            Inlined call to procedure Sbp2CreateClose begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26525,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8216,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26542,3): anon89_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26949,3): anon68_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26957,3): anon69_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26550,3): L17
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26591,3): anon70_Then
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9823,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9833,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9840,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9830,3): L1
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26595,3): anon71_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26758,3): anon72_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26941,3): anon80_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26786,3): L81
+                Inlined call to procedure sdv_KeAcquireSpinLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6718,3): anon0
+                Inlined call to procedure sdv_KeAcquireSpinLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26798,3): anon82_Else
+                Inlined call to procedure sdv_KeReleaseSpinLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9550,3): anon0
+                Inlined call to procedure sdv_KeReleaseSpinLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26917,3): anon83_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26824,3): L102
+                Inlined call to procedure Sbp2ManagementTransaction#1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(40154,3): anon0
+                    Inlined call to procedure Sbp2AddLog begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14556,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14642,3): anon7_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14631,3): L1
+                    Inlined call to procedure Sbp2AddLog ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(40180,3): anon75_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(40186,3): anon99_Else
+                    Inlined call to procedure sdv_RtlZeroMemory begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9015,3): anon0
+                    Inlined call to procedure sdv_RtlZeroMemory ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(40686,3): anon100_Then
+                    Inlined call to procedure Sbp2DoLogin#1 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(41725,3): anon0
+                        Inlined call to procedure sdv_KeGetCurrentIrql begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8237,3): anon0
+                        Inlined call to procedure sdv_KeGetCurrentIrql ends
+                        Inlined call to procedure sdv_KeAcquireSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6718,3): anon0
+                        Inlined call to procedure sdv_KeAcquireSpinLock ends
+                        Inlined call to procedure Sbp2AddLog begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14556,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14642,3): anon7_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14631,3): L1
+                        Inlined call to procedure Sbp2AddLog ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(41802,3): anon115_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(42570,3): anon116_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(41813,3): L39
+                        Inlined call to procedure sdv_KeReleaseSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9550,3): anon0
+                        Inlined call to procedure sdv_KeReleaseSpinLock ends
+                        Inlined call to procedure Sbp2CleanDeviceExtension#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(44105,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(44878,3): anon202_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(44890,3): anon226_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(44897,3): anon227_Else
+                            Inlined call to procedure Sbp2EnableBusResetNotification#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(46317,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(46493,3): anon31_Then
+                                Inlined call to procedure AllocateIrpAndIrb begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14724,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14854,3): anon19_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14739,3): L10
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14851,3): anon20_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14821,3): L1
+                                Inlined call to procedure AllocateIrpAndIrb ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(46499,3): anon30_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(46334,3): L12
+                                Inlined call to procedure KeWaitForSingleObject begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8131,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8135,3): anon5_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8139,3): anon6_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8143,3): L1
+                                Inlined call to procedure KeWaitForSingleObject ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(46469,3): anon25_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(46480,3): anon26_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(46490,3): anon36_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(46365,3): L20
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(46460,3): anon33_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(46410,3): L37
+                                Inlined call to procedure Sbp2SendRequest#0 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(34795,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35278,3): anon76_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(34818,3): L13
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35273,3): anon59_Then
+                                    Inlined call to procedure ExAllocatePoolWithTag begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10368,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10372,3): anon3_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10377,3): L1
+                                    Inlined call to procedure ExAllocatePoolWithTag ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(34863,3): L32
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(34906,3): anon60_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(34910,3): anon61_Else
+                                    Inlined call to procedure sdv_KeGetCurrentIrql begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8237,3): anon0
+                                    Inlined call to procedure sdv_KeGetCurrentIrql ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35259,3): anon62_Then
+                                    Inlined call to procedure KeInitializeEvent begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10251,3): anon0
+                                    Inlined call to procedure KeInitializeEvent ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(34922,3): L37
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(34929,3): anon79_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(34935,3): L51
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6875,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6887,3): anon5_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6896,3): anon6_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6884,3): L1
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7983,3): anon0
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6875,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6887,3): anon5_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6896,3): anon6_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6884,3): L1
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                                    Inlined call to procedure sdv_IoCallDriver begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10302,3): anon0
+                                        Inlined call to procedure IofCallDriver begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10026,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10170,3): anon41_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10209,3): anon42_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10183,3): L36
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10205,3): anon35_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10192,3): L38
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10201,3): anon36_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10066,3): L25
+                                        Inlined call to procedure IofCallDriver ends
+                                    Inlined call to procedure sdv_IoCallDriver ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35249,3): anon63_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35025,3): L66
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35028,3): anon64_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35190,3): anon69_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35194,3): anon70_Else
+                                    Inlined call to procedure KeWaitForSingleObject begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8131,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8150,3): anon5_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8143,3): L1
+                                    Inlined call to procedure KeWaitForSingleObject ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35126,3): L97
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35131,3): anon71_Else
+                                    Inlined call to procedure sdv_KeAcquireSpinLock begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6718,3): anon0
+                                    Inlined call to procedure sdv_KeAcquireSpinLock ends
+                                    Inlined call to procedure ExFreeToNPagedLookasideList#0 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35863,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35878,3): anon28_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35883,3): anon29_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35886,3): anon24_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35930,3): anon25_Then
+                                        Inlined call to procedure Sbp2GlobalStatusCallback#0 begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(61780,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(61861,3): anon244_Then
+                                            Inlined call to procedure sdv_MmGetMdlVirtualAddress begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7594,3): anon0
+                                            Inlined call to procedure sdv_MmGetMdlVirtualAddress ends
+                                            Inlined call to procedure CheckStatusResponseValue begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(13245,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(13254,3): anon78_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(13259,3): L1
+                                            Inlined call to procedure CheckStatusResponseValue ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(61929,3): anon187_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(63172,3): anon188_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(61966,3): L66
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62024,3): anon247_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62068,3): anon192_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62119,3): anon195_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62214,3): anon251_Then
+                                            Inlined call to procedure AcquireOrbListLock begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14408,3): anon0
+                                                Inlined call to procedure sdv_KeGetCurrentThread begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8809,3): anon0
+                                                Inlined call to procedure sdv_KeGetCurrentThread ends
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14556,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14642,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14631,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14419,3): L12
+                                                Inlined call to procedure AcquireOrbListLock_loop_L12 begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67753,3): entry
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67760,3): L12
+                                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(23033,3): anon0
+                                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67788,3): anon17_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67792,3): anon13_Else
+                                                    Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8936,3): anon0
+                                                    Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67797,3): L32
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67826,3): anon15_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67777,3): L22
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67780,3): anon14_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67784,3): anon14_Then_dummy
+                                                    Inlined call to procedure AcquireOrbListLock_loop_L12 begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67753,3): entry
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67760,3): L12
+                                                        Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(23033,3): anon0
+                                                        Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67788,3): anon17_Then
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67792,3): anon13_Else
+                                                        Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8936,3): anon0
+                                                        Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel ends
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67797,3): L32
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67826,3): anon15_Then
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67777,3): L22
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67780,3): anon14_Then
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67784,3): anon14_Then_dummy
+                                                        Inlined call to procedure AcquireOrbListLock_loop_L12 begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67753,3): entry
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67757,3): exit
+                                                        Inlined call to procedure AcquireOrbListLock_loop_L12 ends
+                                                    Inlined call to procedure AcquireOrbListLock_loop_L12 ends
+                                                Inlined call to procedure AcquireOrbListLock_loop_L12 ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14423,3): L12_last
+                                                Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(23033,3): anon0
+                                                Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14459,3): anon17_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14463,3): anon13_Else
+                                                Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8936,3): anon0
+                                                Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14468,3): L32
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14471,3): anon15_Else
+                                                Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(23033,3): anon0
+                                                Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14479,3): anon18_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14483,3): anon16_Else
+                                                Inlined call to procedure KeReleaseInStackQueuedSpinLockFromDpcLevel begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8956,3): anon0
+                                                Inlined call to procedure KeReleaseInStackQueuedSpinLockFromDpcLevel ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14440,3): L22
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14443,3): anon14_Else
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14556,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14642,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14631,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                            Inlined call to procedure AcquireOrbListLock ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62225,3): anon254_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62231,3): anon202_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(63117,3): anon203_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62256,3): L158
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62301,3): anon204_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(63108,3): anon258_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62383,3): L185
+                                            Inlined call to procedure Free1394DataMapping begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(13557,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(13692,3): anon15_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(13669,3): L1
+                                            Inlined call to procedure Free1394DataMapping ends
+                                            Inlined call to procedure Sbp2_SCSI_RBC_Conversion begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(16394,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(16463,3): anon48_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(16530,3): anon49_Then
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14556,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14642,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14631,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(16741,3): anon51_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(16753,3): anon52_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(16624,3): L40
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(16629,3): anon44_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(16658,3): anon53_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(16643,3): L121
+                                                Inlined call to procedure Rbc_Scsi_Conversion begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(5705,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(5735,3): anon107_Else
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(5748,3): anon108_Else
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(5796,3): anon105_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(5801,3): anon84_Else
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(5928,3): anon87_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(5989,3): anon88_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(5808,3): L34
+                                                    Inlined call to procedure ExAllocatePoolWithTag begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10368,3): anon0
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10380,3): anon3_Then
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10377,3): L1
+                                                    Inlined call to procedure ExAllocatePoolWithTag ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(5924,3): anon113_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(5782,3): L1
+                                                Inlined call to procedure Rbc_Scsi_Conversion ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(16453,3): L1
+                                            Inlined call to procedure Sbp2_SCSI_RBC_Conversion ends
+                                            Inlined call to procedure sdv_RemoveEntryList begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8081,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8084,3): anon3_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8088,3): L1
+                                            Inlined call to procedure sdv_RemoveEntryList ends
+                                            Inlined call to procedure InitializeListHead begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(22153,3): anon0
+                                            Inlined call to procedure InitializeListHead ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(63037,3): anon211_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(63076,3): anon212_Then
+                                            Inlined call to procedure FreeAsyncRequestContext begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14016,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14069,3): anon21_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14078,3): anon22_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14155,3): anon23_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14087,3): L9
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14149,3): anon29_Then
+                                                Inlined call to procedure sdv_ExFreePool begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9742,3): anon0
+                                                Inlined call to procedure sdv_ExFreePool ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14099,3): L22
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14145,3): anon24_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14124,3): L23
+                                                Inlined call to procedure sdv_ExInterlockedPushEntrySList begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7370,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7380,3): anon3_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7377,3): L1
+                                                Inlined call to procedure sdv_ExInterlockedPushEntrySList ends
+                                                Inlined call to procedure sdv_InterlockedDecrement begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8784,3): anon0
+                                                Inlined call to procedure sdv_InterlockedDecrement ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14056,3): L1
+                                            Inlined call to procedure FreeAsyncRequestContext ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(63092,3): anon237_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62438,3): L252
+                                            Inlined call to procedure ReleaseOrbListLock begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(13827,3): anon0
+                                                Inlined call to procedure sdv_KeGetCurrentThread begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8809,3): anon0
+                                                Inlined call to procedure sdv_KeGetCurrentThread ends
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14556,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14642,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14631,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(13876,3): anon7_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(13861,3): L12
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14556,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14642,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14631,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                            Inlined call to procedure ReleaseOrbListLock ends
+                                            Inlined call to procedure sdv_KeAcquireSpinLock begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(6718,3): anon0
+                                            Inlined call to procedure sdv_KeAcquireSpinLock ends
+                                            Inlined call to procedure sdv_KeReleaseSpinLock begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9550,3): anon0
+                                            Inlined call to procedure sdv_KeReleaseSpinLock ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62927,3): anon262_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62991,3): anon273_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(63006,3): anon275_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62938,3): L381
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62987,3): anon234_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62972,3): L382
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62505,3): L291
+                                            Inlined call to procedure Sbp2AddLog begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14556,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14642,3): anon7_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14631,3): L1
+                                            Inlined call to procedure Sbp2AddLog ends
+                                            Inlined call to procedure AcquireOrbListLock begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14408,3): anon0
+                                                Inlined call to procedure sdv_KeGetCurrentThread begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8809,3): anon0
+                                                Inlined call to procedure sdv_KeGetCurrentThread ends
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14556,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14642,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14631,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14419,3): L12
+                                                Inlined call to procedure AcquireOrbListLock_loop_L12 begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67753,3): entry
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67760,3): L12
+                                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(23033,3): anon0
+                                                    Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67788,3): anon17_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67792,3): anon13_Else
+                                                    Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8936,3): anon0
+                                                    Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67797,3): L32
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67826,3): anon15_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67777,3): L22
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67780,3): anon14_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67784,3): anon14_Then_dummy
+                                                    Inlined call to procedure AcquireOrbListLock_loop_L12 begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67753,3): entry
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67760,3): L12
+                                                        Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(23033,3): anon0
+                                                        Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67788,3): anon17_Then
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67792,3): anon13_Else
+                                                        Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8936,3): anon0
+                                                        Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel ends
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67797,3): L32
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67826,3): anon15_Then
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67777,3): L22
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67780,3): anon14_Then
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67784,3): anon14_Then_dummy
+                                                        Inlined call to procedure AcquireOrbListLock_loop_L12 begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67753,3): entry
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(67757,3): exit
+                                                        Inlined call to procedure AcquireOrbListLock_loop_L12 ends
+                                                    Inlined call to procedure AcquireOrbListLock_loop_L12 ends
+                                                Inlined call to procedure AcquireOrbListLock_loop_L12 ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14423,3): L12_last
+                                                Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(23033,3): anon0
+                                                Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14459,3): anon17_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14463,3): anon13_Else
+                                                Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8936,3): anon0
+                                                Inlined call to procedure KeAcquireInStackQueuedSpinLockAtDpcLevel ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14468,3): L32
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14471,3): anon15_Else
+                                                Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(23033,3): anon0
+                                                Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14479,3): anon18_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14483,3): anon16_Else
+                                                Inlined call to procedure KeReleaseInStackQueuedSpinLockFromDpcLevel begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8956,3): anon0
+                                                Inlined call to procedure KeReleaseInStackQueuedSpinLockFromDpcLevel ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14440,3): L22
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14443,3): anon14_Else
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14556,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14642,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14631,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                            Inlined call to procedure AcquireOrbListLock ends
+                                            Inlined call to procedure sdv_IsListEmpty begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9942,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9945,3): anon3_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9949,3): L1
+                                            Inlined call to procedure sdv_IsListEmpty ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62591,3): anon221_Else
+                                            Inlined call to procedure ReleaseOrbListLock begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(13827,3): anon0
+                                                Inlined call to procedure sdv_KeGetCurrentThread begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8809,3): anon0
+                                                Inlined call to procedure sdv_KeGetCurrentThread ends
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14556,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14642,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14631,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(13876,3): anon7_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(13861,3): L12
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14556,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14642,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14631,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                            Inlined call to procedure ReleaseOrbListLock ends
+                                            Inlined call to procedure Sbp2RestartPendingPowerIrp#0 begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(39065,3): anon0
+                                                Inlined call to procedure _InlineInterlockedExchangePointer begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(27986,3): anon0
+                                                Inlined call to procedure _InlineInterlockedExchangePointer ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(39076,3): anon35_Else
+                                                Inlined call to procedure Sbp2AddLog begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14556,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14642,3): anon7_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(14631,3): L1
+                                                Inlined call to procedure Sbp2AddLog ends
+                                                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8216,3): anon0
+                                                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(39241,3): anon29_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(39107,3): L25
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(39215,3): anon30_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(39232,3): anon32_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(39167,3): L56
+                                                Inlined call to procedure Sbp2PdoCompletePowerIrp begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(12501,3): anon0
+                                                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8216,3): anon0
+                                                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(12561,3): anon15_Then
+                                                    Inlined call to procedure Sbp2PdoCompleteSystemPowerIrp begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(11202,3): anon0
+                                                        Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8216,3): anon0
+                                                        Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(11298,3): anon16_Then
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(11244,3): L17
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(11289,3): anon13_Then
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(11257,3): L25
+                                                        Inlined call to procedure PoStartNextPowerIrp begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8111,3): anon0
+                                                        Inlined call to procedure PoStartNextPowerIrp ends
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(11261,3): anon15_Else
+                                                        Inlined call to procedure SLIC_sdv_IoCompleteRequest_entry begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10647,3): anon0
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10651,3): anon5_Else
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10656,3): L2
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10659,3): LM2
+                                                        Inlined call to procedure SLIC_sdv_IoCompleteRequest_entry ends
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(11267,3): anon18_Else
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(11271,3): L46
+                                                        Inlined call to procedure sdv_IoCompleteRequest begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9571,3): anon0
+                                                        Inlined call to procedure sdv_IoCompleteRequest ends
+                                                        Inlined call to procedure sdv_IoReleaseRemoveLock begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10803,3): anon0
+                                                        Inlined call to procedure sdv_IoReleaseRemoveLock ends
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(11278,3): LM2
+                                                    Inlined call to procedure Sbp2PdoCompleteSystemPowerIrp ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(12566,3): anon18_Else
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(12524,3): L1
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(12527,3): LM2
+                                                Inlined call to procedure Sbp2PdoCompletePowerIrp ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(39176,3): anon39_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(39181,3): L1
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(39184,3): LM2
+                                            Inlined call to procedure Sbp2RestartPendingPowerIrp#0 ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62597,3): anon265_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62601,3): L322
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62714,3): anon266_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62614,3): L326
+                                            Inlined call to procedure sdv_IoReleaseRemoveLock begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10803,3): anon0
+                                            Inlined call to procedure sdv_IoReleaseRemoveLock ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62622,3): anon222_Else
+                                            Inlined call to procedure SLIC_sdv_IoCompleteRequest_entry begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10647,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10662,3): anon5_Then
+                                                Inlined call to procedure SLIC_ABORT_5_0 begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10741,3): anon0
+                                                    Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10764,3): anon0
+                                                    Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                                                Inlined call to procedure SLIC_ABORT_5_0 ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10671,3): anon6_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(10659,3): LM2
+                                            Inlined call to procedure SLIC_sdv_IoCompleteRequest_entry ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(62706,3): anon267_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(61848,3): LM2
+                                        Inlined call to procedure Sbp2GlobalStatusCallback#0 ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35941,3): anon32_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35909,3): LM2
+                                    Inlined call to procedure ExFreeToNPagedLookasideList#0 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(35158,3): anon83_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(34844,3): LM2
+                                Inlined call to procedure Sbp2SendRequest#0 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(46439,3): anon35_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(46359,3): LM2
+                            Inlined call to procedure Sbp2EnableBusResetNotification#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(45512,3): anon228_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(44423,3): LM2
+                        Inlined call to procedure Sbp2CleanDeviceExtension#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(42566,3): anon150_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(41789,3): LM2
+                    Inlined call to procedure Sbp2DoLogin#1 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(40695,3): anon101_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(40177,3): LM2
+                Inlined call to procedure Sbp2ManagementTransaction#1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26907,3): anon94_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(26580,3): LM2
+            Inlined call to procedure Sbp2CreateClose ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9465,3): anon77_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(9296,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7454,3): anon9_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(7451,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8681,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8685,3): L32
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8688,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/sbp2port_doublecompletion_0.bpl.bpl(8700,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 1403
+Total Time: 18.75 s
+
+Stopping: Done

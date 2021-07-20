@@ -1,0 +1,291 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(17483,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(1865,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(5739,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init12 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(490,3): anon0
+    Inlined call to procedure _sdv_init12 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(4416,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(4219,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init5 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3519,3): anon0
+    Inlined call to procedure _sdv_init5 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3499,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3451,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init10 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3057,3): anon0
+    Inlined call to procedure _sdv_init10 ends
+    Inlined call to procedure _sdv_init9 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(670,3): anon0
+    Inlined call to procedure _sdv_init9 ends
+    Inlined call to procedure _sdv_init7 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(358,3): anon0
+    Inlined call to procedure _sdv_init7 ends
+    Inlined call to procedure _sdv_init8 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(338,3): anon0
+    Inlined call to procedure _sdv_init8 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(212,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2090,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2033,3): L35
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2085,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2042,3): L39
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(1129,3): anon0
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3189,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2375,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(1063,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(1076,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(1073,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3209,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2644,3): anon55_Then
+            Inlined call to procedure SerialMouseCreate begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3907,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2282,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(1791,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3941,3): anon22_Then
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2847,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2857,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2864,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2854,3): L1
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3945,3): anon17_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3951,3): anon18_Else
+                Inlined call to procedure sdv_InterlockedIncrement begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2883,3): anon0
+                Inlined call to procedure sdv_InterlockedIncrement ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3964,3): anon19_Else
+                Inlined call to procedure SerialMouseSendIrpSynchronously#1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16272,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2282,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check ends
+                    Inlined call to procedure KeInitializeEvent begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2945,3): anon0
+                    Inlined call to procedure KeInitializeEvent ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16281,3): anon7_Else
+                    Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(736,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(741,3): anon5_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(745,3): L4
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(755,3): anon6_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(752,3): L1
+                    Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16286,3): L12
+                    Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(1657,3): anon0
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(856,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(860,3): anon5_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(865,3): L1
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                    Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                    Inlined call to procedure sdv_IoCallDriver#0 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7028,3): anon0
+                        Inlined call to procedure IofCallDriver#0 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7116,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7323,3): anon70_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7383,3): anon71_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7334,3): L45
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7379,3): anon60_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7341,3): L47
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7375,3): anon61_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7350,3): L49
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7372,3): anon62_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7163,3): L29
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7167,3): LM2
+                        Inlined call to procedure IofCallDriver#0 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7033,3): anon3_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7037,3): LM2
+                    Inlined call to procedure sdv_IoCallDriver#0 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16291,3): anon9_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16295,3): anon8_Else
+                    Inlined call to procedure KeWaitForSingleObject begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(1706,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(1725,3): anon5_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(1718,3): L1
+                    Inlined call to procedure KeWaitForSingleObject ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16303,3): L23
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16307,3): LM2
+                Inlined call to procedure SerialMouseSendIrpSynchronously#1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3972,3): anon23_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3976,3): anon20_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3982,3): anon21_Else
+                Inlined call to procedure SerialMouseStartDevice#1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(10070,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2282,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check ends
+                    Inlined call to procedure SerialMouseInitializeDevice#1 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(10412,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(10424,3): L14
+                        Inlined call to procedure SerialMouseInitializeDevice#1_loop_L14 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16625,3): entry
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16632,3): L14
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16636,3): anon21_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16644,3): anon21_Else_dummy
+                            Inlined call to procedure SerialMouseInitializeDevice#1_loop_L14 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16625,3): entry
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16632,3): L14
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16636,3): anon21_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16644,3): anon21_Else_dummy
+                                Inlined call to procedure SerialMouseInitializeDevice#1_loop_L14 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16625,3): entry
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16632,3): L14
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16636,3): anon21_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16644,3): anon21_Else_dummy
+                                    Inlined call to procedure SerialMouseInitializeDevice#1_loop_L14 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16625,3): entry
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16632,3): L14
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16636,3): anon21_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16644,3): anon21_Else_dummy
+                                        Inlined call to procedure SerialMouseInitializeDevice#1_loop_L14 begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16625,3): entry
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(16629,3): exit
+                                        Inlined call to procedure SerialMouseInitializeDevice#1_loop_L14 ends
+                                    Inlined call to procedure SerialMouseInitializeDevice#1_loop_L14 ends
+                                Inlined call to procedure SerialMouseInitializeDevice#1_loop_L14 ends
+                            Inlined call to procedure SerialMouseInitializeDevice#1_loop_L14 ends
+                        Inlined call to procedure SerialMouseInitializeDevice#1_loop_L14 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(10428,3): L14_last
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(10444,3): anon21_Then
+                        Inlined call to procedure sdv_do_paged_code_check begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2282,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(10592,3): anon26_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(10459,3): L68
+                        Inlined call to procedure KeInitializeEvent begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2945,3): anon0
+                        Inlined call to procedure KeInitializeEvent ends
+                        Inlined call to procedure SerialMousepIoSyncIoctlEx#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(6917,3): anon0
+                            Inlined call to procedure sdv_do_paged_code_check begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2282,3): anon0
+                            Inlined call to procedure sdv_do_paged_code_check ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7003,3): anon13_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(6934,3): L32
+                            Inlined call to procedure KeClearEvent begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3375,3): anon0
+                            Inlined call to procedure KeClearEvent ends
+                            Inlined call to procedure IoBuildDeviceIoControlRequest begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2978,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2983,3): anon5_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3006,3): anon6_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2995,3): L14
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3003,3): L1
+                            Inlined call to procedure IoBuildDeviceIoControlRequest ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(6942,3): anon17_Else
+                            Inlined call to procedure SLIC_IoBuildDeviceIoControlRequest_exit begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(448,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(452,3): anon3_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(457,3): L2
+                            Inlined call to procedure SLIC_IoBuildDeviceIoControlRequest_exit ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(6948,3): L15
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(6951,3): anon14_Else
+                            Inlined call to procedure sdv_IoCallDriver#0 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7028,3): anon0
+                                Inlined call to procedure IofCallDriver#0 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7116,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7323,3): anon70_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7330,3): anon71_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7334,3): L45
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7379,3): anon60_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7341,3): L47
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7375,3): anon61_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7350,3): L49
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7353,3): anon62_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7356,3): anon63_Else
+                                    Inlined call to procedure sdv_RunIoCompletionRoutines#0 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7719,3): anon0
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(856,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(868,3): anon5_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(877,3): anon6_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(865,3): L1
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7817,3): anon20_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7740,3): L11
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7810,3): anon17_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7755,3): L28
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7760,3): anon18_Else
+                                        Inlined call to procedure SerialMouseReadSerialPortComplete begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3404,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3409,3): anon5_Else
+                                            Inlined call to procedure SLIC_KeSetEvent_entry begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(519,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(534,3): anon5_Then
+                                                Inlined call to procedure SLIC_ABORT_4_0 begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(649,3): anon0
+                                                    Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(566,3): anon0
+                                                    Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                                                Inlined call to procedure SLIC_ABORT_4_0 ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(543,3): anon6_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(531,3): LM2
+                                            Inlined call to procedure SLIC_KeSetEvent_entry ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3427,3): anon6_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3424,3): LM2
+                                        Inlined call to procedure SerialMouseReadSerialPortComplete ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7799,3): anon23_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7789,3): LM2
+                                    Inlined call to procedure sdv_RunIoCompletionRoutines#0 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7365,3): anon72_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7167,3): LM2
+                                Inlined call to procedure IofCallDriver#0 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7040,3): anon3_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(7037,3): LM2
+                            Inlined call to procedure sdv_IoCallDriver#0 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(6990,3): anon18_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(6979,3): LM2
+                        Inlined call to procedure SerialMousepIoSyncIoctlEx#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(10588,3): anon27_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(10545,3): LM2
+                    Inlined call to procedure SerialMouseInitializeDevice#1 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(10144,3): anon16_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(10102,3): LM2
+                Inlined call to procedure SerialMouseStartDevice#1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3996,3): anon24_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(3938,3): LM2
+            Inlined call to procedure SerialMouseCreate ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2654,3): anon75_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2493,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(1142,3): anon3_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(1139,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2051,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2055,3): L33
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2058,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/mouser_iobuilddeviceiocontrolsetevent_1.bpl.bpl(2070,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 164
+Total Time: 2.76 s
+
+Stopping: Done

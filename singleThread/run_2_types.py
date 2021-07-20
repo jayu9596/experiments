@@ -6,9 +6,9 @@ import matplotlib.transforms as mtransforms
 import pandas as pd
 myDir = '/home/jaydeep/Thesis/experiments/singleThread/sdv/'
 uwFolder = '0/Run1'
-vanillaFolder = '100/Run1'
-uwName = uwFolder
-vanillaName = vanillaFolder
+vanillaFolder = '50/Run1'
+uwName = 'UW'
+vanillaName = 'OR'
 maxValue = 3600
 limitToMaxValue = True
 
@@ -172,9 +172,9 @@ for file in allfiles:
 		col.append('b')
 	else:
 		if 'NOK' in uwData[1] or 'NOK' in vanillaData[1]:
-			col.append('g')
+			col.append('#1bb02f')
 		else:
-			col.append('r')
+			col.append('#e13d4b')
 
 	if 'TIMEDOUT' in uwData[1] and ('TIMEDOUT' in vanillaData[1] or vanillaData[1] == "0"):
 		tempList.append('TIMED-OUT')
@@ -234,15 +234,17 @@ if limitToMaxValue:
 	plt.xlim(0, maxValue+100)
 
 #plt.axis('scaled')
+#for i in range(len(vanillaExecutionTimes)):
+#	ax.scatter(vanillaExecutionTimes[i], uwExecutionTimes[i], color=col[i])
 ax.scatter(vanillaExecutionTimes, uwExecutionTimes, color=col)
-ax.set_xlabel('Time Taken by '+vanillaName+'(seconds)')
-ax.set_ylabel('Time Taken by '+uwName+'(seconds)')
-line = mlines.Line2D([0, 1], [0, 1], color='red')
+ax.set_xlabel('Verification Time For '+vanillaName+'(seconds)', fontsize='14')
+ax.set_ylabel('Verification Time For '+uwName+'(seconds)', fontsize='14')
+line = mlines.Line2D([0, 1], [0, 1], color='gray')
 transform = ax.transAxes
 line.set_transform(transform)
 ax.add_line(line)
-ax.set_title('scatter plot')
-plt.savefig('plot-scatter.png', dpi=300, bbox_inches='tight')
+#ax.set_title('scatter plot')
+plt.savefig('plot-scatter.eps',  format='eps', bbox_inches='tight')
 plt.show()
 '''
 speedUpX = ['	< -10x' , '	-10 to -2x', '	-2 to -1.5x', '	-1.5x to -1x', '	1x to 1.5x', '	1.5 to 2x', '	2 to 5x', '	5 to 10x', '	10 to 20x', '	> 20x']

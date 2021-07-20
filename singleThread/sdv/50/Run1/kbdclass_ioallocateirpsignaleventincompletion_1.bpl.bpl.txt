@@ -1,0 +1,272 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(19736,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(2883,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(11443,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6326,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6768,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(2269,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4437,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4380,3): L27
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4432,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4389,3): L31
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1709,3): anon0
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(5765,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4815,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1666,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1679,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1676,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(5789,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(5092,3): anon57_Then
+            Inlined call to procedure KeyboardClassCreate begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7075,3): anon0
+                Inlined call to procedure WPP_RECORDER_SF_ begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(9525,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(9551,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(9544,3): L6
+                Inlined call to procedure WPP_RECORDER_SF_ ends
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(2209,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7404,3): anon43_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7131,3): L29
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(5414,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(5424,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(5431,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(5421,3): L1
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7135,3): anon45_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7394,3): anon46_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7159,3): L55
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7391,3): anon58_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7201,3): L72
+                Inlined call to procedure ExAcquireFastMutex begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(2030,3): anon0
+                Inlined call to procedure ExAcquireFastMutex ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7384,3): anon49_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7322,3): L92
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7325,3): anon50_Else
+                Inlined call to procedure ExReleaseFastMutex begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(5455,3): anon0
+                Inlined call to procedure ExReleaseFastMutex ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7360,3): anon55_Then
+                Inlined call to procedure sdv_IoSkipCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4510,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4515,3): anon5_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4519,3): L4
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4529,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4526,3): L1
+                Inlined call to procedure sdv_IoSkipCurrentIrpStackLocation ends
+                Inlined call to procedure sdv_IoCallDriver#1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(13847,3): anon0
+                    Inlined call to procedure IofCallDriver#1 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14224,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14443,3): anon70_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14507,3): anon71_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14456,3): L45
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14503,3): anon60_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14465,3): L47
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14499,3): anon61_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14474,3): L49
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14477,3): anon62_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14480,3): anon63_Else
+                        Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14700,3): anon0
+                            Inlined call to procedure SLIC_sdv_RunIoCompletionRoutines_entry begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6029,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6050,3): anon5_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6043,3): L2
+                            Inlined call to procedure SLIC_sdv_RunIoCompletionRoutines_entry ends
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1366,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1370,3): anon5_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1375,3): L1
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14814,3): anon23_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14718,3): L11
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14811,3): anon19_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14733,3): L28
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14804,3): anon20_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14748,3): L45
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14797,3): anon21_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14759,3): L62
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14764,3): anon22_Else
+                            Inlined call to procedure KeyboardPnpStartCompletion#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(18943,3): anon0
+                                Inlined call to procedure IoQueueWorkItem#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(17217,3): anon0
+                                    Inlined call to procedure sdv_RunIoQueueWorkItems#1 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(17355,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(17420,3): anon13_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(17370,3): L4
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(17373,3): anon14_Else
+                                        Inlined call to procedure KeyboardStartWorker#1 begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(12342,3): anon0
+                                            Inlined call to procedure KeyboardStart#0 begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(12423,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(12440,3): anon46_Else
+                                                Inlined call to procedure sdv_RtlZeroMemory begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4706,3): anon0
+                                                Inlined call to procedure sdv_RtlZeroMemory ends
+                                                Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1366,3): anon0
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1378,3): anon5_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1382,3): anon6_Else
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1375,3): L1
+                                                Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                                Inlined call to procedure KeyboardSendIrpSynchronously#0 begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(13659,3): anon0
+                                                    Inlined call to procedure sdv_do_paged_code_check begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4730,3): anon0
+                                                    Inlined call to procedure sdv_do_paged_code_check ends
+                                                    Inlined call to procedure SLIC_KeInitializeEvent_entry begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6388,3): anon0
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6392,3): anon3_Else
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6397,3): L2
+                                                    Inlined call to procedure SLIC_KeInitializeEvent_entry ends
+                                                    Inlined call to procedure KeInitializeEvent begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(5554,3): anon0
+                                                    Inlined call to procedure KeInitializeEvent ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(13697,3): anon5_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(13676,3): L12
+                                                    Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1931,3): anon0
+                                                        Inlined call to procedure SLIC_sdv_IoSetCompletionRoutine_entry begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6074,3): anon0
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6078,3): anon5_Else
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6093,3): anon6_Then
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6090,3): L2
+                                                        Inlined call to procedure SLIC_sdv_IoSetCompletionRoutine_entry ends
+                                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1366,3): anon0
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1378,3): anon5_Then
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1382,3): anon6_Else
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1375,3): L1
+                                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                                    Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                                                    Inlined call to procedure sdv_IoCallDriver#0 begins
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(13803,3): anon0
+                                                        Inlined call to procedure IofCallDriver#0 begins
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(13899,3): anon0
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14118,3): anon70_Then
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14182,3): anon71_Then
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14131,3): L45
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14178,3): anon60_Then
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14140,3): L47
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14174,3): anon61_Then
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14149,3): L49
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14152,3): anon62_Else
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14155,3): anon63_Else
+                                                            Inlined call to procedure sdv_RunIoCompletionRoutines#0 begins
+                                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14542,3): anon0
+                                                                Inlined call to procedure SLIC_sdv_RunIoCompletionRoutines_entry begins
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6029,3): anon0
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6035,3): anon5_Else
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6038,3): anon6_Else
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6043,3): L2
+                                                                Inlined call to procedure SLIC_sdv_RunIoCompletionRoutines_entry ends
+                                                                Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1366,3): anon0
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1378,3): anon5_Then
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1382,3): anon6_Else
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1375,3): L1
+                                                                Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14656,3): anon23_Then
+                                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14560,3): L11
+                                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14653,3): anon19_Then
+                                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14575,3): L28
+                                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14646,3): anon20_Then
+                                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14590,3): L45
+                                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14639,3): anon21_Then
+                                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14601,3): L62
+                                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14636,3): anon22_Then
+                                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14616,3): L79
+                                                                Inlined call to procedure SLIC_sdv_RunIoCompletionRoutines_exit begins
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6133,3): anon0
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6141,3): anon12_Else
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6144,3): anon11_Else
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6148,3): anon14_Else
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6166,3): anon13_Then
+                                                                    Inlined call to procedure SLIC_ABORT_8_0 begins
+                                                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6220,3): anon0
+                                                                        Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6361,3): anon0
+                                                                        Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                                                                    Inlined call to procedure SLIC_ABORT_8_0 ends
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6175,3): anon15_Then
+                                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(6163,3): LM2
+                                                                Inlined call to procedure SLIC_sdv_RunIoCompletionRoutines_exit ends
+                                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14628,3): anon27_Then
+                                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14625,3): LM2
+                                                            Inlined call to procedure sdv_RunIoCompletionRoutines#0 ends
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14164,3): anon72_Then
+                                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(13954,3): LM2
+                                                        Inlined call to procedure IofCallDriver#0 ends
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(13815,3): anon3_Then
+                                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(13812,3): LM2
+                                                    Inlined call to procedure sdv_IoCallDriver#0 ends
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(13693,3): anon6_Then
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(13690,3): LM2
+                                                Inlined call to procedure KeyboardSendIrpSynchronously#0 ends
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(12708,3): anon47_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(12592,3): LM2
+                                            Inlined call to procedure KeyboardStart#0 ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(12373,3): anon3_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(12370,3): LM2
+                                        Inlined call to procedure KeyboardStartWorker#1 ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(17408,3): anon17_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(17397,3): LM2
+                                    Inlined call to procedure sdv_RunIoQueueWorkItems#1 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(17232,3): anon3_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(17229,3): LM2
+                                Inlined call to procedure IoQueueWorkItem#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(18960,3): anon3_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(18957,3): LM2
+                            Inlined call to procedure KeyboardPnpStartCompletion#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14790,3): anon26_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14783,3): LM2
+                        Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14489,3): anon72_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(14279,3): LM2
+                    Inlined call to procedure IofCallDriver#1 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(13859,3): anon3_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(13856,3): LM2
+                Inlined call to procedure sdv_IoCallDriver#1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7376,3): anon63_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(7125,3): LM2
+            Inlined call to procedure KeyboardClassCreate ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(5102,3): anon77_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4933,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1722,3): anon3_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(1719,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4398,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4402,3): L25
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4405,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_ioallocateirpsignaleventincompletion_1.bpl.bpl(4417,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 787
+Total Time: 13.40 s
+
+Stopping: Done

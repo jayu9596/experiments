@@ -1,0 +1,907 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(25281,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(3126,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(15918,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7335,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8291,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2519,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4683,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4626,3): L27
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4678,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4635,3): L31
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1894,3): anon0
+        Inlined call to procedure DriverEntry begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9428,3): anon0
+            Inlined call to procedure WPP_RECORDER_SF_ begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13597,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13623,3): anon5_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13616,3): L6
+            Inlined call to procedure WPP_RECORDER_SF_ ends
+            Inlined call to procedure sdv_RtlZeroMemory begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5085,3): anon0
+            Inlined call to procedure sdv_RtlZeroMemory ends
+            Inlined call to procedure InitializeListHead begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13505,3): anon0
+            Inlined call to procedure InitializeListHead ends
+            Inlined call to procedure sdv_ExInitializeFastMutex begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1146,3): anon0
+            Inlined call to procedure sdv_ExInitializeFastMutex ends
+            Inlined call to procedure sdv_RtlZeroMemory begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5085,3): anon0
+            Inlined call to procedure sdv_RtlZeroMemory ends
+            Inlined call to procedure ExAllocatePoolWithTag begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6188,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6192,3): anon3_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6197,3): L1
+            Inlined call to procedure ExAllocatePoolWithTag ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9650,3): anon75_Then
+            Inlined call to procedure sdv_RtlMoveMemory begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1697,3): anon0
+            Inlined call to procedure sdv_RtlMoveMemory ends
+            Inlined call to procedure KbdConfiguration begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7992,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5107,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure RtlInitUnicodeString begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4962,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4968,3): anon5_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4978,3): L4
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4981,3): anon6_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4990,3): L1
+                Inlined call to procedure RtlInitUnicodeString ends
+                Inlined call to procedure RtlInitUnicodeString begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4962,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4968,3): anon5_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4978,3): L4
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4981,3): anon6_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4990,3): L1
+                Inlined call to procedure RtlInitUnicodeString ends
+                Inlined call to procedure ExAllocatePoolWithTag begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6188,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6192,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6197,3): L1
+                Inlined call to procedure ExAllocatePoolWithTag ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8243,3): anon32_Then
+                Inlined call to procedure sdv_RtlZeroMemory begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5085,3): anon0
+                Inlined call to procedure sdv_RtlZeroMemory ends
+                Inlined call to procedure ExAllocatePoolWithTag begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6188,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6192,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6197,3): L1
+                Inlined call to procedure ExAllocatePoolWithTag ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8268,3): anon33_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8031,3): L54
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8034,3): anon23_Else
+                Inlined call to procedure sdv_RtlZeroMemory begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5085,3): anon0
+                Inlined call to procedure sdv_RtlZeroMemory ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8148,3): anon25_Then
+                Inlined call to procedure WPP_RECORDER_SF_S begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7805,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7928,3): anon29_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7857,3): L6
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7860,3): anon21_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7901,3): anon26_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7870,3): L35
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7873,3): L36
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7876,3): anon27_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7893,3): anon28_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7886,3): L41
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7889,3): L42
+                Inlined call to procedure WPP_RECORDER_SF_S ends
+                Inlined call to procedure RtlInitUnicodeString begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4962,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4968,3): anon5_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4978,3): L4
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4993,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4990,3): L1
+                Inlined call to procedure RtlInitUnicodeString ends
+                Inlined call to procedure sdv_RtlQueryRegistryValues begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1817,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1820,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1824,3): L1
+                Inlined call to procedure sdv_RtlQueryRegistryValues ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8235,3): anon26_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8050,3): L55
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8053,3): anon24_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8057,3): L131
+                Inlined call to procedure WPP_RECORDER_SF_S begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7805,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7928,3): anon29_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7857,3): L6
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7860,3): anon21_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7901,3): anon26_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7870,3): L35
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7873,3): L36
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7876,3): anon27_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7893,3): anon28_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7886,3): L41
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7889,3): L42
+                Inlined call to procedure WPP_RECORDER_SF_S ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8133,3): anon27_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8072,3): L139
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8130,3): anon28_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8080,3): L149
+                Inlined call to procedure WPP_RECORDER_SF_D begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(15525,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(15551,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(15544,3): L6
+                Inlined call to procedure WPP_RECORDER_SF_D ends
+                Inlined call to procedure WPP_RECORDER_SF_d begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13730,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13756,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13749,3): L6
+                Inlined call to procedure WPP_RECORDER_SF_d ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8127,3): anon29_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8094,3): L240
+                Inlined call to procedure WPP_RECORDER_SF_d begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13730,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13756,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13749,3): L6
+                Inlined call to procedure WPP_RECORDER_SF_d ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8103,3): anon30_Else
+                Inlined call to procedure sdv_ExFreePool begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5823,3): anon0
+                Inlined call to procedure sdv_ExFreePool ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8108,3): L171
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8111,3): anon31_Else
+                Inlined call to procedure sdv_ExFreePool begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5823,3): anon0
+                Inlined call to procedure sdv_ExFreePool ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(8116,3): L1
+            Inlined call to procedure KbdConfiguration ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9664,3): anon53_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9667,3): L71
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9680,3): anon54_Then
+            Inlined call to procedure KbdDeterminePortsServiced begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13814,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5107,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13846,3): anon11_Then
+                Inlined call to procedure ExAllocatePoolWithTag begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6188,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6192,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6197,3): L1
+                Inlined call to procedure ExAllocatePoolWithTag ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13868,3): anon12_Then
+                Inlined call to procedure sdv_RtlZeroMemory begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5085,3): anon0
+                Inlined call to procedure sdv_RtlZeroMemory ends
+                Inlined call to procedure sdv_RtlQueryRegistryValues begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1817,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1827,3): anon3_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1824,3): L1
+                Inlined call to procedure sdv_RtlQueryRegistryValues ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13879,3): anon10_Else
+                Inlined call to procedure WPP_RECORDER_SF_D begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(15525,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(15551,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(15544,3): L6
+                Inlined call to procedure WPP_RECORDER_SF_D ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13830,3): L16
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13833,3): anon9_Else
+                Inlined call to procedure sdv_ExFreePool begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5823,3): anon0
+                Inlined call to procedure sdv_ExFreePool ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13838,3): L17
+            Inlined call to procedure KbdDeterminePortsServiced ends
+            Inlined call to procedure WPP_RECORDER_SF_d begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13730,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13756,3): anon5_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13749,3): L6
+            Inlined call to procedure WPP_RECORDER_SF_d ends
+            Inlined call to procedure RtlInitUnicodeString begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4962,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4968,3): anon5_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4978,3): L4
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4981,3): anon6_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4990,3): L1
+            Inlined call to procedure RtlInitUnicodeString ends
+            Inlined call to procedure ExAllocatePoolWithTag begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6188,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6192,3): anon3_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6197,3): L1
+            Inlined call to procedure ExAllocatePoolWithTag ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9724,3): anon76_Then
+            Inlined call to procedure sdv_RtlZeroMemory begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5085,3): anon0
+            Inlined call to procedure sdv_RtlZeroMemory ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9736,3): L178
+            Inlined call to procedure DriverEntry_loop_L178 begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24397,3): entry
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24401,3): exit
+            Inlined call to procedure DriverEntry_loop_L178 ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9740,3): L178_last
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9972,3): anon62_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9947,3): L179
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9952,3): L258
+            Inlined call to procedure DriverEntry_loop_L258 begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24358,3): entry
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24365,3): L258
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24368,3): anon73_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24374,3): anon73_Else_dummy
+                Inlined call to procedure DriverEntry_loop_L258 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24358,3): entry
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24365,3): L258
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24368,3): anon73_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24374,3): anon73_Else_dummy
+                    Inlined call to procedure DriverEntry_loop_L258 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24358,3): entry
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24362,3): exit
+                    Inlined call to procedure DriverEntry_loop_L258 ends
+                Inlined call to procedure DriverEntry_loop_L258 ends
+            Inlined call to procedure DriverEntry_loop_L258 ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9956,3): L258_last
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9969,3): anon73_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9503,3): L82
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9508,3): anon55_Else
+            Inlined call to procedure sdv_ExFreePool begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5823,3): anon0
+            Inlined call to procedure sdv_ExFreePool ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9513,3): L83
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9642,3): anon56_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9523,3): L87
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9526,3): anon57_Else
+            Inlined call to procedure IoRegisterDriverReinitialization begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4816,3): anon0
+            Inlined call to procedure IoRegisterDriverReinitialization ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9587,3): L112
+            Inlined call to procedure WPP_RECORDER_SF_ begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13597,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13623,3): anon5_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13616,3): L6
+            Inlined call to procedure WPP_RECORDER_SF_ ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(9594,3): LM2
+        Inlined call to procedure DriverEntry ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1904,3): anon12_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1953,3): anon13_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1913,3): L64
+        Inlined call to procedure sdv_RunAddDevice begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1347,3): anon0
+            Inlined call to procedure sdv_stub_add_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2275,3): anon0
+            Inlined call to procedure sdv_stub_add_begin ends
+            Inlined call to procedure KeyboardAddDevice begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(12361,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5107,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                Inlined call to procedure KbdCreateClassObject begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(11459,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5107,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check ends
+                    Inlined call to procedure WPP_RECORDER_SF_ begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13597,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13623,3): anon5_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13616,3): L6
+                    Inlined call to procedure WPP_RECORDER_SF_ ends
+                    Inlined call to procedure ExAcquireFastMutex begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2253,3): anon0
+                    Inlined call to procedure ExAcquireFastMutex ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(11493,3): anon53_Else
+                    Inlined call to procedure ExReleaseFastMutex begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5908,3): anon0
+                    Inlined call to procedure ExReleaseFastMutex ends
+                    Inlined call to procedure IoCreateDevice begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1566,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1606,3): anon15_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1620,3): anon11_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1616,3): L21
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1585,3): L1
+                    Inlined call to procedure IoCreateDevice ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(11501,3): L50
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(11608,3): anon39_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(11617,3): anon40_Then
+                    Inlined call to procedure sdv_IoInitializeRemoveLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1293,3): anon0
+                    Inlined call to procedure sdv_IoInitializeRemoveLock ends
+                    Inlined call to procedure sdv_KeInitializeSpinLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6162,3): anon0
+                    Inlined call to procedure sdv_KeInitializeSpinLock ends
+                    Inlined call to procedure InitializeListHead begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13505,3): anon0
+                    Inlined call to procedure InitializeListHead ends
+                    Inlined call to procedure ExAllocatePoolWithTag begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6188,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6192,3): anon3_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6197,3): L1
+                    Inlined call to procedure ExAllocatePoolWithTag ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(12095,3): anon54_Then
+                    Inlined call to procedure KbdInitializeDataQueue begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(15810,3): anon0
+                        Inlined call to procedure WPP_RECORDER_SF_ begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13597,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13623,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13616,3): L6
+                        Inlined call to procedure WPP_RECORDER_SF_ ends
+                        Inlined call to procedure sdv_KeAcquireSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1316,3): anon0
+                        Inlined call to procedure sdv_KeAcquireSpinLock ends
+                        Inlined call to procedure sdv_KeReleaseSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5650,3): anon0
+                        Inlined call to procedure sdv_KeReleaseSpinLock ends
+                        Inlined call to procedure WPP_RECORDER_SF_ begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13597,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13623,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13616,3): L6
+                        Inlined call to procedure WPP_RECORDER_SF_ ends
+                    Inlined call to procedure KbdInitializeDataQueue ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(11523,3): L80
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(11526,3): anon41_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(11530,3): L108
+                    Inlined call to procedure WPP_RECORDER_SF_ begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13597,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13623,3): anon5_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13616,3): L6
+                    Inlined call to procedure WPP_RECORDER_SF_ ends
+                Inlined call to procedure KbdCreateClassObject ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(12382,3): anon21_Else
+                Inlined call to procedure IoAttachDeviceToDeviceStack begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5019,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5023,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5028,3): L1
+                Inlined call to procedure IoAttachDeviceToDeviceStack ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(12435,3): anon22_Then
+                Inlined call to procedure PoSetPowerState begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2085,3): anon0
+                Inlined call to procedure PoSetPowerState ends
+                Inlined call to procedure sdv_InitializeObjectAttributes begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2466,3): anon0
+                Inlined call to procedure sdv_InitializeObjectAttributes ends
+                Inlined call to procedure ZwOpenKey begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6002,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6016,3): anon3_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6013,3): L1
+                Inlined call to procedure ZwOpenKey ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(12572,3): anon23_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(12509,3): L50
+                Inlined call to procedure IoRegisterDeviceInterface begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5562,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5580,3): anon7_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5595,3): anon8_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5590,3): L22
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5573,3): L1
+                Inlined call to procedure IoRegisterDeviceInterface ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(12519,3): anon27_Else
+                Inlined call to procedure KeyboardAddDeviceEx begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10263,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5107,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check ends
+                    Inlined call to procedure sdv_KeInitializeSpinLock begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6162,3): anon0
+                    Inlined call to procedure sdv_KeInitializeSpinLock ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10563,3): anon37_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10290,3): L25
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10297,3): anon48_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10300,3): anon39_Else
+                    Inlined call to procedure KbdSendConnectRequest begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(15433,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5107,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check ends
+                        Inlined call to procedure WPP_RECORDER_SF_ begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13597,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13623,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13616,3): L6
+                        Inlined call to procedure WPP_RECORDER_SF_ ends
+                        Inlined call to procedure KeInitializeEvent begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6043,3): anon0
+                        Inlined call to procedure KeInitializeEvent ends
+                        Inlined call to procedure IoBuildDeviceIoControlRequest begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6078,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6115,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6103,3): L1
+                        Inlined call to procedure IoBuildDeviceIoControlRequest ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(15492,3): anon7_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(15470,3): L45
+                        Inlined call to procedure WPP_RECORDER_SF_ begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13597,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13623,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13616,3): L6
+                        Inlined call to procedure WPP_RECORDER_SF_ ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(15479,3): LM2
+                    Inlined call to procedure KbdSendConnectRequest ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10304,3): anon49_Else
+                    Inlined call to procedure ExAcquireFastMutex begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2253,3): anon0
+                    Inlined call to procedure ExAcquireFastMutex ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10310,3): L37
+                    Inlined call to procedure KeyboardAddDeviceEx_loop_L37 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24832,3): entry
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24839,3): L37
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24842,3): anon40_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24846,3): anon50_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(24850,3): anon50_Then_dummy
+                    Inlined call to procedure KeyboardAddDeviceEx_loop_L37 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10314,3): L37_last
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10524,3): anon40_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10325,3): L38
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10513,3): anon41_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10349,3): L43
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10424,3): anon52_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10376,3): L97
+                    Inlined call to procedure ExReleaseFastMutex begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5908,3): anon0
+                    Inlined call to procedure ExReleaseFastMutex ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10386,3): L101
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10420,3): anon45_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10403,3): L102
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10407,3): L1
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10410,3): LM2
+                Inlined call to procedure KeyboardAddDeviceEx ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(12526,3): anon29_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(12530,3): L92
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(12544,3): anon28_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(12540,3): L93
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(12425,3): L1
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(12428,3): LM2
+            Inlined call to procedure KeyboardAddDevice ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1355,3): anon3_Else
+            Inlined call to procedure sdv_stub_add_end begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4938,3): anon0
+            Inlined call to procedure sdv_stub_add_end ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1361,3): LM2
+        Inlined call to procedure sdv_RunAddDevice ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1918,3): anon14_Else
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1944,3): anon11_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1927,3): L75
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6364,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5186,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1850,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1863,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1860,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6386,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5214,3): anon65_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5217,3): anon84_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5220,3): anon83_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5223,3): anon82_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5226,3): anon81_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5229,3): anon80_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5232,3): anon79_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5235,3): anon78_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5238,3): anon77_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5241,3): anon76_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5244,3): anon75_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5247,3): anon74_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5250,3): anon73_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5253,3): anon72_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5256,3): anon71_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5259,3): anon70_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5349,3): anon94_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5361,3): anon66_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5357,3): L236
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5269,3): L60
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5346,3): anon67_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5285,3): L61
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5339,3): anon68_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5294,3): L66
+            Inlined call to procedure sdv_SetIrpMinorFunctionNonBusDriver begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4753,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4793,3): anon9_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4775,3): L1
+            Inlined call to procedure sdv_SetIrpMinorFunctionNonBusDriver ends
+            Inlined call to procedure SLIC_KeyboardPnP_entry begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6674,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6690,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6687,3): L2
+            Inlined call to procedure SLIC_KeyboardPnP_entry ends
+            Inlined call to procedure KeyboardPnP begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(14116,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2441,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(14129,3): anon89_Else
+                Inlined call to procedure sdv_IoAcquireRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5868,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5879,3): anon5_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5886,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5875,3): L1
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6770,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6802,3): anon8_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6782,3): L7
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6785,3): anon7_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6790,3): L2
+                    Inlined call to procedure SLIC_sdv_IoAcquireRemoveLock_exit ends
+                Inlined call to procedure sdv_IoAcquireRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(14133,3): anon90_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(14515,3): anon91_Then
+                Inlined call to procedure ExAllocatePoolWithTag begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6188,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6192,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6197,3): L1
+                Inlined call to procedure ExAllocatePoolWithTag ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(14520,3): anon120_Else
+                Inlined call to procedure sdv_RtlZeroMemory begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5085,3): anon0
+                Inlined call to procedure sdv_RtlZeroMemory ends
+                Inlined call to procedure IoAllocateWorkItem begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6255,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6283,3): anon6_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6275,3): L1
+                Inlined call to procedure IoAllocateWorkItem ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(14596,3): anon100_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(14550,3): L169
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(14553,3): anon101_Else
+                Inlined call to procedure KeyboardSendIrpSynchronously#1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18722,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5107,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check ends
+                    Inlined call to procedure KeInitializeEvent begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6043,3): anon0
+                    Inlined call to procedure KeInitializeEvent ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18731,3): anon5_Else
+                    Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1191,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1196,3): anon5_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1200,3): L4
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1210,3): anon6_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1207,3): L1
+                    Inlined call to procedure sdv_IoCopyCurrentIrpStackLocationToNext ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18736,3): L12
+                    Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2156,3): anon0
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1456,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1460,3): anon5_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1465,3): L1
+                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                    Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                    Inlined call to procedure sdv_IoCallDriver#1 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18831,3): anon0
+                        Inlined call to procedure SLIC_sdv_IoCallDriver_entry begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6716,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6747,3): anon7_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6733,3): L2
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6736,3): LM2
+                        Inlined call to procedure SLIC_sdv_IoCallDriver_entry ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18836,3): anon5_Else
+                        Inlined call to procedure IofCallDriver#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19210,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19429,3): anon70_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19495,3): anon71_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19440,3): L45
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19491,3): anon60_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19449,3): L47
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19487,3): anon61_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19458,3): L49
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19461,3): anon62_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19465,3): anon63_Else
+                            Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19679,3): anon0
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1456,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1460,3): anon5_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1465,3): L1
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19690,3): anon23_Else
+                                Inlined call to procedure KbdSyncComplete begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10850,3): anon0
+                                    Inlined call to procedure KeSetEvent begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2414,3): anon0
+                                    Inlined call to procedure KeSetEvent ends
+                                    Inlined call to procedure SLIC_KbdSyncComplete_exit begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7074,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7077,3): anon5_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7081,3): anon6_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7086,3): L2
+                                    Inlined call to procedure SLIC_KbdSyncComplete_exit ends
+                                Inlined call to procedure KbdSyncComplete ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19697,3): L11
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19796,3): anon19_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19713,3): L28
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19788,3): anon20_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19729,3): L45
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19780,3): anon21_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19745,3): L62
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19772,3): anon22_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19761,3): L79
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19765,3): LM2
+                            Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19471,3): anon72_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19260,3): L29
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19264,3): LM2
+                        Inlined call to procedure IofCallDriver#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18841,3): anon6_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18845,3): LM2
+                    Inlined call to procedure sdv_IoCallDriver#1 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18741,3): anon6_Else
+                    Inlined call to procedure KeWaitForSingleObject begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2350,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2369,3): anon5_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2362,3): L1
+                    Inlined call to procedure KeWaitForSingleObject ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18750,3): LM2
+                Inlined call to procedure KeyboardSendIrpSynchronously#1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(14561,3): anon122_Else
+                Inlined call to procedure KeyboardStart#1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(17759,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(17776,3): anon46_Else
+                    Inlined call to procedure sdv_RtlZeroMemory begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5085,3): anon0
+                    Inlined call to procedure sdv_RtlZeroMemory ends
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1456,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1468,3): anon5_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1477,3): anon6_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1465,3): L1
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                    Inlined call to procedure KeyboardSendIrpSynchronously#1 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18722,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5107,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check ends
+                        Inlined call to procedure KeInitializeEvent begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6043,3): anon0
+                        Inlined call to procedure KeInitializeEvent ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18757,3): anon5_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18736,3): L12
+                        Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2156,3): anon0
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1456,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1468,3): anon5_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1477,3): anon6_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1465,3): L1
+                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                        Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                        Inlined call to procedure sdv_IoCallDriver#1 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18831,3): anon0
+                            Inlined call to procedure SLIC_sdv_IoCallDriver_entry begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6716,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6747,3): anon7_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6733,3): L2
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6736,3): LM2
+                            Inlined call to procedure SLIC_sdv_IoCallDriver_entry ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18836,3): anon5_Else
+                            Inlined call to procedure IofCallDriver#1 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19210,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19429,3): anon70_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19495,3): anon71_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19440,3): L45
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19491,3): anon60_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19449,3): L47
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19487,3): anon61_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19458,3): L49
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19461,3): anon62_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19465,3): anon63_Else
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#1 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19679,3): anon0
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1456,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1468,3): anon5_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1477,3): anon6_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1465,3): L1
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19690,3): anon23_Else
+                                    Inlined call to procedure KbdSyncComplete begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10850,3): anon0
+                                        Inlined call to procedure KeSetEvent begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2414,3): anon0
+                                        Inlined call to procedure KeSetEvent ends
+                                        Inlined call to procedure SLIC_KbdSyncComplete_exit begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7074,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7077,3): anon5_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7081,3): anon6_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7086,3): L2
+                                        Inlined call to procedure SLIC_KbdSyncComplete_exit ends
+                                    Inlined call to procedure KbdSyncComplete ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19697,3): L11
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19796,3): anon19_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19713,3): L28
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19788,3): anon20_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19729,3): L45
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19780,3): anon21_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19745,3): L62
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19772,3): anon22_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19761,3): L79
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19765,3): LM2
+                                Inlined call to procedure sdv_RunIoCompletionRoutines#1 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19471,3): anon72_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19260,3): L29
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(19264,3): LM2
+                            Inlined call to procedure IofCallDriver#1 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18841,3): anon6_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18845,3): LM2
+                        Inlined call to procedure sdv_IoCallDriver#1 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18741,3): anon6_Else
+                        Inlined call to procedure KeWaitForSingleObject begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2350,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2369,3): anon5_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2362,3): L1
+                        Inlined call to procedure KeWaitForSingleObject ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18750,3): LM2
+                    Inlined call to procedure KeyboardSendIrpSynchronously#1 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(17807,3): anon47_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18040,3): anon35_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(17829,3): L40
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18034,3): anon48_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18029,3): L51
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(17852,3): L57
+                    Inlined call to procedure IoWMIRegistrationControl begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6515,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6518,3): anon5_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6521,3): anon6_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6525,3): L1
+                    Inlined call to procedure IoWMIRegistrationControl ends
+                    Inlined call to procedure ExAcquireFastMutex begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2253,3): anon0
+                    Inlined call to procedure ExAcquireFastMutex ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(18021,3): anon38_Then
+                    Inlined call to procedure ExReleaseFastMutex begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5908,3): anon0
+                    Inlined call to procedure ExReleaseFastMutex ends
+                    Inlined call to procedure IoSetDeviceInterfaceState begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6304,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6307,3): anon11_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6310,3): anon15_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6313,3): anon14_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6316,3): anon13_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6319,3): anon12_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6323,3): L1
+                    Inlined call to procedure IoSetDeviceInterfaceState ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(17894,3): L89
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(17899,3): anon41_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(17904,3): anon42_Else
+                    Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13699,3): anon0
+                    Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(17910,3): anon43_Else
+                    Inlined call to procedure KeyboardClassCheckWaitWakeEnabled begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(15575,3): anon0
+                        Inlined call to procedure sdv_KeAcquireSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1316,3): anon0
+                        Inlined call to procedure sdv_KeAcquireSpinLock ends
+                        Inlined call to procedure sdv_KeReleaseSpinLock begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5650,3): anon0
+                        Inlined call to procedure sdv_KeReleaseSpinLock ends
+                    Inlined call to procedure KeyboardClassCheckWaitWakeEnabled ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(17915,3): anon44_Else
+                    Inlined call to procedure KeyboardClassCreateWaitWakeIrp#1 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(22646,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5107,3): anon0
+                        Inlined call to procedure sdv_do_paged_code_check ends
+                        Inlined call to procedure PoRequestPowerIrp#0 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20682,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20699,3): anon14_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20703,3): anon12_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20722,3): anon13_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20726,3): L13
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20729,3): anon11_Else
+                            Inlined call to procedure sdv_RunPowerCompletionRoutines#0 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20902,3): anon0
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20987,3): anon15_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20932,3): L6
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20979,3): anon13_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20946,3): L19
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20949,3): anon14_Else
+                                Inlined call to procedure sdv_stub_power_completion_begin begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2488,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2498,3): anon3_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(2495,3): L1
+                                Inlined call to procedure sdv_stub_power_completion_begin ends
+                                Inlined call to procedure KeyboardClassWaitWakeComplete#0 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(23343,3): anon0
+                                    Inlined call to procedure _InlineInterlockedExchangePointer begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10032,3): anon0
+                                    Inlined call to procedure _InlineInterlockedExchangePointer ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(23478,3): anon23_Then
+                                    Inlined call to procedure _InlineInterlockedExchangePointer begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10032,3): anon0
+                                    Inlined call to procedure _InlineInterlockedExchangePointer ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(23368,3): L14
+                                    Inlined call to procedure _InlineInterlockedExchangePointer begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10032,3): anon0
+                                    Inlined call to procedure _InlineInterlockedExchangePointer ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(23470,3): anon30_Then
+                                    Inlined call to procedure _InlineInterlockedExchangePointer begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(10032,3): anon0
+                                    Inlined call to procedure _InlineInterlockedExchangePointer ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(23379,3): L27
+                                    Inlined call to procedure WPP_RECORDER_SF_qd begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13541,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13567,3): anon5_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(13560,3): L6
+                                    Inlined call to procedure WPP_RECORDER_SF_qd ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(23467,3): anon24_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(23434,3): L49
+                                    Inlined call to procedure sdv_IoReleaseRemoveLock begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6560,3): anon0
+                                        Inlined call to procedure SLIC_sdv_IoReleaseRemoveLock_entry begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7368,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7403,3): anon7_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7380,3): L5
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7384,3): L2
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7387,3): LM2
+                                        Inlined call to procedure SLIC_sdv_IoReleaseRemoveLock_entry ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6566,3): anon3_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6574,3): LM2
+                                    Inlined call to procedure sdv_IoReleaseRemoveLock ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(23440,3): anon31_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(23444,3): LM2
+                                Inlined call to procedure KeyboardClassWaitWakeComplete#0 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20955,3): anon18_Else
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20960,3): L32
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20964,3): LM2
+                            Inlined call to procedure sdv_RunPowerCompletionRoutines#0 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20739,3): anon15_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20716,3): L1
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(20719,3): LM2
+                        Inlined call to procedure PoRequestPowerIrp#0 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(22661,3): anon6_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(22677,3): anon5_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(22670,3): L16
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(22674,3): LM2
+                    Inlined call to procedure KeyboardClassCreateWaitWakeIrp#1 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(17920,3): anon49_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(17924,3): L17
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(17928,3): LM2
+                Inlined call to procedure KeyboardStart#1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(14571,3): anon123_Else
+                Inlined call to procedure sdv_IoCompleteRequest begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5673,3): anon0
+                Inlined call to procedure sdv_IoCompleteRequest ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(14253,3): L51
+                Inlined call to procedure sdv_IoReleaseRemoveLock begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6560,3): anon0
+                    Inlined call to procedure SLIC_sdv_IoReleaseRemoveLock_entry begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7368,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7372,3): anon7_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7390,3): anon8_Then
+                        Inlined call to procedure SLIC_ABORT_15_0 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7206,3): anon0
+                            Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7431,3): anon0
+                            Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                        Inlined call to procedure SLIC_ABORT_15_0 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7399,3): anon9_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(7387,3): LM2
+                    Inlined call to procedure SLIC_sdv_IoReleaseRemoveLock_entry ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6577,3): anon3_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(6574,3): LM2
+                Inlined call to procedure sdv_IoReleaseRemoveLock ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(14270,3): anon124_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(14267,3): LM2
+            Inlined call to procedure KeyboardPnP ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5335,3): anon95_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(5324,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1940,3): anon15_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(1937,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4644,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4648,3): L25
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4651,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/kbdclass_removelockforward2_1.bpl.bpl(4663,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 4210
+Total Time: 331.82 s
+
+Stopping: Done

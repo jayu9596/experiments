@@ -1,0 +1,283 @@
+Corral program verifier version 1.0.0.0
+Return status: NOK
+Program has bugs
+fakeMain did not verify
+/home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(14074,3): start
+Inlined call to procedure main begins
+    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(6140,3): anon0
+    Inlined call to procedure corralExtraInit begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(9879,3): anon0
+    Inlined call to procedure corralExtraInit ends
+    Inlined call to procedure _sdv_init6 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4319,3): anon0
+    Inlined call to procedure _sdv_init6 ends
+    Inlined call to procedure _sdv_init1 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(9838,3): anon0
+    Inlined call to procedure _sdv_init1 ends
+    Inlined call to procedure _sdv_init4 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(5787,3): anon0
+    Inlined call to procedure _sdv_init4 ends
+    Inlined call to procedure _sdv_init3 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4423,3): anon0
+    Inlined call to procedure _sdv_init3 ends
+    Inlined call to procedure _sdv_init2 begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(2585,3): anon0
+    Inlined call to procedure _sdv_init2 ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7069,3): anon9_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7012,3): L29
+    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7064,3): anon10_Then
+    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7021,3): L33
+    Inlined call to procedure sdv_main begins
+        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(5008,3): anon0
+        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(5059,3): anon15_Then
+        Inlined call to procedure sdv_stub_driver_init begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8394,3): anon0
+        Inlined call to procedure sdv_stub_driver_init ends
+        Inlined call to procedure sdv_RunDispatchFunction begins
+            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7517,3): anon0
+            Inlined call to procedure sdv_SetStatus begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4941,3): anon0
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4954,3): anon3_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4951,3): L1
+            Inlined call to procedure sdv_SetStatus ends
+            Inlined call to procedure sdv_stub_dispatch_begin begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8419,3): anon0
+            Inlined call to procedure sdv_stub_dispatch_begin ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7545,3): anon59_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7548,3): anon78_Else
+            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7776,3): anon77_Then
+            Inlined call to procedure SSReadWrite begins
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(742,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7442,3): anon0
+                Inlined call to procedure sdv_do_paged_code_check ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(753,3): anon34_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(759,3): anon27_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(762,3): anon28_Else
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(5741,3): anon0
+                Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                Inlined call to procedure SSIncrementIoCount begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(2222,3): anon0
+                    Inlined call to procedure sdv_InterlockedIncrement begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8066,3): anon0
+                    Inlined call to procedure sdv_InterlockedIncrement ends
+                Inlined call to procedure SSIncrementIoCount ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(773,3): anon29_Else
+                Inlined call to procedure _InlineInterlockedCompareExchangePointer begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(9855,3): anon0
+                Inlined call to procedure _InlineInterlockedCompareExchangePointer ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(982,3): anon30_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(848,3): L35
+                Inlined call to procedure ExAllocatePoolWithTag begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8288,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8292,3): anon3_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8297,3): L1
+                Inlined call to procedure ExAllocatePoolWithTag ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(856,3): anon36_Else
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(972,3): anon37_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(890,3): L76
+                Inlined call to procedure ExAllocatePoolWithTag begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8288,3): anon0
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8300,3): anon3_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8297,3): L1
+                Inlined call to procedure ExAllocatePoolWithTag ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(898,3): anon38_Else
+                Inlined call to procedure SSBuildTransferContext begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(3766,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7442,3): anon0
+                    Inlined call to procedure sdv_do_paged_code_check ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(3834,3): anon84_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(3842,3): anon61_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(3850,3): anon62_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(3855,3): anon63_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4136,3): anon68_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(3868,3): L34
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4130,3): anon69_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(3881,3): L37
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4124,3): anon71_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(3899,3): L40
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4114,3): anon73_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(3912,3): L48
+                    Inlined call to procedure ExAllocatePoolWithTag begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8288,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8292,3): anon3_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8297,3): L1
+                    Inlined call to procedure ExAllocatePoolWithTag ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(3917,3): anon85_Else
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4103,3): anon86_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4055,3): L67
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(3818,3): L1
+                Inlined call to procedure SSBuildTransferContext ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(902,3): anon33_Else
+                Inlined call to procedure sdv_IoMarkIrpPending begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7490,3): anon0
+                Inlined call to procedure sdv_IoMarkIrpPending ends
+                Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(5559,3): anon0
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4698,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4702,3): anon5_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4707,3): L1
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                Inlined call to procedure SSSendScannerRequest#1 begins
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(13716,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(5741,3): anon0
+                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4698,3): anon0
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4702,3): anon5_Else
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4707,3): L1
+                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                    Inlined call to procedure sdv_RtlCopyMemory begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7946,3): anon0
+                    Inlined call to procedure sdv_RtlCopyMemory ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(13842,3): anon9_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(13799,3): L42
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(13838,3): anon10_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(13816,3): L52
+                    Inlined call to procedure sdv_IoCallDriver#0 begins
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11636,3): anon0
+                        Inlined call to procedure IofCallDriver#0 begins
+                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11717,3): anon0
+                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11931,3): anon70_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11993,3): anon71_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11942,3): L45
+                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11989,3): anon60_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11951,3): L47
+                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11985,3): anon61_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11960,3): L49
+                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11963,3): anon62_Else
+                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11966,3): anon63_Else
+                            Inlined call to procedure sdv_RunIoCompletionRoutines#0 begins
+                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12331,3): anon0
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4698,3): anon0
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4702,3): anon5_Else
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4707,3): L1
+                                Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12476,3): anon18_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12365,3): L11
+                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12468,3): anon15_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12389,3): L28
+                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12464,3): anon16_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12417,3): L45
+                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12422,3): anon17_Else
+                                Inlined call to procedure SSReadWriteIoComplete#0 begins
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12895,3): anon0
+                                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(5741,3): anon0
+                                    Inlined call to procedure sdv_IoGetCurrentIrpStackLocation ends
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4698,3): anon0
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4702,3): anon5_Else
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4707,3): L1
+                                    Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(13089,3): anon38_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(13188,3): anon31_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12927,3): L29
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12932,3): anon32_Else
+                                    Inlined call to procedure ClassReleaseQueue#0 begins
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11290,3): anon0
+                                        Inlined call to procedure ExAllocatePoolWithTag begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8288,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8292,3): anon3_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8297,3): L1
+                                        Inlined call to procedure ExAllocatePoolWithTag ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11300,3): anon26_Else
+                                        Inlined call to procedure sdv_RtlZeroMemory begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7346,3): anon0
+                                        Inlined call to procedure sdv_RtlZeroMemory ends
+                                        Inlined call to procedure IoAllocateIrp begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8090,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8093,3): anon3_Else
+                                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4698,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4710,3): anon5_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4714,3): anon6_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4707,3): L1
+                                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(8103,3): L1
+                                        Inlined call to procedure IoAllocateIrp ends
+                                        Inlined call to procedure SLIC_IoAllocateIrp_exit begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4338,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4350,3): anon3_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4347,3): L2
+                                        Inlined call to procedure SLIC_IoAllocateIrp_exit ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11324,3): anon21_Else
+                                        Inlined call to procedure sdv_IoSetCompletionRoutine begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(5559,3): anon0
+                                            Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4698,3): anon0
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4710,3): anon5_Then
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4714,3): anon6_Else
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4707,3): L1
+                                            Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                        Inlined call to procedure sdv_IoSetCompletionRoutine ends
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4698,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4710,3): anon5_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4714,3): anon6_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4707,3): L1
+                                        Inlined call to procedure sdv_IoGetNextIrpStackLocation ends
+                                        Inlined call to procedure sdv_KeGetCurrentIrql begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(5838,3): anon0
+                                        Inlined call to procedure sdv_KeGetCurrentIrql ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11376,3): anon23_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11380,3): anon24_Else
+                                        Inlined call to procedure SLIC_sdv_IoCallDriver_entry begins
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4241,3): anon0
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4256,3): anon16_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4260,3): anon15_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4263,3): anon20_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4266,3): anon19_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4269,3): anon18_Else
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4279,3): anon17_Then
+                                            Inlined call to procedure SLIC_ABORT_4_0 begins
+                                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4404,3): anon0
+                                                Inlined call to procedure SLIC_ERROR_ROUTINE begins
+                                                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4368,3): anon0
+                                                Inlined call to procedure SLIC_ERROR_ROUTINE ends
+                                            Inlined call to procedure SLIC_ABORT_4_0 ends
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4287,3): anon21_Then
+                                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(4253,3): LM2
+                                        Inlined call to procedure SLIC_sdv_IoCallDriver_entry ends
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11396,3): anon29_Then
+                                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11369,3): LM2
+                                    Inlined call to procedure ClassReleaseQueue#0 ends
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(13082,3): anon39_Then
+                                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12971,3): LM2
+                                Inlined call to procedure SSReadWriteIoComplete#0 ends
+                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12452,3): anon21_Then
+                                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(12449,3): LM2
+                            Inlined call to procedure sdv_RunIoCompletionRoutines#0 ends
+                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11975,3): anon72_Then
+                            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11771,3): LM2
+                        Inlined call to procedure IofCallDriver#0 ends
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11648,3): anon3_Then
+                        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(11645,3): LM2
+                    Inlined call to procedure sdv_IoCallDriver#0 ends
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(13830,3): anon12_Then
+                    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(13827,3): LM2
+                Inlined call to procedure SSSendScannerRequest#1 ends
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(952,3): anon39_Then
+                /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(835,3): LM2
+            Inlined call to procedure SSReadWrite ends
+            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7786,3): anon81_Then
+            /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7639,3): LM2
+        Inlined call to procedure sdv_RunDispatchFunction ends
+        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(5068,3): anon20_Then
+        /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(5032,3): LM2
+    Inlined call to procedure sdv_main ends
+    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7030,3): anon12_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7034,3): L27
+    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7037,3): anon11_Else
+    /home/ubuntu/benchmarks/sdvBenchmarks/scsiscan_forwardedatbadirqlallocate_0.bpl.bpl(7049,3): L_BAF_0
+Inlined call to procedure main ends
+Number of procedures inlined: 9027
+Total Time: 178.85 s
+
+Stopping: Done
