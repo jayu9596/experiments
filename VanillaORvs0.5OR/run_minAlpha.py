@@ -17,7 +17,7 @@ alpha10 = 'alpha10'
 alpha50 = 'alpha50'
 alpha90 = 'alpha90'
 vanillaFolder = 'OR'
-otherName = 'min(alpha 10/50/90)'
+otherName = 'min(alpha10/50/90)'
 # Vanilla
 f = open(myDir + vanillaFolder + 'Result.csv','w+')
 f.write("Name,OutCome,RunTime,TotalSplits,BoogieDumpTime\n")
@@ -351,8 +351,8 @@ ax.scatter(vanillaAlpha50, uwAlpha50, color='m', label='alpha-50 wins')
 ax.scatter(vanillaAlpha90, uwAlpha90, color='g', label='alpha-10 wins')
 ax.scatter(vanillaOR, uwOR, color='r', label='OR wins')
 #ax.scatter(vanillaTimedOut, uwTimedOut, color='black', label='BOTH TIMEDOUT')
-ax.set_xlabel('Time Taken by '+ vanillaFolder +'(sec)', fontsize=12)
-ax.set_ylabel('Time Taken by '+ otherName +'(sec)', fontsize=12)
+ax.set_xlabel('Time Taken by '+ vanillaFolder +'(sec)', fontsize=14)
+ax.set_ylabel('Time Taken by '+ otherName +'(sec)', fontsize=14)
 line = mlines.Line2D([0, 1], [0, 1], color='red')
 transform = ax.transAxes
 line.set_transform(transform)

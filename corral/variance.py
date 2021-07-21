@@ -14,7 +14,7 @@ from datetime import datetime
 import matplotlib.lines as mlines
 import numpy as np
 
-myDir = '/home/jaydeep/Thesis/experiments/singleThread/svcomp/'
+myDir = '/home/jaydeep/Thesis/experiments/singleThread/sdv/'
 folderList = ['0','50','100']
 #folderList = ['recursionBound/UW_rec3','recursionBound/rec3','recursionBound/rec5','recursionBound/rec10','recursionBound/rec15','recursionBound/rec20']
 runList = ['Run1']
@@ -565,7 +565,7 @@ for folder in folderList:
 					content = rf.readlines()
 					# print("content " + content)
 					cnt = 0;
-					currOutcome = 'Inconclusive'
+					currOutcome = 'TIMEDOUT'
 					currTimeTaken = maxValue
 					currProceduresInlined = 0
 					for sline in content:

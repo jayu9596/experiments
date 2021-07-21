@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
-myDir = '/home/jaydeep/Thesis/experiments/singleThread/svcomp/'
-uwFolder = '0/Run1'
+myDir = '/home/jaydeep/Thesis/experiments/singleThread/sdv/'
+uwFolder = '50/Run1'
 vanillaFolder = '100/Run1'
-uwName = uwFolder
-vanillaName = vanillaFolder
+uwName = 'alpha50'
+vanillaName = 'OR'
 maxValue = 3600
 limitToMaxValue = True
 
@@ -27,7 +27,7 @@ for root, dirs, files in os.walk(myDir + vanillaFolder + '/'):
 			content = rf.readlines()
 			# print("content " + content)
 			cnt = 0;
-			currOutcome = 'Inconclusive'
+			currOutcome = 'TIMEDOUT'
 			currTimeTaken = maxValue
 			currProceduresInlined = 0
 			for sline in content:
