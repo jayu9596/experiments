@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -14,20 +13,20 @@ import pandas as pd
 from datetime import datetime
 import matplotlib.lines as mlines
 
-myDir = '/home/jaydeep/Thesis/experiments/multiThread/'
-folderList = ['OR','alpha50','UW']
+myDir = '/home/jaydeep/Thesis/experiments/multiThread/svcomp/'
+folderList = ['OR_200','UW']
 #folderList = ['recursionBound/UW_rec3','recursionBound/rec3','recursionBound/rec5','recursionBound/rec10','recursionBound/rec15','recursionBound/rec20']
 runList = ['Run1']
 exceptionFolderList = ['100','0']
 makeCompiledCSV = True
-maxValue = 900
+maxValue = 3600
 limitToMaxValue = False
 plotFigures = False
 plotScatter = True
-type1Name = "100"
+type1Name = "OR_200"
 type1NameDisplayName = "OR"
 #type2Name = ['UW_rec3','rec3','rec5','rec10','rec15','rec20']
-type2DisplayName = "Min of UW and alpha50"
+type2DisplayName = "UW"
 makePercentMore = False
 
 # Get total clients used, Raise error if inconsistency found

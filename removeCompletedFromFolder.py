@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Sun Jun 13 09:43:33 2021
@@ -6,10 +5,8 @@ Created on Sun Jun 13 09:43:33 2021
 @author: jaydeep
 """
 import os
-import csv
-import pandas as pd
 
-folderPath = '/home/jaydeep/Thesis/Programs/sdv/test/testtest'
+folderPath = '/home/jaydeep/Thesis/Programs/sdv/safe'
 files = []
 for root, dirs, files in os.walk(folderPath):
 	for file in files:
