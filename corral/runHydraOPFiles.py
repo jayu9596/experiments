@@ -26,8 +26,9 @@ plotScatter = True
 type1Name = "OR_200"
 type1NameDisplayName = "OR"
 #type2Name = ['UW_rec3','rec3','rec5','rec10','rec15','rec20']
-type2DisplayName = "UW"
+type2DisplayName = "50"
 makePercentMore = False
+makeColorOnAlgo = False
 
 # Get total clients used, Raise error if inconsistency found
 def getClientsCount():
@@ -355,9 +356,11 @@ def makeScatterPlot(comparisonOutcome):
 	colOutcome = []
 	type1TempTime = 9999999.99
 	for arr in comparisonOutcome[1:]:
+		outcomeAll = 'NONE'
 		if arr[1] == "TIMEDOUT":
 			type1TempTime = maxValue
 		else:
+			outcomeAll = arr[1]
 			type1TempTime = arr[int(2 * len(folderList)) + 1]
 		type1ExecTimes.append(type1TempTime)
 		minTime = 9999999.99
@@ -366,6 +369,20 @@ def makeScatterPlot(comparisonOutcome):
 			if arr[i-int(2 * len(folderList))] == "TIMEDOUT":
 				continue
 			else:
+				if 'NOK' in arr[i-int(2 * len(folderList))] and outcomeAll == 'NONE':
+					outcomeAll = 'NOK'
+				elif 'NOK' in arr[i-int(2 * len(folderList))] and outcomeAll != "NOK":
+					print('ERROR in NOK')
+					print(arr[0])
+					exit(0)
+				elif 'NOK' in arr[i-int(2 * len(folderList))] and outcomeAll == 'NOK':
+					pass
+				elif 'OK' in arr[i-int(2 * len(folderList))] and outcomeAll == 'NONE':
+					outcomeAll = 'OK'
+				elif 'OK' in arr[i-int(2 * len(folderList))] and outcomeAll != 'OK':
+					print('ERROR in OK')
+					print(arr[0])
+					exit(0)
 				if minTime > arr[i]:
 					minTime = arr[i]
 					minType = comparisonOutcome[0][i].split('_')[0]
@@ -374,14 +391,22 @@ def makeScatterPlot(comparisonOutcome):
 			type2ExecTimes.append(maxValue)
 		else:
 			type2ExecTimes.append(minTime)
-		if type1TempTime == maxValue and minTime == 9999999.99:
-			colOutcome.append('b')
-		elif type1TempTime < minTime:
-			colOutcome.append('r')
-		elif minType == "UW":
-			colOutcome.append('g')
+		if makeColorOnAlgo:
+			if type1TempTime == maxValue and minTime == 9999999.99:
+				colOutcome.append('b')
+			elif type1TempTime < minTime:
+				colOutcome.append('r')
+			elif minType == "UW":
+				colOutcome.append('g')
+			else:
+				colOutcome.append('m')
 		else:
-			colOutcome.append('m')
+			if type1TempTime == maxValue and minTime == 9999999.99:
+				colOutcome.append('b')
+			elif 'NOK' in outcomeAll:
+				colOutcome.append('g')
+			else:
+				colOutcome.append('r')
 			#print('type: ' + minType)
 
 
@@ -397,7 +422,7 @@ def makeScatterPlot(comparisonOutcome):
 	#plt.axis('scaled')
 	ax.scatter(type1ExecTimes, type2ExecTimes, color=colOutcome)
 	ax.set_xlabel('Time Taken by '+type1NameDisplayName+'(sec)', fontsize=12)
-	ax.set_ylabel('Time Taken by min(alpha50, UW)(sec)', fontsize=12)
+	ax.set_ylabel('Time Taken by '+type2DisplayName+'(sec)', fontsize=12)
 	line = mlines.Line2D([0, 1], [0, 1], color='red')
 	transform = ax.transAxes
 	line.set_transform(transform)
