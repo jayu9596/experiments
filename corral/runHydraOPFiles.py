@@ -14,7 +14,7 @@ from datetime import datetime
 import matplotlib.lines as mlines
 
 myDir = '/home/jaydeep/Thesis/experiments/multiThread/svcomp/'
-folderList = ['OR_200','UW']
+folderList = ['vanillaHydra','50','UW']
 #folderList = ['recursionBound/UW_rec3','recursionBound/rec3','recursionBound/rec5','recursionBound/rec10','recursionBound/rec15','recursionBound/rec20']
 runList = ['Run1']
 exceptionFolderList = ['100','0']
@@ -23,8 +23,8 @@ maxValue = 3600
 limitToMaxValue = False
 plotFigures = False
 plotScatter = True
-type1Name = "OR_200"
-type1NameDisplayName = "OR"
+type1Name = "vanillaHydra"
+type1NameDisplayName = "vanillaHydra"
 #type2Name = ['UW_rec3','rec3','rec5','rec10','rec15','rec20']
 type2DisplayName = "50"
 makePercentMore = False

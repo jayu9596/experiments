@@ -14,10 +14,10 @@ from datetime import datetime
 import matplotlib.lines as mlines
 import numpy as np
 
-myDir = '/home/jaydeep/Thesis/experiments/singleThread/sdv/'
-folderList = ['0','50','100']
+myDir = '/home/jaydeep/Thesis/experiments/corral/sdv/'
+folderList = ['30','50','70']
 #folderList = ['recursionBound/UW_rec3','recursionBound/rec3','recursionBound/rec5','recursionBound/rec10','recursionBound/rec15','recursionBound/rec20']
-runList = ['Run1']
+runList = ['Run1','Run2','Run3','Run4','Run5']
 exceptionFolderList = ['100','0']
 makeCompiledCSV = True
 maxValue = 3600
@@ -25,7 +25,7 @@ limitToMaxValue = True
 plotFigures = False
 plotScatter = False
 plotVariance = False
-plotBox = False
+plotBox = True
 type1Name = "100"
 type1NameDisplayName = "recursionBound/rec3"
 type2Name = ['UW_rec3','rec3','rec5','rec10','rec15','rec20']
@@ -510,7 +510,7 @@ def makeBoxPlot(runOutcome, files):
 	for folder in folderList:
 		fileData = np.array([[0],[0],[0],[0],[0]])
 		for file in files:
-			if maxFolder[folder][file] < 1000 or minFolder[folder][file] == maxValue:
+			if maxFolder[folder][file] < 0 or minFolder[folder][file] == maxValue:
 				continue
 			execList = []
 			for run in runList:
@@ -521,8 +521,8 @@ def makeBoxPlot(runOutcome, files):
 		fig = plt.figure()
 		# Creating axes instance
 		ax = fig.add_axes([0, 0, 1, 1])
-		ax.set_xlabel('Benchmarks',  fontsize='16')
-		ax.set_ylabel('Verification Time', fontsize='16')
+		ax.set_xlabel('Benchmark Number',  fontsize='11')
+		ax.set_ylabel('Verification Time', fontsize='11')
 		# Creating plot
 		bp = ax.boxplot(fileData[:,1:])
 
