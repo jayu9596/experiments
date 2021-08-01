@@ -12,23 +12,24 @@ import copy
 import pandas as pd
 from datetime import datetime
 import matplotlib.lines as mlines
+import numpy as np
 
-myDir = '/home/jaydeep/Thesis/experiments/multiThread/svcomp/'
-folderList = ['vanillaHydra','50','UW']
+myDir = '/home/jaydeep/Thesis/experiments/singleThread/sdv/stats/'
+folderList = ['0','50','100']
 #folderList = ['recursionBound/UW_rec3','recursionBound/rec3','recursionBound/rec5','recursionBound/rec10','recursionBound/rec15','recursionBound/rec20']
 runList = ['Run1']
 exceptionFolderList = ['100','0']
 makeCompiledCSV = True
-maxValue = 3600
+maxValue = 900
 limitToMaxValue = False
 plotFigures = False
 plotScatter = True
-type1Name = "vanillaHydra"
-type1NameDisplayName = "vanillaHydra"
+type1Name = "100"
+type1DisplayName = "OR"
 #type2Name = ['UW_rec3','rec3','rec5','rec10','rec15','rec20']
-type2DisplayName = "50"
+type2DisplayName = "best of UW and alpha50"
 makePercentMore = False
-makeColorOnAlgo = False
+makeColorOnAlgo = True
 
 # Get total clients used, Raise error if inconsistency found
 def getClientsCount():
@@ -404,9 +405,9 @@ def makeScatterPlot(comparisonOutcome):
 			if type1TempTime == maxValue and minTime == 9999999.99:
 				colOutcome.append('b')
 			elif 'NOK' in outcomeAll:
-				colOutcome.append('g')
+				colOutcome.append('#1bb02f')
 			else:
-				colOutcome.append('r')
+				colOutcome.append('#e13d4b')
 			#print('type: ' + minType)
 
 
@@ -419,18 +420,93 @@ def makeScatterPlot(comparisonOutcome):
 	    plt.ylim(0, maxValue+20)
 	    plt.xlim(0, maxValue+20)
 
-	#plt.axis('scaled')
-	ax.scatter(type1ExecTimes, type2ExecTimes, color=colOutcome)
-	ax.set_xlabel('Time Taken by '+type1NameDisplayName+'(sec)', fontsize=12)
-	ax.set_ylabel('Time Taken by '+type2DisplayName+'(sec)', fontsize=12)
-	line = mlines.Line2D([0, 1], [0, 1], color='red')
-	transform = ax.transAxes
-	line.set_transform(transform)
-	ax.add_line(line)
-	#ax.set_title('scatter plot')
-	plt.savefig( myDir + 'plot-scatter.eps', format='eps', bbox_inches='tight')
-	#plt.savefig( myDir + 'plot-scatter.png', dpi=300, bbox_inches='tight')
-	plt.show()
+	if makeColorOnAlgo:
+		isUW = []
+		isOR = []
+		isAlpha50 = []
+		isTimedout = []
+
+		for c in colOutcome:
+			if 'r' in c:
+				isUW.append(False)
+				isOR.append(True)
+				isAlpha50.append(False)
+				isTimedout.append(False)
+			elif 'g' in c:
+				isUW.append(True)
+				isOR.append(False)
+				isAlpha50.append(False)
+				isTimedout.append(False)
+			elif 'm' in c:
+				isUW.append(False)
+				isOR.append(False)
+				isAlpha50.append(True)
+				isTimedout.append(False)
+			else:
+				isUW.append(False)
+				isOR.append(False)
+				isAlpha50.append(False)
+				isTimedout.append(True)
+
+		isUW = np.array(isUW)
+		isOR = np.array(isOR)
+		isAlpha50 = np.array(isAlpha50)
+		isTimedout = np.array(isTimedout)
+
+		type1ExecTimesCopy = np.array(type1ExecTimes)
+		type2ExecTimesCopy = np.array(type2ExecTimes)
+
+
+		ax.scatter(type1ExecTimesCopy[isOR], type2ExecTimesCopy[isOR], c = '#e13d4b', label='OR Wins')
+		ax.scatter(type1ExecTimesCopy[isUW], type2ExecTimesCopy[isUW], c = '#1bb02f', label='UW wins')
+		ax.scatter(type1ExecTimesCopy[isAlpha50], type2ExecTimesCopy[isAlpha50], c = 'm',label='alpha50 wins')
+		ax.scatter(type1ExecTimesCopy[isTimedout], type2ExecTimesCopy[isTimedout], c = 'b',label='TIMEDOUT')
+
+		ax.set_xlabel('Verification Time For '+type1DisplayName+'(sec)', fontsize='12')
+		ax.set_ylabel('Verification Time For '+type2DisplayName+'(sec)', fontsize='12')
+		line = mlines.Line2D([0, 1], [0, 1], color='gray')
+		transform = ax.transAxes
+		line.set_transform(transform)
+		ax.add_line(line)
+		#ax.set_title('scatter plot')
+		plt.legend(bbox_to_anchor=(1, 1))
+		plt.savefig( myDir + 'plot-scatter.eps', format='eps', bbox_inches='tight')
+		plt.show()
+	else:
+		isSafe = []
+		isUnsafe = []
+		isTimedOut = []
+		for c in colOutcome:
+			if '#1bb02f' in c:
+				isSafe.append(False)
+				isUnsafe.append(True)
+				isTimedOut.append(False)
+			elif '#e13d4b' in c:
+				isSafe.append(True)
+				isUnsafe.append(False)
+				isTimedOut.append(False)
+			else:
+				isSafe.append(False)
+				isUnsafe.append(False)
+				isTimedOut.append(True)
+		isSafe = np.array(isSafe)
+		isUnsafe = np.array(isUnsafe)
+		isTimedOut = np.array(isTimedOut)
+		type1ExecTimesCopy = np.array(type1ExecTimes)
+		type2ExecTimesCopy = np.array(type2ExecTimes)
+		ax.scatter(type1ExecTimesCopy[isUnsafe], type2ExecTimesCopy[isUnsafe], c = '#1bb02f', label='UNSAFE')
+		ax.scatter(type1ExecTimesCopy[isSafe], type2ExecTimesCopy[isSafe], c = '#e13d4b', label='SAFE')
+		ax.scatter(type1ExecTimesCopy[isTimedOut], type2ExecTimesCopy[isTimedOut], c = 'b',label='TIMEDOUT')
+		ax.set_xlabel('Verification Time For '+type1DisplayName+'(sec)', fontsize='12')
+		ax.set_ylabel('Verification Time For '+type2DisplayName+'(sec)', fontsize='12')
+		line = mlines.Line2D([0, 1], [0, 1], color='gray')
+		transform = ax.transAxes
+		line.set_transform(transform)
+		ax.add_line(line)
+		#ax.set_title('scatter plot')
+		plt.legend(bbox_to_anchor=(1, 1))
+		plt.savefig( myDir + 'plot-scatter.eps', format='eps', bbox_inches='tight')
+		plt.show()
 
 
 def getBestPerformer(outComeData, folderList, file, run):

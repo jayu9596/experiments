@@ -512,6 +512,7 @@ def makeBoxPlot(runOutcome, files):
 		for file in files:
 			if maxFolder[folder][file] < 0 or minFolder[folder][file] == maxValue:
 				continue
+			print(file)
 			execList = []
 			for run in runList:
 				execList.append(int(runOutcome[run][folder][file][2]))

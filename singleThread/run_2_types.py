@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 import matplotlib.transforms as mtransforms
 import pandas as pd
-myDir = '/home/jaydeep/Thesis/experiments/singleThread/svcomp/'
+import numpy as np
+myDir = '/home/jaydeep/Thesis/experiments/singleThread/sdv/'
 uwFolder = '50/Run1'
 vanillaFolder = '0/Run1'
 uwName = 'alpha50'
@@ -236,7 +237,36 @@ if limitToMaxValue:
 #plt.axis('scaled')
 #for i in range(len(vanillaExecutionTimes)):
 #	ax.scatter(vanillaExecutionTimes[i], uwExecutionTimes[i], color=col[i])
-ax.scatter(vanillaExecutionTimes, uwExecutionTimes, color=col)
+isSafe = []
+isUnsafe = []
+isTimedOut = []
+for c in col:
+	if '#1bb02f' in c:
+		isSafe.append(False)
+		isUnsafe.append(True)
+		isTimedOut.append(False)
+	elif '#e13d4b' in c:
+		isSafe.append(True)
+		isUnsafe.append(False)
+		isTimedOut.append(False)
+	else:
+		isSafe.append(False)
+		isUnsafe.append(False)
+		isTimedOut.append(True)
+isSafe = np.array(isSafe)
+isUnsafe = np.array(isUnsafe)
+isTimedOut = np.array(isTimedOut)
+vanillaExecutionTimesCopy = np.array(vanillaExecutionTimes)
+uwExecutionTimesCopy = np.array(uwExecutionTimes)
+#plt.plot(
+#    vanillaExecutionTimes[isSafe], uwExecutionTimes[isSafe], 'g',
+#    vanillaExecutionTimes[isUnsafe], uwExecutionTimes[isUnsafe], 'r',
+#		vanillaExecutionTimes[isTimedOut], uwExecutionTimes[isTimedOut], 'b'
+#)
+#3ax.scatter(vanillaExecutionTimesCopy[isUnsafe], uwExecutionTimesCopy[isUnsafe], c = '#e13d4b', label='SAFE')
+ax.scatter(vanillaExecutionTimesCopy[isSafe], uwExecutionTimesCopy[isSafe], c = '#1bb02f', label='UNSAFE')
+ax.scatter(vanillaExecutionTimesCopy[isUnsafe], uwExecutionTimesCopy[isUnsafe], c = '#e13d4b', label='SAFE')
+ax.scatter(vanillaExecutionTimesCopy[isTimedOut], uwExecutionTimesCopy[isTimedOut], c = 'b',label='TIMEDOUT')
 ax.set_xlabel('Verification Time For '+vanillaName+'(seconds)', fontsize='14')
 ax.set_ylabel('Verification Time For '+uwName+'(seconds)', fontsize='14')
 line = mlines.Line2D([0, 1], [0, 1], color='gray')
@@ -244,6 +274,7 @@ transform = ax.transAxes
 line.set_transform(transform)
 ax.add_line(line)
 #ax.set_title('scatter plot')
+plt.legend(bbox_to_anchor=(1, 1))
 plt.savefig('plot-scatter.eps',  format='eps', bbox_inches='tight')
 plt.show()
 '''
